@@ -4,12 +4,14 @@ const fs = require('fs');
 const SOURCE_URL = 'https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV';
 const TARGET_GROUP = 'group-title="Itv.uz (🇺🇿)"';
 
-const OUTPUT_FILE = 'itv_uz_only.m3u';
 const FINAL_OUTPUT_FILE = 'all_uzb_iptv_providers.m3u8';
 
-// Бу ерга GitHub raw URL'ларни қўйинг
 const CINERAMA_URL = 'https://raw.githubusercontent.com/joniasus/itv-playlists/refs/heads/main/Cinerama_UZ.m3u8';
 const SARKOR_URL = 'https://raw.githubusercontent.com/joniasus/itv-playlists/refs/heads/main/Sarkor_TV.m3u8';
+
+const CINERAMA_GROUP_BASE = 'Cinerama UZ 🇺🇿';
+const SARKOR_GROUP_BASE = 'Sarkor TV 🇺🇿';
+const ITV_GROUP_BASE = 'iTV UZ 🇺🇿';
 
 const API_START_ID = 1;
 const API_END_ID = 300;
@@ -148,6 +150,41 @@ function isRadioLike(title, description = '') {
   return /\bFM\b|radio|радио/i.test(text);
 }
 
+function replaceOrInsertGroupTitle(extinfLine, newGroupTitle) {
+  const safeTitle = escapeAttr(newGroupTitle);
+  let line = String(extinfLine).trim();
+
+  if (/group-title="[^"]*"/i.test(line)) {
+    return line.replace(/group-title="[^"]*"/ig, `group-title="${safeTitle}"`);
+  }
+
+  return line.replace(/^#EXTINF:-1\b/i, `#EXTINF:-1 group-title="${safeTitle}"`);
+}
+
+function applyGroupTitleCountToExtinfEntries(entries, baseTitle) {
+  const count = entries.length;
+  const titled = `${baseTitle} (${count} ta)`;
+
+  for (const entry of entries) {
+    entry.extinf = replaceOrInsertGroupTitle(entry.extinf, titled);
+  }
+
+  return entries;
+}
+
+function applyGroupTitleCountToBlockEntries(entries, baseTitle) {
+  const count = entries.length;
+  const titled = `${baseTitle} (${count} ta)`;
+
+  for (const entry of entries) {
+    if (entry.block && entry.block.length > 0) {
+      entry.block[0] = replaceOrInsertGroupTitle(entry.block[0], titled);
+    }
+  }
+
+  return entries;
+}
+
 function parseSourceM3U(text) {
   const lines = String(text).split(/\r?\n/);
   const entries = [];
@@ -160,7 +197,7 @@ function parseSourceM3U(text) {
 
     const extinf = line
       .trim()
-      .replace(/group-title="Itv\.uz \(🇺🇿\)"/g, 'group-title="iTV UZ 🇺🇿"');
+      .replace(/group-title="Itv\.uz \(🇺🇿\)"/g, `group-title="${ITV_GROUP_BASE}"`);
 
     let url = '';
     let lastJ = i;
@@ -240,7 +277,7 @@ async function fetchApiChannel(channelId) {
       priorityIndex: getPriorityIndex(streamNumber),
       isRadio: isRadioLike(title, description),
       extinf:
-        `#EXTINF:-1 group-title="iTV UZ 🇺🇿"` +
+        `#EXTINF:-1 group-title="${ITV_GROUP_BASE}"` +
         (posterUrl ? ` tvg-logo="${escapeAttr(posterUrl)}"` : '') +
         `, ${title}`
     };
@@ -312,34 +349,23 @@ function mergeEntries(sourceEntries, apiEntries) {
     }
   }
 
-  let skippedApiDuplicates = 0;
-  let addedApiOnly = 0;
-
   for (const entry of apiEntries) {
     if (sourceStreamSet.has(entry.streamNumber)) {
-      skippedApiDuplicates++;
       continue;
     }
 
     merged.push(entry);
-    addedApiOnly++;
   }
 
-  return {
-    merged,
-    skippedApiDuplicates,
-    addedApiOnly
-  };
+  return merged;
 }
 
 function sortEntries(entries) {
   entries.sort((a, b) => {
-    // Радиолар доим энг пастда
     if (a.isRadio !== b.isRadio) {
       return a.isRadio ? 1 : -1;
     }
 
-    // Аввал priority list ичидагилар
     if (a.priorityIndex !== b.priorityIndex) {
       return a.priorityIndex - b.priorityIndex;
     }
@@ -347,17 +373,14 @@ function sortEntries(entries) {
     const aInPriority = a.priorityIndex !== Number.MAX_SAFE_INTEGER;
     const bInPriority = b.priorityIndex !== Number.MAX_SAFE_INTEGER;
 
-    // Иккаласи ҳам priority да бўлса, list тартиби сақланади
     if (aInPriority && bInPriority) {
       return 0;
     }
 
-    // Қолганлари stream рақами бўйича
     if (a.streamNumber !== b.streamNumber) {
       return a.streamNumber - b.streamNumber;
     }
 
-    // Охирида ном бўйича
     return a.title.localeCompare(b.title, ['uz', 'ru', 'en'], {
       sensitivity: 'base',
       numeric: true
@@ -367,16 +390,16 @@ function sortEntries(entries) {
   return entries;
 }
 
-function buildOutput(entries) {
-  const out = ['#EXTM3U'];
-
-  for (const entry of entries) {
-    out.push(entry.extinf);
-    out.push(`#EXTVLCOPT:http-user-agent=${USER_AGENT}`);
-    out.push(entry.url);
-  }
-
-  return out.join('\n').trimEnd() + '\n';
+function convertExtinfEntriesToBlocks(entries) {
+  return entries.map((entry) => ({
+    sourceName: 'iTV',
+    url: entry.url,
+    block: [
+      entry.extinf,
+      `#EXTVLCOPT:http-user-agent=${USER_AGENT}`,
+      entry.url
+    ]
+  }));
 }
 
 function parseGenericM3U(text, sourceName) {
@@ -443,60 +466,49 @@ function mergePlaylistBlocksInOrder(playlists) {
 }
 
 async function main() {
-  console.log('1) GitHub M3U юкланяпти...');
+  console.log('1) iTV source юкланяпти...');
   const sourceText = await downloadText(SOURCE_URL);
 
-  console.log('2) GitHub M3U дан фильтрланяпти...');
+  console.log('2) iTV source фильтрланяпти...');
   const sourceEntries = parseSourceM3U(sourceText);
-  console.log(`GitHub рўйхат: ${sourceEntries.length} та`);
 
-  console.log('3) API channelId=1..300 текшириляпти...');
+  console.log('3) iTV API channelId=1..300 текшириляпти...');
   const apiEntries = await buildApiEntries();
-  console.log(`API рўйхат: ${apiEntries.length} та`);
 
-  console.log('4) Икки рўйхат бирлаштириляпти...');
-  const { merged, skippedApiDuplicates, addedApiOnly } = mergeEntries(sourceEntries, apiEntries);
+  console.log('4) iTV source + API бирлаштириляпти...');
+  const mergedItv = mergeEntries(sourceEntries, apiEntries);
 
-  console.log(`API дубликат рад қилинди: ${skippedApiDuplicates} та`);
-  console.log(`API-only қўшилди: ${addedApiOnly} та`);
+  console.log('5) iTV умумий тартибланяпти...');
+  sortEntries(mergedItv);
+  applyGroupTitleCountToExtinfEntries(mergedItv, ITV_GROUP_BASE);
 
-  console.log('5) Умумий тартибланяпти...');
-  sortEntries(merged);
-
-  console.log('6) OUTPUT_FILE ясаляпти...');
-  const output = buildOutput(merged);
-  fs.writeFileSync(OUTPUT_FILE, output, 'utf8');
-
-  console.log(`Тайёр: ${OUTPUT_FILE}`);
-  console.log(`Жами: ${merged.length} та`);
-  console.log(`Priority: ${PRIORITY_STREAMS.join(', ')}`);
+  console.log('6) iTV блокларга айлантириляпти...');
+  const itvBlocks = convertExtinfEntriesToBlocks(mergedItv);
 
   console.log('7) Cinerama_UZ.m3u8 юкланяпти...');
   const cineramaText = await downloadText(CINERAMA_URL);
   const cineramaEntries = parseGenericM3U(cineramaText, 'Cinerama_UZ.m3u8');
-  console.log(`Cinerama_UZ: ${cineramaEntries.length} та`);
+  applyGroupTitleCountToBlockEntries(cineramaEntries, CINERAMA_GROUP_BASE);
 
   console.log('8) Sarkor_TV.m3u8 юкланяпти...');
   const sarkorText = await downloadText(SARKOR_URL);
   const sarkorEntries = parseGenericM3U(sarkorText, 'Sarkor_TV.m3u8');
-  console.log(`Sarkor_TV: ${sarkorEntries.length} та`);
+  applyGroupTitleCountToBlockEntries(sarkorEntries, SARKOR_GROUP_BASE);
 
-  console.log('9) OUTPUT_FILE ўқиляпти...');
-  const outputText = fs.readFileSync(OUTPUT_FILE, 'utf8');
-  const outputEntries = parseGenericM3U(outputText, OUTPUT_FILE);
-  console.log(`${OUTPUT_FILE}: ${outputEntries.length} та`);
-
-  console.log('10) 3 та рўйхат 1→2→3 тартибда бирлаштириляпти...');
+  console.log('9) 3 та рўйхат 1→2→3 тартибда бирлаштириляпти...');
   const finalMergedText = mergePlaylistBlocksInOrder([
     cineramaEntries,
     sarkorEntries,
-    outputEntries
+    itvBlocks
   ]);
 
   fs.writeFileSync(FINAL_OUTPUT_FILE, finalMergedText, 'utf8');
 
   const finalCount = (finalMergedText.match(/^#EXTINF:/gm) || []).length;
   console.log(`Якуний файл: ${FINAL_OUTPUT_FILE}`);
+  console.log(`Cinerama: ${cineramaEntries.length} та`);
+  console.log(`Sarkor: ${sarkorEntries.length} та`);
+  console.log(`iTV: ${itvBlocks.length} та`);
   console.log(`Якуний каналлар сони: ${finalCount}`);
 }
 

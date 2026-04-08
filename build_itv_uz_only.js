@@ -5,6 +5,17 @@ const SOURCE_URL = 'https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/F
 const TARGET_GROUP = 'group-title="Itv.uz (🇺🇿)"';
 const OUTPUT_FILE = 'itv_uz_only.m3u';
 
+// Айнан шу тартибда чиқади:
+const PRIORITY_STREAMS = [
+  1286, 1014, 1012, 1004, 1010, 1009, 4000, 4001, 1015, 1209,
+  1011, 1006, 1496, 1285, 1497, 1204, 4007, 4008, 1494, 1486, 1488
+];
+
+// Тез индекс олиш учун map
+const PRIORITY_INDEX = new Map(
+  PRIORITY_STREAMS.map((num, idx) => [num, idx])
+);
+
 function download(url, redirects = 0) {
   return new Promise((resolve, reject) => {
     https.get(url, (res) => {
@@ -35,12 +46,34 @@ function download(url, redirects = 0) {
 }
 
 function isUrlLine(line) {
-  return /^https?:\/\//i.test(line.trim());
+  return /^https?:\/\//i.test(String(line).trim());
 }
 
-function filterM3U(text) {
+function getChannelName(extinfLine) {
+  const idx = extinfLine.lastIndexOf(',');
+  if (idx === -1) return extinfLine.trim();
+  return extinfLine.slice(idx + 1).trim();
+}
+
+// URL дан .../<raqam>/index.m3u8 ни олади
+function extractStreamNumber(url) {
+  if (!url) return Number.MAX_SAFE_INTEGER;
+
+  const m = String(url).match(/\/(\d+)\/index\.m3u8(?:\?|$)/i);
+  if (!m) return Number.MAX_SAFE_INTEGER;
+
+  return parseInt(m[1], 10);
+}
+
+function getPriorityIndex(streamNumber) {
+  return PRIORITY_INDEX.has(streamNumber)
+    ? PRIORITY_INDEX.get(streamNumber)
+    : Number.MAX_SAFE_INTEGER;
+}
+
+function extractEntries(text) {
   const lines = text.split(/\r?\n/);
-  const out = ['#EXTM3U'];
+  const entries = [];
 
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
@@ -48,35 +81,79 @@ function filterM3U(text) {
     if (!line.startsWith('#EXTINF:')) continue;
     if (!line.includes(TARGET_GROUP)) continue;
 
-    out.push(line);
+    const block = [line];
+    let url = '';
+    let lastJ = i;
 
-    let foundUrl = false;
     for (let j = i + 1; j < lines.length; j++) {
       const next = lines[j];
 
       if (next.startsWith('#EXTINF:')) {
-        i = j - 1;
+        lastJ = j - 1;
         break;
       }
 
       if (next.trim() !== '') {
-        out.push(next);
+        block.push(next);
       }
 
       if (isUrlLine(next)) {
-        foundUrl = true;
-        i = j;
+        url = next.trim();
+        lastJ = j;
         break;
       }
 
-      if (j === lines.length - 1) {
-        i = j;
-      }
+      lastJ = j;
     }
 
-    if (!foundUrl) {
-      // leave collected metadata even if URL was missing
+    const streamNumber = extractStreamNumber(url);
+
+    entries.push({
+      name: getChannelName(line),
+      block,
+      url,
+      streamNumber,
+      priorityIndex: getPriorityIndex(streamNumber)
+    });
+
+    i = lastJ;
+  }
+
+  return entries;
+}
+
+function buildSortedM3U(text) {
+  const entries = extractEntries(text);
+
+  entries.sort((a, b) => {
+    // 1) Аввал PRIORITY_STREAMS ичидагилар
+    if (a.priorityIndex !== b.priorityIndex) {
+      return a.priorityIndex - b.priorityIndex;
     }
+
+    const aInPriority = a.priorityIndex !== Number.MAX_SAFE_INTEGER;
+    const bInPriority = b.priorityIndex !== Number.MAX_SAFE_INTEGER;
+
+    // 2) Иккаласи ҳам priority да бўлса, массив тартиби етарли
+    if (aInPriority && bInPriority) {
+      return 0;
+    }
+
+    // 3) Қолганлари stream number бўйича
+    if (a.streamNumber !== b.streamNumber) {
+      return a.streamNumber - b.streamNumber;
+    }
+
+    // 4) Охирида ном бўйича
+    return a.name.localeCompare(b.name, ['uz', 'ru', 'en'], {
+      sensitivity: 'base',
+      numeric: true
+    });
+  });
+
+  const out = ['#EXTM3U'];
+  for (const entry of entries) {
+    out.push(...entry.block);
   }
 
   return out.join('\n').trimEnd() + '\n';
@@ -84,11 +161,12 @@ function filterM3U(text) {
 
 async function main() {
   const text = await download(SOURCE_URL);
-  const filtered = filterM3U(text);
-  fs.writeFileSync(OUTPUT_FILE, filtered, 'utf8');
+  const filteredSorted = buildSortedM3U(text);
 
-  const count = (filtered.match(/^#EXTINF:/gm) || []).length;
-  console.log(`Saved ${OUTPUT_FILE} with ${count} channels.`);
+  fs.writeFileSync(OUTPUT_FILE, filteredSorted, 'utf8');
+
+  const count = (filteredSorted.match(/^#EXTINF:/gm) || []).length;
+  console.log(`Saved ${OUTPUT_FILE} with ${count} channels (priority sorted).`);
 }
 
 main().catch((err) => {

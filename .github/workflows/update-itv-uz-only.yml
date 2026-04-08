@@ -1,33 +1,102 @@
-name: Update all_uzb_iptv_providers playlist
+name: Update Playlists
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: "*/5 * * * *"   # ҳар 5 дақиқа
+  workflow_dispatch:
 
-permissions:
-  contents: write
+concurrency:
+  group: update-playlists
+  cancel-in-progress: false
 
 jobs:
-  build:
+  check-source-update:
     runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.compare.outputs.changed }}
+      current_date: ${{ steps.extract.outputs.current_date }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
+      - name: Download source
+        run: |
+          curl -L --fail \
+            "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV" \
+            -o source_tv.txt
 
-      - name: Build filtered playlist
+      - name: Extract update line
+        id: extract
+        shell: bash
+        run: |
+          LINE=$(grep -o 'Обновление:[0-9]\{2\}\.[0-9]\{2\}\.[0-9]\{4\}' source_tv.txt | head -n 1 || true)
+
+          if [ -z "$LINE" ]; then
+            echo "current_date=" >> "$GITHUB_OUTPUT"
+            echo "INFO line topilmadi"
+            exit 0
+          fi
+
+          DATE_VALUE="${LINE#Обновление:}"
+          echo "Topilgan sana: $DATE_VALUE"
+          echo "current_date=$DATE_VALUE" >> "$GITHUB_OUTPUT"
+
+      - name: Read previous saved date
+        id: previous
+        shell: bash
+        run: |
+          if [ -f .github/state/dimonovich_last_update.txt ]; then
+            PREV=$(cat .github/state/dimonovich_last_update.txt)
+          else
+            PREV=""
+          fi
+          echo "previous_date=$PREV" >> "$GITHUB_OUTPUT"
+          echo "Oldingi sana: $PREV"
+
+      - name: Compare current vs previous
+        id: compare
+        shell: bash
+        run: |
+          CUR="${{ steps.extract.outputs.current_date }}"
+          PREV="${{ steps.previous.outputs.previous_date }}"
+
+          if [ -n "$CUR" ] && [ "$CUR" != "$PREV" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Yangilanish topildi: $PREV -> $CUR"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "O'zgarish yo'q"
+          fi
+
+  update-and-push:
+    needs: check-source-update
+    if: needs.check-source-update.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run your playlist update script
         run: node all_uzb_iptv_providers.js
 
-      - name: Commit updated playlist
+      - name: Save last seen update date
+        shell: bash
+        run: |
+          mkdir -p .github/state
+          echo "${{ needs.check-source-update.outputs.current_date }}" > .github/state/dimonovich_last_update.txt
+
+      - name: Commit and push
+        shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add all_uzb_iptv_providers.m3u8
-          git diff --cached --quiet && exit 0
-          git commit -m "Update all_uzb_iptv_providers.m3u8"
+
+          git add .github/state/dimonovich_last_update.txt .
+          git diff --cached --quiet && echo "Commit qiladigan o'zgarish yo'q" && exit 0
+
+          git commit -m "Auto update playlists (${{
+            needs.check-source-update.outputs.current_date
+          }})"
           git push

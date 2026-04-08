@@ -1,0 +1,285 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="6" tvg-logo="http://sarkor.tv/static/images/channels/ZOR TV.png" group-title="Sarkor Telecom",ZOR TV
+http://s03.watcher.uz/6/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A6
+#EXTINF:-1 tvg-id="25" tvg-logo="http://sarkor.tv/static/images/channels/Sevimli.png" group-title="Sarkor Telecom",Sevimli
+http://s03.watcher.uz/72/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A25
+#EXTINF:-1 tvg-id="23" tvg-logo="http://sarkor.tv/static/images/channels/Milliy TV.png" group-title="Sarkor Telecom",Milliy TV
+http://s05.watcher.uz/70/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A23
+#EXTINF:-1 tvg-id="22" tvg-logo="http://sarkor.tv/static/images/channels/Mening Yurtim.png" group-title="Sarkor Telecom",Mening Yurtim
+http://s05.watcher.uz/69/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A22
+#EXTINF:-1 tvg-id="11" tvg-logo="http://sarkor.tv/static/images/channels/Sport TV.png" group-title="Sarkor Telecom",Sport TV
+http://s04.watcher.uz/59/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A11
+#EXTINF:-1 tvg-id="14" tvg-logo="http://sarkor.tv/static/images/channels/Futbol TV.png" group-title="Sarkor Telecom",Futbol TV
+http://s03.watcher.uz/62/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A14
+#EXTINF:-1 group-title="Sarkor Telecom",Futbol TV HD DTV
+http://st1.uzdigital.tv/FutbolTV/index.m3u8
+#EXTINF:-1 tvg-id="188" tvg-logo="http://sarkor.tv/static/images/channels/Setanta Sports.svg" group-title="Sarkor Telecom",Setanta Sports 1 (SarkorTV)
+http://s05.watcher.uz/191/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A188
+#EXTINF:-1 tvg-id="189" tvg-logo="http://sarkor.tv/static/images/channels/Setanta Sports 2.svg" group-title="Sarkor Telecom",Setanta Sports 2 (SarkorTV)
+http://s05.watcher.uz/192/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A189
+#EXTINF:-1 tvg-logo="http://cdn.biztv.media/2024/04/30/16/34/9dZeMOuzVyhMJ5AZpszFu4mJowk7nLi0_small.webp" tvg-name="Setanta Sports 1 HD (CineramaUZ)" group-title="Sarkor Telecom", Setanta Sports 1 HD
+http://stream8.cinerama.uz/1263/index.m3u8
+#EXTINF:-1 tvg-logo="http://cdn.biztv.media/2024/04/30/16/34/tyCqQKtv5yvmeT4YU2PCtg7AEdzqeXcm_small.webp" tvg-name="Setanta Sports 2 HD (CineramaUZ)" group-title="Sarkor Telecom", Setanta Sports 2 HD
+http://stream8.cinerama.uz/1264/index.m3u8
+#EXTINF:-1 tvg-id="83" tvg-logo="http://sarkor.tv/static/images/channels/Kinoteatr.png" group-title="Sarkor Telecom",Kinoteatr
+http://s03.watcher.uz/83/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A83
+#EXTINF:-1 tvg-id="75" tvg-logo="http://sarkor.tv/static/images/channels/UzReport.png" group-title="Sarkor Telecom",UzReport
+http://s03.watcher.uz/75/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A75
+#EXTINF:-1 tvg-id="20" tvg-logo="http://sarkor.tv/static/images/channels/Ozbekiston 24.png" group-title="Sarkor Telecom",Ozbekiston 24
+http://s04.watcher.uz/8/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A20
+#EXTINF:-1 tvg-id="74" tvg-logo="http://sarkor.tv/static/images/channels/FTV.png" group-title="Sarkor Telecom",FTV
+http://s03.watcher.uz/74/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A74
+#EXTINF:-1 tvg-id="80" tvg-logo="http://sarkor.tv/static/images/channels/Мир.png" group-title="Sarkor Telecom",Мир
+http://s03.watcher.uz/80/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A80
+#EXTINF:-1 tvg-id="81" tvg-logo="http://sarkor.tv/static/images/channels/Мир 24.png" group-title="Sarkor Telecom",Мир 24
+http://s04.watcher.uz/81/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A81
+#EXTINF:-1 tvg-id="86" tvg-logo="http://sarkor.tv/static/images/channels/Uzbekiston Tarixi.png" group-title="Sarkor Telecom",Uzbekiston Tarixi
+http://s03.watcher.uz/86/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A86
+#EXTINF:-1 tvg-id="87" tvg-logo="http://sarkor.tv/static/images/channels/NurafshonTV.png" group-title="Sarkor Telecom",NurafshonTV
+http://s03.watcher.uz/87/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A87
+#EXTINF:-1 tvg-id="8" tvg-logo="http://sarkor.tv/static/images/channels/Ozbekiston.png" group-title="Sarkor Telecom",Ozbekiston
+http://s03.watcher.uz/56/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A8
+#EXTINF:-1 tvg-id="76" tvg-logo="http://sarkor.tv/static/images/channels/Taraqqiyot TV.png" group-title="Sarkor Telecom",Taraqqiyot TV
+http://s05.watcher.uz/76/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A76
+#EXTINF:-1 tvg-id="82" tvg-logo="http://sarkor.tv/static/images/channels/AQLVOY.png" group-title="Sarkor Telecom",AQLVOY
+http://s04.watcher.uz/82/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A82
+#EXTINF:-1 tvg-id="9" tvg-logo="http://sarkor.tv/static/images/channels/Yoshlar.png" group-title="Sarkor Telecom",Yoshlar
+http://s03.watcher.uz/57/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A9
+#EXTINF:-1 tvg-id="10" tvg-logo="http://sarkor.tv/static/images/channels/Toshkent.png" group-title="Sarkor Telecom",Toshkent
+http://s03.watcher.uz/58/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A10
+#EXTINF:-1 tvg-id="12" tvg-logo="http://sarkor.tv/static/images/channels/Madaniyat va Marifat.png" group-title="Sarkor Telecom",Madaniyat va Marifat
+http://s03.watcher.uz/60/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A12
+#EXTINF:-1 tvg-id="88" tvg-logo="http://sarkor.tv/static/images/channels/Renessans TV.png" group-title="Sarkor Telecom",Renessans TV
+http://s04.watcher.uz/83/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A88
+#EXTINF:-1 tvg-id="13" tvg-logo="http://sarkor.tv/static/images/channels/Mahalla.png" group-title="Sarkor Telecom",Mahalla
+http://s03.watcher.uz/61/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A13
+#EXTINF:-1 tvg-id="15" tvg-logo="http://sarkor.tv/static/images/channels/Dunyo Boylab.png" group-title="Sarkor Telecom",Dunyo Boylab
+http://s05.watcher.uz/63/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A15
+#EXTINF:-1 tvg-id="16" tvg-logo="http://sarkor.tv/static/images/channels/Bolajon.png" group-title="Sarkor Telecom",Bolajon
+http://s05.watcher.uz/64/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A16
+#EXTINF:-1 tvg-id="17" tvg-logo="http://sarkor.tv/static/images/channels/Navo.png" group-title="Sarkor Telecom",Navo
+http://s05.watcher.uz/65/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A17
+#EXTINF:-1 tvg-id="27" tvg-logo="http://sarkor.tv/static/images/channels/Первый канал.png" group-title="Sarkor Telecom",Первый канал
+http://s04.watcher.uz/11/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A27
+#EXTINF:-1 tvg-id="28" tvg-logo="http://sarkor.tv/static/images/channels/Россия 1.png" group-title="Sarkor Telecom",Россия 1
+http://s04.watcher.uz/12/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A28
+#EXTINF:-1 tvg-id="29" tvg-logo="http://sarkor.tv/static/images/channels/Россия 24.png" group-title="Sarkor Telecom",Россия 24
+http://s04.watcher.uz/13/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A29
+#EXTINF:-1 tvg-id="31" tvg-logo="http://sarkor.tv/static/images/channels/НТВ.png" group-title="Sarkor Telecom",НТВ
+http://s04.watcher.uz/15/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A31
+#EXTINF:-1 tvg-id="32" tvg-logo="http://sarkor.tv/static/images/channels/EuroNews.png" group-title="Sarkor Telecom",EuroNews
+http://s04.watcher.uz/16/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A32
+#EXTINF:-1 tvg-id="40" tvg-logo="http://sarkor.tv/static/images/channels/Детский мир.png" group-title="Sarkor Telecom",Детский мир
+http://s04.watcher.uz/24/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A40
+#EXTINF:-1 tvg-id="42" tvg-logo="http://sarkor.tv/static/images/channels/Карусель.png" group-title="Sarkor Telecom",Карусель
+http://s04.watcher.uz/26/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A42
+#EXTINF:-1 tvg-id="96" tvg-logo="http://sarkor.tv/static/images/channels/Кухня ТВ.png" group-title="Sarkor Telecom",Кухня ТВ
+http://watcher.uz:443/96/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A96
+#EXTINF:-1 tvg-id="43" tvg-logo="http://sarkor.tv/static/images/channels/Телекафе.png" group-title="Sarkor Telecom",Телекафе
+http://s04.watcher.uz/27/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A43
+#EXTINF:-1 tvg-id="44" tvg-logo="http://sarkor.tv/static/images/channels/Авто Плюс.png" group-title="Sarkor Telecom",Авто Плюс
+http://s04.watcher.uz/28/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A44
+#EXTINF:-1 tvg-id="45" tvg-logo="http://sarkor.tv/static/images/channels/24 техно.png" group-title="Sarkor Telecom",24 техно
+http://s05.watcher.uz/29/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A45
+#EXTINF:-1 tvg-id="46" tvg-logo="http://sarkor.tv/static/images/channels/Охота и Рыбалка.png" group-title="Sarkor Telecom",Охота и Рыбалка
+http://s05.watcher.uz/30/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A46
+#EXTINF:-1 tvg-id="98" tvg-logo="http://sarkor.tv/static/images/channels/365 дней ТВ.png" group-title="Sarkor Telecom",365 дней ТВ
+http://watcher.uz:443/98/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A98
+#EXTINF:-1 tvg-id="55" tvg-logo="http://sarkor.tv/static/images/channels/Ретро ТВ.png" group-title="Sarkor Telecom",Ретро ТВ
+http://s05.watcher.uz/39/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A55
+#EXTINF:-1 tvg-id="56" tvg-logo="http://sarkor.tv/static/images/channels/Россия Культура.png" group-title="Sarkor Telecom",Россия Культура
+http://s05.watcher.uz/40/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A56
+#EXTINF:-1 tvg-id="59" tvg-logo="http://sarkor.tv/static/images/channels/Звезда.png" group-title="Sarkor Telecom",Звезда
+http://s05.watcher.uz/43/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A59
+#EXTINF:-1 tvg-id="60" tvg-logo="http://sarkor.tv/static/images/channels/Наше Новое Кино.png" group-title="Sarkor Telecom",Наше Новое Кино
+http://s05.watcher.uz/44/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A60
+#EXTINF:-1 tvg-id="61" tvg-logo="http://sarkor.tv/static/images/channels/Родное Кино.png" group-title="Sarkor Telecom",Родное Кино
+http://s05.watcher.uz/45/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A61
+#EXTINF:-1 tvg-id="62" tvg-logo="http://sarkor.tv/static/images/channels/Дом Кино.png" group-title="Sarkor Telecom",Дом Кино
+http://s03.watcher.uz/46/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A62
+#EXTINF:-1 tvg-id="63" tvg-logo="http://sarkor.tv/static/images/channels/Кинохит.png" group-title="Sarkor Telecom",Кинохит
+http://s03.watcher.uz/47/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A63
+#EXTINF:-1 tvg-id="64" tvg-logo="http://sarkor.tv/static/images/channels/Киносвидание.png" group-title="Sarkor Telecom",Киносвидание
+http://s03.watcher.uz/48/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A64
+#EXTINF:-1 tvg-id="65" tvg-logo="http://sarkor.tv/static/images/channels/Кинопремьера.png" group-title="Sarkor Telecom",Кинопремьера
+http://s04.watcher.uz/5/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A65
+#EXTINF:-1 tvg-id="66" tvg-logo="http://sarkor.tv/static/images/channels/Кинопоказ.png" group-title="Sarkor Telecom",Кинопоказ
+http://s03.watcher.uz/49/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A66
+#EXTINF:-1 tvg-id="102" tvg-logo="http://sarkor.tv/static/images/channels/Кинокомедия.png" group-title="Sarkor Telecom",Кинокомедия
+http://watcher.uz:443/102/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A102
+#EXTINF:-1 tvg-id="106" tvg-logo="http://sarkor.tv/static/images/channels/Киносерия.png" group-title="Sarkor Telecom",Киносерия
+http://watcher.uz:443/106/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A106
+#EXTINF:-1 tvg-id="99" tvg-logo="http://sarkor.tv/static/images/channels/Мужское Кино.png" group-title="Sarkor Telecom",Мужское Кино
+http://watcher.uz:443/99/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A99
+#EXTINF:-1 tvg-id="108" tvg-logo="http://sarkor.tv/static/images/channels/Киномикс.png" group-title="Sarkor Telecom",Киномикс
+http://watcher.uz:443/108/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A108
+#EXTINF:-1 tvg-id="109" tvg-logo="http://sarkor.tv/static/images/channels/Киносемья.png" group-title="Sarkor Telecom",Киносемья
+http://watcher.uz:443/109/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A109
+#EXTINF:-1 tvg-id="69" tvg-logo="http://sarkor.tv/static/images/channels/Индийское кино.png" group-title="Sarkor Telecom",Индийское кино
+http://s03.watcher.uz/52/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A69
+#EXTINF:-1 tvg-id="70" tvg-logo="http://sarkor.tv/static/images/channels/МУЗ-ТВ.png" group-title="Sarkor Telecom",МУЗ-ТВ
+http://s03.watcher.uz/53/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A70
+#EXTINF:-1 tvg-id="105" tvg-logo="http://sarkor.tv/static/images/channels/МУЗ-ТВ УЗ.png" group-title="Sarkor Telecom",МУЗ-ТВ УЗ
+http://watcher.uz:443/105/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A105
+#EXTINF:-1 tvg-id="71" tvg-logo="http://sarkor.tv/static/images/channels/Музыка Первого.png" group-title="Sarkor Telecom",Музыка Первого
+http://s03.watcher.uz/54/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A71
+#EXTINF:-1 tvg-id="72" tvg-logo="http://sarkor.tv/static/images/channels/RU.TV.png" group-title="Sarkor Telecom",RU.TV
+http://s03.watcher.uz/55/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A72
+#EXTINF:-1 tvg-id="97" tvg-logo="http://sarkor.tv/static/images/channels/Ля-Минор ТВ.png" group-title="Sarkor Telecom",Ля-Минор ТВ
+http://watcher.uz:443/97/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A97
+#EXTINF:-1 tvg-id="100" tvg-logo="http://sarkor.tv/static/images/channels/Уникум.png" group-title="Sarkor Telecom",Уникум
+http://watcher.uz:443/100/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A100
+#EXTINF:-1 tvg-id="101" tvg-logo="http://sarkor.tv/static/images/channels/Zoo TV.png" group-title="Sarkor Telecom",Zoo TV
+http://watcher.uz:443/101/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A101
+#EXTINF:-1 tvg-id="103" tvg-logo="http://sarkor.tv/static/images/channels/ТНВ Планета.png" group-title="Sarkor Telecom",ТНВ Планета
+http://watcher.uz:443/103/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A103
+#EXTINF:-1 tvg-id="85" tvg-logo="http://sarkor.tv/static/images/channels/Dastarkhan TV.png" group-title="Sarkor Telecom",Dastarkhan TV
+http://s03.watcher.uz/85/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A85
+#EXTINF:-1 tvg-id="89" tvg-logo="http://sarkor.tv/static/images/channels/France24HD.png" group-title="Sarkor Telecom",France24HD
+http://s03.watcher.uz:443/89/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A89
+#EXTINF:-1 tvg-id="90" tvg-logo="http://sarkor.tv/static/images/channels/CNN.png" group-title="Sarkor Telecom",CNN
+http://watcher.uz:443/90/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A90
+#EXTINF:-1 tvg-id="92" tvg-logo="http://sarkor.tv/static/images/channels/CGTN.png" group-title="Sarkor Telecom",CGTN
+http://s05.watcher.uz:443/92/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A92
+#EXTINF:-1 tvg-id="104" tvg-logo="http://sarkor.tv/static/images/channels/BBC WN.png" group-title="Sarkor Telecom",BBC WN
+http://watcher.uz:443/104/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A104
+#EXTINF:-1 tvg-id="94" tvg-logo="http://sarkor.tv/static/images/channels/8TVRU.png" group-title="Sarkor Telecom",8TVRU
+http://s05.watcher.uz:443/94/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A94
+#EXTINF:-1 tvg-id="95" tvg-logo="http://sarkor.tv/static/images/channels/TuganTEL.png" group-title="Sarkor Telecom",TuganTEL
+http://s05.watcher.uz:443/95/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A95
+#EXTINF:-1 tvg-id="107" tvg-logo="http://sarkor.tv/static/images/channels/Deutsche Welle.png" group-title="Sarkor Telecom",Deutsche Welle
+http://watcher.uz:443/107/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A107
+#EXTINF:-1 tvg-id="110" tvg-logo="http://sarkor.tv/static/images/channels/Живи.png" group-title="Sarkor Telecom",Живи
+http://watcher.uz:443/110/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A110
+#EXTINF:-1 tvg-id="111" tvg-logo="http://sarkor.tv/static/images/channels/Усадьба.png" group-title="Sarkor Telecom",Усадьба
+http://watcher.uz:443/111/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A111
+#EXTINF:-1 tvg-id="112" tvg-logo="http://sarkor.tv/static/images/channels/Домашние животные.png" group-title="Sarkor Telecom",Домашние животные
+http://watcher.uz:443/112/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A112
+#EXTINF:-1 tvg-id="113" tvg-logo="http://sarkor.tv/static/images/channels/HDL.png" group-title="Sarkor Telecom",L
+http://s04.watcher.uz:443/113/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A113
+#EXTINF:-1 tvg-id="114" tvg-logo="http://sarkor.tv/static/images/channels/Здоровое ТВ.png" group-title="Sarkor Telecom",Здоровое ТВ
+http://s04.watcher.uz:443/114/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A114
+#EXTINF:-1 tvg-id="115" tvg-logo="http://sarkor.tv/static/images/channels/Вопросы и ответы.png" group-title="Sarkor Telecom",Вопросы и ответы
+http://s04.watcher.uz:443/115/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A115
+#EXTINF:-1 tvg-id="116" tvg-logo="http://sarkor.tv/static/images/channels/Nat Geo Wild.png" group-title="Sarkor Telecom",Nat Geo Wild
+http://s06.watcher.uz/116/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A116
+#EXTINF:-1 tvg-id="117" tvg-logo="http://sarkor.tv/static/images/channels/Живи Активно.png" group-title="Sarkor Telecom",Живи Активно
+http://s06.watcher.uz/117/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A117
+#EXTINF:-1 tvg-id="118" tvg-logo="http://sarkor.tv/static/images/channels/В мире животных.png" group-title="Sarkor Telecom",В мире животных
+http://s06.watcher.uz/118/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A118
+#EXTINF:-1 tvg-id="119" tvg-logo="http://sarkor.tv/static/images/channels/Живая природа.png" group-title="Sarkor Telecom",Живая природа
+http://s06.watcher.uz/119/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A119
+#EXTINF:-1 tvg-id="120" tvg-logo="http://sarkor.tv/static/images/channels/Арсенал.png" group-title="Sarkor Telecom",Арсенал
+http://s06.watcher.uz/120/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A120
+#EXTINF:-1 tvg-id="121" tvg-logo="http://sarkor.tv/static/images/channels/Duck TV.png" group-title="Sarkor Telecom",Duck TV
+http://s06.watcher.uz/121/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A121
+#EXTINF:-1 tvg-id="122" tvg-logo="http://sarkor.tv/static/images/channels/Капитан Фантастика.png" group-title="Sarkor Telecom",Капитан Фантастика
+http://s06.watcher.uz/122/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A122
+#EXTINF:-1 tvg-id="123" tvg-logo="http://sarkor.tv/static/images/channels/Охотник и рыболов.png" group-title="Sarkor Telecom",Охотник и рыболов
+http://s06.watcher.uz/123/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A123
+#EXTINF:-1 tvg-id="124" tvg-logo="http://sarkor.tv/static/images/channels/Insight TV.png" group-title="Sarkor Telecom",Insight TV
+http://s06.watcher.uz/124/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A124
+#EXTINF:-1 tvg-id="125" tvg-logo="http://sarkor.tv/static/images/channels/Trace Sport Stars.png" group-title="Sarkor Telecom",Trace Sport Stars
+http://s06.watcher.uz/125/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A125
+#EXTINF:-1 tvg-id="127" tvg-logo="http://sarkor.tv/static/images/channels/Глазами Туриста.png" group-title="Sarkor Telecom",Глазами Туриста
+http://s06.watcher.uz/127/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A127
+#EXTINF:-1 tvg-id="128" tvg-logo="http://sarkor.tv/static/images/channels/Наша Сибирь.png" group-title="Sarkor Telecom",Наша Сибирь
+http://s06.watcher.uz/128/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A128
+#EXTINF:-1 tvg-id="129" tvg-logo="http://sarkor.tv/static/images/channels/Avto24 SD.png" group-title="Sarkor Telecom",Avto24 SD
+http://s06.watcher.uz/129/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A129
+#EXTINF:-1 tvg-id="130" tvg-logo="http://sarkor.tv/static/images/channels/Drive SD.png" group-title="Sarkor Telecom",Drive SD
+http://s06.watcher.uz/130/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A130
+#EXTINF:-1 tvg-id="131" tvg-logo="http://sarkor.tv/static/images/channels/Хабар24 SD.png" group-title="Sarkor Telecom",Хабар24 SD
+http://s06.watcher.uz/131/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A131
+#EXTINF:-1 tvg-id="132" tvg-logo="http://sarkor.tv/static/images/channels/Dorama SD.png" group-title="Sarkor Telecom",Dorama SD
+http://s06.watcher.uz/132/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A132
+#EXTINF:-1 tvg-id="133" tvg-logo="http://sarkor.tv/static/images/channels/Рыжий SD.png" group-title="Sarkor Telecom",Рыжий SD
+http://s06.watcher.uz/133/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A133
+#EXTINF:-1 tvg-id="134" tvg-logo="http://sarkor.tv/static/images/channels/Загородный SD.png" group-title="Sarkor Telecom",Загородный SD
+http://s06.watcher.uz/134/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A134
+#EXTINF:-1 tvg-id="135" tvg-logo="http://sarkor.tv/static/images/channels/В гостях у сказки SD.png" group-title="Sarkor Telecom",В гостях у сказки SD
+http://s06.watcher.uz/135/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A135
+#EXTINF:-1 tvg-id="136" tvg-logo="http://sarkor.tv/static/images/channels/Первый космический SD.png" group-title="Sarkor Telecom",Первый космический SD
+http://s06.watcher.uz/136/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A136
+#EXTINF:-1 tvg-id="138" tvg-logo="http://sarkor.tv/static/images/channels/Живая планета SD.png" group-title="Sarkor Telecom",Живая планета SD
+http://s06.watcher.uz/138/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A138
+#EXTINF:-1 tvg-id="139" tvg-logo="http://sarkor.tv/static/images/channels/TRT Music SD.png" group-title="Sarkor Telecom",TRT Music SD
+http://s06.watcher.uz/139/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A139
+#EXTINF:-1 tvg-id="140" tvg-logo="http://sarkor.tv/static/images/channels/Приключения SD.png" group-title="Sarkor Telecom",Приключения SD
+http://s06.watcher.uz/140/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A140
+#EXTINF:-1 tvg-id="141" tvg-logo="http://sarkor.tv/static/images/channels/Наука SD.png" group-title="Sarkor Telecom",Наука SD
+http://s06.watcher.uz/141/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A141
+#EXTINF:-1 tvg-id="142" tvg-logo="http://sarkor.tv/static/images/channels/TRT Haber SD.png" group-title="Sarkor Telecom",TRT Haber SD
+http://s06.watcher.uz/142/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A142
+#EXTINF:-1 tvg-id="143" tvg-logo="http://sarkor.tv/static/images/channels/Мама SD.png" group-title="Sarkor Telecom",Мама SD
+http://s06.watcher.uz/143/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A143
+#EXTINF:-1 tvg-id="146" tvg-logo="http://sarkor.tv/static/images/channels/AzTV SD.png" group-title="Sarkor Telecom",AzTV SD
+http://s06.watcher.uz/146/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A146
+#EXTINF:-1 tvg-id="147" tvg-logo="http://sarkor.tv/static/images/channels/Nick Jr.png" group-title="Sarkor Telecom",Nick Jr
+http://s06.watcher.uz/147/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A147
+#EXTINF:-1 tvg-id="148" tvg-logo="http://sarkor.tv/static/images/channels/Точка отрыва SD.png" group-title="Sarkor Telecom",Точка отрыва SD
+http://watcher.uz/148/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A148
+#EXTINF:-1 tvg-id="149" tvg-logo="http://sarkor.tv/static/images/channels/Моя планета SD.png" group-title="Sarkor Telecom",Моя планета SD
+http://watcher.uz/149/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A149
+#EXTINF:-1 tvg-id="150" tvg-logo="http://sarkor.tv/static/images/channels/NatGeo channel SD.png" group-title="Sarkor Telecom",NatGeo channel SD
+http://watcher.uz/150/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A150
+#EXTINF:-1 tvg-id="151" tvg-logo="http://sarkor.tv/static/images/channels/Kazakhstan SD.png" group-title="Sarkor Telecom",Kazakhstan SD
+http://watcher.uz/151/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A151
+#EXTINF:-1 tvg-id="152" tvg-logo="http://sarkor.tv/static/images/channels/Мульт SD.png" group-title="Sarkor Telecom",Мульт SD
+http://watcher.uz/152/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A152
+#EXTINF:-1 tvg-id="154" tvg-logo="http://sarkor.tv/static/images/channels/Fashion TV SD.png" group-title="Sarkor Telecom",Fashion TV SD
+http://s06.watcher.uz/154/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A154
+#EXTINF:-1 tvg-id="155" tvg-logo="http://sarkor.tv/static/images/channels/Cinema SD.png" group-title="Sarkor Telecom",Cinema SD
+http://s06.watcher.uz/155/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A155
+#EXTINF:-1 tvg-id="156" tvg-logo="http://sarkor.tv/static/images/channels/Сарафан SD.png" group-title="Sarkor Telecom",Сарафан SD
+http://s06.watcher.uz/156/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A156
+#EXTINF:-1 tvg-id="157" tvg-logo="http://sarkor.tv/static/images/channels/S Iqbol SD.png" group-title="Sarkor Telecom",S Iqbol SD
+http://s06.watcher.uz/157/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A157
+#EXTINF:-1 tvg-id="158" tvg-logo="http://sarkor.tv/static/images/channels/TRT Avaz.png" group-title="Sarkor Telecom",TRT Avaz
+http://s04.watcher.uz/4/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A158
+#EXTINF:-1 tvg-id="35" tvg-logo="http://sarkor.tv/static/images/channels/MMA-TV.png" group-title="Sarkor Telecom",MMA-TV
+http://s04.watcher.uz/19/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A35
+#EXTINF:-1 tvg-id="36" tvg-logo="http://sarkor.tv/static/images/channels/KHL.png" group-title="Sarkor Telecom",KHL
+http://s04.watcher.uz/20/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A36
+#EXTINF:-1 tvg-id="159" tvg-logo="http://sarkor.tv/static/images/channels/Gulli Girl.png" group-title="Sarkor Telecom",Gulli Girl
+http://s07.watcher.uz/164/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A159
+#EXTINF:-1 tvg-id="160" tvg-logo="http://sarkor.tv/static/images/channels/Doctor.png" group-title="Sarkor Telecom",Doctor
+http://s07.watcher.uz/165/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A160
+#EXTINF:-1 tvg-id="161" tvg-logo="http://sarkor.tv/static/images/channels/English Club.png" group-title="Sarkor Telecom",English Club
+http://s07.watcher.uz/166/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A161
+#EXTINF:-1 tvg-id="162" tvg-logo="http://sarkor.tv/static/images/channels/Bollywood.png" group-title="Sarkor Telecom",Bollywood
+http://s07.watcher.uz/167/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A162
+#EXTINF:-1 tvg-id="163" tvg-logo="http://sarkor.tv/static/images/channels/HollyWood.png" group-title="Sarkor Telecom",HollyWood
+http://s07.watcher.uz/168/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A163
+#EXTINF:-1 tvg-id="164" tvg-logo="http://sarkor.tv/static/images/channels/TiJi.png" group-title="Sarkor Telecom",TiJi
+http://s07.watcher.uz/169/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A164
+#EXTINF:-1 tvg-id="165" tvg-logo="http://sarkor.tv/static/images/channels/KBS WORLD.png" group-title="Sarkor Telecom",KBS WORLD
+http://s07.watcher.uz/170/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A165
+#EXTINF:-1 tvg-id="168" tvg-logo="http://sarkor.tv/static/images/channels/TVC RU.png" group-title="Sarkor Telecom",TVC RU
+http://s07.watcher.uz/173/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A168
+#EXTINF:-1 tvg-id="169" tvg-logo="http://sarkor.tv/static/images/channels/Bloomberg TV.png" group-title="Sarkor Telecom",Bloomberg TV
+http://s07.watcher.uz/174/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A169
+#EXTINF:-1 tvg-id="170" tvg-logo="http://sarkor.tv/static/images/channels/Match Planeta.png" group-title="Sarkor Telecom",Match Planeta
+http://s07.watcher.uz/175/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A170
+#EXTINF:-1 tvg-id="171" tvg-logo="http://sarkor.tv/static/images/channels/Ruxsor.png" group-title="Sarkor Telecom",Ruxsor
+http://s07.watcher.uz/176/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A171
+#EXTINF:-1 tvg-id="172" tvg-logo="http://sarkor.tv/static/images/channels/Lux TV.png" group-title="Sarkor Telecom",Lux TV
+http://s07.watcher.uz/177/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A172
+#EXTINF:-1 tvg-id="173" tvg-logo="http://sarkor.tv/static/images/channels/Makon TV.png" group-title="Sarkor Telecom",Makon TV
+http://s07.watcher.uz/178/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A173
+#EXTINF:-1 tvg-id="174" tvg-logo="http://sarkor.tv/static/images/channels/CGTN RU.png" group-title="Sarkor Telecom",CGTN RU
+http://s07.watcher.uz/179/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A174
+#EXTINF:-1 tvg-id="175" tvg-logo="http://sarkor.tv/static/images/channels/AlJazeera.png" group-title="Sarkor Telecom",AlJazeera
+http://s07.watcher.uz/181/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A175
+#EXTINF:-1 tvg-id="176" tvg-logo="http://sarkor.tv/static/images/channels/NHK WORLD.png" group-title="Sarkor Telecom",NHK WORLD
+http://s07.watcher.uz/182/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A176
+#EXTINF:-1 tvg-id="177" tvg-logo="http://sarkor.tv/static/images/channels/Mulokot TV.png" group-title="Sarkor Telecom",Mulokot TV
+http://s07.watcher.uz/183/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A177
+#EXTINF:-1 tvg-id="178" tvg-logo="http://sarkor.tv/static/images/channels/Biz Cinema.png" group-title="Sarkor Telecom",Biz Cinema
+http://s07.watcher.uz/184/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A178
+#EXTINF:-1 tvg-id="180" tvg-logo="http://sarkor.tv/static/images/channels/DW RU.png" group-title="Sarkor Telecom",DW RU
+http://s05.watcher.uz/186/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A180
+#EXTINF:-1 tvg-id="182" tvg-logo="http://sarkor.tv/static/images/channels/Nickelodeon.png" group-title="Sarkor Telecom",Nickelodeon
+http://s05.watcher.uz/188/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A182
+#EXTINF:-1 tvg-id="183" tvg-logo="http://sarkor.tv/static/images/channels/Nicktoons.png" group-title="Sarkor Telecom",Nicktoons
+http://s05.watcher.uz/189/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A183

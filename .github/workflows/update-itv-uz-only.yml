@@ -2,7 +2,8 @@ name: Update Playlists
 
 on:
   schedule:
-    - cron: "*/5 * * * *"   # ҳар 5 дақиқа
+    - cron: "0,15,30,45 5-10 * * *"
+    - cron: "0 11 * * *"
   workflow_dispatch:
 
 concurrency:

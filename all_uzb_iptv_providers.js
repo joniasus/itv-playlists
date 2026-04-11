@@ -9,10 +9,12 @@ const FINAL_OUTPUT_FILE = 'all_uzb_iptv_providers.m3u8';
 const CINERAMA_URL = 'https://raw.githubusercontent.com/joniasus/itv-playlists/refs/heads/main/Cinerama_UZ.m3u8';
 const SARKOR_URL = 'https://raw.githubusercontent.com/joniasus/itv-playlists/refs/heads/main/Sarkor_TV.m3u8';
 const TVCOM_SOURCE = 'https://raw.githubusercontent.com/joniasus/itv-playlists/refs/heads/main/tvcom.uz.m3u8';
+const ZORPLAY_SOURCE = 'https://raw.githubusercontent.com/joniasus/itv-playlists/refs/heads/main/zorplay_uz.m3u8';
 
 const CINERAMA_GROUP_BASE = 'Cinerama UZ 🇺🇿';
 const SARKOR_GROUP_BASE = 'Sarkor TV 🇺🇿';
 const TVCOM_GROUP_BASE = 'TVcom.UZ 🇺🇿';
+const ZORPLAY_GROUP_BASE = "ZO'R PLAY 🇺🇿";
 const ITV_GROUP_BASE = 'iTV UZ 🇺🇿';
 
 const API_START_ID = 1;
@@ -520,11 +522,17 @@ async function main() {
   const tvcomEntries = parseGenericM3U(tvcomText, 'tvcom.uz.m3u8');
   applyGroupTitleCountToBlockEntries(tvcomEntries, TVCOM_GROUP_BASE);
 
-  console.log('10) 4 та рўйхат 1→2→3→4 тартибда бирлаштириляпти...');
+  console.log("10) zorplay_uz.m3u8 юкланяпти...");
+  const zorplayText = await readTextFromUrlOrFile(ZORPLAY_SOURCE);
+  const zorplayEntries = parseGenericM3U(zorplayText, 'zorplay_uz.m3u8');
+  applyGroupTitleCountToBlockEntries(zorplayEntries, ZORPLAY_GROUP_BASE);
+
+  console.log('11) 5 та рўйхат 1→2→3→4→5 тартибда бирлаштириляпти...');
   const finalMergedText = mergePlaylistBlocksInOrder([
     cineramaEntries,
     sarkorEntries,
     tvcomEntries,
+    zorplayEntries,
     itvBlocks
   ]);
 
@@ -535,6 +543,7 @@ async function main() {
   console.log(`Cinerama: ${cineramaEntries.length} та`);
   console.log(`Sarkor: ${sarkorEntries.length} та`);
   console.log(`TVcom: ${tvcomEntries.length} та`);
+  console.log(`ZO'R PLAY: ${zorplayEntries.length} та`);
   console.log(`iTV: ${itvBlocks.length} та`);
   console.log(`Якуний каналлар сони: ${finalCount}`);
 }

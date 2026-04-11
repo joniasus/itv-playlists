@@ -8,9 +8,11 @@ const FINAL_OUTPUT_FILE = 'all_uzb_iptv_providers.m3u8';
 
 const CINERAMA_URL = 'https://raw.githubusercontent.com/joniasus/itv-playlists/refs/heads/main/Cinerama_UZ.m3u8';
 const SARKOR_URL = 'https://raw.githubusercontent.com/joniasus/itv-playlists/refs/heads/main/Sarkor_TV.m3u8';
+const TVCOM_SOURCE = 'https://raw.githubusercontent.com/joniasus/itv-playlists/refs/heads/main/tvcom.uz.m3u8';
 
 const CINERAMA_GROUP_BASE = 'Cinerama UZ 🇺🇿';
 const SARKOR_GROUP_BASE = 'Sarkor TV 🇺🇿';
+const TVCOM_GROUP_BASE = 'TVcom.UZ 🇺🇿';
 const ITV_GROUP_BASE = 'iTV UZ 🇺🇿';
 
 const API_START_ID = 1;
@@ -110,6 +112,24 @@ async function downloadText(url) {
   }
 
   return res.body;
+}
+
+async function readTextFromUrlOrFile(source) {
+  const s = String(source || '').trim();
+
+  if (!s) {
+    throw new Error('Empty source');
+  }
+
+  if (/^https?:\/\//i.test(s)) {
+    return await downloadText(s);
+  }
+
+  if (!fs.existsSync(s)) {
+    throw new Error(`File not found: ${s}`);
+  }
+
+  return fs.readFileSync(s, 'utf8');
 }
 
 function parseJsonSafe(text) {
@@ -486,19 +506,25 @@ async function main() {
   const itvBlocks = convertExtinfEntriesToBlocks(mergedItv);
 
   console.log('7) Cinerama_UZ.m3u8 юкланяпти...');
-  const cineramaText = await downloadText(CINERAMA_URL);
+  const cineramaText = await readTextFromUrlOrFile(CINERAMA_URL);
   const cineramaEntries = parseGenericM3U(cineramaText, 'Cinerama_UZ.m3u8');
   applyGroupTitleCountToBlockEntries(cineramaEntries, CINERAMA_GROUP_BASE);
 
   console.log('8) Sarkor_TV.m3u8 юкланяпти...');
-  const sarkorText = await downloadText(SARKOR_URL);
+  const sarkorText = await readTextFromUrlOrFile(SARKOR_URL);
   const sarkorEntries = parseGenericM3U(sarkorText, 'Sarkor_TV.m3u8');
   applyGroupTitleCountToBlockEntries(sarkorEntries, SARKOR_GROUP_BASE);
 
-  console.log('9) 3 та рўйхат 1→2→3 тартибда бирлаштириляпти...');
+  console.log('9) tvcom.uz.m3u8 юкланяпти...');
+  const tvcomText = await readTextFromUrlOrFile(TVCOM_SOURCE);
+  const tvcomEntries = parseGenericM3U(tvcomText, 'tvcom.uz.m3u8');
+  applyGroupTitleCountToBlockEntries(tvcomEntries, TVCOM_GROUP_BASE);
+
+  console.log('10) 4 та рўйхат 1→2→3→4 тартибда бирлаштириляпти...');
   const finalMergedText = mergePlaylistBlocksInOrder([
     cineramaEntries,
     sarkorEntries,
+    tvcomEntries,
     itvBlocks
   ]);
 
@@ -508,6 +534,7 @@ async function main() {
   console.log(`Якуний файл: ${FINAL_OUTPUT_FILE}`);
   console.log(`Cinerama: ${cineramaEntries.length} та`);
   console.log(`Sarkor: ${sarkorEntries.length} та`);
+  console.log(`TVcom: ${tvcomEntries.length} та`);
   console.log(`iTV: ${itvBlocks.length} та`);
   console.log(`Якуний каналлар сони: ${finalCount}`);
 }

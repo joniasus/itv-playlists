@@ -6,11 +6,11 @@ const TARGET_GROUP = 'group-title="Itv.uz (🇺🇿)"';
 
 const FINAL_OUTPUT_FILE = 'all_uzb_iptv_providers.m3u8';
 
-const CINERAMA_URL = 'https://raw.githubusercontent.com/joniasus/itv-playlists/refs/heads/main/Cinerama_UZ.m3u8';
-const SARKOR_URL = 'https://raw.githubusercontent.com/joniasus/itv-playlists/refs/heads/main/Sarkor_TV.m3u8';
-const TVCOM_SOURCE = 'https://raw.githubusercontent.com/joniasus/itv-playlists/refs/heads/main/tvcom.uz.m3u8';
-const ZORPLAY_SOURCE = 'https://raw.githubusercontent.com/joniasus/itv-playlists/refs/heads/main/zorplay_uz.m3u8';
-const TELECOMTV_SOURCE = 'https://raw.githubusercontent.com/joniasus/itv-playlists/refs/heads/main/telecomtv_uz.m3u8';
+const CINERAMA_URL = 'Cinerama_UZ.m3u8';
+const SARKOR_URL = 'Sarkor_TV.m3u8';
+const TVCOM_SOURCE = 'tvcom.uz.m3u8';
+const ZORPLAY_SOURCE = 'zorplay_uz.m3u8';
+const TELECOMTV_SOURCE = 'telecomtv_uz.m3u8';
 
 const CINERAMA_GROUP_BASE = 'Cinerama UZ 🇺🇿';
 const SARKOR_GROUP_BASE = 'Sarkor TV 🇺🇿';

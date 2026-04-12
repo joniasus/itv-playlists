@@ -12,7 +12,7 @@ const ITV_GROUP_BASE = 'iTV UZ 🇺🇿';
 
 const ALLOWED_IDS = "1286,1014,1012,1004,1010,1009,4000,4001,1015,1209,1011,1006,1496,1285,1497,1204,4007,4008,1494,1486,1488,1001,1002,1003,1005,1007,1008,1013,1016,1019,1020,1024,1025,1048,1050,1053,1056,1205,1206,1210,1212,1213,1214,1216,1217,1220,1221,1251,1253,1259,1265,1282,1283,1284,1290,1291,1408,1457,1458,1459,1460,1461,1462,1463,1464,1465,1466,1467,1468,1469,1470,1472,1485,1489,1490,1491,1492,1495,1499,4012,1211,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023";
 
-//const API_SCAN_IDS_FULL = "1,3,4,5,6,7,8,9,10,11,12,13,14,17,18,20,22,23,28,30,32,35,37,38,52,56,61,75,77,78,79,81,83,84,96,105,112,121,129,130,132,133,135,137,138,139,142,143,144,148,150,156,175,218,220,231,234,235,244,245,246,247,248,249,250,251,252,253,254,255,257,258,259,262,266,267,268,269,270,271,272,273,275,276,277,278,279,280,281,282,283,287,290,292,293";
+const API_SCAN_IDS_FULL = "1,3,4,5,6,7,8,9,10,11,12,13,14,17,18,20,22,23,28,30,32,35,37,38,52,56,61,75,77,78,79,81,83,84,96,105,112,121,129,130,132,133,135,137,138,139,142,143,144,148,150,156,175,218,220,231,234,235,244,245,246,247,248,249,250,251,252,253,254,255,257,258,259,262,266,267,268,269,270,271,272,273,275,276,277,278,279,280,281,282,283,287,290,292,293";
 const API_SCAN_IDS = "18,32,38,37,35,52,75,22,133,14,30,135,156,150,148,218,220,231,234,293,292,262,132,84,13,20,121,129,56,23,61,28,83,112,130,105,175,235,78,278,279,79,280,281,282,283";
 
 const USER_AGENT =
@@ -20,6 +20,24 @@ const USER_AGENT =
 
 const REQUEST_TIMEOUT_MS = 12000;
 const MAX_REDIRECTS = 5;
+
+const API_DEBUG_FILE = 'api_debug.txt';
+
+function resetDebugFile() {
+  fs.writeFileSync(
+    API_DEBUG_FILE,
+    'channelId\tstatus\tstreamId\ttitle\turl_or_note\n',
+    'utf8'
+  );
+}
+
+function appendDebug(channelId, status, streamId = '', title = '', note = '') {
+  fs.appendFileSync(
+    API_DEBUG_FILE,
+    `${channelId}\t${status}\t${streamId}\t${title}\t${note}\n`,
+    'utf8'
+  );
+}
 
 function parseIds(raw) {
   const arr = String(raw)
@@ -225,10 +243,27 @@ async function fetchApiChannel(channelId) {
   const url = `https://api.itv.uz/v2/cards/channels/show?channelId=${channelId}`;
 
   try {
-    const body = await downloadText(url);
-    const json = parseJsonSafe(body);
+    const res = await httpGet(url);
 
-    if (!json || json.code !== 200 || !json.data) {
+    if (res.statusCode !== 200) {
+      appendDebug(channelId, `HTTP_${res.statusCode}`, '', '', url);
+      return null;
+    }
+
+    const json = parseJsonSafe(res.body);
+
+    if (!json) {
+      appendDebug(channelId, 'BAD_JSON', '', '', url);
+      return null;
+    }
+
+    if (json.code !== 200) {
+      appendDebug(channelId, `JSON_CODE_${json.code}`, '', '', url);
+      return null;
+    }
+
+    if (!json.data) {
+      appendDebug(channelId, 'NO_DATA', '', '', url);
       return null;
     }
 
@@ -240,13 +275,27 @@ async function fetchApiChannel(channelId) {
     const streamUrl = cleanText(files.streamUrl);
     const streamNumber = extractStreamNumber(streamUrl);
 
-    if (!title || !streamUrl || !Number.isFinite(streamNumber) || streamNumber === Number.MAX_SAFE_INTEGER) {
+    if (!title) {
+      appendDebug(channelId, 'NO_TITLE', '', '', streamUrl || url);
+      return null;
+    }
+
+    if (!streamUrl) {
+      appendDebug(channelId, 'NO_STREAM_URL', '', title, url);
+      return null;
+    }
+
+    if (!Number.isFinite(streamNumber) || streamNumber === Number.MAX_SAFE_INTEGER) {
+      appendDebug(channelId, 'BAD_STREAM_URL', '', title, streamUrl);
       return null;
     }
 
     if (!ALLOWED_ID_SET.has(streamNumber)) {
+      appendDebug(channelId, 'STREAM_NOT_ALLOWED', streamNumber, title, streamUrl);
       return null;
     }
+
+    appendDebug(channelId, 'OK', streamNumber, title, streamUrl);
 
     return {
       sourceType: 'api',
@@ -259,7 +308,8 @@ async function fetchApiChannel(channelId) {
         (posterUrl ? ` tvg-logo="${escapeAttr(posterUrl)}"` : '') +
         `, ${title}`
     };
-  } catch {
+  } catch (err) {
+    appendDebug(channelId, 'ERROR', '', '', err.message);
     return null;
   }
 }
@@ -334,6 +384,7 @@ function buildM3U(entries) {
 }
 
 async function main() {
+  resetDebugFile();
   console.log('1) iTV source юкланяпти...');
   const sourceText = await downloadText(SOURCE_URL);
 

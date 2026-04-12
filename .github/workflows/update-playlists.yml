@@ -49,7 +49,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add iTV_UZ.m3u8 iTV_UZ_SOURCE.m3u8 iTV_UZ_API.m3u8 all_uzb_iptv_providers.m3u8
+          git add iTV_UZ.m3u8 iTV_UZ_SOURCE.m3u8 iTV_UZ_API.m3u8 all_uzb_iptv_providers.m3u8 api_debug.txt
 
           if git diff --cached --quiet; then
             echo "No changes to commit"

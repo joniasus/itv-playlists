@@ -26,9 +26,9 @@ const PRIORITY_STREAMS_RAW =
 const USER_AGENT =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
 
-const REQUEST_TIMEOUT_MS = 20000;
+const REQUEST_TIMEOUT_MS = 12000;
 const MAX_REDIRECTS = 5;
-const API_CONCURRENCY = 4;
+const API_CONCURRENCY = 12;
 
 function parsePriorityList(raw) {
   return String(raw)
@@ -219,7 +219,7 @@ function parseSourceM3U(text) {
 
     const extinf = line
       .trim()
-      .replace(/group-title="Itv\.uz \(🇺🇿\)"/g, `group-title="${ITV_GROUP_BASE}"`);
+      .replace(/group-title=""/g, `group-title="${ITV_GROUP_BASE}"`);
 
     let url = '';
     let lastJ = i;
@@ -499,6 +499,13 @@ async function main() {
 
   console.log('4) iTV source + API бирлаштириляпти...');
   const mergedItv = mergeEntries(sourceEntries, apiEntries);
+
+  console.log('5) iTV умумий тартибланяпти...');
+  sortEntries(mergedItv);
+  applyGroupTitleCountToExtinfEntries(mergedItv, ITV_GROUP_BASE);
+
+  console.log('6) iTV блокларга айлантириляпти...');
+  const itvBlocks = convertExtinfEntriesToBlocks(mergedItv);
 
   console.log('7) Cinerama_UZ.m3u8 юкланяпти...');
   const cineramaText = await readTextFromUrlOrFile(CINERAMA_URL);

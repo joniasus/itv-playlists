@@ -7,12 +7,17 @@ on:
       - main
     paths:
       - 'itv_uz.js'
+      - 'all_uzb_iptv_providers.js'
       - '.github/workflows/update-playlists.yml'
   schedule:
     - cron: '*/15 * * * *'
 
 permissions:
   contents: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   update-playlists:
@@ -21,6 +26,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -38,22 +45,14 @@ jobs:
       - name: Build merged playlist
         run: node all_uzb_iptv_providers.js
 
-      - name: Show generated files
-        run: |
-          ls -lh
-          test -f iTV_UZ.m3u8 && echo "iTV_UZ.m3u8 ready"
-          test -f all_uzb_iptv_providers.m3u8 && echo "all_uzb_iptv_providers.m3u8 ready"
-          echo "iTV count:"
-          grep -c '^#EXTINF:' iTV_UZ.m3u8 || true
-          echo "ALL count:"
-          grep -c '^#EXTINF:' all_uzb_iptv_providers.m3u8 || true
-
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add iTV_UZ.m3u8 all_uzb_iptv_providers.m3u8
+          git add iTV_UZ.m3u8 iTV_UZ_SOURCE.m3u8 iTV_UZ_API.m3u8 all_uzb_iptv_providers.m3u8 \
+                  API_ONLY_STREAM_IDS.txt API_ONLY_CHANNEL_IDS.txt API_ONLY_CHANNEL_IDS.js \
+                  API_ONLY_DETAILS.txt SOURCE_ONLY_STREAM_IDS.txt MISSING_STREAM_IDS.txt
 
           if git diff --cached --quiet; then
             echo "No changes to commit"
@@ -61,4 +60,6 @@ jobs:
           fi
 
           git commit -m "Auto-update playlists"
-          git push
+
+          git pull --rebase origin main
+          git push origin HEAD:main

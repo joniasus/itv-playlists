@@ -26,9 +26,9 @@ const PRIORITY_STREAMS_RAW =
 const USER_AGENT =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
 
-const REQUEST_TIMEOUT_MS = 12000;
+const REQUEST_TIMEOUT_MS = 15000;
 const MAX_REDIRECTS = 5;
-const API_CONCURRENCY = 12;
+const API_CONCURRENCY = 3;
 
 function parsePriorityList(raw) {
   return String(raw)
@@ -218,8 +218,8 @@ function parseSourceM3U(text) {
     if (!line.includes(TARGET_GROUP)) continue;
 
     const extinf = line
-      .trim();
-
+      .trim()
+      .replace(/group-title="Itv\.uz \(🇺🇿\)"/g, `group-title="${ITV_GROUP_BASE}"`);
 
     let url = '';
     let lastJ = i;
@@ -346,7 +346,7 @@ async function buildApiEntries() {
         streamMap.set(item.streamNumber, item);
       }
 
-      if ((idx + 1) % 25 === 0 || idx === ids.length - 1) {
+      if ((idx + 1) % 1 === 0 || idx === ids.length - 1) {
         console.log(`API текширилди: ${idx + 1}/${ids.length}`);
       }
     },

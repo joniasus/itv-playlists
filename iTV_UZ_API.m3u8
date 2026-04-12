@@ -1,0 +1,73 @@
+#EXTM3U
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 API (24 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/08/16//40414599b94269697bfa8698362e75e7-q-500x500.jpeg", Тайны Галактики HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://iptv.itv.uz/hls/live/t/luYor621JKcynJwqpLwAHA/e/1776073571/1472/index.m3u8?ip=13.83.166.241
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 API (24 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/08/28//f017a3c1aaaf894f1468619c11c36448-q-500x500.jpeg", Nostalgie FM 104.4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://iptv.itv.uz/hls/live/t/y5xTw7-4BdJeuO9PdujlAg/e/1776073571/2001/index.m3u8?ip=13.83.166.241
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 API (24 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/01/16//831e49fb69f8612123c28fa0ac7bec7e-q-500x500.jpeg", Oriat Dono FM 106.5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://iptv.itv.uz/hls/live/t/y0riKVP0MMtzPHDv2e8Riw/e/1776073571/2002/index.m3u8?ip=13.83.166.241
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 API (24 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2025/09/18//d5aeffa30d4cff8814e1a3fdb23e663c-q-500x500.jpeg", Oriat FM 100.5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://iptv.itv.uz/hls/live/t/bdfdn_7mrB_sZe7jJ8Hy9w/e/1776073571/2003/index.m3u8?ip=13.83.166.241
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 API (24 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/08/28//1aeb7567f3f28c5442c6f39e810f8734-q-500x500.jpeg", Retro FM
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://iptv.itv.uz/hls/live/t/tLnP9Ac4sFjgjbmi9dw5yw/e/1776073572/2004/index.m3u8?ip=13.83.166.241
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 API (24 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/08/28//e7d7d5d7fdc9003c3670e0d05022e420-q-500x500.jpeg", Classic FM
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://iptv.itv.uz/hls/live/t/fQ1HF9DPqKwH37tNnzXJ2g/e/1776073572/2005/index.m3u8?ip=13.83.166.241
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 API (24 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/02/01//404d9b349d0b2098dd55d1d9e8590af6-q-500x500.jpeg", HitFM FM 90.8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://iptv.itv.uz/hls/live/t/NNOd1MKuscWsOJeKqqqDWQ/e/1776073572/2006/index.m3u8?ip=13.83.166.241
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 API (24 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2022/10/03//86423da95fa6d1a3d8c7f87f97fa565e-q-500x500.jpeg", Avto Radio FM 102.0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://iptv.itv.uz/hls/live/t/EwCp0In5BQRg_4d2hY557A/e/1776073572/2007/index.m3u8?ip=13.83.166.241
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 API (24 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/08/25//f1307d5df1872ff847fc8591c56dda5c-q-500x500.jpeg", Радио Гранд FM 101.5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://iptv.itv.uz/hls/live/t/BSzMtlQqIZFf8Gmdp-8j8Q/e/1776073573/2008/index.m3u8?ip=13.83.166.241
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 API (24 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/08/28//dd4e381c665b83becb781a4642ec795e-q-500x500.jpeg", Maxima FM 105.4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://iptv.itv.uz/hls/live/t/R0fi2FWQoBe0waapgVOYZg/e/1776073573/2009/index.m3u8?ip=13.83.166.241
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 API (24 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/01/16//a7796d921ec4abe740abe433935dda96-q-500x500.jpeg", Mahalla FM 107.8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://iptv.itv.uz/hls/live/t/kgRXuZ4dmYO4IIiI-o3WcA/e/1776073573/2010/index.m3u8?ip=13.83.166.241
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 API (24 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/01/16//a8d02eb2cc800cef5b013a4ed233006b-q-500x500.jpeg", O'zbekiston FM 103.1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://iptv.itv.uz/hls/live/t/G_E0_MUlahuxF44_SUK3DQ/e/1776073573/2011/index.m3u8?ip=13.83.166.241
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 API (24 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/01/16//aaadc599fb30270cef0eb14b7d2570ad-q-500x500.jpeg", O'zbekiston24 FM 87.9
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://iptv.itv.uz/hls/live/t/igSanBETSG0SxLfkjIrOLA/e/1776073574/2012/index.m3u8?ip=13.83.166.241
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 API (24 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/01/16//d83b62eb13d3d26d205551346a856b37-q-500x500.jpeg", Yoshlar FM 104.0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://iptv.itv.uz/hls/live/t/MPyY-7LirNK5GHiNkhIL8A/e/1776073574/2013/index.m3u8?ip=13.83.166.241
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 API (24 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/01/16//4da6326d1746d6834de863f64debaad5-q-500x500.jpeg", Radio Ruxsor
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://iptv.itv.uz/hls/live/t/qMyZf53e3evgdeVQiJlNHQ/e/1776073574/2014/index.m3u8?ip=13.83.166.241
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 API (24 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/12/14//93ed19213479848e847621345217a981-q-500x500.jpeg", IstiqlolFM FM 107.0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://iptv.itv.uz/hls/live/t/n3QNEz2z-zp5CgmBMyEgtQ/e/1776073574/2015/index.m3u8?ip=13.83.166.241
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 API (24 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/27//336c15027520a248a74d73b0ef500503-q-500x500.jpeg", Temp FM
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://iptv.itv.uz/hls/live/t/NBgfNCYR7i2GQFlJgWYwyQ/e/1776073575/2016/index.m3u8?ip=13.83.166.241
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 API (24 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/27//71c9d7b00e8732279f9b45b1906f746f-q-500x500.jpeg", O'zbegim Taronasi FM 101.0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://iptv.itv.uz/hls/live/t/8o8LVDHTHd5mEtwK4DJ8hQ/e/1776073575/2017/index.m3u8?ip=13.83.166.241
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 API (24 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/28//fe86f2498716bb7b610ad10a3d7f51f5-q-500x500.jpeg", Truck FM
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://iptv.itv.uz/hls/live/t/rTSnmDNw4UT_ytab6ZXamw/e/1776073575/2018/index.m3u8?ip=13.83.166.241
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 API (24 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/08/26//9089e09bfe47782c76bf2c98f3e5c72d-q-500x500.jpeg", Biz FM
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://iptv.itv.uz/hls/live/t/Emw6njxAE-U3VRb_VWtxWw/e/1776073575/2019/index.m3u8?ip=13.83.166.241
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 API (24 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/29//9178d74a58642d9c9f2e4c786e0b69b9-q-500x500.jpeg", Vodiy Sadosi FM 102.7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://iptv.itv.uz/hls/live/t/QTW8AevUYgCj78nJwl-Lsg/e/1776073576/2020/index.m3u8?ip=13.83.166.241
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 API (24 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/29//3e7fbe98cf838d84241fad66b84c0bbd-q-500x500.jpeg", Poytaxt FM 103.5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://iptv.itv.uz/hls/live/t/2UfUZ_zBgx3AIGfQbj6bdw/e/1776073576/2021/index.m3u8?ip=13.83.166.241
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 API (24 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/29//b7e3b10c086660a2f78d5d6e9f585c34-q-500x500.jpeg", Poytaxt FM 107.2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://iptv.itv.uz/hls/live/t/lHoIUwLMwCda5Oj9yEz8qQ/e/1776073576/2022/index.m3u8?ip=13.83.166.241
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 API (24 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/29//0037cd43fd5dcbe388e783bd9e4f67f4-q-500x500.jpeg", Iqbol FM 107.5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://iptv.itv.uz/hls/live/t/nsALtWY_hfvso7p9Kcguvw/e/1776073576/2023/index.m3u8?ip=13.83.166.241

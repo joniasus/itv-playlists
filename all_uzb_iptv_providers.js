@@ -218,8 +218,8 @@ function parseSourceM3U(text) {
     if (!line.includes(TARGET_GROUP)) continue;
 
     const extinf = line
-      .trim()
-      .replace(/group-title=""/g, `group-title="${ITV_GROUP_BASE}"`);
+      .trim();
+
 
     let url = '';
     let lastJ = i;

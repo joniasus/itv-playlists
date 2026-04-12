@@ -1,0 +1,198 @@
+
+#EXTM3U
+# ===== SPORT =====
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Sport UZ HD
+http://213.230.65.254:8200/play/a00q
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Futbol TV HD
+http://213.230.65.254:8200/play/a00x
+
+# ===== UZBEK KANALLAR =====
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",ZO'R TV HD
+http://213.230.65.254:8200/play/a014
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Sevimli TV HD
+http://213.230.65.254:8200/play/a012
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Mening Yurtim HD
+http://213.230.65.254:8200/play/a010
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Milliy TV HD
+http://213.230.65.254:8200/play/a017
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Makon TV HD
+http://213.230.65.254:8200/play/a00m
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Uzreport HD
+http://213.230.65.254:8200/play/a013
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Kinoteatr HD
+http://213.230.65.254:8200/play/a00y
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",ITV cinema HD
+http://213.230.65.254:8200/play/a008
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Biz Cinema HD
+http://213.230.65.254:8200/play/a005
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",BIZ TV HD
+http://213.230.65.254:8200/play/a003
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Biz Music HD
+http://213.230.65.254:8200/play/a004
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",TTV musiqa HD
+http://213.230.65.254:8200/play/a006
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",S Music HD
+http://213.230.65.254:8200/play/a00l
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Navo
+http://213.230.65.254:8200/play/a015
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Dunyo Boylab HD
+http://213.230.65.254:8200/play/a00w
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",DasturxonTV HD
+http://213.230.65.254:8200/play/a001
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",My Day HD
+http://213.230.65.254:8200/play/a007
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",FTV HD
+http://213.230.65.254:8200/play/a00j
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Shifo TV HD
+http://213.230.65.254:8200/play/a00k
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",O'zbekiston 24 HD
+http://213.230.65.254:8200/play/a00o
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",O'zbekiston Tarixi HD
+http://213.230.65.254:8200/play/a00p
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Toshkent
+http://213.230.65.254:8200/play/a00r
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Uzbekiston
+http://213.230.65.254:8200/play/a00s
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Yoshlar
+http://213.230.65.254:8200/play/a00t
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",AQLVOY
+http://213.230.65.254:8200/play/a00u
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Bolajon
+http://213.230.65.254:8200/play/a00v
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Madaniyat va Marifat
+http://213.230.65.254:8200/play/a00z
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Renessans TV HD
+http://213.230.65.254:8200/play/a011
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Nurafshon TV HD
+http://213.230.65.254:8200/play/a016
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",LUX TV HD
+http://213.230.65.254:8200/play/a018
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Mahalla
+http://213.230.65.254:8200/play/a019
+
+# ===== KINO =====
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Киносвидание HD
+http://213.230.65.254:8200/play/a00c
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",МУЖСКОЕ КИНО HD
+http://213.230.65.254:8200/play/a00e
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Наше новое кино HD
+http://213.230.65.254:8200/play/a00g
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Дом кино
+http://213.230.65.254:8200/play/a01f
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",ТВ3
+http://213.230.65.254:8200/play/a01h
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Hollywood HD
+http://213.230.65.254:8200/play/a02j
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",TV1000 Action HD
+http://213.230.65.254:8200/play/a02k
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",TV1000 Русское кино
+http://213.230.65.254:8200/play/a02l
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Vip Megahit HD
+http://213.230.65.254:8200/play/a02m
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Кинокомедия HD
+http://213.230.65.254:8200/play/a02n
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Киносемья HD
+http://213.230.65.254:8200/play/a02o
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Киносерия HD
+http://213.230.65.254:8200/play/a02p
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Кинохит HD
+http://213.230.65.254:8200/play/a02q
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",TV1000 HD
+http://213.230.65.254:8200/play/a02r
+# ===== QOLGANLARI =====
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Звезда
+http://213.230.65.254:8200/play/a01a
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Россия 1
+http://213.230.65.254:8200/play/a01b
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Россия 24
+http://213.230.65.254:8200/play/a01c
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Первый канал
+http://213.230.65.254:8200/play/a01d
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",НТВ
+http://213.230.65.254:8200/play/a01e
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Домашний
+http://213.230.65.254:8200/play/a01g
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Россия К
+http://213.230.65.254:8200/play/a020
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",ТНВ-Планета
+http://213.230.65.254:8200/play/a02i
+
+# -- DOC / NATURE --
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Animal Planet HD
+http://213.230.65.254:8200/play/a01i
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Discovery Channel HD
+http://213.230.65.254:8200/play/a01j
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Viasat Explore HD
+http://213.230.65.254:8200/play/a01k
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Viasat History HD
+http://213.230.65.254:8200/play/a01l
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Живая Планета
+http://213.230.65.254:8200/play/a01n
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Живая Природа HD
+http://213.230.65.254:8200/play/a01o
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",National Geographic HD
+http://213.230.65.254:8200/play/a01q
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Nat Geo Wild HD
+http://213.230.65.254:8200/play/a01r
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Animal Planet
+http://213.230.65.254:8200/play/a021
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Discovery Channel
+http://213.230.65.254:8200/play/a022
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",История
+http://213.230.65.254:8200/play/a023
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",365 Дней ТВ
+http://213.230.65.254:8200/play/a024
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Ocean TV
+http://213.230.65.254:8200/play/a027
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Тайны Галактики HD
+http://213.230.65.254:8200/play/a028
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Наука HD
+http://213.230.65.254:8200/play/a029
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Моя планета HD
+http://213.230.65.254:8200/play/a02f
+
+# -- HOBBY / LIFE --
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Кухня ТВ
+http://213.230.65.254:8200/play/a01s
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Зоопарк
+http://213.230.65.254:8200/play/a01t
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Уникум HD
+http://213.230.65.254:8200/play/a01u
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Авто Плюс
+http://213.230.65.254:8200/play/a01v
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Техно 24
+http://213.230.65.254:8200/play/a01w
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Viasat Explore
+http://213.230.65.254:8200/play/a01x
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Viasat History
+http://213.230.65.254:8200/play/a01y
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Viasat Nature
+http://213.230.65.254:8200/play/a01z
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Авто 24
+http://213.230.65.254:8200/play/a01m
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Живи активно HD
+http://213.230.65.254:8200/play/a01p
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Охота и Рыбалка
+http://213.230.65.254:8200/play/a025
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Бобёр
+http://213.230.65.254:8200/play/a02a
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Дикая охота HD
+http://213.230.65.254:8200/play/a02b
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Дикая рыбалка HD
+http://213.230.65.254:8200/play/a02c
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Доктор HD
+http://213.230.65.254:8200/play/a02d
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Загородная жизнь
+http://213.230.65.254:8200/play/a02e
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Наша Тема
+http://213.230.65.254:8200/play/a02g
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Телекафе
+http://213.230.65.254:8200/play/a02h
+
+# -- KIDS --
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",MiMi TV HD
+http://213.230.65.254:8200/play/a00n
+
+# -- MUSIC --
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Muz TV AZ
+http://213.230.65.254:8200/play/a002

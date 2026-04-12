@@ -5,6 +5,9 @@ const SOURCE_URL = 'https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/F
 const TARGET_GROUP = 'group-title="Itv.uz (🇺🇿)"';
 
 const OUTPUT_FILE = 'iTV_UZ.m3u8';
+const SOURCE_OUTPUT_FILE = 'iTV_UZ_SOURCE.m3u8';
+const API_OUTPUT_FILE = 'iTV_UZ_API.m3u8';
+
 const ITV_GROUP_BASE = 'iTV UZ 🇺🇿';
 
 const ALLOWED_IDS = "1286,1014,1012,1004,1010,1009,4000,4001,1015,1209,1011,1006,1496,1285,1497,1204,4007,4008,1494,1486,1488,1001,1002,1003,1005,1007,1008,1013,1016,1019,1020,1024,1025,1048,1050,1053,1056,1205,1206,1210,1212,1213,1214,1216,1217,1220,1221,1251,1253,1259,1265,1282,1283,1284,1290,1291,1408,1457,1458,1459,1460,1461,1462,1463,1464,1465,1466,1467,1468,1469,1470,1472,1485,1489,1490,1491,1492,1495,1499,4012,1211,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023";
@@ -277,6 +280,21 @@ async function buildApiEntries() {
   return map;
 }
 
+function orderEntriesFromMap(map) {
+  const ordered = [];
+  const missing = [];
+
+  for (const streamId of ALLOWED_ID_LIST) {
+    if (map.has(streamId)) {
+      ordered.push(map.get(streamId));
+    } else {
+      missing.push(streamId);
+    }
+  }
+
+  return { ordered, missing };
+}
+
 function mergeAndOrder(sourceMap, apiMap) {
   const ordered = [];
   const missing = [];
@@ -324,32 +342,57 @@ async function main() {
   console.log('3) iTV API фақат API_SCAN_IDS бўйича текшириляпти...');
   const apiMap = await buildApiEntries();
 
-  console.log('4) Source биринчи, API резерв қилиб бирлаштириляпти...');
+  console.log('4) SOURCE файл тайёрланяпти...');
+  const { ordered: sourceOrdered, missing: sourceMissing } = orderEntriesFromMap(sourceMap);
+  applyGroupTitleCount(sourceOrdered, `${ITV_GROUP_BASE} SOURCE`);
+  fs.writeFileSync(SOURCE_OUTPUT_FILE, buildM3U(sourceOrdered), 'utf8');
+
+  console.log('5) API файл тайёрланяпти...');
+  const { ordered: apiOrdered, missing: apiMissing } = orderEntriesFromMap(apiMap);
+  applyGroupTitleCount(apiOrdered, `${ITV_GROUP_BASE} API`);
+  fs.writeFileSync(API_OUTPUT_FILE, buildM3U(apiOrdered), 'utf8');
+
+  console.log('6) Source биринчи, API резерв қилиб бирлаштириляпти...');
   const { ordered, missing, sourceIds, apiIds } = mergeAndOrder(sourceMap, apiMap);
 
   applyGroupTitleCount(ordered, ITV_GROUP_BASE);
 
-  console.log('5) iTV_UZ.m3u8 тайёрланяпти...');
-  const m3uText = buildM3U(ordered);
+  console.log('7) MERGED файл тайёрланяпти...');
+  fs.writeFileSync(OUTPUT_FILE, buildM3U(ordered), 'utf8');
 
-  fs.writeFileSync(OUTPUT_FILE, m3uText, 'utf8');
+  console.log(`MERGED файл: ${OUTPUT_FILE}`);
+  console.log(`SOURCE файл: ${SOURCE_OUTPUT_FILE}`);
+  console.log(`API файл: ${API_OUTPUT_FILE}`);
 
-  console.log(`Якуний файл: ${OUTPUT_FILE}`);
   console.log(`ALLOWED IDS: ${ALLOWED_ID_LIST.length} та`);
   console.log(`API SCAN IDS: ${API_SCAN_ID_LIST.length} та`);
   console.log(`SOURCE topilgan: ${sourceMap.size} та`);
   console.log(`API topilgan: ${apiMap.size} та`);
-  console.log(`FINAL iTV: ${ordered.length} та`);
-  console.log(`SOURCE дан олинган: ${sourceIds.length} та`);
-  console.log(`API дан олинган: ${apiIds.length} та`);
+  console.log(`FINAL MERGED: ${ordered.length} та`);
+
+  console.log(`SOURCE файлга ёзилган: ${sourceOrdered.length} та`);
+  console.log(`API файлга ёзилган: ${apiOrdered.length} та`);
+
+  console.log(`MERGED SOURCE дан олинган: ${sourceIds.length} та`);
+  console.log(`MERGED API дан олинган: ${apiIds.length} та`);
+
+  if (sourceMissing.length > 0) {
+    console.log(`SOURCE да йўқ stream ID: ${sourceMissing.length} та`);
+    console.log(sourceMissing.join(','));
+  }
+
+  if (apiMissing.length > 0) {
+    console.log(`API да йўқ stream ID: ${apiMissing.length} та`);
+    console.log(apiMissing.join(','));
+  }
 
   if (apiIds.length > 0) {
-    console.log('API орқали тўлдирилган stream IDлар:');
+    console.log('MERGED да API орқали тўлдирилган stream IDлар:');
     console.log(apiIds.join(','));
   }
 
   if (missing.length > 0) {
-    console.log(`TOPILMAGAN stream ID: ${missing.length} та`);
+    console.log(`Умумий топилмаган stream ID: ${missing.length} та`);
     console.log(missing.join(','));
   } else {
     console.log('Барча ALLOWED_IDS топилди');

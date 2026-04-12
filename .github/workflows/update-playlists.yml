@@ -7,7 +7,6 @@ on:
       - main
     paths:
       - 'itv_uz.js'
-      - 'all_uzb_iptv_providers.js'
       - '.github/workflows/update-playlists.yml'
   schedule:
     - cron: '*/15 * * * *'

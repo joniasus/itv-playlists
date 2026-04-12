@@ -28,7 +28,7 @@ const USER_AGENT =
 
 const REQUEST_TIMEOUT_MS = 12000;
 const MAX_REDIRECTS = 5;
-const API_CONCURRENCY = 12;
+const API_CONCURRENCY = 4;
 
 function parsePriorityList(raw) {
   return String(raw)

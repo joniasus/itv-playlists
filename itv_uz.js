@@ -7,30 +7,31 @@ const TARGET_GROUP = 'group-title="Itv.uz (🇺🇿)"';
 const OUTPUT_FILE = 'iTV_UZ.m3u8';
 const ITV_GROUP_BASE = 'iTV UZ 🇺🇿';
 
-const API_START_ID = 1;
-const API_END_ID = 300;
+const ALLOWED_IDS = "1286,1014,1012,1004,1010,1009,4000,4001,1015,1209,1011,1006,1496,1285,1497,1204,4007,4008,1494,1486,1488,1001,1002,1003,1005,1007,1008,1013,1016,1019,1020,1024,1025,1048,1050,1053,1056,1205,1206,1210,1212,1213,1214,1216,1217,1220,1221,1251,1253,1259,1265,1282,1283,1284,1290,1291,1408,1457,1458,1459,1460,1461,1462,1463,1464,1465,1466,1467,1468,1469,1470,1472,1485,1489,1490,1491,1492,1495,1499,4012,1211,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023";
 
-const PRIORITY_STREAMS_RAW =
-  '1286,1014,1012,1004,1010,1009,4000,4001,1015,1209,1011,1006,1496,1285,1497,1204,4007,4008,1494,1486,1488';
+const API_SCAN_IDS = "1,3,4,5,6,7,8,9,10,11,12,13,14,17,18,20,22,23,28,30,32,35,37,38,52,56,61,75,77,78,79,81,83,84,96,105,112,121,129,130,132,133,135,137,138,139,142,143,144,148,150,156,175,218,220,231,234,235,244,245,246,247,248,249,250,251,252,253,254,255,257,258,259,262,266,267,268,269,270,271,272,273,275,276,277,278,279,280,281,282,283,287,290,292,293";
 
 const USER_AGENT =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
 
 const REQUEST_TIMEOUT_MS = 12000;
 const MAX_REDIRECTS = 5;
-const API_CONCURRENCY = 12;
 
-function parsePriorityList(raw) {
-  return String(raw)
+function parseIds(raw) {
+  const arr = String(raw)
     .split(',')
     .map((x) => x.trim())
     .filter(Boolean)
     .map((x) => parseInt(x, 10))
     .filter((x) => Number.isFinite(x));
+
+  return Array.from(new Set(arr));
 }
 
-const PRIORITY_STREAMS = parsePriorityList(PRIORITY_STREAMS_RAW);
-const PRIORITY_INDEX = new Map(PRIORITY_STREAMS.map((num, idx) => [num, idx]));
+const ALLOWED_ID_LIST = parseIds(ALLOWED_IDS);
+const ALLOWED_ID_SET = new Set(ALLOWED_ID_LIST);
+
+const API_SCAN_ID_LIST = parseIds(API_SCAN_IDS);
 
 function escapeAttr(value) {
   return String(value ?? '')
@@ -127,26 +128,15 @@ function extractStreamNumber(url) {
   return parseInt(m[1], 10);
 }
 
-function getPriorityIndex(streamNumber) {
-  return PRIORITY_INDEX.has(streamNumber)
-    ? PRIORITY_INDEX.get(streamNumber)
-    : Number.MAX_SAFE_INTEGER;
-}
-
 function getNameFromExtinf(extinfLine) {
   const idx = String(extinfLine).lastIndexOf(',');
   if (idx === -1) return cleanText(extinfLine);
   return cleanText(extinfLine.slice(idx + 1));
 }
 
-function isRadioLike(title, description = '') {
-  const text = `${cleanText(title)} ${cleanText(description)}`;
-  return /\bFM\b|radio|радио/i.test(text);
-}
-
 function replaceOrInsertGroupTitle(extinfLine, newGroupTitle) {
   const safeTitle = escapeAttr(newGroupTitle);
-  let line = String(extinfLine).trim();
+  const line = String(extinfLine).trim();
 
   if (/group-title="[^"]*"/i.test(line)) {
     return line.replace(/group-title="[^"]*"/ig, `group-title="${safeTitle}"`);
@@ -155,9 +145,8 @@ function replaceOrInsertGroupTitle(extinfLine, newGroupTitle) {
   return line.replace(/^#EXTINF:-1\b/i, `#EXTINF:-1 group-title="${safeTitle}"`);
 }
 
-function applyGroupTitleCountToExtinfEntries(entries, baseTitle) {
-  const count = entries.length;
-  const titled = `${baseTitle} (${count} ta)`;
+function applyGroupTitleCount(entries, baseTitle) {
+  const titled = `${baseTitle} (${entries.length} ta)`;
 
   for (const entry of entries) {
     entry.extinf = replaceOrInsertGroupTitle(entry.extinf, titled);
@@ -168,7 +157,7 @@ function applyGroupTitleCountToExtinfEntries(entries, baseTitle) {
 
 function parseSourceM3U(text) {
   const lines = String(text).split(/\r?\n/);
-  const entries = [];
+  const map = new Map();
 
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
@@ -205,23 +194,27 @@ function parseSourceM3U(text) {
       continue;
     }
 
-    const title = getNameFromExtinf(extinf);
     const streamNumber = extractStreamNumber(url);
 
-    entries.push({
-      sourceType: 'source',
-      title,
-      extinf,
-      url,
-      streamNumber,
-      priorityIndex: getPriorityIndex(streamNumber),
-      isRadio: isRadioLike(title, '')
-    });
+    if (!ALLOWED_ID_SET.has(streamNumber)) {
+      i = lastJ;
+      continue;
+    }
+
+    if (!map.has(streamNumber)) {
+      map.set(streamNumber, {
+        sourceType: 'source',
+        title: getNameFromExtinf(extinf),
+        extinf,
+        url,
+        streamNumber
+      });
+    }
 
     i = lastJ;
   }
 
-  return entries;
+  return map;
 }
 
 async function fetchApiChannel(channelId) {
@@ -239,7 +232,6 @@ async function fetchApiChannel(channelId) {
     const files = data.files || {};
 
     const title = cleanText(data.channelTitle);
-    const description = cleanText(data.channelDescription);
     const posterUrl = cleanText(files.posterUrl);
     const streamUrl = cleanText(files.streamUrl);
     const streamNumber = extractStreamNumber(streamUrl);
@@ -248,15 +240,16 @@ async function fetchApiChannel(channelId) {
       return null;
     }
 
+    if (!ALLOWED_ID_SET.has(streamNumber)) {
+      return null;
+    }
+
     return {
       sourceType: 'api',
       channelId,
       title,
-      posterUrl,
       url: streamUrl,
       streamNumber,
-      priorityIndex: getPriorityIndex(streamNumber),
-      isRadio: isRadioLike(title, description),
       extinf:
         `#EXTINF:-1 group-title="${ITV_GROUP_BASE}"` +
         (posterUrl ? ` tvg-logo="${escapeAttr(posterUrl)}"` : '') +
@@ -267,108 +260,46 @@ async function fetchApiChannel(channelId) {
   }
 }
 
-async function runParallel(items, worker, limit) {
-  let index = 0;
-
-  async function runner() {
-    while (true) {
-      const current = index++;
-      if (current >= items.length) return;
-      await worker(items[current], current);
-    }
-  }
-
-  const workers = [];
-  const count = Math.min(limit, items.length);
-
-  for (let i = 0; i < count; i++) {
-    workers.push(runner());
-  }
-
-  await Promise.all(workers);
-}
-
 async function buildApiEntries() {
-  const ids = [];
-  for (let i = API_START_ID; i <= API_END_ID; i++) {
-    ids.push(i);
+  const map = new Map();
+
+  for (let idx = 0; idx < API_SCAN_ID_LIST.length; idx++) {
+    const channelId = API_SCAN_ID_LIST[idx];
+    const item = await fetchApiChannel(channelId);
+
+    if (item && !map.has(item.streamNumber)) {
+      map.set(item.streamNumber, item);
+    }
+
+    console.log(`API текширилди: ${idx + 1}/${API_SCAN_ID_LIST.length}`);
   }
 
-  const streamMap = new Map();
-
-  await runParallel(
-    ids,
-    async (channelId, idx) => {
-      const item = await fetchApiChannel(channelId);
-
-      if (item && !streamMap.has(item.streamNumber)) {
-        streamMap.set(item.streamNumber, item);
-      }
-
-      if ((idx + 1) % 25 === 0 || idx === ids.length - 1) {
-        console.log(`API текширилди: ${idx + 1}/${ids.length}`);
-      }
-    },
-    API_CONCURRENCY
-  );
-
-  return Array.from(streamMap.values());
+  return map;
 }
 
-function mergeEntries(sourceEntries, apiEntries) {
-  const sourceStreamSet = new Set();
-  const merged = [];
+function mergeAndOrder(sourceMap, apiMap) {
+  const ordered = [];
+  const missing = [];
+  const sourceIds = [];
+  const apiIds = [];
 
-  for (const entry of sourceEntries) {
-    merged.push(entry);
-
-    if (
-      Number.isFinite(entry.streamNumber) &&
-      entry.streamNumber !== Number.MAX_SAFE_INTEGER
-    ) {
-      sourceStreamSet.add(entry.streamNumber);
-    }
-  }
-
-  for (const entry of apiEntries) {
-    if (sourceStreamSet.has(entry.streamNumber)) {
+  for (const streamId of ALLOWED_ID_LIST) {
+    if (sourceMap.has(streamId)) {
+      ordered.push(sourceMap.get(streamId));
+      sourceIds.push(streamId);
       continue;
     }
 
-    merged.push(entry);
+    if (apiMap.has(streamId)) {
+      ordered.push(apiMap.get(streamId));
+      apiIds.push(streamId);
+      continue;
+    }
+
+    missing.push(streamId);
   }
 
-  return merged;
-}
-
-function sortEntries(entries) {
-  entries.sort((a, b) => {
-    if (a.isRadio !== b.isRadio) {
-      return a.isRadio ? 1 : -1;
-    }
-
-    if (a.priorityIndex !== b.priorityIndex) {
-      return a.priorityIndex - b.priorityIndex;
-    }
-
-    const aInPriority = a.priorityIndex !== Number.MAX_SAFE_INTEGER;
-    const bInPriority = b.priorityIndex !== Number.MAX_SAFE_INTEGER;
-
-    if (aInPriority && bInPriority) {
-      return 0;
-    }
-
-    if (a.streamNumber !== b.streamNumber) {
-      return a.streamNumber - b.streamNumber;
-    }
-
-    return a.title.localeCompare(b.title, ['uz', 'ru', 'en'], {
-      sensitivity: 'base',
-      numeric: true
-    });
-  });
-
-  return entries;
+  return { ordered, missing, sourceIds, apiIds };
 }
 
 function buildM3U(entries) {
@@ -387,28 +318,42 @@ async function main() {
   console.log('1) iTV source юкланяпти...');
   const sourceText = await downloadText(SOURCE_URL);
 
-  console.log('2) iTV source фильтрланяпти...');
-  const sourceEntries = parseSourceM3U(sourceText);
+  console.log('2) Source дан TARGET_GROUP + ALLOWED_IDS фильтрланяпти...');
+  const sourceMap = parseSourceM3U(sourceText);
 
-  console.log('3) iTV API channelId=1..300 текшириляпти...');
-  const apiEntries = await buildApiEntries();
+  console.log('3) iTV API фақат API_SCAN_IDS бўйича текшириляпти...');
+  const apiMap = await buildApiEntries();
 
-  console.log('4) iTV source + API бирлаштириляпти...');
-  const mergedItv = mergeEntries(sourceEntries, apiEntries);
+  console.log('4) Source биринчи, API резерв қилиб бирлаштириляпти...');
+  const { ordered, missing, sourceIds, apiIds } = mergeAndOrder(sourceMap, apiMap);
 
-  console.log('5) iTV умумий тартибланяпти...');
-  sortEntries(mergedItv);
-  applyGroupTitleCountToExtinfEntries(mergedItv, ITV_GROUP_BASE);
+  applyGroupTitleCount(ordered, ITV_GROUP_BASE);
 
-  console.log('6) iTV_UZ.m3u8 тайёрланяпти...');
-  const m3uText = buildM3U(mergedItv);
+  console.log('5) iTV_UZ.m3u8 тайёрланяпти...');
+  const m3uText = buildM3U(ordered);
 
   fs.writeFileSync(OUTPUT_FILE, m3uText, 'utf8');
 
   console.log(`Якуний файл: ${OUTPUT_FILE}`);
-  console.log(`SOURCE: ${sourceEntries.length} та`);
-  console.log(`API: ${apiEntries.length} та`);
-  console.log(`MERGED iTV: ${mergedItv.length} та`);
+  console.log(`ALLOWED IDS: ${ALLOWED_ID_LIST.length} та`);
+  console.log(`API SCAN IDS: ${API_SCAN_ID_LIST.length} та`);
+  console.log(`SOURCE topilgan: ${sourceMap.size} та`);
+  console.log(`API topilgan: ${apiMap.size} та`);
+  console.log(`FINAL iTV: ${ordered.length} та`);
+  console.log(`SOURCE дан олинган: ${sourceIds.length} та`);
+  console.log(`API дан олинган: ${apiIds.length} та`);
+
+  if (apiIds.length > 0) {
+    console.log('API орқали тўлдирилган stream IDлар:');
+    console.log(apiIds.join(','));
+  }
+
+  if (missing.length > 0) {
+    console.log(`TOPILMAGAN stream ID: ${missing.length} та`);
+    console.log(missing.join(','));
+  } else {
+    console.log('Барча ALLOWED_IDS топилди');
+  }
 }
 
 main().catch((err) => {

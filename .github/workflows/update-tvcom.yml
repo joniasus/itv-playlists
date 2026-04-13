@@ -3,7 +3,7 @@ name: Update tvcom_uz.js and all_uzb_iptv_providers.js
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 */5 * * *'
+    - cron: '37 02 */2 * *'
       timezone: 'Asia/Tashkent'
 
 permissions:

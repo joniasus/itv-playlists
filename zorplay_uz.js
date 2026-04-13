@@ -5,7 +5,6 @@ const readline = require("readline");
 const OUTPUT_JSON = "zorplay_uz.json";
 const OUTPUT_M3U = "zorplay_uz.m3u8";
 
-
 const API_BASE = "https://api-web-zorplay.platform24.tv/v2/channels";
 
 const ACCESS_TOKEN = "cb3585d4aa78502f902b4ae036177ebb5eb7e0c3";
@@ -335,7 +334,14 @@ async function main() {
     uniqueResults.push(item);
   }
 
-  fs.writeFileSync("zorplay_uz.m3u8", text, "utf8");
+  // JSON yozish
+  fs.writeFileSync(
+    OUTPUT_JSON,
+    JSON.stringify(uniqueResults, null, 2),
+    "utf8"
+  );
+
+  // M3U yasash
   const m3uLines = ["#EXTM3U"];
 
   for (const item of uniqueResults) {
@@ -354,7 +360,8 @@ async function main() {
     m3uLines.push(item.hls);
   }
 
- fs.writeFileSync("zorplay_uz.m3u8", text, "utf8");
+  const m3uText = m3uLines.join("\n") + "\n";
+  fs.writeFileSync(OUTPUT_M3U, m3uText, "utf8");
 
   console.log("");
   console.log("Done");

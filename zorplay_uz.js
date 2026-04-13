@@ -22,9 +22,17 @@ function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+function isGithubActions() {
+  return process.env.GITHUB_ACTIONS === "true";
+}
+
+function shouldWaitForEnter() {
+  return !isGithubActions() && process.stdin.isTTY && process.stdout.isTTY;
+}
+
 function waitForEnter() {
   return new Promise((resolve) => {
-    if (!process.stdin.isTTY || !process.stdout.isTTY) {
+    if (!shouldWaitForEnter()) {
       resolve();
       return;
     }
@@ -334,14 +342,12 @@ async function main() {
     uniqueResults.push(item);
   }
 
-  // JSON yozish
   fs.writeFileSync(
     OUTPUT_JSON,
     JSON.stringify(uniqueResults, null, 2),
     "utf8"
   );
 
-  // M3U yasash
   const m3uLines = ["#EXTM3U"];
 
   for (const item of uniqueResults) {
@@ -372,12 +378,12 @@ async function main() {
   console.log(`Unique  : ${uniqueResults.length}`);
   console.log(`JSON    : ${OUTPUT_JSON}`);
   console.log(`M3U     : ${OUTPUT_M3U}`);
-
-  await waitForEnter();
 }
 
-main().catch(async (err) => {
-  console.error("Fatal:", err.message);
-  await waitForEnter();
-  process.exit(1);
-});
+main()
+  .then(waitForEnter)
+  .catch(async (err) => {
+    console.error("Fatal:", err.message);
+    await waitForEnter();
+    process.exit(1);
+  });

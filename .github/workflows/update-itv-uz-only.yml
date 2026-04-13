@@ -78,7 +78,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Run your playlist update script
+      - name: Run your itv playlist update script
         run: node itv_uz.js
 
       - name: Save last seen update date

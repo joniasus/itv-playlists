@@ -78,8 +78,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Run your itv playlist update script
+      - name: Build itv_uz.m3u8
         run: node itv_uz.js
+
+      - name: Build merged all_uzb_iptv_providers.m3u8
+        run: node all_uzb_iptv_providers.js
 
       - name: Save last seen update date
         shell: bash

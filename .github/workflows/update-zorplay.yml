@@ -1,4 +1,4 @@
-name: Update zorplay_uz.js and all_uzb_iptv_providers.js 
+name: Update zorplay_uz.js and all_uzb_iptv_providers.js
 
 on:
   workflow_dispatch:
@@ -10,18 +10,16 @@ permissions:
   contents: write
 
 concurrency:
-  group: update-zorplay-${{ github.ref }}
+  group: update-playlists-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
-  update-zorplay:
+  update:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
-        with:
-          fetch-depth: 0
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
         uses: actions/setup-node@v6
@@ -35,6 +33,7 @@ jobs:
         run: node all_uzb_iptv_providers.js
 
       - name: Commit and push if changed
+        shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -46,6 +45,21 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Auto-update zorplay and merged playlists"
-          git pull --rebase origin main
-          git push origin HEAD:main
+          git commit -m "Auto-update playlists"
+
+          for i in 1 2 3 4 5; do
+            echo "Push attempt $i/5"
+            git rebase --abort || true
+
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              echo "Push succeeded"
+              exit 0
+            fi
+
+            if [ "$i" -eq 5 ]; then
+              echo "Push failed after 5 attempts"
+              exit 1
+            fi
+
+            sleep $((i * 15))
+          done

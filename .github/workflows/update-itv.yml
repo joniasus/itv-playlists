@@ -1,4 +1,4 @@
-gename: Update itv_uz.js and all_uzb_iptv_providers.js 
+name: Update itv_uz.js and all_uzb_iptv_providers.js 
 
 on:
   schedule:

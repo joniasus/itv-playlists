@@ -1285,315 +1285,249 @@ http://213.230.65.254:8200/play/a02h
 http://213.230.65.254:8200/play/a00n
 #EXTINF:-1 group-title="TelecomTV UZ 🇺🇿 (91 ta)",Muz TV AZ
 http://213.230.65.254:8200/play/a002
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2025/02/10//0468ff22219c4d1b9cb00666ba2b2e60-q-500x500.jpeg", ZO'R TV FHD
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2025/02/10//0468ff22219c4d1b9cb00666ba2b2e60-q-500x500.jpeg", ZO'R TV FHD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/zr3iFQgsEinOmoK04pFSPA/e/1776106267/1286/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2023/06/02//fa77872772e7f7406369bd0fe4e48e47-q-500x500.jpeg", Milliy TV HD
+https://iptv.itv.uz/hls/live/t/BZOoFQCpJlTCa1-7xS3HRg/e/1776157539/1286/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2023/06/02//fa77872772e7f7406369bd0fe4e48e47-q-500x500.jpeg", Milliy TV HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/8JbFyp3Fp0ZX1At56ajUtA/e/1776106268/1014/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2021/11/03//5a52a0580d30e504a5dbf424962bed82-q-500x500.jpeg", MY5 HD
+https://iptv.itv.uz/hls/live/t/3hpL4o7e6xS78iF89LDc8A/e/1776157540/1014/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2021/11/03//5a52a0580d30e504a5dbf424962bed82-q-500x500.jpeg", MY5 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/9FF810wFQCs7L34mTtQcqw/e/1776106270/1012/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/06/17//f79dce2ae2bd9ef84b6888f226fbb293-q-500x500.jpeg", Sport UZ HD
+https://iptv.itv.uz/hls/live/t/GQuODSSaxbBQH0vOW_W_Ag/e/1776157542/1012/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/06/17//f79dce2ae2bd9ef84b6888f226fbb293-q-500x500.jpeg", Sport UZ HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/-5OfAyeXPZYTHW2HCTpoOQ/e/1776106262/1004/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2025/01/07//20d9335019d646e341e84482f3b5679b-q-500x500.jpeg", Futbol TV
+https://iptv.itv.uz/hls/live/t/pXMcN2WMrk-A3Kfv-bmcVQ/e/1776157534/1004/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2025/01/07//20d9335019d646e341e84482f3b5679b-q-500x500.jpeg", Futbol TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/nRyF_bnpcfSp1v7_J_N_ew/e/1776106263/1010/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/06/17//d2e38ec0058f9c217b4c77c88f81404e-q-500x500.jpeg", Kinoteatr HD
+https://iptv.itv.uz/hls/live/t/icGGaBAVXOKs5EI-hnhyaQ/e/1776157535/1010/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/06/17//d2e38ec0058f9c217b4c77c88f81404e-q-500x500.jpeg", Kinoteatr HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/Vmr4b6CEVTkkRvl5D9jlQQ/e/1776106277/1009/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2025/05/01//7c8b25dfefb8655b74b5927ca5858adf-q-500x500.jpeg", iTV Cinema
+https://iptv.itv.uz/hls/live/t/0rCr1MyTnfMYGtCQVikZ9A/e/1776157548/1009/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2025/05/01//7c8b25dfefb8655b74b5927ca5858adf-q-500x500.jpeg", iTV Cinema
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/rvy3kA2R_kXzYB2wTp8p_Q/e/1776106257/4000/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2025/05/01//ac76145a39e0a0e5086a5fc7d1651999-q-500x500.jpeg", iTV Music
+https://iptv.itv.uz/hls/live/t/QWPh8nKDAE477Jz63ANq2A/e/1776157530/4000/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2025/05/01//ac76145a39e0a0e5086a5fc7d1651999-q-500x500.jpeg", iTV Music
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/SRElU7miWacR7AB-qy7TYA/e/1776106258/4001/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/06/17//6f5be573ae591540e132f03c6dd242a5-q-500x500.jpeg", Uzreport HD
+https://iptv.itv.uz/hls/live/t/oyB4Bqz7CyA4Tp-wIZ0BDw/e/1776157531/4001/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/06/17//6f5be573ae591540e132f03c6dd242a5-q-500x500.jpeg", Uzreport HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/f_mqhk6OgqGFIdWsmNQ7Xw/e/1776106279/1015/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/06/17//58b2e970ecde5f03f461b8fe59550fac-q-500x500.jpeg", O'zbekiston tarixi FHD
+https://iptv.itv.uz/hls/live/t/jfmlqtVxE7IKQHAjmJHLxQ/e/1776157550/1015/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/06/17//58b2e970ecde5f03f461b8fe59550fac-q-500x500.jpeg", O'zbekiston tarixi FHD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/7LlRpr6IiYcVj3wq2899-g/e/1776106277/1209/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/06/17//4091c27ad1899f00d8f900e4a1243611-q-500x500.jpeg", O'zbekiston 24 HD
+https://iptv.itv.uz/hls/live/t/w7GxrGa4c0l15L_NAVwh-Q/e/1776157549/1209/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/06/17//4091c27ad1899f00d8f900e4a1243611-q-500x500.jpeg", O'zbekiston 24 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/ljlbqYPl08hLDl_5OL4LEg/e/1776106263/1011/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/06/17//622d1ccb45505a6a0c4a5b231a1664eb-q-500x500.jpeg", Dunyo bo`ylab
+https://iptv.itv.uz/hls/live/t/jMqkjTsxg5jiOsdhT5tWlA/e/1776157536/1011/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/06/17//622d1ccb45505a6a0c4a5b231a1664eb-q-500x500.jpeg", Dunyo bo`ylab
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/dgA7eLa9naySfUzOUYZqcQ/e/1776106278/1006/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/16//486ab75fe90f29227f3d114adf7ff3e7-q-500x500.jpeg", 8TV
+https://iptv.itv.uz/hls/live/t/UNXx9CGdZpw2wh8WcSYP9w/e/1776157550/1006/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/16//486ab75fe90f29227f3d114adf7ff3e7-q-500x500.jpeg", 8TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/iBLUGrN2sZsI0GslaGR5zg/e/1776106299/1496/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/17//c32cb89a20def5498dac66a7a6923399-q-500x500.jpeg", Muloqot TV
+https://iptv.itv.uz/hls/live/t/9eZXpgYe6_kYrR2SyE44JA/e/1776157570/1496/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/17//c32cb89a20def5498dac66a7a6923399-q-500x500.jpeg", Muloqot TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/-lTk444FBTvh5mcTV9eAtA/e/1776106302/1285/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/12/18//e6505a1ed9a0e61a67aa3e7afeb52167-q-500x500.jpeg", MakonTV HD
+https://iptv.itv.uz/hls/live/t/W9lfJoYJZNvaAKVZlbcucA/e/1776157573/1285/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/12/18//e6505a1ed9a0e61a67aa3e7afeb52167-q-500x500.jpeg", MakonTV HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/2s5gxchHweP4Lq5orc5_FA/e/1776106303/1497/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/08/19//ae399dbe120262ce79931f6f22e84ba4-q-500x500.jpeg", Taraqqiyot TV
+https://iptv.itv.uz/hls/live/t/oEagqgDv9xjPtWekTlmmtQ/e/1776157574/1497/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/08/19//ae399dbe120262ce79931f6f22e84ba4-q-500x500.jpeg", Taraqqiyot TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/inVPmFmQ34hb7lCVrMt-Ew/e/1776106280/1204/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2023/06/02//d1498a17fd6850c0e7404e9487353cfc-q-500x500.jpeg", Gold Television
+https://iptv.itv.uz/hls/live/t/iz5ktnCnmke7m2q78dQTCg/e/1776157551/1204/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2023/06/02//d1498a17fd6850c0e7404e9487353cfc-q-500x500.jpeg", Gold Television
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/akoVtAWmfD-AkSMvrNIopA/e/1776106281/4007/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2022/03/31//01111699cb98bd366b6fd444ed741801-q-500x500.jpeg", Ruxsor TV
+https://iptv.itv.uz/hls/live/t/KLOAYN9fZwBJHRI-Hg_bCQ/e/1776157552/4007/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2022/03/31//01111699cb98bd366b6fd444ed741801-q-500x500.jpeg", Ruxsor TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/AKnNtmQQ1But2-xqJYralA/e/1776106281/4008/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/16//17af904b28e714551e8396fcc077e11a-q-500x500.jpeg", TTV
+https://iptv.itv.uz/hls/live/t/Fi49gYPH0IKsqwMZPeH0Ow/e/1776157552/4008/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/16//17af904b28e714551e8396fcc077e11a-q-500x500.jpeg", TTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/0a8tYchhkyWWq-6Q0iCE4w/e/1776106294/1494/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/18//9421425ce5dc3385aac7fd42c2273223-q-500x500.jpeg", TTV Kino
+https://iptv.itv.uz/hls/live/t/KhT1ljydVo9Bp-fPlnrYsg/e/1776157565/1494/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/18//9421425ce5dc3385aac7fd42c2273223-q-500x500.jpeg", TTV Kino
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/OBvqbhkGJgmWF8ZIJHB8XQ/e/1776106295/1486/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/15//75b4b090cb1f5663d7eb0373c1fb1a80-q-500x500.jpeg", Jizzax TV
+https://iptv.itv.uz/hls/live/t/yhvO6SmjyVv6Tk16yJ6wMQ/e/1776157566/1486/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/15//75b4b090cb1f5663d7eb0373c1fb1a80-q-500x500.jpeg", Jizzax TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/YecMSW2-PZ1PczUSFbHgqA/e/1776106297/1488/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/06/17//379d07323f571965a4dc44b456a14530-q-500x500.jpeg", Узбекистан
+https://iptv.itv.uz/hls/live/t/VHLEyJHYbZ1HHuvTrGfmpg/e/1776157567/1488/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/06/17//379d07323f571965a4dc44b456a14530-q-500x500.jpeg", Узбекистан
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/ZHXt5rGfkyfOPEgbnlK8dg/e/1776106260/1001/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2022/08/23//105c61567d1ca0420d2ff99256054af6-q-500x500.jpeg", Ёшлар
+https://iptv.itv.uz/hls/live/t/4_w2RF9V3kUFcrNMe2WVEg/e/1776157532/1001/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2022/08/23//105c61567d1ca0420d2ff99256054af6-q-500x500.jpeg", Ёшлар
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/1qY7zIxnksv5pEoqyTSuTw/e/1776106260/1002/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/06/17//96e9b1e79d2d9442b778115079e09d21-q-500x500.jpeg", Ташкент
+https://iptv.itv.uz/hls/live/t/9viOvAh3mHNc1ncSAeORFg/e/1776157533/1002/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/06/17//96e9b1e79d2d9442b778115079e09d21-q-500x500.jpeg", Ташкент
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/MusZZtFJb9kY_rNk5Fxy1w/e/1776106261/1003/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2023/05/31//95737b9a2b913a6fadf576f61933a635-q-500x500.jpeg", Madaniyat va Marifat
+https://iptv.itv.uz/hls/live/t/qjJioQgTZ0Z8hCyChKcs4g/e/1776157534/1003/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2023/05/31//95737b9a2b913a6fadf576f61933a635-q-500x500.jpeg", Madaniyat va Marifat
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/99DUVH32WuOOMCJs7Gjv1w/e/1776106275/1005/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/06/17//6184bdb718f893d4c4480ed8db4aeaa3-q-500x500.jpeg", Bolajon
+https://iptv.itv.uz/hls/live/t/8APAbmEBnkj7i9fsbvKc7Q/e/1776157547/1005/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/06/17//6184bdb718f893d4c4480ed8db4aeaa3-q-500x500.jpeg", Bolajon
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/QvQmvATtg72H8lgy51TOdg/e/1776106273/1007/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2022/08/23//2b3a36d6b5ad122598ce23f472f908ce-q-500x500.jpeg", Navo
+https://iptv.itv.uz/hls/live/t/mFQsqKRDUXOuM5v00UMZrw/e/1776157545/1007/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2022/08/23//2b3a36d6b5ad122598ce23f472f908ce-q-500x500.jpeg", Navo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/Lc5tuCqZRd4AYgtyk3GcUw/e/1776106274/1008/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2023/05/31//27e8188e91570f9ccf5c29121c183e6a-q-500x500.jpeg", Mahalla
+https://iptv.itv.uz/hls/live/t/ji9ajpj1wLBXjmAlzvMezQ/e/1776157546/1008/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2023/05/31//27e8188e91570f9ccf5c29121c183e6a-q-500x500.jpeg", Mahalla
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/JBuqqIVuyxw8UvuLi-pHyw/e/1776106276/1013/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2022/01/15//c78b4b29689e79a2d7e1cd3fefe6300d-q-500x500.jpeg", ZO'R TV HD
+https://iptv.itv.uz/hls/live/t/l1ItWc6JO3WQxo9OR9H43A/e/1776157547/1013/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2022/01/15//c78b4b29689e79a2d7e1cd3fefe6300d-q-500x500.jpeg", ZO'R TV HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/U2ZYNIBSTVBaSaknxPTqrw/e/1776106266/1016/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/1539667812_10_16_2018-q-500x500.jpeg", Первый
+https://iptv.itv.uz/hls/live/t/OfzCwA7_DrdRzZdM4D-r5w/e/1776157539/1016/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2021/03/23//bc4fba2dcb3166bd9aaa3d73229f6ef0-q-500x500.jpeg", Aqlvoy
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/WVtTVpf8npupRaVpGXoC4A/e/1776157458/1019/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2021/10/28//3949af971384aacf7c3e45bf758dd5b0-q-500x500.jpeg", Россия 1
+https://iptv.itv.uz/hls/live/t/AWsl7LZQdAjYsf2I1laF3A/e/1776157545/1205/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2026/02/03/78260dff583b8faa298b70fc3edf5e43-q-500x500.jpeg", DasturxonTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/kmZzM2R9ff5tcVQSN2hsMw/e/1776157458/1020/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2021/10/28//279298110b85517552174518018114d4-q-500x500.jpeg", Euronews
+https://iptv.itv.uz/hls/live/t/zGnUueFedNHIDErEXNosag/e/1776157544/1206/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2023/06/02//15db9906a0f50fb5ccadc0c30f1e532d-q-500x500.jpeg", Milliy SD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/Qi36N--N9IDNC4lRwwJcdw/e/1776157458/1024/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2023/05/26//0b8831589c48257ae66a279ebaea22f1-q-500x500.jpeg", ТВЦ
+https://iptv.itv.uz/hls/live/t/70UPbJw4S0kE9JSaw9zaWQ/e/1776157541/1216/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2021/11/03//2675cdc82b452ba3267237a976d173fc-q-500x500.jpeg", MY5 SD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/edocz8vZmnNpixcHQpmePw/e/1776157458/1025/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2021/10/28//51ea042d93588003e47efc4cb724f278-q-500x500.jpeg", Россия Культура
+https://iptv.itv.uz/hls/live/t/hmQ9R0OgGx7rxOkbg7LFZQ/e/1776157542/1217/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2022/01/22//4a58120210414aef66c88ca130dd3650-q-500x500.jpeg", Nurafshon TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/yzHa36MUCruJd08mhzKQYA/e/1776157458/1048/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/1539682154_10_16_2018-q-500x500.jpeg", Звезда
+https://iptv.itv.uz/hls/live/t/7xjIW6iQBDE0WjcswdjDRA/e/1776157553/1220/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/01/24//4a4b31ebb4248789549263ad774c2c61-q-500x500.jpeg", Renessans TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/goFsIBfPNtFNL-EQcc6Pew/e/1776157458/1050/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/8e24713f9b1e4e3416ee664b005b3784-q-500x500.jpeg", Fashion TV
+https://iptv.itv.uz/hls/live/t/W0OOrE7MUUrWL-ynWXOUcA/e/1776157543/1221/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2023/04/18//9ae8b2d0eae85af6fd49277616dc9b13-q-500x500.jpeg", Хабар 24 KZ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/rV-Fdtx73UlOdzix8MxqDQ/e/1776157458/1053/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2022/11/30//e0b6c076a550ab5149d1a5812d14c587-q-500x500.jpeg", Sevimli TV SD
+https://iptv.itv.uz/hls/live/t/xs5HoCtu52UFuu4uKDxTQw/e/1776157531/1408/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/04/20//595b563167b272fbeb4caff0c27a1581-q-500x500.jpeg", Andijon
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/H0MBG_fvCcs6LD5qdjjiOA/e/1776157458/1056/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2021/03/23//bc4fba2dcb3166bd9aaa3d73229f6ef0-q-500x500.jpeg", Aqlvoy
+https://iptv.itv.uz/hls/live/t/is10NTySVkru6BHp2rSAGw/e/1776157554/1457/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/04/20//a413e4713cb517535bb72e3adddfe943-q-500x500.jpeg", Fergana MTRK
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/iHvOI6wsvRQo5DAkm_JAqg/e/1776106273/1205/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2026/02/03/78260dff583b8faa298b70fc3edf5e43-q-500x500.jpeg", DasturxonTV
+https://iptv.itv.uz/hls/live/t/Rzrm7gkFmSxWmi69LZUNcQ/e/1776157555/1458/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/04/26//b8ae4fe9e3795f28cdebd4b6e1993e2c-q-500x500.jpeg", Bukhara
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/nwawVcbKGPT6wVOTN06gJA/e/1776106272/1206/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2023/10/28//a29a63851d77f2b79dd890b5e888b72d-q-500x500.jpeg", LUX.TV
+https://iptv.itv.uz/hls/live/t/qHo0-rM5OctHA2tpQ_LPqA/e/1776157561/1459/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/04/20//95e6300e134acd2a9f037ce3c3887158-q-500x500.jpeg", Navoi
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/UWdFwQ4gu-LIzetzNBSUVQ/e/1776157458/1210/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/08/24//261595d890bd48621a89240d3d182aa2-q-500x500.jpeg", Biz Music FHD
+https://iptv.itv.uz/hls/live/t/tgw5HOAbzdsa8DHSiNVP7Q/e/1776157555/1460/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/04/20//52d247a1c7a06b96f9092d614b939f7c-q-500x500.jpeg", Qashkadaryo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/EsXanP744Vm0Gz2MK1MeOw/e/1776157458/1212/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/08/24//b2e7b7a4e645fbef99b302d06b35670d-q-500x500.jpeg", Biz Cinema
+https://iptv.itv.uz/hls/live/t/ltzRXaIn0h8ZmIqBVk-mBw/e/1776157556/1461/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/04/20//793ae8aa37f748e74ddec8761fccd026-q-500x500.jpeg", Sirdaryo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/z5vSmfJLEOvxGM6magwghQ/e/1776157458/1213/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2021/10/28//2a8ebe8401dd495ceb7b877c9cb43d8a-q-500x500.jpeg", Первый HD
+https://iptv.itv.uz/hls/live/t/O1gNcoeuC2k9AmG8R3u9Mg/e/1776157557/1462/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/04/20//a0534f66a3cce9a795ff7027b1a23c94-q-500x500.jpeg", Surxondaryo MTRK
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/pbqnci1XGWMqsDt3wZ9wgw/e/1776157458/1214/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2023/06/02//15db9906a0f50fb5ccadc0c30f1e532d-q-500x500.jpeg", Milliy SD
+https://iptv.itv.uz/hls/live/t/8yqfAUZrfM1R7ipfSvEZMw/e/1776157558/1463/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/04/20//7503745371fe9a9778c7111458c5d43e-q-500x500.jpeg", Xorazm MTRK
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/yk5EQEPWn7bAvg-ZnV7nsg/e/1776106269/1216/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2021/11/03//2675cdc82b452ba3267237a976d173fc-q-500x500.jpeg", MY5 SD
+https://iptv.itv.uz/hls/live/t/cLe1Wg2oSpghuibeHPMOOg/e/1776157558/1464/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/04/20//e1c2b2bcecf5ff7855dbb0b90308776b-q-500x500.jpeg", Jizzax
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/LMFKFT6BN4uVcRCltottxg/e/1776106270/1217/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2022/01/22//4a58120210414aef66c88ca130dd3650-q-500x500.jpeg", Nurafshon TV
+https://iptv.itv.uz/hls/live/t/iIAI3dr1ycb1GbDxqPmLpA/e/1776157559/1465/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/04/20//05d8f97e2f2b552b2fea0b05a78c42b9-q-500x500.jpeg", Namangan
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/4naN1zkS_Fj6H1w-NCIiwQ/e/1776106282/1220/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/01/24//4a4b31ebb4248789549263ad774c2c61-q-500x500.jpeg", Renessans TV
+https://iptv.itv.uz/hls/live/t/KuMFbpbCAGhe4yEM8uN6-g/e/1776157560/1466/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/04/20//5098a8b805e7326ec7dc8f3bf2e180f2-q-500x500.jpeg", Qaraqalpaqstan
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/42VK5fgYE2qak_12srH_9g/e/1776106271/1221/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2023/03/08//0f5da4861771b949e1762343a6c7177f-q-500x500.jpeg", BBC-World
+https://iptv.itv.uz/hls/live/t/H9yfu147iysUiYvarPscuQ/e/1776157561/1467/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/04/20//db56b3e322425b29a81ded37a774f83c-q-500x500.jpeg", Samarkand
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/Rfua9PGT03dHobuoDC39AA/e/1776157458/1251/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2023/03/08//35361b5b784ac69c64b210bca27b952c-q-500x500.jpeg", CGTN
+https://iptv.itv.uz/hls/live/t/EvVJ7-VmzO3GRzzWN9otxQ/e/1776157562/1468/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/07/23//8707395e931d3bb2ce18579a995d16a7-q-500x500.jpeg", Shifo TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/tKmhBRx7-kCMlBKE3ISHeg/e/1776157458/1253/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2022/10/28//3ae8caed468ac5aec0c156f4fb0a327b-q-500x500.jpeg", CNN
+https://iptv.itv.uz/hls/live/t/H-KuQAN6kcgL1Rx55v5jbw/e/1776157564/1469/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/07/23//d20bd7900e47c133b4fe42afaff686de-q-500x500.jpeg", Mimi TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/VNH_ZVczguDa_8ukXiFsng/e/1776157458/1259/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2023/06/01//0e264d0a734bc52d4887a98dddd13bfa-q-500x500.jpeg", MYDAYTV
+https://iptv.itv.uz/hls/live/t/v7xDKuwYSIPkBKHD_zxBgQ/e/1776157564/1470/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/08/16//40414599b94269697bfa8698362e75e7-q-500x500.jpeg", Тайны Галактики HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/hJiSdLvPBIOrfRpVXCMImw/e/1776157458/1265/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2023/06/19//2b9d5460c300fafc6cac117e0650b4fd-q-500x500.jpeg", S-Ikbol
+https://iptv.itv.uz/hls/live/t/cpKRUu1f48cS_6vL7ykzJA/e/1776159123/1472/index.m3u8?ip=68.220.62.96
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/18//4d3cca95cc849ef5cb15e9a397316622-q-500x500.jpeg", TTV Musiqa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/8oSSiB0Jvn0gbSDm_Zz-Rw/e/1776157459/1282/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2023/07/26//0cc702bdf78b38aff615d7c502dd4fe2-q-500x500.jpeg", Istiqlol TV
+https://iptv.itv.uz/hls/live/t/9n4yqD01OfTFrYkZGOprYA/e/1776157567/1485/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/15//e4a7c541ecae647033f9a2248b87fb6b-q-500x500.jpeg", ishonch TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/R75waEmXsRJGQeYpj1oGdw/e/1776157459/1283/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2023/07/26//3b502b779ef41d61b37bc535bf869f87-q-500x500.jpeg", NTV
+https://iptv.itv.uz/hls/live/t/gmtKetWxHjrloGyu1H4PJQ/e/1776157568/1489/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/17//1f68774291aa8afc63a9696929ffbbee-q-500x500.jpeg", Jaslar TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/-Gabo_hp-Bc44Dc_rn9TYw/e/1776157459/1284/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2025/09/18//ea92dc21942b1f0588fe27164f0a9738-q-500x500.jpeg", Retro TV
+https://iptv.itv.uz/hls/live/t/KT0QyljKutACAHM7D9xR9Q/e/1776157572/1490/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/16//bffc77f6b96e90ba72634340afe2d28f-q-500x500.jpeg", Amudaryo TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/tLx05L5cTHLF71qwLHrOvw/e/1776157459/1290/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2025/09/18//d4f55e632d54c5d678fcc2a6fe5d70c1-q-500x500.jpeg", Qiziq TV
+https://iptv.itv.uz/hls/live/t/Hn-UbuH1IGsWZiZAKS56KA/e/1776157571/1491/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/30//4a675cfc1ca9fc523519e8154c67f3a4-q-500x500.jpeg", Nasaf TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/IGgFZOQ3zXqU-9Ru484aDQ/e/1776157459/1291/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2023/04/18//9ae8b2d0eae85af6fd49277616dc9b13-q-500x500.jpeg", Хабар 24 KZ
+https://iptv.itv.uz/hls/live/t/mKmDv8ykgQ7fPc8AiuY7Tw/e/1776157571/1492/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/16//5e1500c4d1b9595a50ad350cee8cd647-q-500x500.jpeg", Ellikqala TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/nv7lhyZOv93roI4hCZP2-w/e/1776106259/1408/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/04/20//595b563167b272fbeb4caff0c27a1581-q-500x500.jpeg", Andijon
+https://iptv.itv.uz/hls/live/t/Yz6NgFomwg4z3G9uxcCd8g/e/1776157569/1495/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2025/03/25//2930662a99d6931a690adbfe650f5e49-q-500x500.jpeg", Denov TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/7dg-KcD9KjddgVmcOc8l8g/e/1776106283/1457/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/04/20//a413e4713cb517535bb72e3adddfe943-q-500x500.jpeg", Fergana MTRK
+https://iptv.itv.uz/hls/live/t/C8thHV9JUyebF3J3N_lMfA/e/1776157575/1499/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/07/10//36d91922645f095fde22cb2b836715be-q-500x500.jpeg", Vodiy TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/BgV1G4VWbRFzooGx32Iv1A/e/1776106284/1458/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/04/26//b8ae4fe9e3795f28cdebd4b6e1993e2c-q-500x500.jpeg", Bukhara
+https://iptv.itv.uz/hls/live/t/V6itfatJZgXkFxLooVQTsw/e/1776157563/4012/index.m3u8?ip=145.249.115.227
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/08/28//f017a3c1aaaf894f1468619c11c36448-q-500x500.jpeg", Nostalgie FM 104.4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/4fXy5002-jKfQaAvMfdL0g/e/1776106291/1459/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/04/20//95e6300e134acd2a9f037ce3c3887158-q-500x500.jpeg", Navoi
+https://iptv.itv.uz/hls/live/t/VklLrseyzn4QkMRGE1P5oQ/e/1776159124/2001/index.m3u8?ip=68.220.62.96
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/01/16//831e49fb69f8612123c28fa0ac7bec7e-q-500x500.jpeg", Oriat Dono FM 106.5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/4humGQwBEpMNF3B1wJZDRg/e/1776106285/1460/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/04/20//52d247a1c7a06b96f9092d614b939f7c-q-500x500.jpeg", Qashkadaryo
+https://iptv.itv.uz/hls/live/t/2joaQBhv4r3P3zxwU6EfDA/e/1776159124/2002/index.m3u8?ip=68.220.62.96
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2025/09/18//d5aeffa30d4cff8814e1a3fdb23e663c-q-500x500.jpeg", Oriat FM 100.5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/gNqOcHuoH7gj5fO-Mm_xWw/e/1776106285/1461/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/04/20//793ae8aa37f748e74ddec8761fccd026-q-500x500.jpeg", Sirdaryo
+https://iptv.itv.uz/hls/live/t/mihMm5is0-HDHwQPCDhFBQ/e/1776159124/2003/index.m3u8?ip=68.220.62.96
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/08/28//1aeb7567f3f28c5442c6f39e810f8734-q-500x500.jpeg", Retro FM
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/8Ha23soBJOdLnQ_cJ4YAyA/e/1776106286/1462/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/04/20//a0534f66a3cce9a795ff7027b1a23c94-q-500x500.jpeg", Surxondaryo MTRK
+https://iptv.itv.uz/hls/live/t/_TErc4YQZEnor4nwZw69qQ/e/1776159125/2004/index.m3u8?ip=68.220.62.96
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/08/28//e7d7d5d7fdc9003c3670e0d05022e420-q-500x500.jpeg", Classic FM
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/ddiYggdEZMUIOitaOIcKtA/e/1776106287/1463/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/04/20//7503745371fe9a9778c7111458c5d43e-q-500x500.jpeg", Xorazm MTRK
+https://iptv.itv.uz/hls/live/t/RBx1VaIVASy3JULRjrrDlQ/e/1776159125/2005/index.m3u8?ip=68.220.62.96
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/02/01//404d9b349d0b2098dd55d1d9e8590af6-q-500x500.jpeg", HitFM FM 90.8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/c9UZBSxZfbgY3ln4MAVhRg/e/1776106288/1464/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/04/20//e1c2b2bcecf5ff7855dbb0b90308776b-q-500x500.jpeg", Jizzax
+https://iptv.itv.uz/hls/live/t/o4dhJ2VNyOvbYaCa2-EctA/e/1776159125/2006/index.m3u8?ip=68.220.62.96
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2022/10/03//86423da95fa6d1a3d8c7f87f97fa565e-q-500x500.jpeg", Avto Radio FM 102.0
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/iZ1c_6zsTSKpP8SBSoeX6w/e/1776106288/1465/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/04/20//05d8f97e2f2b552b2fea0b05a78c42b9-q-500x500.jpeg", Namangan
+https://iptv.itv.uz/hls/live/t/XgGko4aUlFjYwKsVK-JjNg/e/1776159125/2007/index.m3u8?ip=68.220.62.96
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/08/25//f1307d5df1872ff847fc8591c56dda5c-q-500x500.jpeg", Радио Гранд FM 101.5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/jQZ-Vc9V9taXJuI3-SqtwA/e/1776106289/1466/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/04/20//5098a8b805e7326ec7dc8f3bf2e180f2-q-500x500.jpeg", Qaraqalpaqstan
+https://iptv.itv.uz/hls/live/t/KyKD-UBR8QmAosDnpuybdw/e/1776159126/2008/index.m3u8?ip=68.220.62.96
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/08/28//dd4e381c665b83becb781a4642ec795e-q-500x500.jpeg", Maxima FM 105.4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/qQY6J2QPJK07SFKN7Zs1aA/e/1776106290/1467/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/04/20//db56b3e322425b29a81ded37a774f83c-q-500x500.jpeg", Samarkand
+https://iptv.itv.uz/hls/live/t/oFJFHXIf34b7ig9ZsHC74A/e/1776159126/2009/index.m3u8?ip=68.220.62.96
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/01/16//a7796d921ec4abe740abe433935dda96-q-500x500.jpeg", Mahalla FM 107.8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/9hR3Z078G5b5bIGS77oWCg/e/1776106291/1468/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/07/23//8707395e931d3bb2ce18579a995d16a7-q-500x500.jpeg", Shifo TV
+https://iptv.itv.uz/hls/live/t/7DuYirGeYxAh_QfAYpghQw/e/1776159126/2010/index.m3u8?ip=68.220.62.96
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/01/16//a8d02eb2cc800cef5b013a4ed233006b-q-500x500.jpeg", O'zbekiston FM 103.1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/ID2CjlP17ylxgRiqOFWk-Q/e/1776106293/1469/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/07/23//d20bd7900e47c133b4fe42afaff686de-q-500x500.jpeg", Mimi TV
+https://iptv.itv.uz/hls/live/t/yHDIRTHDNeoLUyI9nS2Dpw/e/1776159126/2011/index.m3u8?ip=68.220.62.96
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/01/16//aaadc599fb30270cef0eb14b7d2570ad-q-500x500.jpeg", O'zbekiston24 FM 87.9
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/GdYUkbI9Z0H2JQ5yl22XzA/e/1776106294/1470/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/08/16//40414599b94269697bfa8698362e75e7-q-500x500.jpeg", Тайны Галактики HD
+https://iptv.itv.uz/hls/live/t/Pf1pZxJ3Oh32DZ8Tein8hQ/e/1776159127/2012/index.m3u8?ip=68.220.62.96
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/01/16//d83b62eb13d3d26d205551346a856b37-q-500x500.jpeg", Yoshlar FM 104.0
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/5_HbZxiQpzR2Z6uVOoOiUw/e/1776157459/1472/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/18//4d3cca95cc849ef5cb15e9a397316622-q-500x500.jpeg", TTV Musiqa
+https://iptv.itv.uz/hls/live/t/-FH1WM0cRVTixTJHj8T-fg/e/1776159127/2013/index.m3u8?ip=68.220.62.96
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/01/16//4da6326d1746d6834de863f64debaad5-q-500x500.jpeg", Radio Ruxsor
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/GI2yiK6adnuPNRqPJfOW6g/e/1776106296/1485/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/15//e4a7c541ecae647033f9a2248b87fb6b-q-500x500.jpeg", ishonch TV
+https://iptv.itv.uz/hls/live/t/hiRLMNN6V9qhIr9kA-SB5w/e/1776159127/2014/index.m3u8?ip=68.220.62.96
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/12/14//93ed19213479848e847621345217a981-q-500x500.jpeg", IstiqlolFM FM 107.0
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/muOn4vHVbxu0apuQiqu1yg/e/1776106298/1489/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/17//1f68774291aa8afc63a9696929ffbbee-q-500x500.jpeg", Jaslar TV
+https://iptv.itv.uz/hls/live/t/jD6IJYtjOs2ILxGRypd2vg/e/1776159127/2015/index.m3u8?ip=68.220.62.96
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/27//336c15027520a248a74d73b0ef500503-q-500x500.jpeg", Temp FM
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/mgNmeSaRPlKqxFOQhttvgQ/e/1776106302/1490/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/16//bffc77f6b96e90ba72634340afe2d28f-q-500x500.jpeg", Amudaryo TV
+https://iptv.itv.uz/hls/live/t/FMTZZY-V0cwjfC_pNFMMAg/e/1776159128/2016/index.m3u8?ip=68.220.62.96
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/27//71c9d7b00e8732279f9b45b1906f746f-q-500x500.jpeg", O'zbegim Taronasi FM 101.0
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/DhdJPNvYBL2KBoh8pLVWtw/e/1776106300/1491/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/30//4a675cfc1ca9fc523519e8154c67f3a4-q-500x500.jpeg", Nasaf TV
+https://iptv.itv.uz/hls/live/t/jIV_0UWp1E2m5KsTR59_HA/e/1776159128/2017/index.m3u8?ip=68.220.62.96
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/28//fe86f2498716bb7b610ad10a3d7f51f5-q-500x500.jpeg", Truck FM
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/MQtWS9FeRI_uKvmjpZ6m1A/e/1776106301/1492/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/16//5e1500c4d1b9595a50ad350cee8cd647-q-500x500.jpeg", Ellikqala TV
+https://iptv.itv.uz/hls/live/t/TcqbNu1UBcYqGwAjI-7vqw/e/1776159128/2018/index.m3u8?ip=68.220.62.96
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/08/26//9089e09bfe47782c76bf2c98f3e5c72d-q-500x500.jpeg", Biz FM
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/q5mZEFi6n92VyRY7m1lOFg/e/1776106298/1495/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2025/03/25//2930662a99d6931a690adbfe650f5e49-q-500x500.jpeg", Denov TV
+https://iptv.itv.uz/hls/live/t/AfdztmASStnerjjFAI3Dvg/e/1776159128/2019/index.m3u8?ip=68.220.62.96
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/29//9178d74a58642d9c9f2e4c786e0b69b9-q-500x500.jpeg", Vodiy Sadosi FM 102.7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/4i1fD82HtFUqwqFxzfKpvA/e/1776106304/1499/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/07/10//36d91922645f095fde22cb2b836715be-q-500x500.jpeg", Vodiy TV
+https://iptv.itv.uz/hls/live/t/CotwUJhyI0XPsnc3YV1J3w/e/1776159129/2020/index.m3u8?ip=68.220.62.96
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/29//3e7fbe98cf838d84241fad66b84c0bbd-q-500x500.jpeg", Poytaxt FM 103.5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/pnlQu2L6b_h0dePbsGGAzw/e/1776106292/4012/index.m3u8?ip=145.249.115.227
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2022/12/06//d650b7a25deeb8a4f48a899eca793598-q-500x500.jpeg", BizTV HD
+https://iptv.itv.uz/hls/live/t/tOoKt7EWAfxN2nkss_uakw/e/1776159129/2021/index.m3u8?ip=68.220.62.96
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/29//b7e3b10c086660a2f78d5d6e9f585c34-q-500x500.jpeg", Poytaxt FM 107.2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/PXKrTqZ-CFnOfZFFSk6ipw/e/1776157459/1211/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/08/28//f017a3c1aaaf894f1468619c11c36448-q-500x500.jpeg", Nostalgie FM 104.4
+https://iptv.itv.uz/hls/live/t/_Wv4z8Hc-zqBYc8RCNht_w/e/1776159129/2022/index.m3u8?ip=68.220.62.96
+#EXTINF:-1 group-title="iTV UZ 🇺🇿 (82 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/29//0037cd43fd5dcbe388e783bd9e4f67f4-q-500x500.jpeg", Iqbol FM 107.5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/3TgJU8qroJ7-iMBcp_crFQ/e/1776157459/2001/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/01/16//831e49fb69f8612123c28fa0ac7bec7e-q-500x500.jpeg", Oriat Dono FM 106.5
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/Z5kyUZjINxIRKODQfQIHSw/e/1776157459/2002/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2025/09/18//d5aeffa30d4cff8814e1a3fdb23e663c-q-500x500.jpeg", Oriat FM 100.5
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/yHyqBtreX0l3QIf2_9I3eg/e/1776157459/2003/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/08/28//1aeb7567f3f28c5442c6f39e810f8734-q-500x500.jpeg", Retro FM
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/eJXmZDcLq-a9LwcDPyXTDA/e/1776157459/2004/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/08/28//e7d7d5d7fdc9003c3670e0d05022e420-q-500x500.jpeg", Classic FM
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/s9RMaz54_NkcoS4szAr6Vg/e/1776157459/2005/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/02/01//404d9b349d0b2098dd55d1d9e8590af6-q-500x500.jpeg", HitFM FM 90.8
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/9xcXFmXfxQ7z-XOFI7WL_Q/e/1776157459/2006/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2022/10/03//86423da95fa6d1a3d8c7f87f97fa565e-q-500x500.jpeg", Avto Radio FM 102.0
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/VC6rLfuV3nWWh9yznZffGQ/e/1776157459/2007/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/08/25//f1307d5df1872ff847fc8591c56dda5c-q-500x500.jpeg", Радио Гранд FM 101.5
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/joWsXH-KUPoe8f8DwMh7Gg/e/1776157459/2008/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/08/28//dd4e381c665b83becb781a4642ec795e-q-500x500.jpeg", Maxima FM 105.4
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/QsxtXPD_CTPpM6bCsmCAvw/e/1776157459/2009/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/01/16//a7796d921ec4abe740abe433935dda96-q-500x500.jpeg", Mahalla FM 107.8
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/4OSSOvgh4PVfm03ZT7rRvQ/e/1776157459/2010/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/01/16//a8d02eb2cc800cef5b013a4ed233006b-q-500x500.jpeg", O'zbekiston FM 103.1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/Krc9wwb-viIQ4vEv5SKx0Q/e/1776157459/2011/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/01/16//aaadc599fb30270cef0eb14b7d2570ad-q-500x500.jpeg", O'zbekiston24 FM 87.9
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/uvqruVc8eo2lOrzxcVRhvA/e/1776157459/2012/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/01/16//d83b62eb13d3d26d205551346a856b37-q-500x500.jpeg", Yoshlar FM 104.0
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/y4Ifp8D0TfrwsOnoIcaT_w/e/1776157459/2013/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/01/16//4da6326d1746d6834de863f64debaad5-q-500x500.jpeg", Radio Ruxsor
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/g5Cg4jp3_lWH54Hpz8suEA/e/1776157459/2014/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/12/14//93ed19213479848e847621345217a981-q-500x500.jpeg", IstiqlolFM FM 107.0
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/Nvy0TKhvbNAgpHPpz4nsNA/e/1776157460/2015/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/27//336c15027520a248a74d73b0ef500503-q-500x500.jpeg", Temp FM
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/MxHgz88PH0QEd9Sbdm109A/e/1776157460/2016/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/27//71c9d7b00e8732279f9b45b1906f746f-q-500x500.jpeg", O'zbegim Taronasi FM 101.0
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/mJWexzUxz8u37j_VCd6GXQ/e/1776157460/2017/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/28//fe86f2498716bb7b610ad10a3d7f51f5-q-500x500.jpeg", Truck FM
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/2H6RYfx7tFi5tq0Bgz-3JQ/e/1776157460/2018/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2020/08/26//9089e09bfe47782c76bf2c98f3e5c72d-q-500x500.jpeg", Biz FM
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/Hlov751HHZAWJ20cOPp7KA/e/1776157460/2019/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/29//9178d74a58642d9c9f2e4c786e0b69b9-q-500x500.jpeg", Vodiy Sadosi FM 102.7
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/WLIwYgUVZ1C22aNuTXN2XQ/e/1776157460/2020/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/29//3e7fbe98cf838d84241fad66b84c0bbd-q-500x500.jpeg", Poytaxt FM 103.5
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/hZcFKbPobDHBM4_0GXjzzQ/e/1776157460/2021/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/29//b7e3b10c086660a2f78d5d6e9f585c34-q-500x500.jpeg", Poytaxt FM 107.2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/fupMLXkupT61_1U_wbO3UQ/e/1776157460/2022/index.m3u8?ip=213.230.93.104
-#EXTINF:-1 group-title="iTV UZ 🇺🇿 (104 ta)" tvg-logo="https://iptv.itv.uz/uploads/iptv/channels/2024/10/29//0037cd43fd5dcbe388e783bd9e4f67f4-q-500x500.jpeg", Iqbol FM 107.5
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.itv.uz/hls/live/t/x246tfNBtzK_Dg2N1L86LQ/e/1776157460/2023/index.m3u8?ip=213.230.93.104
+https://iptv.itv.uz/hls/live/t/fcqV_o0AAooADzfFHp4PIA/e/1776159129/2023/index.m3u8?ip=68.220.62.96

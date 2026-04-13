@@ -335,7 +335,7 @@ async function main() {
     uniqueResults.push(item);
   }
 
-  fs.writeFileSync(OUTPUT_JSON, JSON.stringify(uniqueResults, null, 2), "utf8");
+  fs.writeFileSync("zorplay_uz.m3u8", text, "utf8");
 
   const m3uLines = ["#EXTM3U"];
 

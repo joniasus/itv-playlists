@@ -4,15 +4,15 @@ const FINAL_OUTPUT_FILE = 'all_uzb_iptv_providers.m3u8';
 
 const CINERAMA_SOURCE = 'Cinerama_UZ.m3u8';
 const SARKOR_SOURCE = 'Sarkor_TV.m3u8';
-const TVCOM_SOURCE = 'tvcom.uz.m3u8';
+const TVCOM_SOURCE = 'tvcom_uz.m3u8';
 const ZORPLAY_SOURCE = 'zorplay_uz.m3u8';
 const TELECOMTV_SOURCE = 'telecomtv_uz.m3u8';
 const ITV_SOURCE = 'itv_uz.m3u8';
 
 const CINERAMA_GROUP_BASE = 'Cinerama UZ 🇺🇿';
-const SARKOR_GROUP_BASE = 'Sarkor TV 🇺🇿';
-const TVCOM_GROUP_BASE = 'TVcom.UZ 🇺🇿';
-const ZORPLAY_GROUP_BASE = "ZO'R PLAY 🇺🇿";
+const SARKOR_GROUP_BASE = 'Sarkor TV UZ 🇺🇿';
+const TVCOM_GROUP_BASE = 'TVcom UZ 🇺🇿';
+const ZORPLAY_GROUP_BASE = "ZO'R PLAY UZ 🇺🇿";
 const TELECOMTV_GROUP_BASE = 'TelecomTV UZ 🇺🇿';
 const ITV_GROUP_BASE = 'iTV UZ 🇺🇿';
 

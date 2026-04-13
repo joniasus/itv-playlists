@@ -1,4 +1,4 @@
-name: Update Zorplay and Merge Playlists
+gename: Update zorplay_uz.js and all_uzb_iptv_providers.js 
 
 on:
   workflow_dispatch:

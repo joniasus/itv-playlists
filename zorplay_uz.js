@@ -355,7 +355,8 @@ async function main() {
     m3uLines.push(item.hls);
   }
 
-  fs.writeFileSync(OUTPUT_M3U, m3uLines.join("\n"), "utf8");
+ fs.writeFileSync("zorplay_uz.m3u8", text, "utf8");
+ console.log("zorplay_uz.m3u8 yozildi");
 
   console.log("");
   console.log("Done");

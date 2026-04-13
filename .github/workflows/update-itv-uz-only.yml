@@ -79,7 +79,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run your playlist update script
-        run: node all_uzb_iptv_providers.js
+        run: node itv_uz.js
 
       - name: Save last seen update date
         shell: bash

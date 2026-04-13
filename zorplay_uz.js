@@ -356,7 +356,6 @@ async function main() {
   }
 
  fs.writeFileSync("zorplay_uz.m3u8", text, "utf8");
- console.log("zorplay_uz.m3u8 yozildi");
 
   console.log("");
   console.log("Done");

@@ -4,9 +4,9 @@ const fs = require('fs');
 const SOURCE_URL = 'https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV';
 const TARGET_GROUP = 'group-title="Itv.uz (🇺🇿)"';
 
-const OUTPUT_FILE = 'iTV_UZ.m3u8';
-const SOURCE_OUTPUT_FILE = 'iTV_UZ_SOURCE.m3u8';
-const API_OUTPUT_FILE = 'iTV_UZ_API.m3u8';
+const OUTPUT_FILE = 'itv_uz.m3u8';
+const SOURCE_OUTPUT_FILE = 'itv_uz_source.m3u8';
+const API_OUTPUT_FILE = 'itv_uz_api.m3u8';
 
 const ITV_GROUP_BASE = 'iTV UZ 🇺🇿';
 

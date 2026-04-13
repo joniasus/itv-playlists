@@ -3,7 +3,7 @@ name: Update Zorplay and Merge Playlists
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 */5 * * *'
+    - cron: '37 */5 * * *'
       timezone: 'Asia/Tashkent'
 
 permissions:

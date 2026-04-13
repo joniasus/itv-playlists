@@ -1,4 +1,4 @@
-name: Update Playlists
+name: Update itv_uz.m3u8
 
 on:
   schedule:

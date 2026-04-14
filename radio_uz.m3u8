@@ -1,0 +1,67 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://www.radio.islom.uz/img/islomuzlogo.png" group-title="Radio UZ 🇺🇿",Islom UZ FM (UZ)
+http://radio.islom.uz:8000/islomuz
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/Qalbim Navosi (UZ).jpg" group-title="Radio UZ 🇺🇿",Qalbim Navosi (UZ)
+https://live.qalbimnavosi.uz/qalbimnavosi?n=dh0ajjasz8ts3b8z3qtq
+#EXTINF:-1 tvg-logo="https://fm.truckfm.uz:2020/covers//64c2b0fd9a6c8.jpg" group-title="Radio UZ 🇺🇿",Truck FM (UZ)
+https://fm.truckfm.uz:8000/320?n=06irxl4dnh13kdoytgcw
+#EXTINF:-1 tvg-logo="https://zeno.fm/_ipx/_/https://images.zeno.fm/SQ2qNn8-Y9RBAK1mXRmgZl9gdDhG-EgoD5StaoxJ5Uc/rs:fill:288:288/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvYWd4emZucGxibTh0YzNSaGRITnlNZ3NTQ2tGMWRHaERiR2xsYm5RWWdJREl3WS1OelFvTUN4SU9VM1JoZEdsdmJsQnliMlpwYkdVWWdJREk0Y3E2LWdnTW9nRUVlbVZ1YncvaW1hZ2UvP3U9MTY2MTk5NzM4NDAwMA.webp" group-title="Radio UZ 🇺🇿",Smile FM (UZ)
+http://smilefm.uz:8000/live?n=spryjm2swfthn7rechr7
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/RMPlay UZ (UZ).webp" group-title="Radio UZ 🇺🇿",RMPlay UZ (UZ)
+https://stream.zeno.fm/jnkkmrfelsytv
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/A'lo FM.png" group-title="Radio UZ 🇺🇿",A'lo FM (UZ)
+http://tabassum.uz:9000/alo_low?n=dl9mzh0jr576mcly2c7i
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/Oriat FM (UZ).png" group-title="Radio UZ 🇺🇿",Oriat FM (UZ)
+http://194.5.152.248:8000/fm
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/Oriat Dono (UZ).webp" group-title="Radio UZ 🇺🇿",Oriat Dono (UZ)
+http://194.5.152.248:8000/dono
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/Timsol online (UZ).png" group-title="Radio UZ 🇺🇿",Timsol online (UZ)
+https://stream.zeno.fm/cqtrku1o8bbuv
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/Temp FM (UZ).jpeg" group-title="Radio UZ 🇺🇿",Temp FM (UZ)
+https://tempradio-live.uz/streamaac?n=dvcye705t579v3u9g2dz
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/Hit.FM.png" group-title="Radio UZ 🇺🇿",Hit.FM (UZ)
+https://live.hitfm.uz/hitfmuz?n=i2hslemlxe3i4fy7modu
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/Sezam FM (UZ).png" group-title="Radio UZ 🇺🇿",Sezam FM (UZ)
+http://sezamfm.com:8000/stream?n=2xhaot4hc1rbzkugu5mj
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/radio.png" group-title="Radio UZ 🇺🇿",Yolg'iz Yurak FM (UZ)
+http://s1.muz.uz:9000/alo_low?n=6enujlnvjix8hg046pna
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/Radio Markaz FM (UZ).png" group-title="Radio UZ 🇺🇿",Markaz FM (UZ)
+http://mediamarkaz.com:8000/radiomarkaz?n=5bc858805d0e0f91314b
+#EXTINF:-1 tvg-logo="https://topradio.mobi/screen/1651645778_biz_fm_tashkent_uzbekistan.jpg" group-title="Radio UZ 🇺🇿",Biz FM (UZ)
+https://fm.bizfm.uz:8443/256
+#EXTINF:-1 tvg-logo="https://zeno.fm/_ipx/_/https://images.zeno.fm/MtZx0fwTXWM0to6_XfHvMUEMemA_av8a7gaoKkw-oJ0/rs:fill:256:256/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvYWd4emZucGxibTh0YzNSaGRITnlNZ3NTQ2tGMWRHaERiR2xsYm5RWWdJREl4ZUxqMmdzTUN4SU9VM1JoZEdsdmJsQnliMlpwYkdVWWdJREktWWFHcXdvTW9nRUVlbVZ1YncvaW1hZ2UvP3U9MTc2MTY3OTMzMjAwMA.webp" group-title="Radio UZ 🇺🇿",Yonar FM (UZ)
+https://stream.zeno.fm/n4tbrrr8h0hvv
+#EXTINF:-1 tvg-logo="https://zeno.fm/_ipx/_/https://images.zeno.fm/vGJgHmg-lvbAFGpdJt_vJTalUb4WuQukGgQs2I2A3EI/rs:fill:288:288/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvZjNjZDAzZGUtNTU1Yi00MjQyLTgwMjUtODNmMTUxOWMwYmFmL2ltYWdlLz91PTE2Njk3MzE3OTIwMDA.webp" group-title="Radio UZ 🇺🇿",TexnoPark FM (UZ)
+https://stream.zeno.fm/64ox9cg1w0quv
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/Khalifa FM (UZ).jpg" group-title="Radio UZ 🇺🇿",Khalifa FM (UZ)
+https://stream.zeno.fm/y8gdyaatxhhvv
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/BassTeD FM (UZ).jpg" group-title="Radio UZ 🇺🇿",BassTeD FM (UZ)
+https://stream.zeno.fm/h6dbebwv0nhvv
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/MARS-FM.png" group-title="Radio UZ 🇺🇿",MARS-FM
+https://stream-175.zeno.fm/y8gdyaatxhhvv?n=2tei2nl8hamratwe8pd6
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/SUPER uz FM (UZ).webp" group-title="Radio UZ 🇺🇿",SUPER uz FM (UZ)
+https://stream.zeno.fm/b7ye4q0k3zhvv?n=foomvyw0f3nsuyyguvo4
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/radio.png" group-title="Radio UZ 🇺🇿",AxTeD_AD FM (UZ)
+https://stream.zeno.fm/gnsnxsq1znhvv?n=vqu7dgab3141q06f2hz1
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/Life FM (UZ).jpg" group-title="Radio UZ 🇺🇿",Life FM (UZ)
+https://rhema-radio.streamguys1.com/rhema-lifefm.mp3
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/TRUCK FM.png" group-title="Radio UZ 🇺🇿",TRUCK FM (UZ)
+http://truckfm.rafail1982.uz:8000/64?n=hg6464i5zsg1p9cq8wst
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/Timsol online radiosi.png" group-title="Radio UZ 🇺🇿",Timsol online radiosi
+https://stream-159.zeno.fm/cqtrku1o8bbuv?n=so37vz8ldry869ohfq5t
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/Temp FM (UZ).jpeg" group-title="Radio UZ 🇺🇿",TEMP_FM (UZ)
+https://tempradio-live.uz/streamaac?n=js3492hj7279nunnx4zv
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/Oriat FM (UZ).png" group-title="Radio UZ 🇺🇿",Oriat FM (UZ)
+http://dono.rafail1982.uz:8000/fm?n=0asg91wqyjwb2f37taql
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/ORIAT DONO.jpeg" group-title="Radio UZ 🇺🇿",Oriat Dono (UZ)
+http://dono.rafail1982.uz:8000/dono
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/Qalbim Navosi (UZ).jpg" group-title="Radio UZ 🇺🇿",Qalbim Navosi (UZ)
+http://live.qalbimnavosi.uz/qalbimnavosi?n=55jhpf3vj8p2t9nl538u
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/Radio Markaz FM (UZ).png" group-title="Radio UZ 🇺🇿",Markaz FM (UZ)
+http://mediamarkaz.com:8000/radiomarkaz?n=oj8l4u6wf63ie2kouv77
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/Hit FM (UZ).jpg" group-title="Radio UZ 🇺🇿",Hit FM (UZ)
+https://stream02.pcradio.biz/rad_htfmuzbekstan-med
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/Yangi Radio FM (UZ).jpg" group-title="Radio UZ 🇺🇿",Yangi Radio FM (UZ)
+https://stream.zeno.fm/f2aawo8h0qguv
+#EXTINF:-1 tvg-logo="http://rafail1982.uz/logo/Rassvet.png" group-title="Radio UZ 🇺🇿",Jahon Taronalari FM (UZ)
+https://stream.zeno.fm/9tihlbuqde6tv?n=lkwg337c8lgnqoixc8i8

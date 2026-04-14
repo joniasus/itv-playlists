@@ -8,6 +8,7 @@ const TVCOM_SOURCE = 'tvcom_uz.m3u8';
 const ZORPLAY_SOURCE = 'zorplay_uz.m3u8';
 const TELECOMTV_SOURCE = 'telecomtv_uz.m3u8';
 const MEDIABAY_SOURCE = 'mediabay_uz.m3u8';
+const RADIO_SOURCE = 'radio_uz.m3u8';
 const ITV_SOURCE = 'itv_uz.m3u8';
 
 const CINERAMA_GROUP_BASE = 'Cinerama UZ 🇺🇿';
@@ -16,6 +17,7 @@ const TVCOM_GROUP_BASE = 'TVcom UZ 🇺🇿';
 const ZORPLAY_GROUP_BASE = "ZO'R PLAY UZ 🇺🇿";
 const TELECOMTV_GROUP_BASE = 'TelecomTV UZ 🇺🇿';
 const MEDIABAY_GROUP_BASE = 'Mediabay UZ 🇺🇿';
+const RADIO_GROUP_BASE = 'Radio UZ 🇺🇿';
 const ITV_GROUP_BASE = 'iTV UZ 🇺🇿';
 
 function escapeAttr(value) {
@@ -154,12 +156,17 @@ async function main() {
   const mediabayEntries = parseGenericM3U(mediabayText, MEDIABAY_SOURCE);
   applyGroupTitleCountToBlockEntries(mediabayEntries, MEDIABAY_GROUP_BASE);
 
-  console.log("7) itv_uz.m3u8 юкланяпти...");
+  console.log("7) radio_uz.m3u8 юкланяпти...");
+  const radioText = readLocalText(RADIO_SOURCE);
+  const radioEntries = parseGenericM3U(radioText, RADIO_SOURCE);
+  applyGroupTitleCountToBlockEntries(radioEntries, RADIO_GROUP_BASE);
+
+  console.log("8) itv_uz.m3u8 юкланяпти...");
   const itvText = readLocalText(ITV_SOURCE);
   const itvEntries = parseGenericM3U(itvText, ITV_SOURCE);
   applyGroupTitleCountToBlockEntries(itvEntries, ITV_GROUP_BASE);
 
-  console.log('8) Ҳаммаси битта файлга merge қилиняпти...');
+  console.log('9) Ҳаммаси битта файлга merge қилиняпти...');
   const finalMergedText = mergePlaylistBlocksInOrder([
     cineramaEntries,
     sarkorEntries,
@@ -167,6 +174,7 @@ async function main() {
     zorplayEntries,
     telecomtvEntries,
     mediabayEntries,
+    radioEntries,
     itvEntries
   ]);
 
@@ -181,6 +189,7 @@ async function main() {
   console.log(`ZO'R PLAY: ${zorplayEntries.length} ta`);
   console.log(`TelecomTV: ${telecomtvEntries.length} ta`);
   console.log(`Mediabay: ${mediabayEntries.length} ta`);
+  console.log(`Radio: ${radioEntries.length} ta`);
   console.log(`iTV: ${itvEntries.length} ta`);
   console.log(`Якуний каналлар сони: ${finalCount} ta`);
 }

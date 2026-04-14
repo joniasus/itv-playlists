@@ -1,403 +1,424 @@
 #EXTM3U
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/035fe5e3-f968-45fd-93af-31e4b91cdebf.png" group-title="Cinerama UZ 🇺🇿",Zo'r TV HD
-http://stream8.cinerama.uz/1016/index.m3u8
+https://stream8.cinerama.uz/7016/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/035fe5e3-f968-45fd-93af-31e4b91cdebf.png" group-title="Cinerama UZ 🇺🇿",Sevimli
-http://stream8.cinerama.uz/1017/index.m3u8
+https://stream8.cinerama.uz/1017/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2021/12/14/044a1ecc-cf92-4c32-8a8b-54ce07c69546.png" group-title="Cinerama UZ 🇺🇿",Milliy TV
-http://stream8.cinerama.uz/1014/index.m3u8
+https://stream8.cinerama.uz/1014/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2021/12/14/add3022f-0964-470f-acee-4441c9d49201.png" group-title="Cinerama UZ 🇺🇿",My5
-http://stream8.cinerama.uz/1012/index.m3u8
-#EXTINF:-1 group-title="Cinerama UZ 🇺🇿",MY5 International
-http://st.my5.media/hls/fullhd/index.m3u8
+https://stream8.cinerama.uz/1012/index.m3u8
+#EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2021/12/14/add3022f-0964-470f-acee-4441c9d49201.png" group-title="Cinerama UZ 🇺🇿",MY5 International
+https://st.my5.media/hls/fullhd/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/7936782f-4d41-4885-824d-0e6e55345572.png" group-title="Cinerama UZ 🇺🇿",Sport uz
-http://stream8.cinerama.uz/1004/index.m3u8
+https://stream8.cinerama.uz/7004/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2025/02/07/9f3be78e-6f6a-418f-8ccb-d88dd7c16729.jpeg" group-title="Cinerama UZ 🇺🇿",Futbol TV
-http://stream8.cinerama.uz/1010/index.m3u8
-#EXTINF:-1 group-title="Cinerama UZ 🇺🇿",Futbol TV HD DTV
+https://stream8.cinerama.uz/7010/index.m3u8
+#EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2025/02/07/9f3be78e-6f6a-418f-8ccb-d88dd7c16729.jpeg" group-title="Cinerama UZ 🇺🇿",Futbol TV DTV
 http://st1.uzdigital.tv/FutbolTV/index.m3u8
 #EXTINF:-1 tvg-logo="http://cdn.biztv.media/2024/04/30/16/34/9dZeMOuzVyhMJ5AZpszFu4mJowk7nLi0_small.webp" group-title="Cinerama UZ 🇺🇿",Setanta Sports 1 HD
-http://stream8.cinerama.uz/1263/index.m3u8
+https://stream8.cinerama.uz/7263/index.m3u8
 #EXTINF:-1 tvg-logo="http://cdn.biztv.media/2024/04/30/16/34/tyCqQKtv5yvmeT4YU2PCtg7AEdzqeXcm_small.webp" group-title="Cinerama UZ 🇺🇿",Setanta Sports 2 HD
-http://stream8.cinerama.uz/1264/index.m3u8
+https://stream8.cinerama.uz/7264/index.m3u8
 #EXTINF:-1 tvg-logo="https://files.cinerama.uz/images/tv_channels/2020/06/12/5e8a53f0-c142-4e88-887b-df7491f6d0fe.png" group-title="Cinerama UZ 🇺🇿",Kinoteatr
-http://stream8.cinerama.uz/1009/index.m3u8
+https://stream8.cinerama.uz/1009/index.m3u8
+#EXTINF:-1 tvg-logo="https://files.cinerama.uz/images/tv_channels/2023/08/14/74ed2467-9e28-4f29-a355-9f4e0d240fd7.png" group-title="Cinerama UZ 🇺🇿",Ruxsor TV HD
+https://stream8.cinerama.uz/4008/index.m3u8
+#EXTINF:-1 tvg-logo="https://files.cinerama.uz/images/tv_channels/2026/02/23/4fff183a-63ee-4297-81c5-f0a7d5fa0b7b.jpeg" group-title="Cinerama UZ 🇺🇿",Denov TV
+https://stream8.cinerama.uz/1499/index.m3u8
+#EXTINF:-1 tvg-logo="https://files.cinerama.uz/images/tv_channels/2026/03/12/d21b177c-41d3-4212-b9b8-da0b061059bd.png" group-title="Cinerama UZ 🇺🇿",8 TV UZ
+https://stream8.cinerama.uz/1496/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2025/05/02/a4ef516d-f6c6-4b3a-b1c3-1ee5c37f77fd.png" group-title="Cinerama UZ 🇺🇿",iTV Cinema
-http://stream8.cinerama.uz/4000/index.m3u8
+https://stream8.cinerama.uz/4000/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2025/05/02/a4ef516d-f6c6-4b3a-b1c3-1ee5c37f77fd.png" group-title="Cinerama UZ 🇺🇿",iTV Music
-http://stream8.cinerama.uz/4001/index.m3u8
+https://stream8.cinerama.uz/4001/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2025/02/07/f9bf163d-632a-49f5-928c-a40d47df8bf7.jpeg" group-title="Cinerama UZ 🇺🇿",S-Cinema
-http://stream8.cinerama.uz/1498/index.m3u8
+https://stream8.cinerama.uz/1498/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2025/02/07/6b8fa054-cd8d-4722-9964-f5109ef45df6.jpeg" group-title="Cinerama UZ 🇺🇿",S-Music
-http://stream8.cinerama.uz/1476/index.m3u8
+https://stream8.cinerama.uz/1476/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2025/10/27/61e44375-a7a8-43db-a8f7-e264a0d0a6a8.png" group-title="Cinerama UZ 🇺🇿",Qiziq TV
-http://stream8.cinerama.uz/1291/index.m3u8
+https://stream8.cinerama.uz/1291/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2025/03/24/c58b1e89-4197-4534-bf89-605c9dc842ea.jpeg" group-title="Cinerama UZ 🇺🇿",Vodiy TV
-http://stream8.cinerama.uz/4012/index.m3u8
+https://stream8.cinerama.uz/4012/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2025/01/28/dbe98084-792d-4954-bc01-fc658317e3bf.png" group-title="Cinerama UZ 🇺🇿",Makon TV
-http://stream8.cinerama.uz/1497/index.m3u8
+https://stream8.cinerama.uz/1497/index.m3u8
 #EXTINF:-1 tvg-logo="http://play-lh.googleusercontent.com/J1X3QmF7XeYqjSzb0680kdrNlUYiVLg44VO3T_cY23-fq9VTxa55x4e31x00zoK1H7E=w240-h480-rw" group-title="Cinerama UZ 🇺🇿",Travel-tv (O'zbekiston)
 http://fl.biztv.media/TabiatTV_1080/index.m3u8
 #EXTINF:-1 tvg-logo="http://m3u.usite.pro/nologo.jpg" group-title="Cinerama UZ 🇺🇿",Doira TV
 http://fl.biztv.media/BiznesTV_1080/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2024/02/20/411653eb-8eec-4a1c-852c-114b37be5689.jpeg" group-title="Cinerama UZ 🇺🇿",BIZ Cinema
-http://stream8.cinerama.uz/1213/index.m3u8
+https://stream8.cinerama.uz/1213/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/b72767f1-cb87-48f3-b299-ee1b2fd06795.png" group-title="Cinerama UZ 🇺🇿",Uzreport
-http://stream8.cinerama.uz/1015/index.m3u8
+https://stream8.cinerama.uz/1015/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2025/02/07/007deac2-7440-43a8-892b-b1bb5a2be2ab.jpeg" group-title="Cinerama UZ 🇺🇿",TTV Kino
-http://stream8.cinerama.uz/1486/index.m3u8
+https://stream8.cinerama.uz/1486/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2024/06/03/abdae313-c67d-4db5-b6cb-0bc3ca3451ea.jpeg" group-title="Cinerama UZ 🇺🇿",Namangan
-http://stream8.cinerama.uz/1466/index.m3u8
+https://stream8.cinerama.uz/1466/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2024/06/03/0cc39c56-df54-4707-ad94-3e641b29253b.jpeg" group-title="Cinerama UZ 🇺🇿",Andijon
-http://stream8.cinerama.uz/1457/index.m3u8
+https://stream8.cinerama.uz/1457/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2024/06/03/401ef362-9782-4679-a82d-0a5f03cf5205.jpeg" group-title="Cinerama UZ 🇺🇿",Farg'ona
-http://stream8.cinerama.uz/1458/index.m3u8
+https://stream8.cinerama.uz/1458/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2024/06/03/e7d758c0-666b-4824-9a1a-fbf4fbdc6607.jpeg" group-title="Cinerama UZ 🇺🇿",Samarqand
-http://stream8.cinerama.uz/1468/index.m3u8
+https://stream8.cinerama.uz/1468/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2024/06/03/1f22ee2a-440a-462a-879b-f02701b9e18a.jpeg" group-title="Cinerama UZ 🇺🇿",Surxondaryo
-http://stream8.cinerama.uz/1463/index.m3u8
+https://stream8.cinerama.uz/1463/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2025/03/24/e242bb73-9172-4461-8ae3-f812ad7392db.jpeg" group-title="Cinerama UZ 🇺🇿",Amudaryo TV
-http://stream8.cinerama.uz/1491/index.m3u8
+https://stream8.cinerama.uz/1491/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2024/06/03/38994bac-c9a5-4e72-b25e-cc25237390ac.jpeg" group-title="Cinerama UZ 🇺🇿",Xorazm
-http://stream8.cinerama.uz/1464/index.m3u8
+https://stream8.cinerama.uz/1464/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2024/06/03/4eb4be5a-64a1-4fa8-8678-612f13a56223.jpeg" group-title="Cinerama UZ 🇺🇿",Qashqadaryo
-http://stream8.cinerama.uz/1461/index.m3u8
+https://stream8.cinerama.uz/1461/index.m3u8
+#EXTINF:-1 tvg-logo="https://files.cinerama.uz/images/tv_channels/2026/03/12/76b63b36-2e77-44bb-b014-41e3fccb69ce.png" group-title="Cinerama UZ 🇺🇿",Navoiy TV
+https://stream8.cinerama.uz/1460/index.m3u8
+#EXTINF:-1 tvg-logo="https://files.cinerama.uz/images/tv_channels/2024/06/03/4e5da822-cdc8-4e5e-ae1c-02cfa4c5b16f.jpeg" group-title="Cinerama UZ 🇺🇿",Buxoro TV
+https://stream8.cinerama.uz/1459/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2024/06/03/b9f440d3-e221-4746-9485-a8a45813cfbe.jpeg" group-title="Cinerama UZ 🇺🇿",Sirdaryo
-http://stream8.cinerama.uz/1462/index.m3u8
+https://stream8.cinerama.uz/1462/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2024/06/03/bf5ed78b-0a34-4a7c-baa6-388faddc3e46.jpeg" group-title="Cinerama UZ 🇺🇿",Qaraqalpaqstan
-http://stream8.cinerama.uz/1467/index.m3u8
+https://stream8.cinerama.uz/1467/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/9216690c-a093-4029-9b5a-60db8b4f733e.png" group-title="Cinerama UZ 🇺🇿",Navo
-http://stream8.cinerama.uz/1008/index.m3u8
+https://stream8.cinerama.uz/1008/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2022/01/26/5b5a44ad-da45-4ba1-98ff-62913ef1d4c9.png" group-title="Cinerama UZ 🇺🇿",Nurafshon
-http://stream8.cinerama.uz/1220/index.m3u8
+https://stream8.cinerama.uz/1220/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2025/03/24/3b397981-ece6-4fb9-a66f-29b07d234f0f.jpeg" group-title="Cinerama UZ 🇺🇿",Shifo TV
-http://stream8.cinerama.uz/1469/index.m3u8
+https://stream8.cinerama.uz/1469/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/005922d7-3bd7-4eab-9146-4d5dea1d949b.png" group-title="Cinerama UZ 🇺🇿",Dunyo Bo'ylab
-http://stream8.cinerama.uz/1006/index.m3u8
+https://stream8.cinerama.uz/1006/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2025/02/07/34d60aeb-fac7-4e70-9e17-c6c49163c3a2.jpeg" group-title="Cinerama UZ 🇺🇿",TTV Telekanal
-http://stream8.cinerama.uz/1494/index.m3u8
+https://stream8.cinerama.uz/1494/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2021/12/14/56fe1797-3b4e-4f18-816b-e633ebc34316.png" group-title="Cinerama UZ 🇺🇿",Taraqqiyot tv
-http://stream8.cinerama.uz/1204/index.m3u8
+https://stream8.cinerama.uz/1204/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2025/02/10/af774beb-b08b-4b1a-8d9d-cef336126e87.jpeg" group-title="Cinerama UZ 🇺🇿",Nasaf TV
-http://stream8.cinerama.uz/2025/index.m3u8
+https://stream8.cinerama.uz/2025/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2025/03/24/d8af2b7e-bee1-4ace-9fee-a8304d7f11b8.jpeg" group-title="Cinerama UZ 🇺🇿",Eliqqala TV
-http://stream8.cinerama.uz/1495/index.m3u8
+https://stream8.cinerama.uz/1495/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/08/14/5835328d-9a08-42c0-81c7-660f5ecd4aaa.png" group-title="Cinerama UZ 🇺🇿",Gold TV
-http://stream8.cinerama.uz/4007/index.m3u8
+https://stream8.cinerama.uz/4007/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2021/12/14/ad0b928c-20ad-4e6d-9216-be5c0e47ce45.png" group-title="Cinerama UZ 🇺🇿",Fashion TV
-http://stream8.cinerama.uz/1053/index.m3u8
+https://stream8.cinerama.uz/1053/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/09/11/40b92625-964e-4737-9fd0-c318f93dc741.png" group-title="Cinerama UZ 🇺🇿",Istiqlol TV
-http://stream8.cinerama.uz/1283/index.m3u8
+https://stream8.cinerama.uz/1283/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2025/03/24/b7d410f4-508c-4299-b118-d4107489c5c6.jpeg" group-title="Cinerama UZ 🇺🇿",Muloqot TV
-http://stream8.cinerama.uz/1285/index.m3u8
+https://stream8.cinerama.uz/1285/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2025/03/24/1702a7f8-8f1f-4d75-92b4-468a40c125bf.jpeg" group-title="Cinerama UZ 🇺🇿",Ishonch TV
-http://stream8.cinerama.uz/1489/index.m3u8
+https://stream8.cinerama.uz/1489/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/08/14/23bab5dc-4a74-4db8-8a30-6b10918cdd4f.png" group-title="Cinerama UZ 🇺🇿",MYDAYTV
-http://stream8.cinerama.uz/1265/index.m3u8
+https://stream8.cinerama.uz/1265/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/035fe5e3-f968-45fd-93af-31e4b91cdebf.png" group-title="Cinerama UZ 🇺🇿",Milliy TV
-http://stream8.cinerama.uz/1216/index.m3u8
+https://stream8.cinerama.uz/1216/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/035fe5e3-f968-45fd-93af-31e4b91cdebf.png" group-title="Cinerama UZ 🇺🇿",S Music
-http://stream8.cinerama.uz/1245/index.m3u8
+https://stream8.cinerama.uz/1245/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/035fe5e3-f968-45fd-93af-31e4b91cdebf.png" group-title="Cinerama UZ 🇺🇿",MY5
-http://stream8.cinerama.uz/1217/index.m3u8
+https://stream8.cinerama.uz/1217/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2021/04/27/4db20de5-0bb9-4126-b12e-908d327ecf70.png" group-title="Cinerama UZ 🇺🇿",Dasturxon
-http://stream8.cinerama.uz/1206/index.m3u8
+https://stream8.cinerama.uz/1206/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/2fa215cc-332c-4181-8d30-cb32ab9b7f61.png" group-title="Cinerama UZ 🇺🇿",O'zbekiston-24
-http://stream8.cinerama.uz/1011/index.m3u8
+https://stream8.cinerama.uz/1011/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2022/12/07/61bc27f8-5c9f-4f79-87fd-648b76039d4c.jpg" group-title="Cinerama UZ 🇺🇿",BIZ TV
-http://stream8.cinerama.uz/1211/index.m3u8
+https://stream8.cinerama.uz/1211/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2022/12/02/85251811-aae5-4eea-84a6-145d713229f5.png" group-title="Cinerama UZ 🇺🇿",FTV
-http://stream8.cinerama.uz/1018/index.m3u8
+https://stream8.cinerama.uz/1018/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2024/02/20/8f0b15f3-746e-425a-9057-ad1efbb274ec.jpeg" group-title="Cinerama UZ 🇺🇿",Муз-ТВ O'zbekiston
-http://stream8.cinerama.uz/1063/index.m3u8
+https://stream8.cinerama.uz/1063/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2021/12/14/e9b2085d-5064-4189-99a4-b8615dc39e78.png" group-title="Cinerama UZ 🇺🇿",Aqlvoy
-http://stream8.cinerama.uz/1205/index.m3u8
+https://stream8.cinerama.uz/1205/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/80f29007-3f69-44fd-a8de-4c5d9783beb1.png" group-title="Cinerama UZ 🇺🇿",O'zbekiston
-http://stream8.cinerama.uz/1001/index.m3u8
+https://stream8.cinerama.uz/1001/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/c037c019-f6e7-41fb-8001-d5adeec3b69a.png" group-title="Cinerama UZ 🇺🇿",O'zbekiston tarixi
-http://stream8.cinerama.uz/1209/index.m3u8
+https://stream8.cinerama.uz/1209/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2024/02/20/0720d35d-92a6-40da-a057-663c1986a100.jpeg" group-title="Cinerama UZ 🇺🇿",ntv (o'zbekiston)
-http://stream8.cinerama.uz/1284/index.m3u8
+https://stream8.cinerama.uz/1284/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/2eb5212f-fda5-42f3-a1cf-56bda22bbb77.png" group-title="Cinerama UZ 🇺🇿",Toshkent
-http://stream8.cinerama.uz/1003/index.m3u8
+https://stream8.cinerama.uz/1003/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/656157a5-310c-4ea8-8c7f-a5d7db68c409.png" group-title="Cinerama UZ 🇺🇿",Madaniyat va ma'rifat
-http://stream8.cinerama.uz/1005/index.m3u8
+https://stream8.cinerama.uz/1005/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/61708bfe-535d-4e03-81aa-5a949b9ba443.png" group-title="Cinerama UZ 🇺🇿",Bolajon
-http://stream8.cinerama.uz/1007/index.m3u8
+https://stream8.cinerama.uz/1007/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/ac492313-1888-47ce-97c6-8095a3e2781e.png" group-title="Cinerama UZ 🇺🇿",Euronews
-http://stream8.cinerama.uz/1024/index.m3u8
+https://stream8.cinerama.uz/1024/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/3581815e-23b6-4e2b-9d15-141be8b5e5f2.png" group-title="Cinerama UZ 🇺🇿",National Geographic
-http://stream8.cinerama.uz/1041/index.m3u8
+https://stream8.cinerama.uz/1041/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/e315edeb-2758-4831-8e33-f4c4e104626a.png" group-title="Cinerama UZ 🇺🇿",Nat Geo Wild
-http://stream8.cinerama.uz/1042/index.m3u8
+https://stream8.cinerama.uz/1042/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/f9b7dca1-6d47-480d-9958-7ce77b63ba8d.png" group-title="Cinerama UZ 🇺🇿",Yoshlar
-http://stream8.cinerama.uz/1002/index.m3u8
+https://stream8.cinerama.uz/1002/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2024/01/30/e4beb360-07dc-45bc-97a9-a27df4e936d2.jpeg" group-title="Cinerama UZ 🇺🇿",Biz TV Music
-http://stream8.cinerama.uz/1212/index.m3u8
+https://stream8.cinerama.uz/1212/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/f310f2fb-a764-4bb4-a2e1-b10744ef9919.png" group-title="Cinerama UZ 🇺🇿",Наше новое кино
-http://stream8.cinerama.uz/1051/index.m3u8
+https://stream8.cinerama.uz/1051/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/08/14/18a5b475-ed03-4ab6-b255-73e093bb71f8.png" group-title="Cinerama UZ 🇺🇿",Приключения
-http://stream8.cinerama.uz/1420/index.m3u8
+https://stream8.cinerama.uz/1420/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/10/16/b445471e-7e40-4c88-8904-67108f07c5c7.png" group-title="Cinerama UZ 🇺🇿",Мужское кино
-http://stream8.cinerama.uz/1237/index.m3u8
+https://stream8.cinerama.uz/1237/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/09/11/c87ca0b0-12f4-44a6-9c78-86eda201dbc5.jpeg" group-title="Cinerama UZ 🇺🇿",Cinema
-http://stream8.cinerama.uz/1227/index.m3u8
+https://stream8.cinerama.uz/1227/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/a942987b-1ebf-4191-9945-cc72ed03b0aa.png" group-title="Cinerama UZ 🇺🇿",Кинохит
-http://stream8.cinerama.uz/1055/index.m3u8
+https://stream8.cinerama.uz/1055/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/10/16/f45cf32c-a27c-4dd6-81b2-a46fb59c8771.png" group-title="Cinerama UZ 🇺🇿",Киносерия
-http://stream8.cinerama.uz/1235/index.m3u8
+https://stream8.cinerama.uz/1235/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/10/16/594fe4b7-3ce2-4485-9c2d-ff0df95e75ba.png" group-title="Cinerama UZ 🇺🇿",Киносемья
-http://stream8.cinerama.uz/1234/index.m3u8
+https://stream8.cinerama.uz/1234/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/845c3d66-3570-4cb9-b790-b5c6a0ae4894.png" group-title="Cinerama UZ 🇺🇿",Киносведание
-http://stream8.cinerama.uz/1203/index.m3u8
+https://stream8.cinerama.uz/1203/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/10/16/6047d8f1-1f30-48f3-9aac-26a25fd2599e.png" group-title="Cinerama UZ 🇺🇿",Киномикс
-http://stream8.cinerama.uz/1233/index.m3u8
+https://stream8.cinerama.uz/1233/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/10/16/0a7c48cd-6663-4f9d-8423-16d029e35854.png" group-title="Cinerama UZ 🇺🇿",Кинокомедия
-http://stream8.cinerama.uz/1232/index.m3u8
+https://stream8.cinerama.uz/1232/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/5c110ff3-9c65-4c15-bda7-e21d6ab5c815.png" group-title="Cinerama UZ 🇺🇿",Кинопремьера
-http://stream8.cinerama.uz/1207/index.m3u8
+https://stream8.cinerama.uz/1207/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/f42a0d33-6a1d-41f5-9f1f-5a725fc1b9c0.png" group-title="Cinerama UZ 🇺🇿",Кинопоказ
-http://stream8.cinerama.uz/1057/index.m3u8
+https://stream8.cinerama.uz/1057/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/283fa812-87b2-4e42-9e2f-0907dc041a64.png" group-title="Cinerama UZ 🇺🇿",Родное кино
-http://stream8.cinerama.uz/1052/index.m3u8
+https://stream8.cinerama.uz/1052/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/23dfcfff-b1fd-4f57-bb0b-39ffa79d45b5.png" group-title="Cinerama UZ 🇺🇿",Россия 1
-http://stream8.cinerama.uz/1020/index.m3u8
+https://stream8.cinerama.uz/1020/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2021/12/14/1d294da3-5f54-4e99-bb45-1308f13da3c1.png" group-title="Cinerama UZ 🇺🇿",Мир
-http://stream8.cinerama.uz/1218/index.m3u8
+https://stream8.cinerama.uz/1218/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/09/11/90d59b30-09b3-484e-bea8-952da4cfcc46.jpeg" group-title="Cinerama UZ 🇺🇿",Матч! Планета
-http://stream8.cinerama.uz/1243/index.m3u8
+https://stream8.cinerama.uz/1243/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2021/12/14/a0e101d7-b517-41dd-92cb-2221ebf50612.png" group-title="Cinerama UZ 🇺🇿",Мир 24
-http://stream8.cinerama.uz/1219/index.m3u8
+https://stream8.cinerama.uz/1219/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/09/11/c87740e4-e38d-4336-ba85-e08441b1e73b.jpeg" group-title="Cinerama UZ 🇺🇿",Мама
-http://stream8.cinerama.uz/1244/index.m3u8
+https://stream8.cinerama.uz/1244/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/09/11/898764bc-5f23-4af8-b1e2-30126b8ca4dd.jpeg" group-title="Cinerama UZ 🇺🇿",Космический ТВ
-http://stream8.cinerama.uz/1415/index.m3u8
+https://stream8.cinerama.uz/1415/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/09/11/3b40ca30-297f-416d-b054-ca948550e1b5.jpeg" group-title="Cinerama UZ 🇺🇿",Наука ТВ
-http://stream8.cinerama.uz/1248/index.m3u8
+https://stream8.cinerama.uz/1248/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/09/11/b22f025f-74b3-443c-8251-e84a3af77acd.jpeg" group-title="Cinerama UZ 🇺🇿",Живая Планета ТВ
-http://stream8.cinerama.uz/1250/index.m3u8
+https://stream8.cinerama.uz/1250/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/7264f8a9-b852-461e-8791-3dd998e5a9e5.png" group-title="Cinerama UZ 🇺🇿",Первый каналь
-http://stream8.cinerama.uz/1019/index.m3u8
+https://stream8.cinerama.uz/1019/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/09/11/58ff5cb1-6568-429e-91c7-5a44e80d8108.jpeg" group-title="Cinerama UZ 🇺🇿",Моя планета
-http://stream8.cinerama.uz/1247/index.m3u8
+https://stream8.cinerama.uz/1247/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/8b828a19-cfd1-4022-9e05-6ec3f3902cbd.png" group-title="Cinerama UZ 🇺🇿",НТВ
-http://stream8.cinerama.uz/1023/index.m3u8
+https://stream8.cinerama.uz/1023/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2024/02/20/2946c715-b99f-4fcc-b405-74663b663624.jpeg" group-title="Cinerama UZ 🇺🇿",Дорама
-http://stream8.cinerama.uz/1273/index.m3u8
+https://stream8.cinerama.uz/1273/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/19eb6d5f-97b9-421e-8d4a-763c00715604.png" group-title="Cinerama UZ 🇺🇿",Россия 24
-http://stream8.cinerama.uz/1021/index.m3u8
+https://stream8.cinerama.uz/1021/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/08/14/e41544a7-6d40-442e-a517-e6ba42eb7e87.png" group-title="Cinerama UZ 🇺🇿",Домашний International
-http://stream8.cinerama.uz/1436/index.m3u8
+https://stream8.cinerama.uz/1436/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/10/16/5288ea73-2795-434f-907e-6e3c19c00c1c.png" group-title="Cinerama UZ 🇺🇿",HD Life
-http://stream8.cinerama.uz/1222/index.m3u8
+https://stream8.cinerama.uz/1222/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/08/14/a8b8eae3-4d47-43f8-96b9-120bdecf3078.png" group-title="Cinerama UZ 🇺🇿",Домашние Животные
-http://stream8.cinerama.uz/1426/index.m3u8
+https://stream8.cinerama.uz/1426/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/835def0f-e2bc-442f-93b9-b44d9f079e9b.png" group-title="Cinerama UZ 🇺🇿",Дом кино
-http://stream8.cinerama.uz/1054/index.m3u8
+https://stream8.cinerama.uz/1054/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/08/14/45ee918d-9034-480b-9995-910d4e049960.png" group-title="Cinerama UZ 🇺🇿",Глазами Туриста
-http://stream8.cinerama.uz/1423/index.m3u8
+https://stream8.cinerama.uz/1423/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2024/02/20/6f4db2ed-fd01-4e38-b633-dfa20befcfa7.jpeg" group-title="Cinerama UZ 🇺🇿",ТВЦ
-http://stream8.cinerama.uz/1025/index.m3u8
+https://stream8.cinerama.uz/1025/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/f2718904-a3f8-4fd0-81e9-e3e47ed8ce3f.png" group-title="Cinerama UZ 🇺🇿",Авто Плюс
-http://stream8.cinerama.uz/1036/index.m3u8
+https://stream8.cinerama.uz/1036/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/92d4e183-4998-4603-88ca-fd166ac20fe5.png" group-title="Cinerama UZ 🇺🇿",Animal Planet
-http://stream8.cinerama.uz/1043/index.m3u8
+https://stream8.cinerama.uz/1043/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/09/11/7ac5563d-c623-4620-89b4-3bafa46b8ec4.png" group-title="Cinerama UZ 🇺🇿",Bollywood
-http://stream8.cinerama.uz/1444/index.m3u8
+https://stream8.cinerama.uz/1444/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/10/16/a74fe393-6ab8-4edf-a541-5b839c727339.png" group-title="Cinerama UZ 🇺🇿",Da Vinci
-http://stream8.cinerama.uz/1231/index.m3u8
+https://stream8.cinerama.uz/1231/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/08/14/e3ceccb0-25be-4f1b-831d-57028e086c81.png" group-title="Cinerama UZ 🇺🇿",Drive
-http://stream8.cinerama.uz/1421/index.m3u8
+https://stream8.cinerama.uz/1421/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/09/11/6e6ff3a9-c332-49cb-9a92-96eaeb5a2c9a.jpeg" group-title="Cinerama UZ 🇺🇿",Ducktv
-http://stream8.cinerama.uz/1271/index.m3u8
+https://stream8.cinerama.uz/1271/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/10/16/b434f380-9aa1-425d-a942-864d676707a9.png" group-title="Cinerama UZ 🇺🇿",Fuel TV
-http://stream8.cinerama.uz/1280/index.m3u8
+https://stream8.cinerama.uz/1280/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/fac02a6a-8752-47d9-bf0b-951e785f7b16.png" group-title="Cinerama UZ 🇺🇿",Музыка первого
-http://stream8.cinerama.uz/1201/index.m3u8
+https://stream8.cinerama.uz/1201/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/10/16/bd4bc454-df6a-4b48-8d31-c4c1d49c6ac1.png" group-title="Cinerama UZ 🇺🇿",Мультиландия
-http://stream8.cinerama.uz/1440/index.m3u8
+https://stream8.cinerama.uz/1440/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/09/11/c1bc97db-9b94-45f0-a81b-a09171a06708.png" group-title="Cinerama UZ 🇺🇿",Смайлик ТВ
-http://stream8.cinerama.uz/1425/index.m3u8
+https://stream8.cinerama.uz/1425/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/09/11/02cd7c4d-4d86-4058-9bc1-3a7330f17b1e.jpeg" group-title="Cinerama UZ 🇺🇿",Рыжий
-http://stream8.cinerama.uz/1407/index.m3u8
+https://stream8.cinerama.uz/1407/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/09/11/8cf4769d-6ba1-4484-bf10-870f68d61574.png" group-title="Cinerama UZ 🇺🇿",Gulli Girl
-http://stream8.cinerama.uz/1445/index.m3u8
+https://stream8.cinerama.uz/1445/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/899888a2-24a2-4e37-a51d-1c94542ea0b0.png" group-title="Cinerama UZ 🇺🇿",Муз-ТВ
-http://stream8.cinerama.uz/1200/index.m3u8
+https://stream8.cinerama.uz/1200/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/09/11/378ea87e-e9e2-41cc-b181-17eb9d636518.png" group-title="Cinerama UZ 🇺🇿",Hollywood
-http://stream8.cinerama.uz/1443/index.m3u8
+https://stream8.cinerama.uz/1443/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/08/14/5951e3a5-db4d-41c0-a9f2-1d485801aa0e.png" group-title="Cinerama UZ 🇺🇿",I-kbol
-http://stream8.cinerama.uz/1282/index.m3u8
+https://stream8.cinerama.uz/1282/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2025/02/10/5842ad76-eef6-494b-acb8-ab79ef2cb70d.jpeg" group-title="Cinerama UZ 🇺🇿",JaslarTV
-http://stream8.cinerama.uz/1490/index.m3u8
+https://stream8.cinerama.uz/1490/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2024/06/03/c5d06c65-4d27-4b53-af37-6064bef688fd.jpeg" group-title="Cinerama UZ 🇺🇿",Jizzax
-http://stream8.cinerama.uz/1465/index.m3u8
+https://stream8.cinerama.uz/1465/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2025/03/24/c454009d-156c-433b-ab68-079cb3e6d5d2.jpeg" group-title="Cinerama UZ 🇺🇿",JTV
-http://stream8.cinerama.uz/1488/index.m3u8
+https://stream8.cinerama.uz/1488/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2025/02/07/f2b46d1e-4104-463f-8851-f08fb082dbf5.jpeg" group-title="Cinerama UZ 🇺🇿",Live TV
-http://stream8.cinerama.uz/1475/index.m3u8
+https://stream8.cinerama.uz/1475/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2024/01/30/e2b9fdd9-560a-494f-bf8f-4a085d042624.jpeg" group-title="Cinerama UZ 🇺🇿",LuxTV
-http://stream8.cinerama.uz/1210/index.m3u8
+https://stream8.cinerama.uz/1210/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/257d6f2f-a233-4e37-8767-af7d224876f8.png" group-title="Cinerama UZ 🇺🇿",Mahalla
-http://stream8.cinerama.uz/1013/index.m3u8
+https://stream8.cinerama.uz/1013/index.m3u8
 #EXTINF:-1 tvg-logo="http://cdn.biztv.media/2024/02/28/10/17/0Y6JFeH8IqkdgX6QK00ZnklLMcagXymx_small.png" group-title="Cinerama UZ 🇺🇿",MiMi
-http://stream8.cinerama.uz/1470/index.m3u8
+https://stream8.cinerama.uz/1470/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/03/05/851c6f61-d4ec-43e7-b68f-8d90a811a6e3.png" group-title="Cinerama UZ 🇺🇿",MMA TV
-http://stream8.cinerama.uz/1226/index.m3u8
+https://stream8.cinerama.uz/1226/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/09/11/c3404c27-1b99-421a-a84b-9fe997c5f720.jpeg" group-title="Cinerama UZ 🇺🇿",Загородный
-http://stream8.cinerama.uz/1410/index.m3u8
+https://stream8.cinerama.uz/1410/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/08/14/7fb948c8-222c-46e0-bd73-0db6b36d3c45.png" group-title="Cinerama UZ 🇺🇿",ТВ-3
-http://stream8.cinerama.uz/1435/index.m3u8
+https://stream8.cinerama.uz/1435/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/725b7125-c247-4ec7-a2e0-7cd4779cc59c.png" group-title="Cinerama UZ 🇺🇿",Ru-TV
-http://stream8.cinerama.uz/1202/index.m3u8
+https://stream8.cinerama.uz/1202/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/828d4562-bf08-4874-9c0f-52e86676d1e9.png" group-title="Cinerama UZ 🇺🇿",Ретро
-http://stream8.cinerama.uz/1047/index.m3u8
+https://stream8.cinerama.uz/1047/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/08/14/547e0fb2-dc3e-4e8b-9f50-696e5a8a38ca.png" group-title="Cinerama UZ 🇺🇿",РБК
-http://stream8.cinerama.uz/1438/index.m3u8
+https://stream8.cinerama.uz/1438/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/09/11/6e1a91c6-1465-47c1-b044-eef3ca25f97b.png" group-title="Cinerama UZ 🇺🇿",TiJi
-http://stream8.cinerama.uz/1441/index.m3u8
+https://stream8.cinerama.uz/1441/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/09/11/87cb45de-8c74-4194-88ca-e5f709c11621.jpeg" group-title="Cinerama UZ 🇺🇿",Trace Sport Starts
-http://stream8.cinerama.uz/1274/index.m3u8
+https://stream8.cinerama.uz/1274/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/10/16/14ab379c-1305-4bb0-9700-8643453fac54.png" group-title="Cinerama UZ 🇺🇿",Ля Минор
-http://stream8.cinerama.uz/1238/index.m3u8
+https://stream8.cinerama.uz/1238/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2024/02/20/daf362fb-ce6f-4f29-a7f4-2a10f896715d.jpeg" group-title="Cinerama UZ 🇺🇿",Доктор
-http://stream8.cinerama.uz/1409/index.m3u8
+https://stream8.cinerama.uz/1409/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/6891d933-5f88-496a-aa73-61c030566eec.png" group-title="Cinerama UZ 🇺🇿",Детский Мир
-http://stream8.cinerama.uz/1032/index.m3u8
+https://stream8.cinerama.uz/1032/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/08/14/8bf48f18-393d-4553-a8d3-73c602fd0036.png" group-title="Cinerama UZ 🇺🇿",КХЛ
-http://stream8.cinerama.uz/1422/index.m3u8
+https://stream8.cinerama.uz/1422/index.m3u8
 #EXTINF:-1 tvg-logo="http://cdn.uzd.udevs.io/uzdigital-images-compressed/images/a6bd8e61-84e3-440e-b2d1-d34b3c7a90ab.jpg" group-title="Cinerama UZ 🇺🇿",TTV Musiqa
 http://st1.uzdigital.tv/TTV_Musiqa/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2024/02/20/e525159b-d1fa-4452-82db-401316a5e9e5.jpeg" group-title="Cinerama UZ 🇺🇿",Уникум
-http://stream8.cinerama.uz/1033/index.m3u8
+https://stream8.cinerama.uz/1033/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2025/10/27/b8b8c5fa-a0fd-45b1-98b2-d7e5773f7fcf.png" group-title="Cinerama UZ 🇺🇿",Retro TV
-http://stream8.cinerama.uz/1290/index.m3u8
+https://stream8.cinerama.uz/1290/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/08/14/d2cbd703-1019-4441-9d5b-a62cf6c3876b.png" group-title="Cinerama UZ 🇺🇿",СТС Kids
-http://stream8.cinerama.uz/1437/index.m3u8
+https://stream8.cinerama.uz/1437/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/4d874ae0-f0f4-4442-91f8-e1578211a205.png" group-title="Cinerama UZ 🇺🇿",Телекафе
-http://stream8.cinerama.uz/1035/index.m3u8
+https://stream8.cinerama.uz/1035/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/08/14/775fe752-e2e3-4b4c-ac09-2f60a91ecbfa.png" group-title="Cinerama UZ 🇺🇿",Здоровое ТВ
-http://stream8.cinerama.uz/1428/index.m3u8
+https://stream8.cinerama.uz/1428/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/08/14/1c887f6c-eefc-48a7-8618-1b302f032766.png" group-title="Cinerama UZ 🇺🇿",Точка Отрыва
-http://stream8.cinerama.uz/1031/index.m3u8
+https://stream8.cinerama.uz/1031/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/09/11/1285670f-8da5-4d02-a789-70031bec9c95.png" group-title="Cinerama UZ 🇺🇿",RTV
-http://stream8.cinerama.uz/1221/index.m3u8
+https://stream8.cinerama.uz/1221/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/08/14/93452822-8b5e-45c7-bbf3-6500dd360548.png" group-title="Cinerama UZ 🇺🇿",Viasat Explore
-http://stream8.cinerama.uz/1045/index.m3u8
+https://stream8.cinerama.uz/1045/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/08/14/6cb32a2d-19e2-4474-80af-6c4ce11eed9e.png" group-title="Cinerama UZ 🇺🇿",Живи
-http://stream8.cinerama.uz/1419/index.m3u8
+https://stream8.cinerama.uz/1419/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/09/11/a98a4db3-0485-456b-8368-929637173cc4.jpeg" group-title="Cinerama UZ 🇺🇿",Сарафан ТВ
-http://stream8.cinerama.uz/1249/index.m3u8
+https://stream8.cinerama.uz/1249/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/08/14/c6f1c2d7-4d26-481b-a4e4-71142ba1872b.png" group-title="Cinerama UZ 🇺🇿",Авто 24
-http://stream8.cinerama.uz/1430/index.m3u8
+https://stream8.cinerama.uz/1430/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/09/11/4d4e95a6-ee0b-4444-a48e-262109df4ad6.jpeg" group-title="Cinerama UZ 🇺🇿",В гостях у Сказки
-http://stream8.cinerama.uz/1270/index.m3u8
+https://stream8.cinerama.uz/1270/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/09/11/ab5c73a2-7512-496d-a624-7bad876cd19c.jpeg" group-title="Cinerama UZ 🇺🇿",В мире животных
-http://stream8.cinerama.uz/1404/index.m3u8
+https://stream8.cinerama.uz/1404/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/08/14/1495fed7-420b-491a-800a-078be172df55.png" group-title="Cinerama UZ 🇺🇿",Наша Сибирь
-http://stream8.cinerama.uz/1424/index.m3u8
+https://stream8.cinerama.uz/1424/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/d032aa68-76e4-493c-8a7b-12415116a651.png" group-title="Cinerama UZ 🇺🇿",Viasat History
-http://stream8.cinerama.uz/1046/index.m3u8
+https://stream8.cinerama.uz/1046/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/265ed287-b0aa-4fbf-b09a-924635e62820.png" group-title="Cinerama UZ 🇺🇿",Карусель
-http://stream8.cinerama.uz/1034/index.m3u8
+https://stream8.cinerama.uz/1034/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/08/14/b03d77d6-09ec-4cbc-aa60-99f5bf1af9a7.png" group-title="Cinerama UZ 🇺🇿",Viasat Nature
-http://stream8.cinerama.uz/1228/index.m3u8
+https://stream8.cinerama.uz/1228/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/10/16/da09ba3d-82ae-4d47-8e9a-4d934522f4f2.png" group-title="Cinerama UZ 🇺🇿",Viasat Sport
-http://stream8.cinerama.uz/1229/index.m3u8
+https://stream8.cinerama.uz/1229/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/08/14/4c012a02-4a62-4554-98ac-d3610cfd05fe.png" group-title="Cinerama UZ 🇺🇿",viju+ TV1000
-http://stream8.cinerama.uz/1058/index.m3u8
+https://stream8.cinerama.uz/1058/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/32daf72b-4cce-4eb7-adc9-e44d7b395e57.png" group-title="Cinerama UZ 🇺🇿",Индийское кино
-http://stream8.cinerama.uz/1060/index.m3u8
+https://stream8.cinerama.uz/1060/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/09/11/d6814a51-a758-4277-8c23-40ee01a81037.jpeg" group-title="Cinerama UZ 🇺🇿",История
-http://stream8.cinerama.uz/1266/index.m3u8
+https://stream8.cinerama.uz/1266/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/08/14/987d9c4a-2e6c-4546-a37e-c50d24aa17d8.png" group-title="Cinerama UZ 🇺🇿",viju+ TV1000 Action
-http://stream8.cinerama.uz/1225/index.m3u8
+https://stream8.cinerama.uz/1225/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/08/14/2a4a6e8e-1ec9-4646-975a-dbdeb0583508.png" group-title="Cinerama UZ 🇺🇿",viju+ TV1000 Русское
-http://stream8.cinerama.uz/1059/index.m3u8
+https://stream8.cinerama.uz/1059/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/09/11/0c18930a-be53-4597-88fc-27a943b6b48d.jpeg" group-title="Cinerama UZ 🇺🇿",Живи активно
-http://stream8.cinerama.uz/1405/index.m3u8
+https://stream8.cinerama.uz/1405/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/09/11/e2168492-0948-47b2-b6e4-c8373add1961.jpeg" group-title="Cinerama UZ 🇺🇿",ZooПарк
-http://stream8.cinerama.uz/1417/index.m3u8
+https://stream8.cinerama.uz/1417/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/09/11/459cc59d-fde3-4430-9b50-b018fa66d725.jpeg" group-title="Cinerama UZ 🇺🇿",Мульт
-http://stream8.cinerama.uz/1246/index.m3u8
+https://stream8.cinerama.uz/1246/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/08/14/0d1b728f-7442-4448-8ff8-1e232aa72859.png" group-title="Cinerama UZ 🇺🇿",Усадьба
-http://stream8.cinerama.uz/1427/index.m3u8
+https://stream8.cinerama.uz/1427/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/08/14/be254af5-4ced-40ce-98bf-bdee3cdb1a63.png" group-title="Cinerama UZ 🇺🇿",Вопросы и Ответы
-http://stream8.cinerama.uz/1429/index.m3u8
+https://stream8.cinerama.uz/1429/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/970392a9-92cc-4243-9d33-95618de26709.png" group-title="Cinerama UZ 🇺🇿",Охота и рыбалка
-http://stream8.cinerama.uz/1038/index.m3u8
+https://stream8.cinerama.uz/1038/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/09/11/05037a46-794f-4ad2-8159-b7bd07b8d303.jpeg" group-title="Cinerama UZ 🇺🇿",Капитан Фантастика
-http://stream8.cinerama.uz/1406/index.m3u8
+https://stream8.cinerama.uz/1406/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/09/11/8bd6a701-305f-4760-9586-3aa8d7334e18.png" group-title="Cinerama UZ 🇺🇿",TRT Music
-http://stream8.cinerama.uz/1208/index.m3u8
+https://stream8.cinerama.uz/1208/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/09/11/7fc88f01-8941-4053-98f2-8a209848c61d.jpeg" group-title="Cinerama UZ 🇺🇿",24KZ
-http://stream8.cinerama.uz/1408/index.m3u8
+https://stream8.cinerama.uz/1408/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2023/09/11/d53465e1-9972-43fe-ad82-e3630d1fd30b.png" group-title="Cinerama UZ 🇺🇿",Qazaqstan
-http://stream8.cinerama.uz/1431/index.m3u8
+https://stream8.cinerama.uz/1431/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/035fe5e3-f968-45fd-93af-31e4b91cdebf.png" group-title="Cinerama UZ 🇺🇿",Матч! Планета
-http://stream8.cinerama.uz/1028/index.m3u8
+https://stream8.cinerama.uz/1028/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/035fe5e3-f968-45fd-93af-31e4b91cdebf.png" group-title="Cinerama UZ 🇺🇿",Техно 24
-http://stream8.cinerama.uz/1037/index.m3u8
+https://stream8.cinerama.uz/1037/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/035fe5e3-f968-45fd-93af-31e4b91cdebf.png" group-title="Cinerama UZ 🇺🇿",Discovery Channel HD
-http://stream8.cinerama.uz/1039/index.m3u8
+https://stream8.cinerama.uz/1039/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/035fe5e3-f968-45fd-93af-31e4b91cdebf.png" group-title="Cinerama UZ 🇺🇿",Discovery Science
-http://stream8.cinerama.uz/1040/index.m3u8
+https://stream8.cinerama.uz/1040/index.m3u8
 #EXTINF:-1 tvg-logo="https://files.cinerama.uz/images/tv_channels/2023/09/11/c3404c27-1b99-421a-a84b-9fe997c5f720.jpeg" group-title="Cinerama UZ 🇺🇿",Загородный
-http://stream8.cinerama.uz/1044/index.m3u8
+https://stream8.cinerama.uz/1044/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/035fe5e3-f968-45fd-93af-31e4b91cdebf.png" group-title="Cinerama UZ 🇺🇿",Россия-Культура
-http://stream8.cinerama.uz/1048/index.m3u8
+https://stream8.cinerama.uz/1048/index.m3u8
 #EXTINF:-1 tvg-logo="https://files.cinerama.uz/images/tv_channels/2020/06/12/2dc3746e-056b-4aa1-9a03-ac38cf13032b.png" group-title="Cinerama UZ 🇺🇿",Звезда
-http://stream8.cinerama.uz/1050/index.m3u8
+https://stream8.cinerama.uz/1050/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/035fe5e3-f968-45fd-93af-31e4b91cdebf.png" group-title="Cinerama UZ 🇺🇿",Первый канал HD
-http://stream8.cinerama.uz/1214/index.m3u8
+https://stream8.cinerama.uz/1214/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/035fe5e3-f968-45fd-93af-31e4b91cdebf.png" group-title="Cinerama UZ 🇺🇿",Кухня HD
-http://stream8.cinerama.uz/1236/index.m3u8
+https://stream8.cinerama.uz/1236/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/035fe5e3-f968-45fd-93af-31e4b91cdebf.png" group-title="Cinerama UZ 🇺🇿",France 24
-http://stream8.cinerama.uz/1241/index.m3u8
+https://stream8.cinerama.uz/1241/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/035fe5e3-f968-45fd-93af-31e4b91cdebf.png" group-title="Cinerama UZ 🇺🇿",365 дней ТВ
-http://stream8.cinerama.uz/1242/index.m3u8
+https://stream8.cinerama.uz/1242/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/035fe5e3-f968-45fd-93af-31e4b91cdebf.png" group-title="Cinerama UZ 🇺🇿",BBC World News
-http://stream8.cinerama.uz/1251/index.m3u8
+https://stream8.cinerama.uz/1251/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/035fe5e3-f968-45fd-93af-31e4b91cdebf.png" group-title="Cinerama UZ 🇺🇿",FOX News Channel
-http://stream8.cinerama.uz/1252/index.m3u8
+https://stream8.cinerama.uz/1252/index.m3u8
 #EXTINF:-1 tvg-logo="https://files.cinerama.uz/images/tv_channels/2023/08/31/d96c13f0-ec55-4a41-a76e-319efbd9cde5.png" group-title="Cinerama UZ 🇺🇿",CGTN
-http://stream8.cinerama.uz/1253/index.m3u8
+https://stream8.cinerama.uz/1253/index.m3u8
+#EXTINF:-1 tvg-logo="https://files.cinerama.uz/images/tv_channels/2025/03/20/89a061d3-6605-403b-9dee-2c1277a3d6cc.jpeg" group-title="Cinerama UZ 🇺🇿",CGTN Русский
+https://stream8.cinerama.uz/1456/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/035fe5e3-f968-45fd-93af-31e4b91cdebf.png" group-title="Cinerama UZ 🇺🇿",Bloomberg HT
-http://stream8.cinerama.uz/1255/index.m3u8
+https://stream8.cinerama.uz/1255/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/035fe5e3-f968-45fd-93af-31e4b91cdebf.png" group-title="Cinerama UZ 🇺🇿",TRT HABER HD
-http://stream8.cinerama.uz/1257/index.m3u8
+https://stream8.cinerama.uz/1257/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/035fe5e3-f968-45fd-93af-31e4b91cdebf.png" group-title="Cinerama UZ 🇺🇿",TRT AVAZ
-http://stream8.cinerama.uz/1258/index.m3u8
+https://stream8.cinerama.uz/1258/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/035fe5e3-f968-45fd-93af-31e4b91cdebf.png" group-title="Cinerama UZ 🇺🇿",CNN CA
-http://stream8.cinerama.uz/1259/index.m3u8
+https://stream8.cinerama.uz/1259/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/035fe5e3-f968-45fd-93af-31e4b91cdebf.png" group-title="Cinerama UZ 🇺🇿",Туган Тел
-http://stream8.cinerama.uz/1261/index.m3u8
+https://stream8.cinerama.uz/1261/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/035fe5e3-f968-45fd-93af-31e4b91cdebf.png" group-title="Cinerama UZ 🇺🇿",8 канал
-http://stream8.cinerama.uz/1262/index.m3u8
+https://stream8.cinerama.uz/1262/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/035fe5e3-f968-45fd-93af-31e4b91cdebf.png" group-title="Cinerama UZ 🇺🇿",1HD
-http://stream8.cinerama.uz/1267/index.m3u8
+https://stream8.cinerama.uz/1267/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/035fe5e3-f968-45fd-93af-31e4b91cdebf.png" group-title="Cinerama UZ 🇺🇿",ТНТ Music HD
-http://stream8.cinerama.uz/1272/index.m3u8
+https://stream8.cinerama.uz/1272/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/035fe5e3-f968-45fd-93af-31e4b91cdebf.png" group-title="Cinerama UZ 🇺🇿",ТВ Центр,ТВЦ
-http://stream8.cinerama.uz/1281/index.m3u8
+https://stream8.cinerama.uz/1281/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/035fe5e3-f968-45fd-93af-31e4b91cdebf.png" group-title="Cinerama UZ 🇺🇿",Живая природа HD
-http://stream8.cinerama.uz/1411/index.m3u8
+https://stream8.cinerama.uz/1411/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/035fe5e3-f968-45fd-93af-31e4b91cdebf.png" group-title="Cinerama UZ 🇺🇿",Охотник и рыболов HD
-http://stream8.cinerama.uz/1413/index.m3u8
+https://stream8.cinerama.uz/1413/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/035fe5e3-f968-45fd-93af-31e4b91cdebf.png" group-title="Cinerama UZ 🇺🇿",Арсенал HD
-http://stream8.cinerama.uz/1414/index.m3u8
+https://stream8.cinerama.uz/1414/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/035fe5e3-f968-45fd-93af-31e4b91cdebf.png" group-title="Cinerama UZ 🇺🇿",Инсайт ТВ
-http://stream8.cinerama.uz/1416/index.m3u8
+https://stream8.cinerama.uz/1416/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/035fe5e3-f968-45fd-93af-31e4b91cdebf.png" group-title="Cinerama UZ 🇺🇿",Deutsche Welle English
-http://stream8.cinerama.uz/1418/index.m3u8
+https://stream8.cinerama.uz/1418/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/035fe5e3-f968-45fd-93af-31e4b91cdebf.png" group-title="Cinerama UZ 🇺🇿",Al Jazeera
-http://stream8.cinerama.uz/1433/index.m3u8
+https://stream8.cinerama.uz/1433/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/035fe5e3-f968-45fd-93af-31e4b91cdebf.png" group-title="Cinerama UZ 🇺🇿",Eurosport 1 HD
-http://stream8.cinerama.uz/1439/index.m3u8
+https://stream8.cinerama.uz/1439/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/035fe5e3-f968-45fd-93af-31e4b91cdebf.png" group-title="Cinerama UZ 🇺🇿",English Club TV HD
-http://stream8.cinerama.uz/1442/index.m3u8
+https://stream8.cinerama.uz/1442/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/035fe5e3-f968-45fd-93af-31e4b91cdebf.png" group-title="Cinerama UZ 🇺🇿",Al Jazeera English
-http://stream8.cinerama.uz/1447/index.m3u8
+https://stream8.cinerama.uz/1447/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/035fe5e3-f968-45fd-93af-31e4b91cdebf.png" group-title="Cinerama UZ 🇺🇿",KBS World
-http://stream8.cinerama.uz/1448/index.m3u8
+https://stream8.cinerama.uz/1448/index.m3u8
 #EXTINF:-1 tvg-logo="http://files.cinerama.uz/images/tv_channels/2020/06/12/035fe5e3-f968-45fd-93af-31e4b91cdebf.png" group-title="Cinerama UZ 🇺🇿",NHK World TV
-http://stream8.cinerama.uz/1449/index.m3u8
+https://stream8.cinerama.uz/1449/index.m3u8
+#EXTINF:-1 tvg-logo="https://files.cinerama.uz/images/tv_channels/2020/10/16/9247ebb0-c0e5-4dbc-b310-efe2210dd91e.png" group-title="Cinerama UZ 🇺🇿",NickToons HD
+https://stream8.cinerama.uz/1502/index.m3u8
+#EXTINF:-1 tvg-logo="https://files.cinerama.uz/images/tv_channels/2020/10/16/9247ebb0-c0e5-4dbc-b310-efe2210dd91e.png" group-title="Cinerama UZ 🇺🇿",NickToons
+https://stream8.cinerama.uz/1501/index.m3u8
+#EXTINF:-1 tvg-logo="https://files.cinerama.uz/images/tv_channels/2020/10/16/49e380bc-2712-423b-857a-0818aee2591e.png" group-title="Cinerama UZ 🇺🇿",Nickelodeon HD
+https://stream8.cinerama.uz/1500/index.m3u8
+#EXTINF:-1 tvg-logo="https://files.cinerama.uz/images/tv_channels/2025/03/20/f6f1fc78-f1d4-4f7e-9ff2-f549081a76ce.jpeg" group-title="Cinerama UZ 🇺🇿",Az TV
+https://stream8.cinerama.uz/1455/index.m3u8
+https://stream8.cinerama.uz/1062/index.m3u8

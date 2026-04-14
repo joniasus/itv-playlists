@@ -275,25 +275,7 @@ function toAbsoluteLogoUrl(logoValue) {
 }
 
 function pickFirstThreadAddress(json) {
-  if (typeof json?.threadAddress === "string" && json.threadAddress.trim()) {
-    return json.threadAddress.trim();
-  }
-
-  if (typeof json?.data?.threadAddress === "string" && json.data.threadAddress.trim()) {
-    return json.data.threadAddress.trim();
-  }
-
-  if (Array.isArray(json)) {
-    const found = json.find((x) => typeof x?.threadAddress === "string" && x.threadAddress.trim());
-    if (found) return found.threadAddress.trim();
-  }
-
-  if (Array.isArray(json?.data)) {
-    const found = json.data.find((x) => typeof x?.threadAddress === "string" && x.threadAddress.trim());
-    if (found) return found.threadAddress.trim();
-  }
-
-  return "";
+  return json?.data?.[0]?.threadAddress?.trim() || "";
 }
 
 function isPaymentRequiredResponse(status, text) {

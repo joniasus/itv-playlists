@@ -1,11 +1,13 @@
 const fs = require("fs");
 
+const CHANNELS_URL = "https://api.mediabay.tv/v2/channels/channels";
+const LOGO_BASE = "https://api.mediabay.tv";
 const OUTPUT_M3U = "mediabay_uz.m3u8";
-const CONCURRENCY = 20;
+const CONCURRENCY = 10;
 const RETRY = 1;
-const RETRY_DELAY_MS = 300;
+const RETRY_DELAY_MS = 1200;
 const GROUP_TITLE = "Mediabay UZ 🇺🇿";
-const EMBEDDED_COOKIE = "a4549368f7c632ea178ea919f8e5b0e5136fe8077169ecc9b243909a7c541945a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22ru%22%3B%7D; G_ENABLED_IDPS=google; SERVERID=s3; G_AUTHUSER_H=0; uppodhtml5_volume=0.8; PHPSESSID=3a6r3ri53c3v4n206nb615mam5; _identity=b2524a5379b8a08f09d1fa1bd5784dc2169d31249ff56e1281a8dd2cecb36ee1a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A52%3A%22%5B1667890%2C%22eoa6Dlq8ec7NDuIO3M_hOS7PPHTGfW6R%22%2C2592000%5D%22%3B%7D; _csrf=68bbee8b7914f0bee362d944de473a2211e024e60b6d55a02da5e339e6a3c805a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22YOv8B9bLC1pw9u8G8Yvj5g5Sivw5d-t8%22%3B%7D";
+const EMBEDDED_COOKIE = "language=a4549368f7c632ea178ea919f8e5b0e5136fe8077169ecc9b243909a7c541945a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22ru%22%3B%7D; G_ENABLED_IDPS=google; SERVERID=s3; G_AUTHUSER_H=0; uppodhtml5_volume=0.8; PHPSESSID=3a6r3ri53c3v4n206nb615mam5; _identity=b2524a5379b8a08f09d1fa1bd5784dc2169d31249ff56e1281a8dd2cecb36ee1a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A52%3A%22%5B1667890%2C%22eoa6Dlq8ec7NDuIO3M_hOS7PPHTGfW6R%22%2C2592000%5D%22%3B%7D; _csrf=68bbee8b7914f0bee362d944de473a2211e024e60b6d55a02da5e339e6a3c805a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22YOv8B9bLC1pw9u8G8Yvj5g5Sivw5d-t8%22%3B%7D";
 const EMBEDDED_TOKEN = ``;
 
 const INPUT_TEXT = `
@@ -198,14 +200,15 @@ function sleep(ms) {
 }
 
 function cleanText(s) {
-  return String(s || "")
-    .replace(/\r?\n/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
+  return String(s || "").replace(/\r?\n/g, " ").replace(/\s+/g, " ").trim();
 }
 
 function escapeAttr(s) {
-  return String(s || "").replace(/"/g, "&quot;");
+  return String(s || "")
+    .replace(/&/g, "&amp;")
+    .replace(/"/g, "&quot;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
 }
 
 function parseLine(line) {
@@ -241,6 +244,26 @@ function buildHeaders() {
   return headers;
 }
 
+function extractChannels(json) {
+  if (Array.isArray(json)) return json;
+  if (Array.isArray(json?.data)) return json.data;
+  if (Array.isArray(json?.channels)) return json.channels;
+  if (Array.isArray(json?.result)) return json.result;
+  return [];
+}
+
+function toAbsoluteLogoUrl(logoValue) {
+  const s = String(logoValue || "").trim();
+  if (!s) return "";
+  if (/^https?:\/\//i.test(s)) return s;
+
+  try {
+    return new URL(s, LOGO_BASE).href;
+  } catch {
+    return "";
+  }
+}
+
 function pickFirstThreadAddress(json) {
   if (typeof json?.threadAddress === "string" && json.threadAddress.trim()) {
     return json.threadAddress.trim();
@@ -263,6 +286,11 @@ function pickFirstThreadAddress(json) {
   return "";
 }
 
+function isPaymentRequiredResponse(status, text) {
+  if (status === 402) return true;
+  return /"message"\s*:\s*"Payment required"/i.test(String(text || ""));
+}
+
 async function fetchJsonWithRetry(url) {
   let lastError = null;
 
@@ -276,7 +304,11 @@ async function fetchJsonWithRetry(url) {
       const text = await res.text();
 
       if (res.status === 401) {
-        throw new Error(`HTTP 401 Unauthorized | ${text.slice(0, 300)}`);
+        return { __skip__: true, __reason__: "Unauthorized" };
+      }
+
+      if (isPaymentRequiredResponse(res.status, text)) {
+        return { __skip__: true, __reason__: "Payment required" };
       }
 
       if (!res.ok) {
@@ -293,10 +325,6 @@ async function fetchJsonWithRetry(url) {
       return json;
     } catch (err) {
       lastError = err;
-      const msg = String(err.message || "");
-      if (msg.includes("401 Unauthorized")) {
-        break;
-      }
       if (attempt < RETRY) {
         await sleep(RETRY_DELAY_MS);
       }
@@ -327,6 +355,24 @@ async function mapLimit(items, limit, worker) {
   return results;
 }
 
+async function buildLogoMap() {
+  const json = await fetchJsonWithRetry(CHANNELS_URL);
+  const channels = extractChannels(json);
+  const map = new Map();
+
+  for (const ch of channels) {
+    const id = Number(ch?.id);
+    if (!id) continue;
+
+    const logo = toAbsoluteLogoUrl(ch?.logo || ch?.icon || "");
+    if (logo) {
+      map.set(id, logo);
+    }
+  }
+
+  return map;
+}
+
 async function main() {
   const entries = INPUT_TEXT
     .split(/\r?\n/)
@@ -338,27 +384,44 @@ async function main() {
   }
 
   console.log(`Jami kanal: ${entries.length} ta`);
+  console.log("Logo mapping olinmoqda...");
+
+  let logoMap = new Map();
+  try {
+    logoMap = await buildLogoMap();
+    console.log(`Logo topildi: ${logoMap.size} ta`);
+  } catch (err) {
+    console.log(`⚠️ Logo olib bo'lmadi: ${err.message || err}`);
+  }
 
   const rows = await mapLimit(entries, CONCURRENCY, async (item, i) => {
     try {
       const json = await fetchJsonWithRetry(item.apiUrl);
+      const logo = logoMap.get(item.id) || "";
+
+      if (json?.__skip__) {
+        console.log(`⏭️ PULLIK [${i + 1}/${entries.length}] ${item.id} ${item.name} -> ${json.__reason__}`);
+        return { ...item, logo, streamUrl: "", ok: false, skipped: true };
+      }
+
       const streamUrl = pickFirstThreadAddress(json);
 
       if (!streamUrl) {
         console.log(`⚠️ NO_URL [${i + 1}/${entries.length}] ${item.id} ${item.name}`);
-        return { ...item, streamUrl: "", ok: false };
+        return { ...item, logo, streamUrl: "", ok: false, skipped: false };
       }
 
       console.log(`✅ OK [${i + 1}/${entries.length}] ${item.id} ${item.name}`);
-      return { ...item, streamUrl, ok: true };
+      return { ...item, logo, streamUrl, ok: true, skipped: false };
     } catch (err) {
       const msg = String(err.message || "");
       console.log(`❌ ERR [${i + 1}/${entries.length}] ${item.id} ${item.name} -> ${msg}`);
-      return { ...item, streamUrl: "", ok: false };
+      return { ...item, logo: logoMap.get(item.id) || "", streamUrl: "", ok: false, skipped: false };
     }
   });
 
   const okRows = rows.filter(x => x.ok && x.streamUrl);
+  const skippedRows = rows.filter(x => x.skipped);
 
   const seen = new Set();
   const dedupedOkRows = okRows.filter(x => {
@@ -370,17 +433,25 @@ async function main() {
   const m3uLines = ["#EXTM3U"];
 
   for (const x of dedupedOkRows) {
-    m3uLines.push(
-      `#EXTINF:-1 tvg-id="${escapeAttr(String(x.id))}" group-title="${escapeAttr(GROUP_TITLE)}",${x.name}`
-    );
+    const attrs = [
+      `tvg-id="${escapeAttr(String(x.id))}"`,
+      `group-title="${escapeAttr(GROUP_TITLE)}"`,
+    ];
+
+    if (x.logo) {
+      attrs.push(`tvg-logo="${escapeAttr(x.logo)}"`);
+    }
+
+    m3uLines.push(`#EXTINF:-1 ${attrs.join(" ")},${x.name}`);
     m3uLines.push(x.streamUrl);
   }
 
   fs.writeFileSync(OUTPUT_M3U, m3uLines.join("\n") + "\n", "utf8");
 
   console.log("\nTayyor.");
-  console.log(`OK   : ${dedupedOkRows.length} ta`);
-  console.log(`M3U  : ${OUTPUT_M3U}`);
+  console.log(`OK      : ${dedupedOkRows.length} ta`);
+  console.log(`PULLIK    : ${skippedRows.length} ta`);
+  console.log(`M3U8     : ${OUTPUT_M3U}`);
 }
 
 main().catch(err => {

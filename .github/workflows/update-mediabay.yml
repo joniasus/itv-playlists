@@ -32,7 +32,7 @@ jobs:
           node-version: '20'
 
       - name: Build mediabay_uz.m3u8
-        run: node mediabay__uz.js
+        run: node mediabay_uz.js
 
       - name: Build merged all_uzb_iptv_providers.m3u8
         run: node all_uzb_iptv_providers.js
@@ -43,7 +43,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add mediabay__uz.m3u8 all_uzb_iptv_providers.m3u8
+          git add mediabay_uz.m3u8 mediabay_uz.backup.m3u8 all_uzb_iptv_providers.m3u8
 
           if git diff --cached --quiet; then
             echo "No changes to commit"

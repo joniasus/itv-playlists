@@ -7,9 +7,13 @@ const CONCURRENCY = 10;
 const RETRY = 1;
 const RETRY_DELAY_MS = 1200;
 const GROUP_TITLE = "Mediabay UZ 🇺🇿";
-const EMBEDDED_COOKIE = "a4549368f7c632ea178ea919f8e5b0e5136fe8077169ecc9b243909a7c541945a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22ru%22%3B%7D; G_ENABLED_IDPS=google; SERVERID=s3; G_AUTHUSER_H=0; uppodhtml5_volume=0.8; PHPSESSID=3a6r3ri53c3v4n206nb615mam5; _identity=b2524a5379b8a08f09d1fa1bd5784dc2169d31249ff56e1281a8dd2cecb36ee1a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A52%3A%22%5B1667890%2C%22eoa6Dlq8ec7NDuIO3M_hOS7PPHTGfW6R%22%2C2592000%5D%22%3B%7D; _csrf=68bbee8b7914f0bee362d944de473a2211e024e60b6d55a02da5e339e6a3c805a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22YOv8B9bLC1pw9u8G8Yvj5g5Sivw5d-t8%22%3B%7D";
-const EMBEDDED_TOKEN = ``;
+const DEBUG_URLS = true;
 
+// MUHIM: cookie to'liq bo'lsin. Masalan boshida language=... bo'lishi kerak.
+const EMBEDDED_COOKIE = "a4549368f7c632ea178ea919f8e5b0e5136fe8077169ecc9b243909a7c541945a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22ru%22%3B%7D; G_ENABLED_IDPS=google; SERVERID=s3; G_AUTHUSER_H=0; uppodhtml5_volume=0.8; PHPSESSID=3a6r3ri53c3v4n206nb615mam5; _identity=b2524a5379b8a08f09d1fa1bd5784dc2169d31249ff56e1281a8dd2cecb36ee1a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A52%3A%22%5B1667890%2C%22eoa6Dlq8ec7NDuIO3M_hOS7PPHTGfW6R%22%2C2592000%5D%22%3B%7D; _csrf=68bbee8b7914f0bee362d944de473a2211e024e60b6d55a02da5e339e6a3c805a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22YOv8B9bLC1pw9u8G8Yvj5g5Sivw5d-t8%22%3B%7D";
+const EMBEDDED_TOKEN = "";
+
+// Shu yerga sizdagi HOZIRGI TO'LIQ ro'yxatni o'zgartirmasdan qo'yasiz.
 const INPUT_TEXT = `
 1	Yoshlar	https://api.mediabay.uz/v2/channels/thread/1
 2	Toshkent	https://api.mediabay.uz/v2/channels/thread/2
@@ -291,6 +295,36 @@ function isPaymentRequiredResponse(status, text) {
   return /"message"\s*:\s*"Payment required"/i.test(String(text || ""));
 }
 
+function normalizeStreamUrl(url) {
+  try {
+    const u = new URL(String(url || "").trim());
+    u.search = "";
+    u.hash = "";
+    return u.toString();
+  } catch {
+    return String(url || "").trim();
+  }
+}
+
+function maskSensitiveUrl(url) {
+  try {
+    const u = new URL(String(url || "").trim());
+
+    for (const key of ["token", "access_token", "auth", "signature", "sig"]) {
+      if (u.searchParams.has(key)) {
+        u.searchParams.set(key, "***");
+      }
+    }
+
+    return u.toString();
+  } catch {
+    return String(url || "").replace(
+      /([?&](?:token|access_token|auth|signature|sig)=)[^&]+/gi,
+      "$1***"
+    );
+  }
+}
+
 async function fetchJsonWithRetry(url) {
   let lastError = null;
 
@@ -346,11 +380,7 @@ async function mapLimit(items, limit, worker) {
     }
   }
 
-  const workers = Array.from(
-    { length: Math.min(limit, items.length) },
-    () => runner()
-  );
-
+  const workers = Array.from({ length: Math.min(limit, items.length) }, () => runner());
   await Promise.all(workers);
   return results;
 }
@@ -400,23 +430,31 @@ async function main() {
       const logo = logoMap.get(item.id) || "";
 
       if (json?.__skip__) {
-        console.log(`⏭️ PULLIK [${i + 1}/${entries.length}] ${item.id} ${item.name} -> ${json.__reason__}`);
-        return { ...item, logo, streamUrl: "", ok: false, skipped: true };
+        console.log(`⏭️ SKIP [${i + 1}/${entries.length}] ${item.id} ${item.name} -> ${json.__reason__}`);
+        return { ...item, logo, streamUrl: "", baseUrl: "", ok: false, skipped: true };
       }
 
       const streamUrl = pickFirstThreadAddress(json);
 
       if (!streamUrl) {
         console.log(`⚠️ NO_URL [${i + 1}/${entries.length}] ${item.id} ${item.name}`);
-        return { ...item, logo, streamUrl: "", ok: false, skipped: false };
+        return { ...item, logo, streamUrl: "", baseUrl: "", ok: false, skipped: false };
       }
 
+      const baseUrl = normalizeStreamUrl(streamUrl);
+
       console.log(`✅ OK [${i + 1}/${entries.length}] ${item.id} ${item.name}`);
-      return { ...item, logo, streamUrl, ok: true, skipped: false };
+
+      if (DEBUG_URLS) {
+        console.log(`   BASE : ${baseUrl}`);
+        console.log(`   FULL : ${maskSensitiveUrl(streamUrl)}`);
+      }
+
+      return { ...item, logo, streamUrl, baseUrl, ok: true, skipped: false };
     } catch (err) {
       const msg = String(err.message || "");
       console.log(`❌ ERR [${i + 1}/${entries.length}] ${item.id} ${item.name} -> ${msg}`);
-      return { ...item, logo: logoMap.get(item.id) || "", streamUrl: "", ok: false, skipped: false };
+      return { ...item, logo: logoMap.get(item.id) || "", streamUrl: "", baseUrl: "", ok: false, skipped: false };
     }
   });
 
@@ -425,8 +463,9 @@ async function main() {
 
   const seen = new Set();
   const dedupedOkRows = okRows.filter(x => {
-    if (seen.has(x.streamUrl)) return false;
-    seen.add(x.streamUrl);
+    const key = x.baseUrl || x.streamUrl;
+    if (seen.has(key)) return false;
+    seen.add(key);
     return true;
   });
 
@@ -450,8 +489,15 @@ async function main() {
 
   console.log("\nTayyor.");
   console.log(`OK      : ${dedupedOkRows.length} ta`);
-  console.log(`PULLIK    : ${skippedRows.length} ta`);
-  console.log(`M3U8     : ${OUTPUT_M3U}`);
+  console.log(`SKIP    : ${skippedRows.length} ta`);
+  console.log(`M3U     : ${OUTPUT_M3U}`);
+
+  if (DEBUG_URLS) {
+    console.log("\nBase URL misollar:");
+    for (const row of dedupedOkRows.slice(0, 10)) {
+      console.log(`${row.id} | ${row.name} | ${row.baseUrl}`);
+    }
+  }
 }
 
 main().catch(err => {

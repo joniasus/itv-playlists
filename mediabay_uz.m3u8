@@ -1,0 +1,135 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="1" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/Yoshlar.png",Yoshlar
+https://st3.mediabay.uz/Yoshlar/playlist.m3u8?token=3f59d9fe07cb79788164643134236a807cce5705-f92c84917721c04e4ab6c35fa7af4540-1776173982-1776152382
+#EXTINF:-1 tvg-id="2" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/toshkent.png",Toshkent
+https://st4.mediabay.uz/Toshkent/playlist.m3u8?token=7a74dc2f768890e1cb3374c79fc93fdc79f9c8ad-48621c9f19896ca6446b20a197b47074-1776173982-1776152382
+#EXTINF:-1 tvg-id="11" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/sportuz.jpg",Sport
+https://st3.mediabay.uz/SportHD/playlist.m3u8?token=edd922217afbd4620e476366098f7b1bc8d51e7f-9800db64e706c9795eefd3dd1a506b79-1776173982-1776152382
+#EXTINF:-1 tvg-id="12" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/12222.jpg",O'zbekiston
+https://st4.mediabay.uz/Uzbekistan/playlist.m3u8?token=462e65f7a42c20d6dd0e65d91cdbb5ba366f42d7-6563caf466ab73383f956c365725bb24-1776173982-1776152382
+#EXTINF:-1 tvg-id="39" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/39.jpg",Dunyo Boylab
+https://st4.mediabay.uz/Dunyo/playlist.m3u8?token=672da8647e5fd4ccacbb661311c33faa22c61875-fcd7c119ba9fd30017be1e6e53dd76e7-1776173982-1776152382
+#EXTINF:-1 tvg-id="40" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/40.jpg",Madaniyat va Marifat
+https://st3.mediabay.uz/Madaniyat/playlist.m3u8?token=f80033350a8cbd3b3042fb10d6417f4945ffc864-f2d2cf563311e11b6a0ffe11649a3f88-1776173982-1776152382
+#EXTINF:-1 tvg-id="41" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/discovery.png",Discovery
+https://st3.mediabay.uz/DiscoveryHD/playlist.m3u8?token=9903832cf0f2777b389761e27276273cc867edbc-e3d4f6dc2b42b8e711b2100ac4d63301-1776173982-1776152382
+#EXTINF:-1 tvg-id="46" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/CfgJWrossiyak.png",Россия К
+https://st3.mediabay.uz/RussiaK/playlist.m3u8?token=94086f1bdf5ca36aeb20b0a1f90b3cd712c51894-f1833701d32afa7b33ea5cbe364a8b4a-1776173982-1776152382
+#EXTINF:-1 tvg-id="47" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/DqCL3karusel.png",Карусель
+https://st3.mediabay.uz/Karusel/playlist.m3u8?token=5fafe7b391e7ce07abf4f0ef7fb0793a7d9931de-e34bdd140e1e5ca6c2821795bf21b70c-1776173982-1776152382
+#EXTINF:-1 tvg-id="48" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/zvezda.png",Звезда
+https://st4.mediabay.uz/Zvezda/playlist.m3u8?token=4925f43e159cf5d37bc3341efb862923c44b481d-6bddfaa0581793584b2436420ea18de0-1776173982-1776152382
+#EXTINF:-1 tvg-id="53" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/kinohit33.png",Кинохит
+https://st3.mediabay.uz/KinoxitHD/playlist.m3u8?token=fe3ebdf46f2d958119657ba946c063b556c2ecf7-71db43e36018f6088c5464e355ea5ca2-1776173982-1776152382
+#EXTINF:-1 tvg-id="62" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/fashion-tv-3.png",Fashion TV
+https://st4.mediabay.uz/FashionTV/playlist.m3u8?token=c112bdd6c329cfe28f5131b230af19bb639593fe-55e53ccf28775972a4068b21d7af7e67-1776173982-1776152382
+#EXTINF:-1 tvg-id="63" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/EkF2Stelecafe2.png",Телекафе
+https://st4.mediabay.uz/Telecafe/playlist.m3u8?token=dae2dda9631f1f6100a34e44d3f68b83e5faf6ca-50d2c6548ee410b3dc71af3f3503e1ed-1776173982-1776152382
+#EXTINF:-1 tvg-id="65" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/JtI4qohotairibalka.png",Охота и рыбалка
+https://st3.mediabay.uz/Oxota/playlist.m3u8?token=85b9607027d00f777dfdc47c662827638d9cffbe-33191fcd20fdfdf9d23f34b9d2f1d115-1776173982-1776152382
+#EXTINF:-1 tvg-id="75" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/752.jpg",Viju Explore
+https://st4.mediabay.uz/ViasatE/playlist.m3u8?token=16213c58f9696e7f3c77a011a9ad48abcebe3ab5-715b5c4e5abb4dac3880bd10030d697f-1776173982-1776152382
+#EXTINF:-1 tvg-id="76" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/bolajon.png",Bolajon
+https://st4.mediabay.uz/Bolajon/playlist.m3u8?token=b19b60af966c9ceebd701eac32ce1a3244300e2a-729ec1182fa8a7bbec9e1854a4b89858-1776173982-1776152382
+#EXTINF:-1 tvg-id="78" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/782.jpg",Viju History
+https://st4.mediabay.uz/ViasatH/playlist.m3u8?token=0c71cc5ba46ccbf14f5972b4af4cc49d66ea7b96-3111a48bfa2c5e0c831ff0a1841e70c0-1776173982-1776152382
+#EXTINF:-1 tvg-id="248" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/NAVO.png",Navo
+https://st3.mediabay.uz/Navo/playlist.m3u8?token=3f1e5859f6d702a7cf71a9ec5e3bae3ed022e0da-7889893e14b6e68388477d89b9727585-1776173982-1776152382
+#EXTINF:-1 tvg-id="344" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/344.jpg",Mahalla
+https://st3.mediabay.uz/Mahalla/playlist.m3u8?token=d2971890e51daed398bf0b08c977f87ace39c797-685ee55df0e8568e359b3449cab7b3bb-1776173982-1776152382
+#EXTINF:-1 tvg-id="347" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/3477.jpg",Futbol TV
+https://st4.mediabay.uz/Oilaviy/playlist.m3u8?token=b7d9601f707bd03c6ae6c845a44b46b637a5138c-8d9eb885e0cb8f9814ab34dfb4574b7c-1776173982-1776152382
+#EXTINF:-1 tvg-id="348" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/Ozbekiston242.jpg",O'zbekiston 24
+https://st4.mediabay.uz/Uzbekistan24HD/playlist.m3u8?token=207f5e88d36ef423e9dd352559dc69aeba7270a1-4012559e31d1165f9cb28287d50df8eb-1776173982-1776152382
+#EXTINF:-1 tvg-id="350" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/350.jpg",Индийское кино
+https://st3.mediabay.uz/India/playlist.m3u8?token=c1c689ffd72d3772099dba58a977d158a51ecc17-73d8641747135f377734bb133f141117-1776173982-1776152382
+#EXTINF:-1 tvg-id="351" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/t24.png",Техно 24
+https://st3.mediabay.uz/Techno24/playlist.m3u8?token=47eaebf42d1d6c68e9987265868ced0c92214a47-2185370972039d96f42d5f417ecb40e4-1776173982-1776152382
+#EXTINF:-1 tvg-id="352" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/dQ6LWautoplus.png",Авто Плюс
+https://st4.mediabay.uz/AutoPlus/playlist.m3u8?token=d315af56be96270b4ffef66c2bb789182e7f738d-2ff54bff25a5e0c30658451470c63611-1776173982-1776152382
+#EXTINF:-1 tvg-id="362" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/discoveryScience.png",Discovery Science
+https://st3.mediabay.uz/DiscoveryS/playlist.m3u8?token=f1f5cced76b759ce72f14299a3d86b6f40d71620-22aaf6b54bd0359f6e8a9cd7bb7be50a-1776173982-1776152382
+#EXTINF:-1 tvg-id="363" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/kinoteatr.png",Kinoteatr
+https://st4.mediabay.uz/KinoteatrHD/playlist.m3u8?token=6ea97b481dc5e5a2edd13c35fcf7774c4a2929b0-515d84c493dc20d9a6a8b97d4a86fad5-1776173982-1776152382
+#EXTINF:-1 tvg-id="364" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/uz4.png",O'zbekiston Tarixi
+https://st3.mediabay.uz/UzHD/playlist.m3u8?token=78f07143b02ab481dbb3273241e090da0d6dc4d5-913b68af37a183821e2042d8c706720c-1776173982-1776152382
+#EXTINF:-1 tvg-id="372" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/01-2017/childworld.png",Детский Мир
+https://st3.mediabay.uz/DetskiyMir/playlist.m3u8?token=6e30cd646e431544ab6a95f940ca41bb17f94627-e041ff8e18e7696a910b1d34ca143db8-1776173982-1776152382
+#EXTINF:-1 tvg-id="375" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/FTV.jpg",FTV
+https://st3.mediabay.uz/FutbolTVHD/playlist.m3u8?token=b80d2732223a6c63c4282e4d4966cd64b79b7b0b-30b9a6561d574517f5b0b03cdc388db5-1776173982-1776152382
+#EXTINF:-1 tvg-id="376" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/rodnoekino_n.png",Родное Кино
+https://st4.mediabay.uz/Rodnoe/playlist.m3u8?token=8b2ef9280e00e66d343cf493d3ac9e350397b17a-edd7c7e5e46f615e7220326ee9b48b03-1776173983-1776152383
+#EXTINF:-1 tvg-id="377" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/12-2017/retro-tv.png",Ретро ТВ
+https://st3.mediabay.uz/Retro/playlist.m3u8?token=95b1599f4f92aff7df8e8747aacb6a554eb834fc-3987d2e06ab351d43e519423ee02d520-1776173983-1776152383
+#EXTINF:-1 tvg-id="378" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/12-2017/muzika-1.png",Музыка Первого
+https://st4.mediabay.uz/Muzika/playlist.m3u8?token=3c693056fc0d994eb43aebbed8817194064c6a59-9516af39b56a882f7bb4a63c332fb283-1776173983-1776152383
+#EXTINF:-1 tvg-id="380" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/LUXTV.jpg",LUX.TV HD
+https://st4.mediabay.uz/LuxTV/playlist.m3u8?token=def758617ba83a9d8605e7ae879f46c08c163963-c0e1f28b6c5ac29c0eb45e78fd6d9a65-1776173983-1776152383
+#EXTINF:-1 tvg-id="393" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/taraqqiyot_tv_.png",Taraqqiyot
+https://st4.mediabay.uz/Taraqqiyot/playlist.m3u8?token=6decfc9adda4c1045ee9f7b5a4b0ebc06efff159-d3f6b35b484d173cd6bea0329b24a14e-1776173983-1776152383
+#EXTINF:-1 tvg-id="549" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/10-2020/TV-channels_0039_dom_kino.png",Дом кино
+https://st3.mediabay.uz/DomKino/playlist.m3u8?token=8d4a5b0c6b252ef0aa3697e22491ab063946c195-fa9f505d0f9debab3a5c92759cba5b9d-1776173983-1776152383
+#EXTINF:-1 tvg-id="558" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/03-2021/aqlvoy.png",Aqlvoy
+https://st3.mediabay.uz/Aqlvoy/playlist.m3u8?token=5eed290432a56a5f7c8e286f3d73a534e0853721-7edb7d025b764ee18b5894fbbc264de9-1776173983-1776152383
+#EXTINF:-1 tvg-id="559" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/03-2021/ruxsor-tv.png",Ruxsor TV
+https://st3.mediabay.uz/RuxsorTV/playlist.m3u8?token=3792fe5e17ceb4ce9bf9eeb797eaedeb0702ee8c-2584f16ff0cfce06961350779a5c87f1-1776173983-1776152383
+#EXTINF:-1 tvg-id="562" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/GOLDTV.jpg",Gold UZ TV
+https://st4.mediabay.uz/GoldTV/playlist.m3u8?token=7617131012d2ce0224fc0a8a50a586822b959552-fca40cf9fa8a29900d1e28a166898360-1776173983-1776152383
+#EXTINF:-1 tvg-id="567" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/03082022dastur.png",Dasturxon TV
+https://st4.mediabay.uz/DasturxonTV/playlist.m3u8?token=5dbc606eba5e5bd62322d357b204d8b72719693d-a45cece418a46e3e099bab66f1ebbb7f-1776173983-1776152383
+#EXTINF:-1 tvg-id="568" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/568.jpg",Renessans TV
+https://st4.mediabay.uz/RenessansTV/playlist.m3u8?token=95692a15e0831585e39e3cec809d3f215d84947c-7cf0461c6e873243c9c81c3b5724ac5e-1776173983-1776152383
+#EXTINF:-1 tvg-id="571" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/01-2022/Nurafshon.png",Nurafshon TV
+https://st4.mediabay.uz/NurafshonTV/playlist.m3u8?token=faefc991d3a9a06cc949266c3c83d4f6a80890b2-ea4e5a0928cd315b0a8a9609635dc923-1776173983-1776152383
+#EXTINF:-1 tvg-id="584" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/584.png",France 24
+https://st3.mediabay.uz/France24/playlist.m3u8?token=c771289879fe5bb9b5f392db93a8c20ab319aaf7-451fbfeace599598edaa050fe86ae5c4-1776173983-1776152383
+#EXTINF:-1 tvg-id="602" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/s-iqbol.png",S IKBOL
+https://st4.mediabay.uz/S_Ikbol/playlist.m3u8?token=7e196a5ebfba7b98be3bab024ab8134452a012e8-f146d5a1d0da72aa5fed60b47423c6e9-1776173983-1776152383
+#EXTINF:-1 tvg-id="613" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/11-2022/TRTAVAZ.jpg",TRT AVAZ
+https://st4.mediabay.uz/TRT_Avaz/playlist.m3u8?token=65eea4f7e6b8bc9f7d7503323d13ec6c7d2b39ed-7178409cd88574a531a0aecae7587357-1776173983-1776152383
+#EXTINF:-1 tvg-id="614" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/11-2022/tugan.jpg",Туган Тел
+https://st4.mediabay.uz/TuganTel/playlist.m3u8?token=54c35221bac6b173f172e13636946da25f5338a8-29b93117abb690d8676d60b86b509765-1776173983-1776152383
+#EXTINF:-1 tvg-id="617" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/11-2022/8kanal.jpg",8 канал
+https://st4.mediabay.uz/8-kanal/playlist.m3u8?token=ddd35a83bb73a7bd1e75b40787da513e3a1fbfa6-4a2d311fa1686827c594da5ae9503fda-1776173983-1776152383
+#EXTINF:-1 tvg-id="618" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/618.jpg",ТНВ Планета
+https://st3.mediabay.uz/TNV_Planeta/playlist.m3u8?token=f8f450ef1c4e9b0328e8a887d84086e65c843bb0-26e2997cdf88ee13619692fc279729b4-1776173983-1776152383
+#EXTINF:-1 tvg-id="651" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/785.png",MUZ TV O'zbekiston
+https://st4.mediabay.uz/MTV_UZ/playlist.m3u8?token=e7e7255b34639826adf676f3e73350934a9ce479-a4949f05c6b77e7b25e8fac64283e224-1776173983-1776152383
+#EXTINF:-1 tvg-id="654" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/02-2023/785.jpg",Ellikqal’a TV
+https://st4.mediabay.uz/EllikQalaTV/playlist.m3u8?token=b02eaf346fc42212077c895067b10e9fb654bba3-3f28b36005b9294ea0a3f6f7374ad304-1776173983-1776152383
+#EXTINF:-1 tvg-id="736" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/06-2023/3155.jpg",MYDAYTV
+https://st3.mediabay.uz/MyDay/playlist.m3u8?token=04099f7e277638ddc15de3a9e9022bfc9d461a74-050bcaf93602baf5db0dd5bef5d30ece-1776173983-1776152383
+#EXTINF:-1 tvg-id="771" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/06-2023/556.jpg",TVT 1
+https://st3.mediabay.uz/Tojikiston/playlist.m3u8?token=cc91dc458807ffd897cb43f6d876185c8199db6c-fe0d18cb2dc66acf68b0d2624d58b8b4-1776173983-1776152383
+#EXTINF:-1 tvg-id="791" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/06-2023/565.jpg",Ishonch TV
+https://st4.mediabay.uz/IshonchTV/playlist.m3u8?token=c2262f81264d3c64141791e191b78ca927dcdf53-85fba82966309b8017954a34d1bcb3d7-1776173983-1776152383
+#EXTINF:-1 tvg-id="794" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/06-2023/566.jpg",NTV
+https://st4.mediabay.uz/NavoiyTV/playlist.m3u8?token=e6c10c5b40344c806f25efc32087fd894c265bc8-3d2364783ef12b88b8cc03a8d8526dab-1776173983-1776152383
+#EXTINF:-1 tvg-id="797" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/797.jpg",Istiqlol TV
+https://st4.mediabay.uz/IstiqlolTV/playlist.m3u8?token=ce55cb93817664139eab9ce2f23d6b9e66aeac6d-a961fa99520a4d654964e67c73dbe2b9-1776173983-1776152383
+#EXTINF:-1 tvg-id="801" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/8tv2.png",8TV
+https://st3.mediabay.uz/8TV_UZ/playlist.m3u8?token=76926bd2cf7e4b3fa548fc2ab194d68e252b9b41-485adb469ee53a6a528224b3bba94330-1776173983-1776152383
+#EXTINF:-1 tvg-id="804" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/8040.jpg",Muloqot telekanali
+https://st4.mediabay.uz/Muloqot_TV/playlist.m3u8?token=d60b66e4371212f3afb5ceaa28406d9b1996b6d2-2acfa6681a93a53a6c41e26749feca03-1776173983-1776152383
+#EXTINF:-1 tvg-id="836" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/03-2024/760.jpg",NUKUS
+https://st3.mediabay.uz/Nukus/playlist.m3u8?token=fc3e7d759f321b68bbd6d283b938ec6c7f67aba4-c3f545b2c39d04251fcc451aee40271b-1776173983-1776152383
+#EXTINF:-1 tvg-id="842" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/03-2024/775.jpg",XORAZM
+https://st4.mediabay.uz/Xorazm/playlist.m3u8?token=7197c7089738a4562410d7e687330bd35bec3610-fe2e3b1f031eee83b895c165c1c21df7-1776173983-1776152383
+#EXTINF:-1 tvg-id="843" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/7800.jpg",SURXONDARYO
+https://st3.mediabay.uz/Surxandaryo/playlist.m3u8?token=45ac476ee18a8dd5d5bea2a8e5d9573949d51b7e-7541e589b5f19acf99c422bca5aa2872-1776173983-1776152383
+#EXTINF:-1 tvg-id="848" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/7900.jpg",FARG'ONA
+https://st4.mediabay.uz/Fergana/playlist.m3u8?token=e899d5ce632e14a87a46128a8ed5feb94047a83f-4b19cccd3cf812152d6c84b03ff7367f-1776173983-1776152383
+#EXTINF:-1 tvg-id="891" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/06-2024/8600.jpg",Zo'rTV
+https://st3.mediabay.uz/ZorSD/playlist.m3u8?token=2226b9fb2c3951f0ccd28e11d6a9dd1e17406d3b-cdb21e4a5a0b3d2b4386461d3fbbe4f9-1776173983-1776152383
+#EXTINF:-1 tvg-id="893" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/07-2024/545.jpg",Shifo TV
+https://st4.mediabay.uz/ShifoTV/playlist.m3u8?token=643e6285f39d64c2abd86d71e4ea66c44f5b018a-1d3e9ca370c413d7f16f5d4094e32225-1776173983-1776152383
+#EXTINF:-1 tvg-id="895" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/07-2024/540540.jpg",MiMi TV
+https://st4.mediabay.uz/MiMiTV/playlist.m3u8?token=b7e1bb98dc7dfdfeb9f7818186342262eaaf09a4-a9253408cc3c5d0d4f77281b3c8a4512-1776173983-1776152383
+#EXTINF:-1 tvg-id="900" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/Makon_ava_Mediabay.jpg",Makon TV
+https://st3.mediabay.uz/Makon_TV/playlist.m3u8?token=210cfa5a85fa7b496c02583c7741e39f28f5342a-a0a9e3a297dcd56024a35eb842a9583b-1776173983-1776152383
+#EXTINF:-1 tvg-id="901" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/09-2025/880.jpg",QIZIQTV
+https://st4.mediabay.uz/Qiziq_TV/playlist.m3u8?token=fd1501e760b5125043d603c97f2524bb70798750-ccf359f1e46b03e704c68709678ac47f-1776173983-1776152383
+#EXTINF:-1 tvg-id="902" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/09-2025/8855.jpg",RETROTV
+https://st4.mediabay.uz/RetroTV/playlist.m3u8?token=ca3a94610e94023ca269b789a4f131bbcd6a9978-30a44f879a5f37867bd05b77ddade0f2-1776173983-1776152383
+#EXTINF:-1 tvg-id="903" group-title="Mediabay UZ 🇺🇿" tvg-logo="https://api.mediabay.uz/www_data/newlogos/channels/02-2026/626.jpg",Biz Music
+https://st4.mediabay.uz/Biz_Music/playlist.m3u8?token=f0e63cfa5d6b40beb5f7f21aac7bba5eaea1a218-6c44fe64284923e43833b0d98644e429-1776173983-1776152383

@@ -3,7 +3,7 @@ const fs = require("fs");
 const OUTPUT_M3U = "mediabay_uz.m3u8";
 const CONCURRENCY = 20;
 const RETRY = 1;
-const RETRY_DELAY_MS = 800;
+const RETRY_DELAY_MS = 300;
 const GROUP_TITLE = "Mediabay UZ 🇺🇿";
 const EMBEDDED_COOKIE = "a4549368f7c632ea178ea919f8e5b0e5136fe8077169ecc9b243909a7c541945a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22ru%22%3B%7D; G_ENABLED_IDPS=google; SERVERID=s3; G_AUTHUSER_H=0; uppodhtml5_volume=0.8; PHPSESSID=3a6r3ri53c3v4n206nb615mam5; _identity=b2524a5379b8a08f09d1fa1bd5784dc2169d31249ff56e1281a8dd2cecb36ee1a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A52%3A%22%5B1667890%2C%22eoa6Dlq8ec7NDuIO3M_hOS7PPHTGfW6R%22%2C2592000%5D%22%3B%7D; _csrf=68bbee8b7914f0bee362d944de473a2211e024e60b6d55a02da5e339e6a3c805a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22YOv8B9bLC1pw9u8G8Yvj5g5Sivw5d-t8%22%3B%7D";
 const EMBEDDED_TOKEN = ``;
@@ -198,7 +198,10 @@ function sleep(ms) {
 }
 
 function cleanText(s) {
-  return String(s || "").replace(/\r?\n/g, " ").replace(/\s+/g, " ").trim();
+  return String(s || "")
+    .replace(/\r?\n/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 function escapeAttr(s) {
@@ -227,8 +230,13 @@ function buildHeaders() {
     referer: "https://mediabay.tv/",
   };
 
-  if (EMBEDDED_COOKIE.trim()) headers.cookie = EMBEDDED_COOKIE.trim();
-  if (EMBEDDED_TOKEN.trim()) headers.authorization = `Bearer ${EMBEDDED_TOKEN.trim()}`;
+  if (EMBEDDED_COOKIE.trim()) {
+    headers.cookie = EMBEDDED_COOKIE.trim();
+  }
+
+  if (EMBEDDED_TOKEN.trim()) {
+    headers.authorization = `Bearer ${EMBEDDED_TOKEN.trim()}`;
+  }
 
   return headers;
 }
@@ -275,12 +283,23 @@ async function fetchJsonWithRetry(url) {
         throw new Error(`HTTP ${res.status} ${res.statusText} | ${text.slice(0, 300)}`);
       }
 
-      return JSON.parse(text);
+      let json;
+      try {
+        json = JSON.parse(text);
+      } catch {
+        throw new Error(`JSON parse error | ${text.slice(0, 300)}`);
+      }
+
+      return json;
     } catch (err) {
       lastError = err;
       const msg = String(err.message || "");
-      if (msg.includes("401 Unauthorized")) break;
-      if (attempt < RETRY) await sleep(RETRY_DELAY_MS);
+      if (msg.includes("401 Unauthorized")) {
+        break;
+      }
+      if (attempt < RETRY) {
+        await sleep(RETRY_DELAY_MS);
+      }
     }
   }
 
@@ -299,7 +318,11 @@ async function mapLimit(items, limit, worker) {
     }
   }
 
-  const workers = Array.from({ length: Math.min(limit, items.length) }, () => runner());
+  const workers = Array.from(
+    { length: Math.min(limit, items.length) },
+    () => runner()
+  );
+
   await Promise.all(workers);
   return results;
 }
@@ -323,26 +346,19 @@ async function main() {
 
       if (!streamUrl) {
         console.log(`⚠️ NO_URL [${i + 1}/${entries.length}] ${item.id} ${item.name}`);
-        return { ...item, streamUrl: "", ok: false, unauthorized: false };
+        return { ...item, streamUrl: "", ok: false };
       }
 
       console.log(`✅ OK [${i + 1}/${entries.length}] ${item.id} ${item.name}`);
-      return { ...item, streamUrl, ok: true, unauthorized: false };
+      return { ...item, streamUrl, ok: true };
     } catch (err) {
       const msg = String(err.message || "");
-      const is401 =
-        msg.includes("401") ||
-        msg.includes("Unauthorized") ||
-        msg.includes("User Unauthorized");
-
       console.log(`❌ ERR [${i + 1}/${entries.length}] ${item.id} ${item.name} -> ${msg}`);
-      return { ...item, streamUrl: "", ok: false, unauthorized: is401 };
+      return { ...item, streamUrl: "", ok: false };
     }
   });
 
   const okRows = rows.filter(x => x.ok && x.streamUrl);
-  const unauthorizedRows = rows.filter(x => !x.ok && x.unauthorized);
-  const failedRows = rows.filter(x => !x.ok && !x.unauthorized);
 
   const seen = new Set();
   const dedupedOkRows = okRows.filter(x => {
@@ -352,6 +368,7 @@ async function main() {
   });
 
   const m3uLines = ["#EXTM3U"];
+
   for (const x of dedupedOkRows) {
     m3uLines.push(
       `#EXTINF:-1 tvg-id="${escapeAttr(String(x.id))}" group-title="${escapeAttr(GROUP_TITLE)}",${x.name}`
@@ -362,10 +379,8 @@ async function main() {
   fs.writeFileSync(OUTPUT_M3U, m3uLines.join("\n") + "\n", "utf8");
 
   console.log("\nTayyor.");
-  console.log(`OK      : ${dedupedOkRows.length} ta`);
-  console.log(`401     : ${unauthorizedRows.length} ta`);
-  console.log(`FAILED  : ${failedRows.length} ta`);
-  console.log(`M3U     : ${OUTPUT_M3U}`);
+  console.log(`OK   : ${dedupedOkRows.length} ta`);
+  console.log(`M3U  : ${OUTPUT_M3U}`);
 }
 
 main().catch(err => {

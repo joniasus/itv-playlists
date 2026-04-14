@@ -7,6 +7,7 @@ const SARKOR_SOURCE = 'Sarkor_TV.m3u8';
 const TVCOM_SOURCE = 'tvcom_uz.m3u8';
 const ZORPLAY_SOURCE = 'zorplay_uz.m3u8';
 const TELECOMTV_SOURCE = 'telecomtv_uz.m3u8';
+const MEDIABAY_SOURCE = 'mediabay_uz.m3u8';
 const ITV_SOURCE = 'itv_uz.m3u8';
 
 const CINERAMA_GROUP_BASE = 'Cinerama UZ 🇺🇿';
@@ -14,6 +15,7 @@ const SARKOR_GROUP_BASE = 'Sarkor TV UZ 🇺🇿';
 const TVCOM_GROUP_BASE = 'TVcom UZ 🇺🇿';
 const ZORPLAY_GROUP_BASE = "ZO'R PLAY UZ 🇺🇿";
 const TELECOMTV_GROUP_BASE = 'TelecomTV UZ 🇺🇿';
+const MEDIABAY_GROUP_BASE = 'Mediabay UZ 🇺🇿';
 const ITV_GROUP_BASE = 'iTV UZ 🇺🇿';
 
 function escapeAttr(value) {
@@ -132,7 +134,7 @@ async function main() {
   const sarkorEntries = parseGenericM3U(sarkorText, SARKOR_SOURCE);
   applyGroupTitleCountToBlockEntries(sarkorEntries, SARKOR_GROUP_BASE);
 
-  console.log('3) tvcom.uz.m3u8 юкланяпти...');
+  console.log('3) tvcom_uz.m3u8 юкланяпти...');
   const tvcomText = readLocalText(TVCOM_SOURCE);
   const tvcomEntries = parseGenericM3U(tvcomText, TVCOM_SOURCE);
   applyGroupTitleCountToBlockEntries(tvcomEntries, TVCOM_GROUP_BASE);
@@ -147,18 +149,24 @@ async function main() {
   const telecomtvEntries = parseGenericM3U(telecomtvText, TELECOMTV_SOURCE);
   applyGroupTitleCountToBlockEntries(telecomtvEntries, TELECOMTV_GROUP_BASE);
 
-  console.log("6) itv_uz.m3u8 юкланяпти...");
+  console.log("6) mediabay_uz.m3u8 юкланяпти...");
+  const mediabayText = readLocalText(MEDIABAY_SOURCE);
+  const mediabayEntries = parseGenericM3U(mediabayText, MEDIABAY_SOURCE);
+  applyGroupTitleCountToBlockEntries(mediabayEntries, MEDIABAY_GROUP_BASE);
+
+  console.log("7) itv_uz.m3u8 юкланяпти...");
   const itvText = readLocalText(ITV_SOURCE);
   const itvEntries = parseGenericM3U(itvText, ITV_SOURCE);
   applyGroupTitleCountToBlockEntries(itvEntries, ITV_GROUP_BASE);
 
-  console.log('7) Ҳаммаси битта файлга merge қилиняпти...');
+  console.log('8) Ҳаммаси битта файлга merge қилиняпти...');
   const finalMergedText = mergePlaylistBlocksInOrder([
     cineramaEntries,
     sarkorEntries,
     tvcomEntries,
     zorplayEntries,
     telecomtvEntries,
+    mediabayEntries,
     itvEntries
   ]);
 
@@ -172,6 +180,7 @@ async function main() {
   console.log(`TVcom: ${tvcomEntries.length} ta`);
   console.log(`ZO'R PLAY: ${zorplayEntries.length} ta`);
   console.log(`TelecomTV: ${telecomtvEntries.length} ta`);
+  console.log(`Mediabay: ${mediabayEntries.length} ta`);
   console.log(`iTV: ${itvEntries.length} ta`);
   console.log(`Якуний каналлар сони: ${finalCount} ta`);
 }

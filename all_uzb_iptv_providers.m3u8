@@ -1363,140 +1363,146 @@ http://213.230.65.254:8200/play/a02h
 http://213.230.65.254:8200/play/a00n
 #EXTINF:-1 group-title="TelecomTV UZ 🇺🇿 (91 ta)",Muz TV AZ
 http://213.230.65.254:8200/play/a002
-#EXTINF:-1 tvg-id="1" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/Yoshlar.png",Yoshlar
-https://st3.mediabay.uz/Yoshlar/playlist.m3u8?token=620712d916684cdbeb93f4c3a9b8666ef5efbcb9-7e3f4c84c0c64a56718447ff660bd38d-1776164528-1776142928
-#EXTINF:-1 tvg-id="2" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/toshkent.png",Toshkent
-https://st3.mediabay.uz/Toshkent/playlist.m3u8?token=12d0ee2946132d2a6a5415c6608d44bbf68f4d26-8988b0c48312e50968b4e65fa452db7f-1776164528-1776142928
-#EXTINF:-1 tvg-id="11" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/sportuz.jpg",Sport
-https://st4.mediabay.uz/SportHD/playlist.m3u8?token=04b7cbb2954b85c7ce17ce4feee1ece89d4ccd4d-1584300b1a728e7485988e7bbbd3db4e-1776164528-1776142928
-#EXTINF:-1 tvg-id="12" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/12222.jpg",O'zbekiston
-https://st4.mediabay.uz/Uzbekistan/playlist.m3u8?token=c7b7af6f17e741bc769c7fb73ff52810948580cd-722bfab77772787517bbf544cb8000dd-1776164528-1776142928
-#EXTINF:-1 tvg-id="39" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/39.jpg",Dunyo Boylab
-https://st4.mediabay.uz/Dunyo/playlist.m3u8?token=791b2fc31ebf276043ed52f124d67437394dbe3b-201ff1e559643d2e99f597c368dc99a1-1776164528-1776142928
-#EXTINF:-1 tvg-id="40" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/40.jpg",Madaniyat va Marifat
-https://st4.mediabay.uz/Madaniyat/playlist.m3u8?token=0db3e8cc48b642ac77113cb269bf0135d459194e-7d690e572e172624d8622eaeedde7cde-1776164528-1776142928
-#EXTINF:-1 tvg-id="41" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/discovery.png",Discovery
-https://st3.mediabay.uz/DiscoveryHD/playlist.m3u8?token=3ba665fe67950d8f6ccfb6958ff79091b89f92b0-c133c9974c640771045fb9eff522e3fc-1776164528-1776142928
-#EXTINF:-1 tvg-id="46" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/CfgJWrossiyak.png",Россия К
-https://st4.mediabay.uz/RussiaK/playlist.m3u8?token=8d9c7c202693d8bf127d3a918c1918349eadb3aa-12bb62cd73cd9079ee97a8ce08c0fae4-1776164529-1776142929
-#EXTINF:-1 tvg-id="47" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/DqCL3karusel.png",Карусель
-https://st3.mediabay.uz/Karusel/playlist.m3u8?token=265caa6bea8660b2745d72a6cd2ac7d0e47c6010-5355773909e8b38e1708af53511969ef-1776164529-1776142929
-#EXTINF:-1 tvg-id="48" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/zvezda.png",Звезда
-https://st4.mediabay.uz/Zvezda/playlist.m3u8?token=67258d118cb82990cc09173fee0f57939ca003b9-821b6a2c0233293e1a37f6270c5dd63d-1776164529-1776142929
-#EXTINF:-1 tvg-id="53" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/kinohit33.png",Кинохит
-https://st4.mediabay.uz/KinoxitHD/playlist.m3u8?token=9afbf19660716fa416db176de8ba19761716bec0-30c1f60f49fbad75dbc8dc824cbafad1-1776164529-1776142929
-#EXTINF:-1 tvg-id="62" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/fashion-tv-3.png",Fashion TV
-https://st3.mediabay.uz/FashionTV/playlist.m3u8?token=edd72d8517fefc8123c64129b529fcd53db749c6-80eee7310bdb37b53699ad1baf0499ff-1776164529-1776142929
-#EXTINF:-1 tvg-id="63" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/EkF2Stelecafe2.png",Телекафе
-https://st3.mediabay.uz/Telecafe/playlist.m3u8?token=e40e84c15ba3eef0ec9b22e7c34e7df4bd693991-049669c9360c4de82b970875e65655de-1776164529-1776142929
-#EXTINF:-1 tvg-id="65" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/JtI4qohotairibalka.png",Охота и рыбалка
-https://st3.mediabay.uz/Oxota/playlist.m3u8?token=b69a52239c2bc3009b00bdeec236615e12655349-6a831f8930671ede8a57da03a6a73e78-1776164529-1776142929
-#EXTINF:-1 tvg-id="75" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/752.jpg",Viju Explore
-https://st4.mediabay.uz/ViasatE/playlist.m3u8?token=0db531ae04e5353cb04aaa7e4f2917d6cdd1c60f-1b760e4e2f4765676763b08779d77ec1-1776164529-1776142929
-#EXTINF:-1 tvg-id="76" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/bolajon.png",Bolajon
-https://st4.mediabay.uz/Bolajon/playlist.m3u8?token=56b0d81d79268caca4b4804622d6d5828334b750-d4b6bef3b2b15dbc0705a275b6ca2978-1776164529-1776142929
-#EXTINF:-1 tvg-id="78" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/782.jpg",Viju History
-https://st3.mediabay.uz/ViasatH/playlist.m3u8?token=e6c946a9fbd7e2d670482243b05b958b2bf3e3cb-e4f829be2bd622e93ffdb3ea4b24c81f-1776164529-1776142929
-#EXTINF:-1 tvg-id="248" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/NAVO.png",Navo
-https://st3.mediabay.uz/Navo/playlist.m3u8?token=e4c4a9abe71c9e42af9a9c2bd09bef4db37d4bbb-31bb3e4dd5320f07695f9dc52af43c53-1776164529-1776142929
-#EXTINF:-1 tvg-id="344" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/344.jpg",Mahalla
-https://st3.mediabay.uz/Mahalla/playlist.m3u8?token=040e9d48963653d3f1a4145530d009d85c73b4f0-6cbd0d7e58f7ed495e06005b59ebd897-1776164529-1776142929
-#EXTINF:-1 tvg-id="347" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/3477.jpg",Futbol TV
-https://st4.mediabay.uz/Oilaviy/playlist.m3u8?token=0f42e526ed7af52b94c4dc23d08c9db69997b5a3-57496beca9f5c24611a44297084dd9fb-1776164529-1776142929
-#EXTINF:-1 tvg-id="348" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/Ozbekiston242.jpg",O'zbekiston 24
-https://st3.mediabay.uz/Uzbekistan24HD/playlist.m3u8?token=f86cff57e34fa1811873233411de38fe59a9984c-8543f9b4aeae9fa45f11391c0ff238eb-1776164529-1776142929
-#EXTINF:-1 tvg-id="350" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/350.jpg",Индийское кино
-https://st4.mediabay.uz/India/playlist.m3u8?token=61b4cc1794456e7b7e1d7f646f64d2431b195679-d9eee8c79c169bbe32aaed2ed7d42aac-1776164529-1776142929
-#EXTINF:-1 tvg-id="351" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/t24.png",Техно 24
-https://st3.mediabay.uz/Techno24/playlist.m3u8?token=28bbdde2cce3a2e10f18d8de180da17e3336c22e-a180523740942b4ec5ade0413db5ea73-1776164530-1776142930
-#EXTINF:-1 tvg-id="352" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/dQ6LWautoplus.png",Авто Плюс
-https://st4.mediabay.uz/AutoPlus/playlist.m3u8?token=a3ba61db43f2174034078452a8c70c1fa170ee19-1765a65bbe9eab34111cff402ec3f2c2-1776164530-1776142930
-#EXTINF:-1 tvg-id="362" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/discoveryScience.png",Discovery Science
-https://st4.mediabay.uz/DiscoveryS/playlist.m3u8?token=43b1197e7daace97feafacb01bc36819203601f5-a255e7545e551927a2f556138253632d-1776164530-1776142930
-#EXTINF:-1 tvg-id="363" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/kinoteatr.png",Kinoteatr
-https://st3.mediabay.uz/KinoteatrHD/playlist.m3u8?token=a6f37ec68b9159b767488106adc8b47db45f3119-3ce5d867e65b1214284013692911ab3c-1776164530-1776142930
-#EXTINF:-1 tvg-id="364" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/uz4.png",O'zbekiston Tarixi
-https://st4.mediabay.uz/UzHD/playlist.m3u8?token=26a3c8fabeadbf7a66a8b1430876c4e63edee7e4-81205ffd62082988b8f4fe92126031e7-1776164530-1776142930
-#EXTINF:-1 tvg-id="372" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/01-2017/childworld.png",Детский Мир
-https://st4.mediabay.uz/DetskiyMir/playlist.m3u8?token=e7f13591d7f8022487f1c473bfad4ec843bd40ec-116a5b513fb79ccd9593c4f8f3637243-1776164530-1776142930
-#EXTINF:-1 tvg-id="375" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/FTV.jpg",FTV
-https://st4.mediabay.uz/FutbolTVHD/playlist.m3u8?token=41717d4397038f14f8ec1b39ca012f60d4b3902e-9ba146e5195771cb3f16616e0ae2d18a-1776164530-1776142930
-#EXTINF:-1 tvg-id="376" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/rodnoekino_n.png",Родное Кино
-https://st4.mediabay.uz/Rodnoe/playlist.m3u8?token=17cdee6de83817456bc21591464dbb72d1e1a75d-c32c6b9993d1d8829d08f905d4a68cec-1776164530-1776142930
-#EXTINF:-1 tvg-id="377" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/12-2017/retro-tv.png",Ретро ТВ
-https://st3.mediabay.uz/Retro/playlist.m3u8?token=e24869b24d67054a320188fe091cb734b74c9e7a-0c632b5f5bf6bf6b9320f2d1664b618c-1776164530-1776142930
-#EXTINF:-1 tvg-id="378" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/12-2017/muzika-1.png",Музыка Первого
-https://st4.mediabay.uz/Muzika/playlist.m3u8?token=56db809cad4c6352172e75865d8ae07182786b8e-7eff3325c505f312dde52e0097e9144b-1776164530-1776142930
-#EXTINF:-1 tvg-id="380" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/LUXTV.jpg",LUX.TV HD
-https://st4.mediabay.uz/LuxTV/playlist.m3u8?token=31cd05c64a0e7e5d723678a7e962298831414338-6751cbbe27039cd73596c244e33a62a2-1776164530-1776142930
-#EXTINF:-1 tvg-id="393" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/taraqqiyot_tv_.png",Taraqqiyot
-https://st3.mediabay.uz/Taraqqiyot/playlist.m3u8?token=5f0a0a720adf9a33dea4e2aaead6e361aefcee8a-c198ffa3887e5a886ade618e9ef83531-1776164530-1776142930
-#EXTINF:-1 tvg-id="549" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/10-2020/TV-channels_0039_dom_kino.png",Дом кино
-https://st4.mediabay.uz/DomKino/playlist.m3u8?token=9749cdfa3fae734cd991654d910dce2b7a3f738f-7a02cb7eecf8ec907b31e0c9f7195eee-1776164531-1776142931
-#EXTINF:-1 tvg-id="558" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/03-2021/aqlvoy.png",Aqlvoy
-https://st3.mediabay.uz/Aqlvoy/playlist.m3u8?token=2c008a820b66645ddb6f6eba812036c4c49c2af9-8b95dd72006fc1ec9f1bbb7d76efde61-1776164531-1776142931
-#EXTINF:-1 tvg-id="559" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/03-2021/ruxsor-tv.png",Ruxsor TV
-https://st4.mediabay.uz/RuxsorTV/playlist.m3u8?token=3ae3aaa55bb3693745996172593163e8e7661c8e-6e3383643c5135ee46714fe7dc568183-1776164531-1776142931
-#EXTINF:-1 tvg-id="562" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/GOLDTV.jpg",Gold UZ TV
-https://st4.mediabay.uz/GoldTV/playlist.m3u8?token=7e48c916d28d44a61707f962d8dda3a12c90a14f-811a0a7ad45f8552be2e8b15a7e8932a-1776164531-1776142931
-#EXTINF:-1 tvg-id="567" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/03082022dastur.png",Dasturxon TV
-https://st3.mediabay.uz/DasturxonTV/playlist.m3u8?token=a893d77a5f92de230751456bc3b8c948c5b7ac8d-1df7caa169b857a68f29fcd4e07173b8-1776164531-1776142931
-#EXTINF:-1 tvg-id="568" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/568.jpg",Renessans TV
-https://st4.mediabay.uz/RenessansTV/playlist.m3u8?token=a0485a99d6fe4d8c8be248ba7f37341dec6945a1-982bc164cded4b792b9b154e17fdbba8-1776164531-1776142931
-#EXTINF:-1 tvg-id="571" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/01-2022/Nurafshon.png",Nurafshon TV
-https://st4.mediabay.uz/NurafshonTV/playlist.m3u8?token=8f257520d001ea75bf0727888c1eb94076778d37-bc7992f5207befcc55cf9fbf19904ef5-1776164531-1776142931
-#EXTINF:-1 tvg-id="584" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/584.png",France 24
-https://st4.mediabay.uz/France24/playlist.m3u8?token=19abec12e4d999986983f102c12eb11e63923d39-cb2b5d1c9d9447d8c9a067591db707c7-1776164532-1776142932
-#EXTINF:-1 tvg-id="602" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/s-iqbol.png",S IKBOL
-https://st4.mediabay.uz/S_Ikbol/playlist.m3u8?token=4d3ed88d1dcb4a70d1e7b8524b7abcc41331c0b7-8fa900fcfa32a1eeffd503825f1fef44-1776164532-1776142932
-#EXTINF:-1 tvg-id="613" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/11-2022/TRTAVAZ.jpg",TRT AVAZ
-https://st3.mediabay.uz/TRT_Avaz/playlist.m3u8?token=1e360f6b299b581317c356617f9bc579c2a61ade-ffd593bf2869e7ff3a618a6e5fd75792-1776164533-1776142933
-#EXTINF:-1 tvg-id="614" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/11-2022/tugan.jpg",Туган Тел
-https://st4.mediabay.uz/TuganTel/playlist.m3u8?token=4099a8faa3f222fc25ba07c387429041ea7804a5-30f14635aa9129a47e1ff9ef5384394f-1776164533-1776142933
-#EXTINF:-1 tvg-id="617" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/11-2022/8kanal.jpg",8 канал
-https://st4.mediabay.uz/8-kanal/playlist.m3u8?token=12a2d9fd62e83e1c6a5f18c98feb0a514aab1bb4-9443878320a4356946de4cd931d88006-1776164533-1776142933
-#EXTINF:-1 tvg-id="618" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/618.jpg",ТНВ Планета
-https://st4.mediabay.uz/TNV_Planeta/playlist.m3u8?token=203ee319d065123eb1149917a850ff9155d1bd91-b94bf6e34638bdf29f4c6ee36f2a752c-1776164533-1776142933
-#EXTINF:-1 tvg-id="651" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/785.png",MUZ TV O'zbekiston
-https://st3.mediabay.uz/MTV_UZ/playlist.m3u8?token=05dd94a9894dc85dbdd59380d76812d44d5d36a3-c984858ff048d9f2b2adfca4b72345c5-1776164533-1776142933
-#EXTINF:-1 tvg-id="654" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/02-2023/785.jpg",Ellikqal’a TV
-https://st4.mediabay.uz/EllikQalaTV/playlist.m3u8?token=bd00c66c992cadd0fc878cf8957b57f600a2c627-156bb515e2fff05f52ff347363c43273-1776164533-1776142933
-#EXTINF:-1 tvg-id="736" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/06-2023/3155.jpg",MYDAYTV
-https://st4.mediabay.uz/MyDay/playlist.m3u8?token=92003e7f6c075fbfefaac83a7756610da00026a9-158f78cb32c63481f8db8a79574c1f19-1776164535-1776142935
-#EXTINF:-1 tvg-id="771" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/06-2023/556.jpg",TVT 1
-https://st4.mediabay.uz/Tojikiston/playlist.m3u8?token=cc6d271745ebc0980ae96dc8ed914543dc4387f5-9db2f416bfe90a44d6052291a307f05b-1776164536-1776142936
-#EXTINF:-1 tvg-id="791" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/06-2023/565.jpg",Ishonch TV
-https://st4.mediabay.uz/IshonchTV/playlist.m3u8?token=7463d6380dd9805984ee387ca641ebc8a1562a74-5bc14c5a92b924af54d9126433252b46-1776164537-1776142937
-#EXTINF:-1 tvg-id="794" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/06-2023/566.jpg",NTV
-https://st3.mediabay.uz/NavoiyTV/playlist.m3u8?token=35ae7f982a3ce9e0e03cd506841701876bc6e707-78ee394211d6baeb516d2894e516e19d-1776164537-1776142937
-#EXTINF:-1 tvg-id="797" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/797.jpg",Istiqlol TV
-https://st4.mediabay.uz/IstiqlolTV/playlist.m3u8?token=d3f43794e8b76c7f4c2cd1a4ca29b70312bcec66-806af0697be4d2c1737be62f3d89ab35-1776164537-1776142937
-#EXTINF:-1 tvg-id="801" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/8tv2.png",8TV
-https://st3.mediabay.uz/8TV_UZ/playlist.m3u8?token=49867b760dbda7eac55be20af0b4308a625ba013-c337125e13154e35517428e898ad6c9c-1776164537-1776142937
-#EXTINF:-1 tvg-id="804" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/8040.jpg",Muloqot telekanali
-https://st3.mediabay.uz/Muloqot_TV/playlist.m3u8?token=89e1061aa18a3a1acdae33f6a8801554b93337b2-b674d22e9b7eb87eaeabf049ae2cbc4a-1776164537-1776142937
-#EXTINF:-1 tvg-id="836" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/03-2024/760.jpg",NUKUS
-https://st3.mediabay.uz/Nukus/playlist.m3u8?token=bb421481b8a03d6e7fd46fb446e9f8c154a40ead-954e8019860641c81ab6c61b1f43fdcd-1776164537-1776142937
-#EXTINF:-1 tvg-id="842" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/03-2024/775.jpg",XORAZM
-https://st4.mediabay.uz/Xorazm/playlist.m3u8?token=29e9734e93684b008ed860d1fb2d6c4edb8d2a7e-c20fa8789f2e3ce022e52c15b3b648f9-1776164537-1776142937
-#EXTINF:-1 tvg-id="843" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/7800.jpg",SURXONDARYO
-https://st4.mediabay.uz/Surxandaryo/playlist.m3u8?token=f744bbb9b0de7ac049e53c643b5acc76ed2850f3-b30e0e9964d440f6370edbb412a9c9fd-1776164537-1776142937
-#EXTINF:-1 tvg-id="848" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/7900.jpg",FARG'ONA
-https://st3.mediabay.uz/Fergana/playlist.m3u8?token=b8af0e3f5e8a0caaf4150814aca126b7cab2a26c-eea1b2bbd4506e9c793b3e4cd80207ca-1776164537-1776142937
-#EXTINF:-1 tvg-id="891" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/06-2024/8600.jpg",Zo'rTV
-https://st4.mediabay.uz/ZorSD/playlist.m3u8?token=d5c192307cb089db0da34e31b4371d8a74c09018-775325371d2dde8834ad69cc8f210ccf-1776164537-1776142937
-#EXTINF:-1 tvg-id="893" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/07-2024/545.jpg",Shifo TV
-https://st3.mediabay.uz/ShifoTV/playlist.m3u8?token=7675a8d87c747e2884711009d66f7abe2a91da2b-40bee6e92bd2b5e54673d08528e42008-1776164537-1776142937
-#EXTINF:-1 tvg-id="895" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/07-2024/540540.jpg",MiMi TV
-https://st4.mediabay.uz/MiMiTV/playlist.m3u8?token=1e5a40bb8e3c6dfd6c99d39ed586abb8266c0440-810c39718fdcebbce59b1fae779d36c9-1776164537-1776142937
-#EXTINF:-1 tvg-id="900" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/Makon_ava_Mediabay.jpg",Makon TV
-https://st4.mediabay.uz/Makon_TV/playlist.m3u8?token=4b366d7f0e7baa0b7bd599062016a6d2fb83aedf-531453ee39dbb9ee92921957485944ba-1776164538-1776142938
-#EXTINF:-1 tvg-id="901" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/09-2025/880.jpg",QIZIQTV
-https://st3.mediabay.uz/Qiziq_TV/playlist.m3u8?token=f9de5789c631d7a58fc7d6398a99652321df7f87-d166250dc50810878447fbf620b102f6-1776164538-1776142938
-#EXTINF:-1 tvg-id="902" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/09-2025/8855.jpg",RETROTV
-https://st3.mediabay.uz/RetroTV/playlist.m3u8?token=d68389c4e8d97a28f85799d712a9b3178e150932-9422f6d55e89e390bf814bd2587b41db-1776164538-1776142938
-#EXTINF:-1 tvg-id="903" group-title="Mediabay UZ 🇺🇿 (67 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/02-2026/626.jpg",Biz Music
-https://st4.mediabay.uz/Biz_Music/playlist.m3u8?token=001bdb3ad20d3e3e30ae2a7f6abec02cf0c43a7c-38f34fe2868224bda492412af5c1f2cb-1776164538-1776142938
+#EXTINF:-1 tvg-id="34" group-title="Mediabay UZ 🇺🇿 (70 ta)",Россия 1
+https://st2.mediabay.tv/RTDOC/playlist.m3u8?token=65316cfc0d71826873ed6fdca5f16b055648687b-5eaf551fe3396e7e0d6a173ca798186b-1776157526-1776146726
+#EXTINF:-1 tvg-id="67" group-title="Mediabay UZ 🇺🇿 (70 ta)",Euronews
+https://st2.mediabay.tv/Euronews_RU/playlist.m3u8?token=c07e3aa51f111dabd11bd9c538b313df14d6df76-00d9edc0fbf99b0afd552cc9620990bf-1776157533-1776146733
+#EXTINF:-1 tvg-id="376" group-title="Mediabay UZ 🇺🇿 (70 ta)",Родное Кино
+https://st2.mediabay.tv/UzreportTV/playlist.m3u8?token=d7f9adaa46bb40b14bb066da7cdbed91bc278bab-c8cf976ccc3a66f7509859d07072d84e-1776157538-1776146738
+#EXTINF:-1 tvg-id="378" group-title="Mediabay UZ 🇺🇿 (70 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/1HLzzplanetamb.png",Музыка Первого
+https://st2.mediabay.tv/Russia_RTR/playlist.m3u8?token=8f1ea41d8162992139c9f0a8c95f109b3426c860-7e8f927213c621d523ef09184336e80d-1776157539-1776146739
+#EXTINF:-1 tvg-id="393" group-title="Mediabay UZ 🇺🇿 (70 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/Ozbekiston242.jpg",Taraqqiyot
+https://st2.mediabay.tv/Uzbekistan24/playlist.m3u8?token=b70dc0360d9517ac21c53e2b8b818a162e45794a-26028201ad561a2d7d354728af6b675e-1776157540-1776146740
+#EXTINF:-1 tvg-id="411" group-title="Mediabay UZ 🇺🇿 (70 ta)",Мужское Кино HD
+https://st2.mediabay.tv/Simay_Azadi/playlist.m3u8?token=79d9125d9c7ba364c635b80e48eb3e65be100adc-643a8014e997d0a1753aa1f870154c64-1776157539-1776146739
+#EXTINF:-1 tvg-id="426" group-title="Mediabay UZ 🇺🇿 (70 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/ARABIC.png",Киносерия
+https://st2.mediabay.tv/France24_Arab/playlist.m3u8?token=f2b92f37c320710ef84b5f3d11024840f34d6f33-38bf4fac928efea4e6c7d1e2a0bfb726-1776157539-1776146739
+#EXTINF:-1 tvg-id="428" group-title="Mediabay UZ 🇺🇿 (70 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/428.png",Кинокомедия
+https://st2.mediabay.tv/France24_EN/playlist.m3u8?token=ff4123530309aeb06eefb0ccd9b7e5b179286d88-39ca26f92676e4ba500746a294bb3192-1776157539-1776146739
+#EXTINF:-1 tvg-id="430" group-title="Mediabay UZ 🇺🇿 (70 ta)",Кухня ТВ
+https://st2.mediabay.tv/Radio_RFI_English/playlist.m3u8?token=ae2865e4beed8de1eff0c5b02d8057f2f4136b6b-6949977b173dc106424e77e70c852068-1776157539-1776146739
+#EXTINF:-1 tvg-id="432" group-title="Mediabay UZ 🇺🇿 (70 ta)",365 Дней
+https://st2.mediabay.tv/Radio_RFI_Spain/playlist.m3u8?token=a1af2c1b9bc52e73188323261c722a7f130d93a6-33b5d66c8a89416afdb29674236f8d13-1776157540-1776146740
+#EXTINF:-1 tvg-id="456" group-title="Mediabay UZ 🇺🇿 (70 ta)",Киномикс HD
+https://st2.mediabay.tv/TV7-Nebesa/playlist.m3u8?token=9c7724a19bebd756753b06d893a91f859b0fffab-2dfd9ba19804e9f3e4a513dacc570cb4-1776157540-1776146740
+#EXTINF:-1 tvg-id="459" group-title="Mediabay UZ 🇺🇿 (70 ta)",Киносемья
+https://st2.mediabay.tv/Radio_Owaz/playlist.m3u8?token=63109caeec0e3b2344f420a38ca7d91e2b39745b-4d4c8ba79b8d48ff0a57954f85077ecd-1776157540-1776146740
+#EXTINF:-1 tvg-id="465" group-title="Mediabay UZ 🇺🇿 (70 ta)",Ля-Минор ТВ
+https://st2.mediabay.tv/Min-idey/playlist.m3u8?token=ea7ee33b45c4d5288418c5c02f10b6e97ee0e95a-f10e2349f2959085d1d3743fc158f863-1776157540-1776146740
+#EXTINF:-1 tvg-id="468" group-title="Mediabay UZ 🇺🇿 (70 ta)",Мультиландия HD
+https://st2.mediabay.tv/Radio_Staroe/playlist.m3u8?token=ea9fcbf21e1ed335d8a900d28f2972ca188e2219-e336d98fa862604bb3421d2bc9670414-1776157541-1776146741
+#EXTINF:-1 tvg-id="546" group-title="Mediabay UZ 🇺🇿 (70 ta)",HD Life
+https://st2.mediabay.tv/Moskva24/playlist.m3u8?token=fe4e3b3bfa4f3e666d4123614bf681746ce6826b-0d3e34e1eb734b7ad77ef0a14635efe2-1776157540-1776146740
+#EXTINF:-1 tvg-id="549" group-title="Mediabay UZ 🇺🇿 (70 ta)",Дом кино
+https://st2.mediabay.tv/Mediabay-uzbek-durdonasi/playlist.m3u8?token=b7b9b134c7688bfe0dadf5a8b6bf41465348c5ff-c145299e4e690019487e3462890edba5-1776157540-1776146740
+#EXTINF:-1 tvg-id="552" group-title="Mediabay UZ 🇺🇿 (70 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/IMAM2.png",МИР
+https://st2.mediabay.tv/ImamHussein2/playlist.m3u8?token=80c2421b7c53a7ac65acc696bb45bd9551f08036-2e69634b3593daf7371e65f71273eac9-1776157540-1776146740
+#EXTINF:-1 tvg-id="555" group-title="Mediabay UZ 🇺🇿 (70 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/al-zahratv.png",МИР 24
+https://st2.mediabay.tv/Al_Zahra/playlist.m3u8?token=62f01e1c28bcd0ddc5894c7e5314380a40f20db6-d0b79838dab0deb740b557f1802ac70c-1776157540-1776146740
+#EXTINF:-1 tvg-id="558" group-title="Mediabay UZ 🇺🇿 (70 ta)",Aqlvoy
+https://st2.mediabay.tv/Radio_Belarus/playlist.m3u8?token=87ad37f3aff03e7f670f5b939b86fbe8713935a1-eb4fb98b424a3bf6a54727224b61376c-1776157543-1776146743
+#EXTINF:-1 tvg-id="559" group-title="Mediabay UZ 🇺🇿 (70 ta)",Ruxsor TV
+https://st2.mediabay.tv/KTRK/playlist.m3u8?token=d1310773f47b6a919ba6cf55aba232db7c20fcef-e82b2254ccb847331f408ee99a6a9634-1776157542-1776146742
+#EXTINF:-1 tvg-id="562" group-title="Mediabay UZ 🇺🇿 (70 ta)",Gold UZ TV
+https://st2.mediabay.tv/KTRK-Sport/playlist.m3u8?token=2e3a6a36fab748f7ce70d290fc1b0401a5a72ba6-51231ff38c549d001dd19a5b3e53197a-1776157540-1776146740
+#EXTINF:-1 tvg-id="567" group-title="Mediabay UZ 🇺🇿 (70 ta)",Dasturxon TV
+https://st2.mediabay.tv/Radio_Min-qiyalFM/playlist.m3u8?token=3b2a51c30c6da44b0ecece60056cad92c1f7f77d-32270674fd76f0cafe7e24489739a3f4-1776157540-1776146740
+#EXTINF:-1 tvg-id="568" group-title="Mediabay UZ 🇺🇿 (70 ta)",Renessans TV
+https://st2.mediabay.tv/Radio_DiyorFM/playlist.m3u8?token=45a35e30ac1d5ce6cfb3055bcf6f6ec234644b71-bcd5bab786ccfec6b41e512e641ca0e8-1776157541-1776146741
+#EXTINF:-1 tvg-id="571" group-title="Mediabay UZ 🇺🇿 (70 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/arb.png",Nurafshon TV
+https://st2.mediabay.tv/ARB/playlist.m3u8?token=b09d4ecd553266d055410cbe7ac83e0d29602b8d-8cd64d6501f28472ceb830229db2135d-1776157541-1776146741
+#EXTINF:-1 tvg-id="574" group-title="Mediabay UZ 🇺🇿 (70 ta)",История
+https://st2.mediabay.tv/Radio_PiFM/playlist.m3u8?token=167b9b5b179d7341fda3c9569c139e2ff4425f80-6a1f5e474edf6461200d451bedb67342-1776157541-1776146741
+#EXTINF:-1 tvg-id="575" group-title="Mediabay UZ 🇺🇿 (70 ta)",Живая Планета
+https://st2.mediabay.tv/IniyanTV/playlist.m3u8?token=d7f70802d8dd7768fa3fdabcb37b0f99d1864f51-6946a9be4987b76611f04a413ccf866e-1776157541-1776146741
+#EXTINF:-1 tvg-id="577" group-title="Mediabay UZ 🇺🇿 (70 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/09-2019/ToloNews.png",Доктор
+https://st2.mediabay.tv/Tolo_News/playlist.m3u8?token=0c05703aff75697c0273eb393cff9759aa4f728a-de43e43f72705465ea6b04ecddfb585d-1776157541-1776146741
+#EXTINF:-1 tvg-id="578" group-title="Mediabay UZ 🇺🇿 (70 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/09-2019/arianat.png",MMA_TV
+https://st2.mediabay.tv/ArianaTV/playlist.m3u8?token=b027d91a3f4bdf4ffdf3256bb1afaadf8efea854-4169f841230d1ef9d920a97239bca693-1776157541-1776146741
+#EXTINF:-1 tvg-id="582" group-title="Mediabay UZ 🇺🇿 (70 ta)",Сарафан
+https://st2.mediabay.tv/ShifaTV/playlist.m3u8?token=b849ca2dfc5aefd8cbbd898af015b45a96c9d111-84b6d6dbe3da8f33149ca37ce4b0a562-1776157541-1776146741
+#EXTINF:-1 tvg-id="584" group-title="Mediabay UZ 🇺🇿 (70 ta)",France 24
+https://st2.mediabay.tv/SonLife_Dom/playlist.m3u8?token=0ecfc8577b75321390e7b5576e597a6026208ea2-da49e81b7b7097759abd2cd47647f097-1776157541-1776146741
+#EXTINF:-1 tvg-id="586" group-title="Mediabay UZ 🇺🇿 (70 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/10-2019/TRT-AVAZ.png",Мульт
+https://st2.mediabay.tv/TRT_AVAZ_HD/playlist.m3u8?token=473584326c86127dc9271a6ed76373b76d268911-af574ac474b651d6c87b9e75b4a34ffc-1776157541-1776146741
+#EXTINF:-1 tvg-id="592" group-title="Mediabay UZ 🇺🇿 (70 ta)",Моя планета
+https://st2.mediabay.tv/LuxuryTV/playlist.m3u8?token=37c120a3edbed2818e54fb015ef62e35c934bd46-c8333820ed723a29683c32c040cbb213-1776157542-1776146742
+#EXTINF:-1 tvg-id="593" group-title="Mediabay UZ 🇺🇿 (70 ta)",Наука
+https://st2.mediabay.tv/MTV_AZ/playlist.m3u8?token=45fe891f4730bc160cb9bc04beedbaa9db0ec21e-e2d111ca509c5fa088eb9a3f3b44f53f-1776157541-1776146741
+#EXTINF:-1 tvg-id="595" group-title="Mediabay UZ 🇺🇿 (70 ta)",Cinema
+https://st2.mediabay.tv/ORT_UZ/playlist.m3u8?token=4e013419b6a298f7243fce530a99c914b364bea0-a255dbe3d19c6087a091cdb990abd7cc-1776157541-1776146741
+#EXTINF:-1 tvg-id="599" group-title="Mediabay UZ 🇺🇿 (70 ta)",Матч! Планета
+https://st2.mediabay.tv/ILLITV/playlist.m3u8?token=6ad8d646f363d428da1cbb580f0ffd1830fc0f3e-dd55852b85d786b197336974929be005-1776157542-1776146742
+#EXTINF:-1 tvg-id="606" group-title="Mediabay UZ 🇺🇿 (70 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/03-2020/aynaTV.png",CNN International
+https://st2.mediabay.tv/AynaTV/playlist.m3u8?token=6415c6a13c9e9c98c409bb91404195f8c5396053-8811a7ed0a8be8bda896c0d6491b7f78-1776157542-1776146742
+#EXTINF:-1 tvg-id="610" group-title="Mediabay UZ 🇺🇿 (70 ta)",Bloomberg
+https://st2.mediabay.tv/maktab3/playlist.m3u8?token=2eccab2d834362f39feefdc599424f05c2347045-a74e4bab787379f145437bd7eb4798fa-1776157542-1776146742
+#EXTINF:-1 tvg-id="614" group-title="Mediabay UZ 🇺🇿 (70 ta)",Туган Тел
+https://st2.mediabay.tv/UniverTV/playlist.m3u8?token=9bc47084b2e45c0fc7e5e77ea2a4b07481f12f28-553af853bbd8306f04d664993ec96913-1776157542-1776146742
+#EXTINF:-1 tvg-id="617" group-title="Mediabay UZ 🇺🇿 (70 ta)",8 канал
+https://st2.mediabay.tv/Grodno_Plus/playlist.m3u8?token=45940609c61f149f0988bd237e13a46e3c872d85-59717a88a08d15f0cde906284be8514b-1776157542-1776146742
+#EXTINF:-1 tvg-id="618" group-title="Mediabay UZ 🇺🇿 (70 ta)",ТНВ Планета
+https://st2.mediabay.tv/Bambarbia/playlist.m3u8?token=1fcf6588769aeb84ac78cb7cde9b531c63ee6fb3-39a4b739458a1b38017d4723b69d0ed6-1776157542-1776146742
+#EXTINF:-1 tvg-id="622" group-title="Mediabay UZ 🇺🇿 (70 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/07-2020/TBN.png",BRIDGE Classic
+https://st2.mediabay.tv/TBN_Russia/playlist.m3u8?token=5497bc6b9a602c5106283d9c07cede0547ff4ef9-34bb76632a2bdd54c6bac4a5c39c2a47-1776157542-1776146742
+#EXTINF:-1 tvg-id="625" group-title="Mediabay UZ 🇺🇿 (70 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/BizTV.jpg",В гостях у Сказки
+https://st2.mediabay.tv/Biz_TV/playlist.m3u8?token=d55f525e01807c7a8991888220522811299f54ca-c555797c3eae1ce9dab947bccfd95755-1776157543-1776146743
+#EXTINF:-1 tvg-id="627" group-title="Mediabay UZ 🇺🇿 (70 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/490.jpg",Ducktv HD
+https://st2.mediabay.tv/Biz_Cinema/playlist.m3u8?token=07826648fdca58a01a2b3b08ae616c4c754dc932-47d7f99de014e98cd63b79aed37d920d-1776157543-1776146743
+#EXTINF:-1 tvg-id="629" group-title="Mediabay UZ 🇺🇿 (70 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/shahnavoz__.png",Дорама
+https://st2.mediabay.tv/TMT_Shahnavoz/playlist.m3u8?token=e01bbee031b11b889528963e5fdca4b6fc186e3b-ea4f84e82c14aa8f40468d4b43e86abc-1776157543-1776146743
+#EXTINF:-1 tvg-id="631" group-title="Mediabay UZ 🇺🇿 (70 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/badaxshon.png",Trace Sport Stars HD
+https://st2.mediabay.tv/Badaxshon/playlist.m3u8?token=908d3d5990dfed4335e1d54cc431b0302006901c-641255f4fd21152bed0e2f66fb46284a-1776157543-1776146743
+#EXTINF:-1 tvg-id="635" group-title="Mediabay UZ 🇺🇿 (70 ta)",Первый HD
+https://st2.mediabay.tv/Radio_BizFM/playlist.m3u8?token=fe8bdcef1e6cc1281f416818bdbc507046ee6f02-47894d45594c9778d5a4549ca76ccf1b-1776157543-1776146743
+#EXTINF:-1 tvg-id="638" group-title="Mediabay UZ 🇺🇿 (70 ta)",Biz TV
+https://st2.mediabay.tv/SuperTV/playlist.m3u8?token=635ee366941c2da9dbfc77e77033b504d8ba056e-5be98f011c302019d3dd205fbd4069f8-1776157543-1776146743
+#EXTINF:-1 tvg-id="648" group-title="Mediabay UZ 🇺🇿 (70 ta)",Setanta Sports 1
+https://st2.mediabay.tv/GoldUZ/playlist.m3u8?token=4a2dae20d9ce5732ea62834c7ba2645e6bcdfa04-f9a1e69243c35425ba8d3c404a9e69e9-1776157543-1776146743
+#EXTINF:-1 tvg-id="649" group-title="Mediabay UZ 🇺🇿 (70 ta)",Setanta Sports 2
+https://st2.mediabay.tv/Yuvelirochka/playlist.m3u8?token=34963636663b904f8fd8a5650ad87f16ac14ba4e-c5ac02eafc277f49df36b7f97c444091-1776157543-1776146743
+#EXTINF:-1 tvg-id="650" group-title="Mediabay UZ 🇺🇿 (70 ta)",TRT Haber
+https://st2.mediabay.tv/Radio_NS/playlist.m3u8?token=34e9154dc00456de5d1815de524a032047d1b3ec-773bbb31982b3f5fbd692165f6dceb61-1776157543-1776146743
+#EXTINF:-1 tvg-id="651" group-title="Mediabay UZ 🇺🇿 (70 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/DDDDDDasturxon.png",MUZ TV O'zbekiston
+https://st2.mediabay.tv/DasturxonTV/playlist.m3u8?token=9b2edbcc0f7a38b94235bab9e6cd3693b43c8f1d-ea85a25fca63932bbc9654f610be705c-1776157543-1776146743
+#EXTINF:-1 tvg-id="654" group-title="Mediabay UZ 🇺🇿 (70 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/10-2021/Al-Jazeera.png",Ellikqal’a TV
+https://st2.mediabay.tv/AljaziraTV_ARB/playlist.m3u8?token=6cc99961a5f39fc00cb2459120e4a5d0a75974b4-c47903d365d275ded2b80b43dcd12da2-1776157544-1776146744
+#EXTINF:-1 tvg-id="661" group-title="Mediabay UZ 🇺🇿 (70 ta)",Zoopark
+https://st2.mediabay.tv/Radio_SolFM/playlist.m3u8?token=f7b87928bdbfbe54cb15549d0e4da5816bdcfdda-7d59e5b3800c7b234a5e3ccdcdd60375-1776157544-1776146744
+#EXTINF:-1 tvg-id="664" group-title="Mediabay UZ 🇺🇿 (70 ta)",Deutsche Welle
+https://st2.mediabay.tv/VsyaUFA/playlist.m3u8?token=3de8d2131eef0ffd9c5913ceda599c642f8ddc11-029fb07d4168b9c75da171b22465d8b5-1776157544-1776146744
+#EXTINF:-1 tvg-id="666" group-title="Mediabay UZ 🇺🇿 (70 ta)",Живи
+https://st2.mediabay.tv/XuzurTV/playlist.m3u8?token=999632965aea5f7c07274f81f93d90395576bffa-481e06773b9ea46ffe993928f95a3137-1776157544-1776146744
+#EXTINF:-1 tvg-id="668" group-title="Mediabay UZ 🇺🇿 (70 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/04-2022/expresso-tv.png",Домашние животные
+https://st2.mediabay.tv/TVEspresso/playlist.m3u8?token=1f3f50be79ccb3a5849326db3f2df291d3ef75a5-8ee1f4a834b500a3ba947250cb9cd52c-1776157544-1776146744
+#EXTINF:-1 tvg-id="670" group-title="Mediabay UZ 🇺🇿 (70 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/05-2022/SRTTV.png",Усадьба
+https://st2.mediabay.tv/STRTV/playlist.m3u8?token=82009ba677dec29cd42c933c31868e7a241f120a-a813ee26058d3de22bcd2f8a362a09ad-1776157544-1776146744
+#EXTINF:-1 tvg-id="672" group-title="Mediabay UZ 🇺🇿 (70 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/10-2022/s-iqbol.png",Здоровое ТВ
+https://st2.mediabay.tv/S_Ikbol/playlist.m3u8?token=e3cf67cd3b56605f8a908dba91f5768d69e4b740-617e22377caa912ea9fa2dc94ba4a223-1776157544-1776146744
+#EXTINF:-1 tvg-id="684" group-title="Mediabay UZ 🇺🇿 (70 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/03-2023/LUXTV.jpg",КХЛ
+https://st2.mediabay.tv/LuxTV/playlist.m3u8?token=1958634803fd33805e479e74cca497ba2572fad6-a7d8fbabaf8c6501534d6c897c33faa7-1776157544-1776146744
+#EXTINF:-1 tvg-id="688" group-title="Mediabay UZ 🇺🇿 (70 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/06-2023/UWN.png",Живи Активно
+https://st2.mediabay.tv/UWN/playlist.m3u8?token=5cdb50562ce2099fd307046fe9ee817404afbc2a-94e4f484ea94026dcf198010226786d2-1776157544-1776146744
+#EXTINF:-1 tvg-id="689" group-title="Mediabay UZ 🇺🇿 (70 ta)",В мире животных
+https://st2.mediabay.tv/radio_Hamsado/playlist.m3u8?token=a91bfda68228e25e9ed7fdcf12fe27251a474d99-4933de81daf952be7034ca26c96529c6-1776157544-1776146744
+#EXTINF:-1 tvg-id="693" group-title="Mediabay UZ 🇺🇿 (70 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/693.jpg",Рыжий
+https://st2.mediabay.tv/NavoiyTV/playlist.m3u8?token=6b637b42fefcb6d3f293524c64976a5803e37c85-6bd6d58cb2bd04989f658fe5956ea441-1776157544-1776146744
+#EXTINF:-1 tvg-id="694" group-title="Mediabay UZ 🇺🇿 (70 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/12-2023/480.jpg",Приключения
+https://st2.mediabay.tv/Ilm-VA-Tabiat_TJ/playlist.m3u8?token=0e13d88669fd62d9d11393ed2ce115aa5e05f7c0-453faaa55aa7d9668eff332ef1c14252-1776157544-1776146744
+#EXTINF:-1 tvg-id="697" group-title="Mediabay UZ 🇺🇿 (70 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/01-2024/4900.jpg",Загородный
+https://st2.mediabay.tv/OshpirimTV/playlist.m3u8?token=8de76a6585fc0177f83ec8070a0270ce7357a039-2ea5530776afbf0b66408deaf95c9e91-1776157544-1776146744
+#EXTINF:-1 tvg-id="701" group-title="Mediabay UZ 🇺🇿 (70 ta)",Живая природа
+https://st2.mediabay.tv/Radio_Samarqand_Inform/playlist.m3u8?token=3d8cecf2cb8fe3b16a9f375f97f3356a9a216cbc-2a4b22ade9d014c62f019e1157b4b070-1776157545-1776146745
+#EXTINF:-1 tvg-id="703" group-title="Mediabay UZ 🇺🇿 (70 ta)",Арсенал
+https://st2.mediabay.tv/Osh_Pirim_radio/playlist.m3u8?token=0073261d46c02227746440ae491144228bc4b495-9cc8e85acce5da156265b78693e2f762-1776157545-1776146745
+#EXTINF:-1 tvg-id="707" group-title="Mediabay UZ 🇺🇿 (70 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/540.jpg",Охотник и рыболов
+https://st2.mediabay.tv/MiMiTV/playlist.m3u8?token=a195f0862abc923fba8061337009eebfafc7c489-9a714cdb2fa7aabcf1486a64271e954a-1776157545-1776146745
+#EXTINF:-1 tvg-id="710" group-title="Mediabay UZ 🇺🇿 (70 ta)",Первый космический
+https://st2.mediabay.tv/radio_Shahriman/playlist.m3u8?token=0df146442fcd76d9e1e5f2b45ccf944cfd6b2844-c6a86326971931d5a261010775f85ace-1776157545-1776146745
+#EXTINF:-1 tvg-id="715" group-title="Mediabay UZ 🇺🇿 (70 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/11-2025/575.jpg",Глазами Туриста HD
+https://st2.mediabay.tv/KonulTV/playlist.m3u8?token=9d7d3ccfafff331beab681115622e6e35ea2e60d-64cd8381c52a9ecffccbcd10439d3712-1776157545-1776146745
+#EXTINF:-1 tvg-id="718" group-title="Mediabay UZ 🇺🇿 (70 ta)" tvg-logo="https://api.mediabay.tv/www_data/newlogos/channels/11-2025/590.jpg",Наша Сибирь HD
+https://st2.mediabay.tv/Azer_Music_Plus/playlist.m3u8?token=d4828c8d844e0b89cd6f27916119c1a316623682-47e6c51efdb808ca16335ab8d634ef6d-1776157545-1776146745
 #EXTINF:-1 tvg-logo="https://www.radio.islom.uz/img/islomuzlogo.png" group-title="Radio UZ 🇺🇿 (24 ta)",Islom UZ FM (UZ)
 http://radio.islom.uz:8000/islomuz
 #EXTINF:-1 tvg-logo="https://www.topradio.mobi/screen/1651645778_biz_fm_tashkent_uzbekistan.jpg" group-title="Radio UZ 🇺🇿 (24 ta)",Biz FM (UZ)

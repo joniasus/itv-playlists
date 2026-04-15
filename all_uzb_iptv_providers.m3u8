@@ -701,292 +701,52 @@ http://s05.watcher.uz/186/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.
 http://s05.watcher.uz/188/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A182
 #EXTINF:-1 tvg-id="183" tvg-logo="http://sarkor.tv/static/images/channels/Nicktoons.png" group-title="Sarkor TV UZ 🇺🇿 (140 ta)",Nicktoons
 http://s05.watcher.uz/189/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NTYxNjgsImxvZ2luIjoiaGUtMjUyNTk0NSIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjYzMDkyNTM1fQ.kiKhT-gWF-11PivblJQjeKDWIRLHplSGdejtdizEWzQ%3A183
-#EXTINF:-1 tvg-id="1" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_2563.png",Первый канал
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=1&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="2" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_2566.png",Россия 24
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=2&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="22" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4576.png",МУЗ-ТВ
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=22&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="4" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4896.png",Россия 1
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=4&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="251" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4327.png",МАТЧ! Планета
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=251&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="308" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_776.png",Eurosport 2
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=308&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="293" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/fueltv.png",FUEL TV
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=293&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="58" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Futbol_tv.png",FUTBOL TV
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=58&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="52" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_40.png",Sport
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=52&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="32" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_2560.png",Дом кино
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=32&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="33" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4693.png",Кинопоказ
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=33&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="43" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_2845.png",Ретро ТВ
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=43&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="298" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_738_2.png",Русский бестселлер
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=298&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="297" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_739_2.png",Русский детектив
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=297&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="19" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_2564.png",Техно 24
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=19&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="302" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_774.png",Biz Cinema
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=302&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="268" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4475.png",Bollywood
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=268&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="229" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4534.png",Hollywood
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=229&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="328" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/ITVC.png",ITV Cinema
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=328&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="84" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4520.png",Kinoteatr
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=84&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="316" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_790.png",Star Cinema
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=316&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="319" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_823.png",TTV KINO
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=319&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="275" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/tvfilm.png",TVCOM LIVE | KINO
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=275&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="300" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_758.png",viju Comedy
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=300&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="306" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_765.png",8-TV Xorazm
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=306&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="34" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_2561.png",Музыка Первого
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=34&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="247" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4467.png",Сарафан
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=247&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="69" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_387.png",Телекафе
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=69&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="191" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_6834.png",ТНВ Планета
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=191&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="311" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_778.png",Amudaryo TV
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=311&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="276" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_160.png",ANDIJON MTRK
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=276&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="303" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_775.png",BiZ Music
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=303&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="274" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4710.png",BiZ TV
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=274&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="277" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_158.png",BUXORO MTRK
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=277&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="131" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_777.png",Dasturxon TV
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=131&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="341" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/denov.png",Denov TV
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=341&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="309" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_777_2.png",Ellikqala TV
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=309&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="278" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_168.png",FARGONA MTRK
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=278&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="64" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_2539.png",FTV
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=64&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="295" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_737.jpg",Gold UZ TV
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=295&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="324" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/istiqlol-tv2.png",Istiqlol TV
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=324&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="329" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/ITVM.png",ITV Music
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=329&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="279" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_164.png",JIZZAX MTRK
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=279&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="320" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_826.png",Jizzax TV
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=320&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="83" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4933.png",LUX TV
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=83&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="60" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4940.png",Mahalla
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=60&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="321" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_827.png",MAKON TV
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=321&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="59" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4697.png",Mening Yurtim
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=59&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="65" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4531.png",Milliy TV
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=65&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="307" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_767.png",Muloqot TV
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=307&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="190" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4578.png",MUZTV UZ
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=190&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="256" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/image_2024-07-19_10-36-33.png",MYDAYTV
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=256&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="280" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_163.png",NAMANGAN MTRK
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=280&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="56" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4527.png",NAVO
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=56&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="281" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_167.png",NAVOIY MTRK
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=281&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="323" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_8924.png",NTV
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=323&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="282" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_162.png",QARAQALPAQSTAN MTRK
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=282&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="283" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_166.png",QASHQADARYO MTRK
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=283&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="330" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/QIZIQTV_big1.png",Qiziq tv
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=330&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="137" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_49.jpg",RENESSANS TV
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=137&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="338" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/RETRO_big1.png",Retro
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=338&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="24" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_2589.png",RU TV
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=24&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="170" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_43.png",Ruxsor TV
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=170&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="253" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4349.png",S-Ikbol
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=253&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="301" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_766.png",S-Music
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=301&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="284" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_161.png",SAMARQAND MTRK
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=284&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="63" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_419.png",Sevimli
+#EXTINF:-1 tvg-id="63" group-title="TVcom UZ 🇺🇿 (23 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_419.png",Sevimli
 https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=63&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="285" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_159.png",SIRDARYO MTRK
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=285&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="286" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_169.png",SURXONDARYO MTRK
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=286&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="85" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_425.png",TARAQQIYOT
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=85&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="51" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_423.png",Toshkent
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=51&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="318" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_822.png",TTV
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=318&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="317" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_789.png",TTV Musiqa
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=317&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="294" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/tvclip.png",TVCOM LIVE | KLIPLAR
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=294&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="315" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_786.png",Vodiy TV
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=315&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="287" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_165.png",XORAZM MTRK
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=287&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="50" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4526.png",Yoshlar
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=50&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="48" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4528.png",ZOR TV
+#EXTINF:-1 tvg-id="48" group-title="TVcom UZ 🇺🇿 (23 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4528.png",ZOR TV
 https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=48&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="174" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_2582.png",8 TV
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=174&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="42" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_2571.png",Культура
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=42&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="129" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_2513.png",МИР
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=129&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="128" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_2514.png",МИР 24
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=128&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="8" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_2574.png",НТВ
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=8&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="262" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4486.png",Первый канал HD
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=262&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="271" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4635_1.png",ТВЦ
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=271&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="173" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_2581.png",Туган Тел
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=173&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="184" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_424.png",Хабар 24
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=184&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="296" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_744_2.png",AZ TV
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=296&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="312" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/3333.png",CGTN
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=312&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="5" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_421.png",Euronews
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=5&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="222" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_6832.png",Euronews English
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=222&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="49" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4938.png",O'zbekiston
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=49&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="67" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4532.png",O'zbekiston 24
+#EXTINF:-1 tvg-id="52" group-title="TVcom UZ 🇺🇿 (23 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_40.png",Sport
+https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=52&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
+#EXTINF:-1 tvg-id="59" group-title="TVcom UZ 🇺🇿 (23 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4697.png",Mening Yurtim
+https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=59&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
+#EXTINF:-1 tvg-id="65" group-title="TVcom UZ 🇺🇿 (23 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4531.png",Milliy TV
+https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=65&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
+#EXTINF:-1 tvg-id="84" group-title="TVcom UZ 🇺🇿 (23 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4520.png",Kinoteatr
+https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=84&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
+#EXTINF:-1 tvg-id="67" group-title="TVcom UZ 🇺🇿 (23 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4532.png",O'zbekiston 24
 https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=67&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="226" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4514.png",Turkmenistan
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=226&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="61" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_420.png",Uzreport
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=61&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="15" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_2523.png",Карусель
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=15&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="197" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/rizhiy.png",Рыжий
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=197&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="200" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/image_2024-06-10_16-50-51.png",Смайлик ТВ
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=200&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="10" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_2850.png",Уник-Ум
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=10&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="132" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4517.png",AQLVOY
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=132&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="55" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4529.png",Bolajon
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=55&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="269" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4470.png",Gulli Girl
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=269&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="304" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_772.png",mimi TV
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=304&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="266" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4474.png",TiJi
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=266&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="310" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_779.png",Nasaf TV
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=310&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="138" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_6831.png",365 Дней
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=138&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="182" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_3231.png",Авто 24
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=182&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="7" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_2503.png",Авто Плюс
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=7&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="195" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_3602.png",Арсенал
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=195&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="224" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4490.png",Бобёр
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=224&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="186" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4594.png",В мире животных
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=186&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="181" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4571.png",Вопросы и Ответы
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=181&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="245" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4584.png",Глазами Туриста
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=245&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="292" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_780.png",Дикая Охота
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=292&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="313" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/123.png",Дикая Рыбалка
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=313&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="252" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/doctor.png",Доктор
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=252&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="179" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_3219.png",Домашние Животные
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=179&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="199" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_3662.png",Живая Природа
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=199&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="178" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4593.png",Живи
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=178&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="185" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_3228.png",Живи Активно
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=185&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="228" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4491.png",Загородная жизнь
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=228&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="196" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/00b282e4f520b6e1c3c4fac51fe88b96_1.png",Загородный
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=196&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="41" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_2497.png",Звезда
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=41&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="180" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_3217.png",Здоровое ТВ
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=180&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="242" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4587.png",История
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=242&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="246" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4582.png",Наша сибирь
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=246&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="299" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_741_2.png",Наша Тема
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=299&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="17" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_2554.png",Охота и рыбалка
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=17&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="235" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame 30.png",Охотник и Рыболов
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=235&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="236" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4586.png",Первый Космический
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=236&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="240" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/hollywood_1.png",Приключения
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=240&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="342" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/tochkaotriva.png",Точка Отрыва
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=342&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="198" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_3595.png",Усадьба
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=198&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="183" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4694.png",Dрайв
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=183&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="54" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4937.png",Dunyo Boylab
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=54&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="267" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4473.png",English Club TV
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=267&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="239" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_428.png",Insight TV
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=239&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="53" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4939.png",Madaniyat va Marifat
+#EXTINF:-1 tvg-id="50" group-title="TVcom UZ 🇺🇿 (23 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4526.png",Yoshlar
+https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=50&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
+#EXTINF:-1 tvg-id="131" group-title="TVcom UZ 🇺🇿 (23 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_777.png",Dasturxon TV
+https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=131&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
+#EXTINF:-1 tvg-id="60" group-title="TVcom UZ 🇺🇿 (23 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4940.png",Mahalla
+https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=60&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
+#EXTINF:-1 tvg-id="49" group-title="TVcom UZ 🇺🇿 (23 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4938.png",O'zbekiston
+https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=49&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
+#EXTINF:-1 tvg-id="83" group-title="TVcom UZ 🇺🇿 (23 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4933.png",LUX TV
+https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=83&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
+#EXTINF:-1 tvg-id="51" group-title="TVcom UZ 🇺🇿 (23 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_423.png",Toshkent
+https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=51&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
+#EXTINF:-1 tvg-id="85" group-title="TVcom UZ 🇺🇿 (23 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_425.png",TARAQQIYOT
+https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=85&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
+#EXTINF:-1 tvg-id="338" group-title="TVcom UZ 🇺🇿 (23 ta)" tvg-logo="https://mw.tvcom.uz/logo/RETRO_big1.png",Retro
+https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=338&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
+#EXTINF:-1 tvg-id="53" group-title="TVcom UZ 🇺🇿 (23 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4939.png",Madaniyat va Marifat
 https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=53&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="270" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4541.png",Nat Geo Wild
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=270&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="134" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4581.png",Nurafshon TV
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=134&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="62" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_2549.png",O'zbekiston tarixi
+#EXTINF:-1 tvg-id="54" group-title="TVcom UZ 🇺🇿 (23 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4937.png",Dunyo Boylab
+https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=54&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
+#EXTINF:-1 tvg-id="62" group-title="TVcom UZ 🇺🇿 (23 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_2549.png",O'zbekiston tarixi
 https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=62&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="305" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Frame_773.png",Shifo TV
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=305&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
-#EXTINF:-1 tvg-id="189" group-title="TVcom UZ 🇺🇿 (143 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_3237.png",ZooПарк
-https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=189&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
+#EXTINF:-1 tvg-id="58" group-title="TVcom UZ 🇺🇿 (23 ta)" tvg-logo="https://mw.tvcom.uz/logo/Futbol_tv.png",FUTBOL TV
+https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=58&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
+#EXTINF:-1 tvg-id="132" group-title="TVcom UZ 🇺🇿 (23 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4517.png",AQLVOY
+https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=132&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
+#EXTINF:-1 tvg-id="55" group-title="TVcom UZ 🇺🇿 (23 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4529.png",Bolajon
+https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=55&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
+#EXTINF:-1 tvg-id="64" group-title="TVcom UZ 🇺🇿 (23 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_2539.png",FTV
+https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=64&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
+#EXTINF:-1 tvg-id="56" group-title="TVcom UZ 🇺🇿 (23 ta)" tvg-logo="https://mw.tvcom.uz/logo/Group_4527.png",NAVO
+https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=56&device=android&client_id=1&authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&timezone=0
 #EXTINF:-1 tvg-id="5634" group-title="ZO'R PLAY UZ 🇺🇿 (97 ta)" tvg-logo="https://media.zorplay.platform24.tv/img/ch/bc/f3/bcf33ece612d72311d1de5122a152a40.png",ZO'R SPORT 1
 https://stream1-zorplay.platform24.tv/hlsjwt/cb3585d4aa78502f902b4ae036177ebb5eb7e0c3-5634-0-zor796831-5-3332620718-1776197626-e128-MZK34vw71pQMGWFNJhWfQMwXPN4J4W2PcaKLn-S6YvA/index.m3u8
 #EXTINF:-1 tvg-id="8738" group-title="ZO'R PLAY UZ 🇺🇿 (97 ta)" tvg-logo="https://media.zorplay.platform24.tv/img/ch/e9/8b/e98b4c71b3347cefb4680aca1b98fe74.png",ZO'R SPORT 2

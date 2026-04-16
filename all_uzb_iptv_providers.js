@@ -2,21 +2,15 @@ const fs = require('fs');
 
 const FINAL_OUTPUT_FILE = 'all_uzb_iptv_providers.m3u8';
 
-const CINERAMA_SOURCE = 'Cinerama_UZ.m3u8';
-const SARKOR_SOURCE = 'Sarkor_TV.m3u8';
-const TVCOM_SOURCE = 'tvcom_uz.m3u8';
-const ZORPLAY_SOURCE = 'zorplay_uz.m3u8';
-const TELECOMTV_SOURCE = 'telecomtv_uz.m3u8';
-const RADIO_SOURCE = 'radio_uz.m3u8';
-const ITV_SOURCE = 'itv_uz.m3u8';
-
-const CINERAMA_GROUP_BASE = 'Cinerama UZ 🇺🇿';
-const SARKOR_GROUP_BASE = 'Sarkor TV UZ 🇺🇿';
-const TVCOM_GROUP_BASE = 'TVcom UZ 🇺🇿';
-const ZORPLAY_GROUP_BASE = "ZO'R PLAY UZ 🇺🇿";
-const TELECOMTV_GROUP_BASE = 'TelecomTV UZ 🇺🇿';
-const RADIO_GROUP_BASE = 'Radio UZ 🇺🇿';
-const ITV_GROUP_BASE = 'iTV UZ 🇺🇿';
+const SOURCES = [
+  { file: 'Cinerama_UZ.m3u8',  group: 'Cinerama UZ 🇺🇿' },
+  { file: 'Sarkor_TV.m3u8',    group: 'Sarkor TV UZ 🇺🇿' },
+  { file: 'tvcom_uz.m3u8',     group: 'TVcom UZ 🇺🇿' },
+  { file: 'zorplay_uz.m3u8',   group: "ZO'R PLAY UZ 🇺🇿" },
+  { file: 'telecomtv_uz.m3u8', group: 'TelecomTV UZ 🇺🇿' },
+  { file: 'radio_uz.m3u8',     group: 'Radio UZ 🇺🇿' },
+  { file: 'itv_uz.m3u8',       group: 'iTV UZ 🇺🇿' }
+];
 
 function escapeAttr(value) {
   return String(value ?? '')
@@ -31,7 +25,7 @@ function isUrlLine(line) {
 
 function replaceOrInsertGroupTitle(extinfLine, newGroupTitle) {
   const safeTitle = escapeAttr(newGroupTitle);
-  let line = String(extinfLine).trim();
+  const line = String(extinfLine).trim();
 
   if (/group-title="[^"]*"/i.test(line)) {
     return line.replace(/group-title="[^"]*"/ig, `group-title="${safeTitle}"`);
@@ -40,22 +34,9 @@ function replaceOrInsertGroupTitle(extinfLine, newGroupTitle) {
   return line.replace(/^#EXTINF:-1\b/i, `#EXTINF:-1 group-title="${safeTitle}"`);
 }
 
-function applyGroupTitleCountToBlockEntries(entries, baseTitle) {
-  const count = entries.length;
-  const titled = `${baseTitle} (${count} ta)`;
-
-  for (const entry of entries) {
-    if (entry.block && entry.block.length > 0) {
-      entry.block[0] = replaceOrInsertGroupTitle(entry.block[0], titled);
-    }
-  }
-
-  return entries;
-}
-
-function readLocalText(file) {
+function readLocalTextIfExists(file) {
   if (!fs.existsSync(file)) {
-    throw new Error(`File not found: ${file}`);
+    return null;
   }
   return fs.readFileSync(file, 'utf8');
 }
@@ -66,7 +47,6 @@ function parseGenericM3U(text, sourceName) {
 
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i].trim();
-
     if (!line.startsWith('#EXTINF:')) continue;
 
     const block = [line];
@@ -81,9 +61,7 @@ function parseGenericM3U(text, sourceName) {
         break;
       }
 
-      if (next) {
-        block.push(next);
-      }
+      if (next) block.push(next);
 
       if (isUrlLine(next)) {
         url = next;
@@ -94,18 +72,21 @@ function parseGenericM3U(text, sourceName) {
       lastJ = j;
     }
 
-    if (!url) {
-      i = lastJ;
-      continue;
+    if (url) {
+      entries.push({ sourceName, url, block });
     }
 
-    entries.push({
-      sourceName,
-      url,
-      block
-    });
-
     i = lastJ;
+  }
+
+  return entries;
+}
+
+function applyGroupTitleCount(entries, baseTitle) {
+  const titleWithCount = `${baseTitle} (${entries.length} ta)`;
+
+  for (const entry of entries) {
+    entry.block[0] = replaceOrInsertGroupTitle(entry.block[0], titleWithCount);
   }
 
   return entries;
@@ -124,65 +105,69 @@ function mergePlaylistBlocksInOrder(playlists) {
 }
 
 async function main() {
-  console.log('1) Cinerama_UZ.m3u8 юкланяпти...');
-  const cineramaText = readLocalText(CINERAMA_SOURCE);
-  const cineramaEntries = parseGenericM3U(cineramaText, CINERAMA_SOURCE);
-  applyGroupTitleCountToBlockEntries(cineramaEntries, CINERAMA_GROUP_BASE);
+  const parsedPlaylists = [];
+  const skippedFiles = [];
 
-  console.log('2) Sarkor_TV.m3u8 юкланяпти...');
-  const sarkorText = readLocalText(SARKOR_SOURCE);
-  const sarkorEntries = parseGenericM3U(sarkorText, SARKOR_SOURCE);
-  applyGroupTitleCountToBlockEntries(sarkorEntries, SARKOR_GROUP_BASE);
+  for (let i = 0; i < SOURCES.length; i++) {
+    const { file, group } = SOURCES[i];
+    console.log(`${i + 1}) ${file} текшириляпти...`);
 
-  console.log('3) tvcom_uz.m3u8 юкланяпти...');
-  const tvcomText = readLocalText(TVCOM_SOURCE);
-  const tvcomEntries = parseGenericM3U(tvcomText, TVCOM_SOURCE);
-  applyGroupTitleCountToBlockEntries(tvcomEntries, TVCOM_GROUP_BASE);
+    const text = readLocalTextIfExists(file);
 
-  console.log("4) zorplay_uz.m3u8 юкланяпти...");
-  const zorplayText = readLocalText(ZORPLAY_SOURCE);
-  const zorplayEntries = parseGenericM3U(zorplayText, ZORPLAY_SOURCE);
-  applyGroupTitleCountToBlockEntries(zorplayEntries, ZORPLAY_GROUP_BASE);
+    if (text === null) {
+      console.log(`   ⚠️ Topilmadi, skip qilindi: ${file}`);
+      skippedFiles.push(file);
+      continue;
+    }
 
-  console.log("5) telecomtv_uz.m3u8 юкланяпти...");
-  const telecomtvText = readLocalText(TELECOMTV_SOURCE);
-  const telecomtvEntries = parseGenericM3U(telecomtvText, TELECOMTV_SOURCE);
-  applyGroupTitleCountToBlockEntries(telecomtvEntries, TELECOMTV_GROUP_BASE);
+    const entries = parseGenericM3U(text, file);
 
-  console.log("6) radio_uz.m3u8 юкланяпти...");
-  const radioText = readLocalText(RADIO_SOURCE);
-  const radioEntries = parseGenericM3U(radioText, RADIO_SOURCE);
-  applyGroupTitleCountToBlockEntries(radioEntries, RADIO_GROUP_BASE);
+    if (entries.length === 0) {
+      console.log(`   ⚠️ Kanal topilmadi, skip qilindi: ${file}`);
+      skippedFiles.push(file);
+      continue;
+    }
 
-  console.log("7) itv_uz.m3u8 юкланяпти...");
-  const itvText = readLocalText(ITV_SOURCE);
-  const itvEntries = parseGenericM3U(itvText, ITV_SOURCE);
-  applyGroupTitleCountToBlockEntries(itvEntries, ITV_GROUP_BASE);
+    applyGroupTitleCount(entries, group);
 
-  console.log('8) Ҳаммаси битта файлга merge қилиняпти...');
-  const finalMergedText = mergePlaylistBlocksInOrder([
-    cineramaEntries,
-    sarkorEntries,
-    tvcomEntries,
-    zorplayEntries,
-    telecomtvEntries,
-    radioEntries,
-    itvEntries
-  ]);
+    parsedPlaylists.push({
+      file,
+      group,
+      entries
+    });
+
+    console.log(`   ✅ ${entries.length} ta kanal topildi`);
+  }
+
+  if (parsedPlaylists.length === 0) {
+    console.error('Build failed: birorta ham yaroqli playlist topilmadi');
+    process.exit(1);
+  }
+
+  console.log(`${SOURCES.length + 1}) Ҳаммаси битта файлга merge қилиняпти...`);
+
+  const finalMergedText = mergePlaylistBlocksInOrder(
+    parsedPlaylists.map((x) => x.entries)
+  );
 
   fs.writeFileSync(FINAL_OUTPUT_FILE, finalMergedText, 'utf8');
 
   const finalCount = (finalMergedText.match(/^#EXTINF:/gm) || []).length;
 
-  console.log(`Якуний файл: ${FINAL_OUTPUT_FILE}`);
-  console.log(`Cinerama: ${cineramaEntries.length} ta`);
-  console.log(`Sarkor: ${sarkorEntries.length} ta`);
-  console.log(`TVcom: ${tvcomEntries.length} ta`);
-  console.log(`ZO'R PLAY: ${zorplayEntries.length} ta`);
-  console.log(`TelecomTV: ${telecomtvEntries.length} ta`);
-  console.log(`Radio: ${radioEntries.length} ta`);
-  console.log(`iTV: ${itvEntries.length} ta`);
-  console.log(`Якуний каналлар сони: ${finalCount} ta`);
+  console.log(`\nЯкуний файл: ${FINAL_OUTPUT_FILE}`);
+
+  for (const item of parsedPlaylists) {
+    console.log(`${item.group}: ${item.entries.length} ta`);
+  }
+
+  if (skippedFiles.length > 0) {
+    console.log('\nSkip қилинган файллар:');
+    for (const file of skippedFiles) {
+      console.log(`- ${file}`);
+    }
+  }
+
+  console.log(`\nЯкуний каналлар сони: ${finalCount} ta`);
 }
 
 main().catch((err) => {

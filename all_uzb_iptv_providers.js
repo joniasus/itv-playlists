@@ -7,8 +7,6 @@ const SARKOR_SOURCE = 'Sarkor_TV.m3u8';
 const TVCOM_SOURCE = 'tvcom_uz.m3u8';
 const ZORPLAY_SOURCE = 'zorplay_uz.m3u8';
 const TELECOMTV_SOURCE = 'telecomtv_uz.m3u8';
-const MEDIABAY_SOURCE = 'mediabay_uz.m3u8';
-const SALOMTV_SOURCE = 'salomtv_uz.m3u8';
 const RADIO_SOURCE = 'radio_uz.m3u8';
 const ITV_SOURCE = 'itv_uz.m3u8';
 
@@ -17,8 +15,6 @@ const SARKOR_GROUP_BASE = 'Sarkor TV UZ 🇺🇿';
 const TVCOM_GROUP_BASE = 'TVcom UZ 🇺🇿';
 const ZORPLAY_GROUP_BASE = "ZO'R PLAY UZ 🇺🇿";
 const TELECOMTV_GROUP_BASE = 'TelecomTV UZ 🇺🇿';
-const MEDIABAY_GROUP_BASE = 'Mediabay UZ 🇺🇿';
-const SALOMTV_GROUP_BASE = 'SalomTV UZ 🇺🇿';
 const RADIO_GROUP_BASE = 'Radio UZ 🇺🇿';
 const ITV_GROUP_BASE = 'iTV UZ 🇺🇿';
 
@@ -153,35 +149,23 @@ async function main() {
   const telecomtvEntries = parseGenericM3U(telecomtvText, TELECOMTV_SOURCE);
   applyGroupTitleCountToBlockEntries(telecomtvEntries, TELECOMTV_GROUP_BASE);
 
-  console.log("6) mediabay_uz.m3u8 юкланяпти...");
-  const mediabayText = readLocalText(MEDIABAY_SOURCE);
-  const mediabayEntries = parseGenericM3U(mediabayText, MEDIABAY_SOURCE);
-  applyGroupTitleCountToBlockEntries(mediabayEntries, MEDIABAY_GROUP_BASE);
-
-  console.log("7) salomtv_uz.m3u8 юкланяпти...");
-  const salomtvText = readLocalText(SALOMTV_SOURCE);
-  const salomtvEntries = parseGenericM3U(salomtvText, SALOMTV_SOURCE);
-  applyGroupTitleCountToBlockEntries(salomtvEntries, SALOMTV_GROUP_BASE);
-
-  console.log("8) radio_uz.m3u8 юкланяпти...");
+  console.log("6) radio_uz.m3u8 юкланяпти...");
   const radioText = readLocalText(RADIO_SOURCE);
   const radioEntries = parseGenericM3U(radioText, RADIO_SOURCE);
   applyGroupTitleCountToBlockEntries(radioEntries, RADIO_GROUP_BASE);
 
-  console.log("9) itv_uz.m3u8 юкланяпти...");
+  console.log("7) itv_uz.m3u8 юкланяпти...");
   const itvText = readLocalText(ITV_SOURCE);
   const itvEntries = parseGenericM3U(itvText, ITV_SOURCE);
   applyGroupTitleCountToBlockEntries(itvEntries, ITV_GROUP_BASE);
 
-  console.log('10) Ҳаммаси битта файлга merge қилиняпти...');
+  console.log('8) Ҳаммаси битта файлга merge қилиняпти...');
   const finalMergedText = mergePlaylistBlocksInOrder([
     cineramaEntries,
     sarkorEntries,
     tvcomEntries,
     zorplayEntries,
     telecomtvEntries,
-    mediabayEntries,
-    salomtvEntries,
     radioEntries,
     itvEntries
   ]);
@@ -196,8 +180,6 @@ async function main() {
   console.log(`TVcom: ${tvcomEntries.length} ta`);
   console.log(`ZO'R PLAY: ${zorplayEntries.length} ta`);
   console.log(`TelecomTV: ${telecomtvEntries.length} ta`);
-  console.log(`Mediabay: ${mediabayEntries.length} ta`);
-  console.log(`SalomTV: ${salomtvEntries.length} ta`);
   console.log(`Radio: ${radioEntries.length} ta`);
   console.log(`iTV: ${itvEntries.length} ta`);
   console.log(`Якуний каналлар сони: ${finalCount} ta`);

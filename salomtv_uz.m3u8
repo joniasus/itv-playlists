@@ -1,251 +1,251 @@
 #EXTM3U
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/1a83286df70c4449bb12bf34ac278581.png", Zo'r TV FHD
-https://flussonic.salomtv.uz/Zor_TVHD/video.m3u8?token=43d99909b727629eed8c729e67a14ecf01197570-6243447a554a7659734d5a776361764b-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Zor_TVHD/video.m3u8?token=a360609c18018641382696cba795696d018cc600-5151666f6c705062546c476a486d744b-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/78d5fdf2e5c54bb8b27808f62a993a08.png", Milliy TV HD
-https://flussonic.salomtv.uz/Milly_TVHD/video.m3u8?token=f527ac15936450485df8b90e2fe104c52c2bdd9e-6852616b5641544d765962646d555477-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Milly_TVHD/video.m3u8?token=452735bcce018a704c121db3011f2684ab80a38f-6658676e73776d625746674c55774f51-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/1ccaef34487547e1b1c159722854eaa0.png", Sevimli TV HD
-https://flussonic.salomtv.uz/SevimliTVHD/video.m3u8?token=c572ad6a68c97f98e7aa43572bff3244e8cfec89-6d744a526d6a65735a635370765a4c70-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/SevimliTVHD/video.m3u8?token=14559cfe55f9e5b43fef9dab76a955ecbedb54f9-444b67477553504f705162784451716c-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/04c31fcb80914b8a8b08a194067b3293.png", Mening Yurtim HD
-https://flussonic.salomtv.uz/Mening_YurtimHD/video.m3u8?token=cedd4d4877a5825d70d3304169d48af3384dbf31-576c6d7a78505959636853565741794d-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Mening_YurtimHD/video.m3u8?token=8bfb741b6fb075e8b4eacb4a6734093993a0d8da-696d6a7a4a445a6d76625a4144765043-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/0fc05c1512bb47caa0a29d9ca8efbd4e.png", Sport ТV HD
-https://flussonic.salomtv.uz/Sport-UZ/video.m3u8?token=f569333cd967edfe3fe8d66b01f28d1e940f591b-4a4a6c6c586f614547784d5a6349624c-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Sport-UZ/video.m3u8?token=0e5f9dd77b2c3dec27aebe220077e1d5af842bbb-44614c74556c75466461705054544342-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/8e16dbddbc6a4b5ebfa9a01da5c5a5d5_cmprs.webp", Futbol TV HD
-https://flussonic.salomtv.uz/FutbolTV/video.m3u8?token=16fa883915d4f38bd062a5ca78598812836ea7d0-597641714753476f577149446267726d-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/FutbolTV/video.m3u8?token=d67a0935b290831839dc4038bdc8781504d9b7d1-616d474b724b4a54446f577875716946-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/d3e9e8805c9a42f7972f5a531bc9964d_cmprs.webp", Setanta 1 HD
-https://flussonic.salomtv.uz/Setanta1HD/video.m3u8?token=dc57754f9967ca223f6096233a8759045f0a7291-6a514c72454173436d6d6e454d6b6f58-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Setanta1HD/video.m3u8?token=7bccd055f5be511aa65375a02ea76a115ab3d1ff-624c4e4672754a594661555472684d65-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/13c00878297e43eeb8a5b38e9b2b9b52_cmprs.webp", Setanta 2 HD
-https://flussonic.salomtv.uz/Setanta2HD/video.m3u8?token=c80832770920f022ea93fe622bcb1755fa0680ca-746a464e6c75514b6a585a6b76434a46-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Setanta2HD/video.m3u8?token=98d01280e75313b1c27887656bd0dc26165460c2-6352774e46445a65574f625343465772-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/6a45df5edca54fbfb9d6288a5f78dd15_cmprs.webp", ITV Cinema
-https://flussonic.salomtv.uz/itv_cinema/video.m3u8?token=22ff66bb90382509bed36b9cbd35f23486099f9b-656265626966747a434f6c7662734d68-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/itv_cinema/video.m3u8?token=976e11e1f542064bdc932510bb2aa62bf06d679c-6c64687344486d566679417274736b4c-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/505f104e561d4f86987b8a86fb6a24c0_cmprs.webp", ITV Music
-https://flussonic.salomtv.uz/itvmusic/video.m3u8?token=b07846367dd5b1c470a01f0044cf63898127f9cf-61755668724f71674763416b667a7277-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/itvmusic/video.m3u8?token=44050d8297571175be8c0f10eae988acc4433b25-716c6941634744637a6656644c484c77-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/19c0554b88d2496d8265c6a32b37f8bd.png", Kinoteatr
-https://flussonic.salomtv.uz/Kinoteatr_HD/video.m3u8?token=8993a4b4ba64a1029d6e321a188d00f0c7a3a198-76655a416a52566d434b564f6541636a-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Kinoteatr_HD/video.m3u8?token=ea7f10b9da3256f77ee98b2cae7405d77b05c1a7-6a474d50537a68516672426d6e4b636c-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/dfdfd5547c6c43ff8d781d47406b3d01_cmprs.webp", Biz Cinema
-https://flussonic.salomtv.uz/BIZCINEMA/video.m3u8?token=322851b6f0e68d6dddd63dc81f96b37a1b93c766-78664a6348425a4d6c4579696c574b66-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/BIZCINEMA/video.m3u8?token=516931241c72790090a1235858e1e14be242deec-6167765a716a4f556254414255415051-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/40831f00d7704229b7583bb08e735f94_cmprs.webp", Biz Music
-https://flussonic.salomtv.uz/BizMusic/video.m3u8?token=a59037286fff696b4025a2adbf685685493a276c-4d6b6b7044507578566c57514f45734c-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/BizMusic/video.m3u8?token=69d3fb47281b3b03c2cc09795db405f6bfb93826-656f4d6e626c714a4e4476766f744569-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/b3d5d5c2c5f34357b500620e3dcbe323_cmprs.webp", BizTV
-https://flussonic.salomtv.uz/BizTV/video.m3u8?token=9ad81cbb70a8dee2938bf36ba532cec9d7caa719-5a54546b536c62486a594f49506b7064-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/BizTV/video.m3u8?token=7a2c9f80ff23ab5375d4ffcd4e64b53bf123852a-545749446e6c6571754359744f566d6b-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/c5043f13447a425b9bd7d6f05e986801_cmprs.webp", QIZIQTV
-https://flussonic.salomtv.uz/QiziqTV/video.m3u8?token=5615601c2abd0f9109badd9d6fa5b5b8cc426cce-587a4844505a6a51734244636b6a444f-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/QiziqTV/video.m3u8?token=5ec237b48636311ce23e407fa0a4bbe5dd7e8181-427073757444476673556b70736c5761-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/b0f41658c3cc4f14ac7a94e3e6c6bc2e.png", UzReport
-https://flussonic.salomtv.uz/UzreportTV-HD/video.m3u8?token=4ba7a097927e5a13ecacbac1a89bbae2e86ded38-6d626a6f4d496b524f50764a50415573-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/UzreportTV-HD/video.m3u8?token=283cc9b2a5720f18fdc920fe4e941a86415a1cc0-4e4363497046587258514a586e724245-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/47f0828b7aa24228a5415d2f8b4f7cb1.png", Dunyo bo‘ylab HD
-https://flussonic.salomtv.uz/Dunyoboylab_HD/video.m3u8?token=68ffc9e897edd6d1ac12ec0e575b544bd78bb724-794b7a6e706463615642576e64554e76-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Dunyoboylab_HD/video.m3u8?token=db9dee6b2b4e511582c1e7a2540e0d76f6bd4ab4-4a4368726c7466516b57496c48634269-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/fa0f17c738e5412fa249b9048680e001_cmprs.webp", Makon TV
-https://flussonic.salomtv.uz/Makon_TV/video.m3u8?token=c8ee4d1ea27aa9c70e86bfb133797c3ec9a3de15-4f4a61635a5a6767524d486953656770-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Makon_TV/video.m3u8?token=d611369d0d9f373249981928f59045a257fe44e8-714f544d53784c66416e64456d774d44-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/af287586fa93402d8bb9a0952c3e26d7_cmprs.webp", TTV_Musiqa
-https://flussonic.salomtv.uz/TTV_Musiqa/video.m3u8?token=898e5e773c807bd283e4b8c72fdf2c072768863e-6c4370676d5152417864676871594e78-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/TTV_Musiqa/video.m3u8?token=549417f3732d12f1a9eae11d516cf100e7cd86a2-4578784d745a47687767455071714952-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/059bdc0928e94571bffd72203c5a5752.png", NAVO
-https://flussonic.salomtv.uz/Navo/video.m3u8?token=017b2474f5d8fc8d1160bbdc65a3a2ba11096008-6b754a52654a68614c50446b756f796a-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Navo/video.m3u8?token=8722887041f41a6997a9e4fd4779077a1862a9da-48465744614142504f6c4c685a754355-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/c0661048f27a4a4ea6506e3f01649bd2_cmprs.webp", Eurosport 1 SD
-https://flussonic.salomtv.uz/Eurosport/video.m3u8?token=a0adfb31dba64e2c3f2b5f8d45f6d9894c9e197b-66676e6a4f59565a4d5a7348544d4c7a-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Eurosport/video.m3u8?token=2b103353a5b8769c2aef316297af8577fa93f8b5-51534865554e4958587a717658497061-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/a56b694a008c4ac5beac62d8c1ecdf49_cmprs.webp", EUROSPORT 2
-https://flussonic.salomtv.uz/eurosport_2/video.m3u8?token=fd1866c89a9b650a3c782304576945e4585a1abe-686248435159796f514b784175514753-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/eurosport_2/video.m3u8?token=2811ad43219309c43f33fbf5b9752ca429694fd0-55476b6877534c694a676c5448575679-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/3f7bcb76f92341cba1227054b6c48ed2_cmprs.webp", Viasat Sport
-https://flussonic.salomtv.uz/Viasat_Sport/video.m3u8?token=99e9d12fbaa7b36d44323b64997703b614b18109-66754e4c5679714550424a504d577879-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Viasat_Sport/video.m3u8?token=ff35a8813740fae5020b5b14a991e84b5b0ae32b-65764753646775744c4e51467a575a46-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/a86f43137caf4d529d748f2b17c49476_cmprs.webp", Aqlvoy
-https://flussonic.salomtv.uz/Aqilvoy/video.m3u8?token=27212acecdd49e032359dfb4d0e46e9a65e445f6-4e427857574f774e4b53726a45706e44-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Aqilvoy/video.m3u8?token=e87865ec3387c720ef7bebbf8eaedf3c52a46fa4-5876686b665351455355637843575673-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/6f6f1439a15f42fcacae30ecf65d7d68.png", Bolajon
-https://flussonic.salomtv.uz/Bolajon/video.m3u8?token=fcbfef98cf01984087e9aa86c683159974546f9a-4b7a725a456243524b7954437a62456b-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Bolajon/video.m3u8?token=876ce471bedd78ac75f1383cde55911bc342b13e-47466d58777346726151536f75735970-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/a76eafcee3f44497aadc327632bb6150.png", Dasturhon TV
-https://flussonic.salomtv.uz/DasturxonTV/video.m3u8?token=0429ec5e6cdf4a7f2892d6d7b11f0b6bebc289a4-6c6749776c77714a4b4b50554943586e-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/DasturxonTV/video.m3u8?token=8ab3e7174c6c890f03ea654b6696ac6cd523f22d-6571615a7a54546a44594d4b72445a79-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/1a2231f6951a44f0ac31117318529e24.png", FTV
-https://flussonic.salomtv.uz/FTVHD/video.m3u8?token=34091b2a84fa9f57dd2191bdd05bd7165f1bc101-7756574761736550494e4d697a564e7a-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/FTVHD/video.m3u8?token=0b7bce0cc32927be928e4feb643fa79c9d78abd7-4476596676634f6863554d5564675852-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/7191e1c00d4744b4877c47b68412bdf4_cmprs.webp", LUX TV
-https://flussonic.salomtv.uz/LuxTV/video.m3u8?token=d180aa08d5bd35113e263fc03b6eac0ca83a6f54-426f585845516264505457646a4d4e6d-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/LuxTV/video.m3u8?token=ea999b404a917ec8d391300eac5fc1cabc46b71b-6450596a4956687068564a706b4d6950-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/da3f1fd04e3a4ca08ff538d7a8bb5cea_cmprs.webp", Madaniyat va Ma'rifat
-https://flussonic.salomtv.uz/Madaniyat_va_Marifat/video.m3u8?token=7579d3b67eacaff4d30e5accbcf3db7f9b7b2f3c-5862554955615162706c4d716a667566-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Madaniyat_va_Marifat/video.m3u8?token=d2eded891b9e7ac953624bdc244ff660b421e2aa-704466796c4c6c744741476747687159-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/7bae2dae94ae4087a1a367366c178879.png", Mahalla
-https://flussonic.salomtv.uz/Mahalla/video.m3u8?token=946f49da1e3bd9d1edcd4f7798adc420a17d3378-644d484a6141537654615762455a7248-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Mahalla/video.m3u8?token=0cc3e6dd69723805be2d351193a6d86933cb59f8-576257506f7353656270626e4758434b-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/010cb5fbc15f462cace567130d9ac0df.png", MayDayTv
-https://flussonic.salomtv.uz/Myday/video.m3u8?token=953f9edc27bde7a5af18790b352a8c2ad7262064-55664d514e53766d476a625956497a71-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Myday/video.m3u8?token=14535e3569a181f3d4caea8d081d7dcec57ffa33-645a635361794f4e7851557856474572-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/f0c2635467e149248c471ada130f9205_cmprs.webp", MiMi TV
-https://flussonic.salomtv.uz/MiMiTV/video.m3u8?token=34e343376f7a88a9a61c42a0e0d9e62af0de22bc-464174456269726366617464774a6b42-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/MiMiTV/video.m3u8?token=20122f93e387dd96c27d155c92fe66c17b73c15a-794947544b63447452536c5849564475-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/6a4d5959d93741239df731e5eb522b22_cmprs.webp", MUZ TV
-https://flussonic.salomtv.uz/muztv/video.m3u8?token=02ef544369fb17ff0750ecfee4debf260d1c144e-4974796d594b77416541447569797370-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/muztv/video.m3u8?token=a848da4d1bf8019434b6e7d931bd0f4132c4ef20-78556d74525856507a5a4a547a6c5a4d-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/d6f8a523bf1a45d39c665134dc04d91c_cmprs.webp", Nurafshon
-https://flussonic.salomtv.uz/Nurafshon_TV/video.m3u8?token=9e02d8cf4fa8e3dd107385c1e83fd849c7cbd143-796f505444586b73594b515074636f66-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Nurafshon_TV/video.m3u8?token=33c739dbe2d4bddf6409dbb3cc8b688c54801f52-76765a68676c63667879695470786448-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/131c02a45cb74780ac4ac108006502f1.png", O`zbekiston tarixi
-https://flussonic.salomtv.uz/Uzbekiston-TarixiHD/video.m3u8?token=c4c461029d7c1e1a156f2de453e9b4277364885b-69794664427a6b686c4a58486876474b-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Uzbekiston-TarixiHD/video.m3u8?token=7bc31d441a85ca7702ec77ff1142b255c01d76b9-4645726f657274576f6a61564555436f-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/1333dc1c2e2b4c628213a5407e02c345_cmprs.webp", Renessans
-https://flussonic.salomtv.uz/Renessans_TV/video.m3u8?token=eda554755e7718f40f34502b75b0ecfef04e1e20-586367517856446955446767586e616d-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Renessans_TV/video.m3u8?token=12b1b088ea5b40540bca30259bdafe43461e2ca6-676d6c704951747349634b6f6d6a755a-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/ecd3cc4a411c43b6ac0c54dce11c712a_cmprs.webp", RETRO
-https://flussonic.salomtv.uz/RETRO_UZ/video.m3u8?token=58f90a662ca714922e8ce8d9de633bf267de1b9b-5762786668756e6f456c65796375616f-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/RETRO_UZ/video.m3u8?token=15fa0d994ac3bb938648bf22c5b9d777feb927e1-70445863586e49774e5a6f7a74646e68-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/ce05fb821c1847d0a8bea6f4d0d86277.png", Toshkent
-https://flussonic.salomtv.uz/Toshkent/video.m3u8?token=ba2cfe22be3bd6fa3d845581fffed553cb18ed24-46505755544567797a415a6267687449-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Toshkent/video.m3u8?token=1faaaa90ac77d4980a6c8c5abdc7cfda68ce3bf2-5a587778756c7253615170454c484943-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/33e7c53bce534d368933e953af284cd4.png", Yoshlar
-https://flussonic.salomtv.uz/YoshlarHD/video.m3u8?token=b28383dcbca479812b98e63551bd1b5b24f84608-6d6f687a444578686b4e5a5a63794770-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/YoshlarHD/video.m3u8?token=0fecbda9d381ad45fd24621b5c5681dc46188d92-4158694855644e4166767a756e657479-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/8f17283c113d46c6ae5df732c3d9e001_cmprs.webp", O'zbekiston
-https://flussonic.salomtv.uz/Uzbekiston/video.m3u8?token=b9a8e2be065a5daa91e317aa82899de659ee4177-6150536a7150785544635a5557725750-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Uzbekiston/video.m3u8?token=5562beaf33ca264bc64d90c36ee3aee3df5a8c88-7a784a5a624652675274655648436954-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/6ae45083fad04d17a37445b98e6b6b74_cmprs.webp", O'zbekiston 24 HD
-https://flussonic.salomtv.uz/Uzb24/video.m3u8?token=4826807350992e7b85dc1f36e42192bc044507b2-426453544568514a4d52767a70594c72-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Uzb24/video.m3u8?token=0f57fa718f3d47224b1157a258c1484d2dafbc1f-6e544c6d474b744c7977624e716a6673-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/1af03acd2dd84984b0da0ead8c9ad657_cmprs.webp", Shifo TV
-https://flussonic.salomtv.uz/ShifoTV/video.m3u8?token=790d48baa6d3bec5a42d29cc317553a00825af47-4c6672516d7549595a4f734b6e535342-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/ShifoTV/video.m3u8?token=8eb8f75c00dad3cab2ee84fc3e55457206840597-6844704a765743584a78467975677062-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/f35bbf67b73a4364900580eb03d9e309_cmprs.webp", TV 1000
-https://flussonic.salomtv.uz/TV1000/video.m3u8?token=a181191667eee11bc1e005aca4012e2b378ff0d9-507156615944677a7841617241626662-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/TV1000/video.m3u8?token=14a0de8e1506c9cd21e1abb49827327913a0cd0d-5556707464665368444e4d6b48774274-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/f2ab99ecacaa4f259a1cadd0ccbb69bd_cmprs.webp", TV 1000 ACTION
-https://flussonic.salomtv.uz/vijuTV1000action/video.m3u8?token=044e9952deee7328bbd1aafcacfff30067aab595-64436643754f6865637a62544d51436b-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/vijuTV1000action/video.m3u8?token=a7c8dc175a12707ded18a367607d1b4ef78817d0-4353514d6b6e706c65646968794d5846-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/988e0facdc0344748765ff27ea08be1c_cmprs.webp", TV 1000 русское кино
-https://flussonic.salomtv.uz/TV1000rus/video.m3u8?token=032497c0e1cd9c5e943314a9753bbbe374e4cd1b-6549684973444d7570426b4d724a685a-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/TV1000rus/video.m3u8?token=49c472af3113a5ca90499591879106d26f0c8b8a-516e796164564c714778664c45695052-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/983f34b4c0924057ac8de7188799bcb3_cmprs.webp", viju Comedy
-https://flussonic.salomtv.uz/vijuComedy/video.m3u8?token=a6bb51684f92303c81294d38ab6d5ebf3c578112-436c54486c77546645666370704b6e4b-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/vijuComedy/video.m3u8?token=bd67cf96ae99c3aac55e3767c054f5fbdcecf477-5549526c437351467078635a52437557-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/db72f00b3fe64eeeb08c7716b3149227_cmprs.webp", Viju Serial
-https://flussonic.salomtv.uz/Viju_Serial/video.m3u8?token=98c5aaad61d1d604f8b853aa647477b4db95c277-4453796258724957514c476a5a6c4246-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Viju_Serial/video.m3u8?token=080710670def83d33a28dd14a55c6088fe86d5f1-416176597942527959516a646f4b536f-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/e57c8a17f8dd425a8cae48eb60b997a1_cmprs.webp", ViP Premiere
-https://flussonic.salomtv.uz/ViP_Premiere/video.m3u8?token=bf184becf88a2ad27ab425047087f8cdcecf1c86-6e4d51534476766c54617562784f4471-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/ViP_Premiere/video.m3u8?token=93ae1d180aa0da2d967664e7f27cfdd0db21d6e1-416575656d7854576644616843454b42-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/b10822ccc5a642a0826f0c01d857bcc5_cmprs.webp", Дорама
-https://flussonic.salomtv.uz/Dorama/video.m3u8?token=c3e416af4529fa74316bcdf0fa42ec7c415ef28a-556b676b68506b69466b526665707a4e-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Dorama/video.m3u8?token=07a4734e92b533274f49b686e3d90b8b44384313-464b524663537a525a417167516a4b74-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/684d78ded65a4acc871a94d9a33c0e16_cmprs.webp", Индийское Кино
-https://flussonic.salomtv.uz/Indiyskoe_Kino/video.m3u8?token=ffb3a732fd6ad4aec13294536677ea8589dcc810-7847746761624b68564a7750624e426a-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Indiyskoe_Kino/video.m3u8?token=e524e2e42727f288bc07a3c10a8ff4123353b9cc-6f444a497042425a735966576d495364-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/943e1ad18d4844f899cbb2d8c3f85b16_cmprs.webp", Кинокомедия
-https://flussonic.salomtv.uz/Kinokomediya/video.m3u8?token=708fed400c7d319b7e2c2d74f6b7bcb8e2541499-7a7742686356425a4b636c4c677a5758-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Kinokomediya/video.m3u8?token=101b4d35d5d3dc8c1987e010b9ba1dfcc3ae905f-5649547366474463557172526f69694c-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/6d6c80a6a121464b9e5af9bf5cefceee_cmprs.webp", Киномикс
-https://flussonic.salomtv.uz/KinomiksHD/video.m3u8?token=9645f78dbdf5b63d6735b84bce7ea05282b93927-7846496b754f6d576c6a656572797a4d-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/KinomiksHD/video.m3u8?token=61f175817ec2c171c7a86c65a673479f4037c39c-6d6e4e487165474a555241624e424577-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/62dfad2221d548b5a05d3f8a7317b4c1_cmprs.webp", КИНОПРЕМЬЕРА
-https://flussonic.salomtv.uz/Kinopremera/video.m3u8?token=8285100a63f1fb39bb00d200de007515c202bbdf-4867737947666a45485a744e466f6c46-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Kinopremera/video.m3u8?token=d16b0fd67a51488f9d183a238b6d8a5225863a51-79446579676a51445a586b75526a4c4f-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/7b2707564a784b31bd36dbbefc230153_cmprs.webp", Киносвидание
-https://flussonic.salomtv.uz/Kinosvidanie/video.m3u8?token=5915c5d8c4d3087225623d666481700a9cc4addc-49647477456a6477724b796e6458416b-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Kinosvidanie/video.m3u8?token=817e1f6acaace4fea3ff6be1f249289042046836-59734e6f41667a725255727864565465-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/7e8b4b47f4e646839c3729407032d3b0_cmprs.webp", Киносемья
-https://flussonic.salomtv.uz/Kinosemya/video.m3u8?token=116db9f39ef24dc6c5de8fb399f362c553317e05-4b57745650697941705a786968416278-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Kinosemya/video.m3u8?token=03c3b22b0f4516d23bb54af16ffeea6b4de5aed8-44597a4c696e477662575273726d5668-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/15490757cca94f19b3b55aa8b8ac6175_cmprs.webp", Киносерия
-https://flussonic.salomtv.uz/Kinoseriya/video.m3u8?token=00a99b2221c84923ffa27f31ff904ad916dba720-46596b704a76674b434f635a6576696e-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Kinoseriya/video.m3u8?token=32060bec047022957ae23dae1f6b5adcdc8acb87-5479456a46734b454871694b446e4446-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/1b772bd61b344fb7bfc806eeef721071_cmprs.webp", Кинохит
-https://flussonic.salomtv.uz/Kinoxit/video.m3u8?token=310ca4b180f685df7031139b9767bab8b2ac8764-677854555a584853774553786c644e48-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Kinoxit/video.m3u8?token=94f6078a9b731b06d2d6c5a018662df5701f0149-5a636167724f71616f65755549444275-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/6fe72df699814b8a894cd0ddedb2307f_cmprs.webp", Мужское кино
-https://flussonic.salomtv.uz/Mujskoe-KinoHD/video.m3u8?token=32a055e76b9a4856fc8a2f9865a2ebb605ca6279-46766856676f4b4667594c7053556543-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Mujskoe-KinoHD/video.m3u8?token=40f9f5694fbf158ae832bee9776b3ed594a2259c-717746534d62414566786a7350734149-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/73680ce5106b4dd4a9d3a699a8326c19_cmprs.webp", Наше новое кино
-https://flussonic.salomtv.uz/Nashe_novoe_kino/video.m3u8?token=e8dda4f7918bb413e12471bef92e79a9b9bac701-4b6d56534f49724f4d7851796f6e464a-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Nashe_novoe_kino/video.m3u8?token=cc0552e6562349e6373cbb835e586af37a215d86-4151584c74717974726543496d4c4a63-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/bf23c2da15fd4615bc11ae9b2cce0ecd_cmprs.webp", НТВ
-https://flussonic.salomtv.uz/NTV/video.m3u8?token=538912538f83e5dd2c5d63bcae4a7832f5ce45b4-707a6576704c4f7749464e416f676462-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/NTV/video.m3u8?token=154498726e808739b7f82660b25ba1f7d2027a45-6f564f6e746775424e546261426d6e5a-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/8297247b1a72437287a658b2a03378ac_cmprs.webp", Родное кино
-https://flussonic.salomtv.uz/Rodnoe_Kino/video.m3u8?token=a2ba74eaa7f153963fab2466149970435e4c89cf-7854514d6d7553475463686d72727450-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Rodnoe_Kino/video.m3u8?token=dd6716d5a1c7373a8a0847ef5dc5679ad56fd575-4c59754d5a534e757562794856447864-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/e9012bb990914952b403b3aa4182ff5b_cmprs.webp", РУССКИЙ БЕСТСЕЛЛЕР
-https://flussonic.salomtv.uz/russkiy_bestseller/video.m3u8?token=0b330ec9c003c6c14be56d5f82885f25180c5f4a-6e68704f524c42416f704c636574586a-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/russkiy_bestseller/video.m3u8?token=a2bfbc4ce068dd229c3c14be8476b8b94f101f32-557267724d726e7a46475476434f6146-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/519ff3a4f3f444f4b450198a6db42e47_cmprs.webp", РУССКИЙ ДЕТЕКТИВ
-https://flussonic.salomtv.uz/russkiy_detektiv/video.m3u8?token=56cb511d4f5fd9d3643a94ffc1a9f4ebb0a75750-637a67676e545443637a4451756f5259-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/russkiy_detektiv/video.m3u8?token=900f19d392f2520bc84c40a67d1c740ad7afd5d1-7364764e5176486c726257655650654f-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/09797e69666545dca3d4f8f5ca2d966c_cmprs.webp", AL JAZEERA
-https://flussonic.salomtv.uz/aljazeera/video.m3u8?token=45f6c8ae8b6a15ab0abf5f2a17b3a52783b4c849-64464874667171505a7241576d7a4363-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/aljazeera/video.m3u8?token=119659038156d2c45e0e327354b1775dbbaa4a4c-646649594b4145676c6a62786472774d-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/481c35b390994268961696b0b3ea203e_cmprs.webp", AZTV
-https://flussonic.salomtv.uz/AZTV/video.m3u8?token=8bd7ee145703bab67cd6bac8c5e7f20745073271-494b66695058756c4e5a4b4471464c73-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/AZTV/video.m3u8?token=4295a0dfc177d03a91ae964fda4277bfc2a25adc-4a57556144645a6d4c79634259634762-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/d726c7a1dfe4401ba83dbd9e719c3bf5_cmprs.webp", BBC WORLD NEWS
-https://flussonic.salomtv.uz/BBC_WORLD_NEWS/video.m3u8?token=fd2723f2cf46e2691ca084b43b57ad0cc501a699-624d6745706967637a49536849685842-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/BBC_WORLD_NEWS/video.m3u8?token=273d4c086b2e428a6bc352dab08d6f084b4b18e3-51637048764c516a6d56515577725975-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/3ff54bfe4e1a48e79c0db6181a073b7d_cmprs.webp", BLOOMBERG
-https://flussonic.salomtv.uz/BLOOMBERG/video.m3u8?token=c7f2593b2903a852d64c64fa9b6cc0ccc5123be1-665a586a65566b5670487865584b7763-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/BLOOMBERG/video.m3u8?token=6f37b91044ad72637fe80844c38e472dbde39a41-4d5154706c4943534b62636253534847-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/ef0d65d93c9947dfbbca97f6cb1f3a26_cmprs.webp", BRIDGE TV CLASSIC
-https://flussonic.salomtv.uz/BRIDGE_TV_CLASSIC/video.m3u8?token=a06159ff2b733ff3b179b024b169ae8dd5bdbab2-737657506a456e4f6e4b6263764a4248-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/BRIDGE_TV_CLASSIC/video.m3u8?token=0262c65648b0c0196811fd616300de0d33eaaa39-424246545a4a4850446b705749626573-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/a25b18187e43448aa45baa16fe667f4f_cmprs.webp", CNBС
-https://flussonic.salomtv.uz/CNBC/video.m3u8?token=da9112da2a0284db58517db1481e7ce5601cc035-6d714364584b5541577a716646444e7a-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/CNBC/video.m3u8?token=f664dc7eda584fcf4a2e045eecb5cf0e616cdc5c-786169674a4f6649466e6a7a4a716f5a-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/471705e4f6914c64b0bcc7ed7de72d12_cmprs.webp", CNN SD
-https://flussonic.salomtv.uz/CNN/video.m3u8?token=c119662964e21f686440ad4d4fe7056043f97067-4a73445164616f724362427a52536f55-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/CNN/video.m3u8?token=745abd6b14089dc38692fae424ed39fa134b3ccb-70527467635364626b5977486b6f4166-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/399bc0a4b617494bbb538a7e25f42f3d_cmprs.webp", DEUTSCHE WELLE
-https://flussonic.salomtv.uz/DEUTSCHE_WELLE/video.m3u8?token=15d361a6614eb064a022a7e8e1083e7a22fa8f40-7149526e6d666c63586f694973736247-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/DEUTSCHE_WELLE/video.m3u8?token=23e0de34da1874b3df0eb2d52d42281f00dfdd21-537a5a575a556e46784952514f506a58-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/9832c08decbd4d14b4c3063f2f19481e_cmprs.webp", EURO NEWS
-https://flussonic.salomtv.uz/EURONEWS/video.m3u8?token=f3e99fe806ba22e471ab5542831767f88320f3a9-447a6d576f7743536c5669645a5a4362-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/EURONEWS/video.m3u8?token=ea5bb92f995f2cbd82ff930154956bc2546f8750-4d544e646c4762736b534662746a4451-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/1e4901559c83471bb8c00b1efd9d6141_cmprs.webp", FRANCE 24
-https://flussonic.salomtv.uz/france_24/video.m3u8?token=ee3a914ece4c081d76fbd08da1f1662844aa5ffe-496b6555475043445055437365744654-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/france_24/video.m3u8?token=f871762a6b735251ce140ec273b32f8ba9f9aeb5-42634b63506f6b6a4a47756477746652-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/16d5113c99744d64bcbfde292beb752c_cmprs.webp", NHK WORLD JAPAN
-https://flussonic.salomtv.uz/WORLDJAPAN/video.m3u8?token=60e89f342e24447c914a6db37f893890758b6ecf-754a434c5a797653714745505372624a-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/WORLDJAPAN/video.m3u8?token=f3b44f18ac77dbf79f7159a7777734b7df45ffc0-42436e7a4f616c6c475a6b4b7a595444-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/65184e002d0143aa9b4e4619e4c383c7_cmprs.webp", RU.TV
-https://flussonic.salomtv.uz/rutv/video.m3u8?token=210014f60c4813ac6e2f71029f75d8ea3b5db549-4d484f50537275637471434977495676-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/rutv/video.m3u8?token=d51a82c49ae1476746553a3e7a4a866352a2ea8e-51677244704f486c7969476b4e487148-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/d471a538747947439cdd80065a086061_cmprs.webp", Smusic
-https://flussonic.salomtv.uz/Smusic/video.m3u8?token=7056544e4d5c92202b4044fbefc64f18558d2711-634a62736646584756527451684a4f62-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Smusic/video.m3u8?token=1c506ef721412c41f297f9d18a5c23e12a25bb6d-565a5044746851594e6861456c465658-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/990a3ce7a7124031a0fe7c3f1239b42f_cmprs.webp", TRT HABER
-https://flussonic.salomtv.uz/TRT_HABER/video.m3u8?token=e4d556a9741f1788d3e405f0185f07f25fbcb357-6944574c5964724f7967447a6f6b6b68-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/TRT_HABER/video.m3u8?token=6d43505f17ea3f5286f0eb416949f35f4949ab31-766e786d786f4c4d4c6e706f76657867-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/27b7806574154302b10ba362ed2b9470_cmprs.webp", TVC
-https://flussonic.salomtv.uz/TVC/video.m3u8?token=5bb2bd4ac411a2ca7e231f17f27d1d506983d72f-63545477576161536668627358734543-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/TVC/video.m3u8?token=6f35437ec7854d1b86132d1f9e024456e532957e-4e7178724f5a795a66795a434d755075-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/fc2695cfdaa040eb95755ef05e1b7967_cmprs.webp", Xabar 24
-https://flussonic.salomtv.uz/Xabar24/video.m3u8?token=86cc929b1382580d7332d84d0107536a3fe261a0-674846786f475179776152565a6c6377-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Xabar24/video.m3u8?token=beccfcac73a5247b254ab2e0bda50f07945a1b2c-426865617445746f4c446174636d7562-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/22cb006966a644039cbe6b00472cb47c_cmprs.webp", ЗВЕЗДА
-https://flussonic.salomtv.uz/zvezda/video.m3u8?token=674cdaa457119957cc6879ff773b50b03023d879-626d414b6a764a4b567768536a4c5551-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/zvezda/video.m3u8?token=444c033531c5ed25e0cd4d6be734b4f14ce3bc35-5358756f6b73554c726a766d4f4e6d58-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/5237d01cd18c4b73aa289e0d46804562_cmprs.webp", МИР
-https://flussonic.salomtv.uz/Mirtv/video.m3u8?token=cad93cc5de0b1c61401331dbbe4d3f17f45f355a-47426449485a43614b45744170656864-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Mirtv/video.m3u8?token=b7dc5c2990f7f8a022d84583c45b9ce6c028d88a-574b7341674c585043664f6e7274424e-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/cc5b53b89dd04040bb57d56f6808cf3e_cmprs.webp", МИР 24
-https://flussonic.salomtv.uz/Mir24/video.m3u8?token=151bd5b753c44630e0d13b24d58e2b7314bcdf62-5770416778734d634954437059677853-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Mir24/video.m3u8?token=3c04d97a7675f537d8b9679fe7ad10a118fce23a-7471746d4c4156704f6a6273476d586c-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/9fd91a23eb3046b4a75207682e2e62d7.png", Первый канал (Ru)
-https://flussonic.salomtv.uz/Perviy_Kanal/video.m3u8?token=80cb8ed0db289a76660cbb80e8af1f9ebb3c148d-654261684e6c63705972534e42525845-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Perviy_Kanal/video.m3u8?token=a2c2fbceeae4bf87c5a1b5fa1230cd85bcbaeb03-4d744a4e5a434c7a586b4b71674f4d51-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/6a2f8eb27f6c434881bb7a64cec528ee.png", Россия 24 (Ru)
-https://flussonic.salomtv.uz/Rossiya24/video.m3u8?token=81d1ef853f92bda2b65a988cfc898a30d4ccff31-57746c72515475716b4c4e5045654f6c-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Rossiya24/video.m3u8?token=2b8930bbbd6cfed76af65c84a3280ef80bc6eae5-6b516d4a695562417162634e7349436d-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/524148495c8b40e08226f45076122287_cmprs.webp", 365 Дней
-https://flussonic.salomtv.uz/365Dney/video.m3u8?token=3aa3f22f1c8e5dece104fe1eec2c9979e39d3433-51644c4e47566c4863706a42654f484a-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/365Dney/video.m3u8?token=e1535a9569127515e8f0635ec301db09e4d2ede0-454b6b4446436c6e7465744243684e6b-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/0c9a63f45ebd41459b6f995e2490c7af_cmprs.webp", AnimalPlanet
-https://flussonic.salomtv.uz/Animal_Planet/video.m3u8?token=a2a55c86e3740237b6913b30051ceb496337c88e-687646796c6642554b77587a56594e75-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Animal_Planet/video.m3u8?token=52124c7de6cedf82380d605b05b0ce4c55686a6d-49466a4a65774b4b79674b7868645a6c-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/07e64d6ea55445c8b13c5a6ce984360f_cmprs.webp", CGTN
-https://flussonic.salomtv.uz/CGTN/video.m3u8?token=4221ea2d33d19774db60570e984f0841cf68f596-6b504b514e4e4c525763716473755176-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/CGTN/video.m3u8?token=f640195bcadfa7246bc39913b7a36e5c220b78cf-72534c6a4278594c494348634f715563-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/19c5c7e4dfef4e9897c1c18fae8bebf9_cmprs.webp", Da Vinci
-https://flussonic.salomtv.uz/Davinci/video.m3u8?token=ebf92f4cb6a565c2634741f83763241d1f3fe3c3-5650626a4d56727055564b4e6e516650-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Davinci/video.m3u8?token=82e76535ae71dea1f020b69f8caf859faef861e8-4562737070526477657259646e474847-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/e5301a2132b24ea1aae9ff396a381e53_cmprs.webp", Discovery Channel
-https://flussonic.salomtv.uz/Discovery_Channel/video.m3u8?token=9d9eb0ad2821a881b8d23cdf7bca2cae509c2d8a-57465a694b56557156466f71516a4378-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Discovery_Channel/video.m3u8?token=fec46b021c5d1654d2d1aaec3e4d60e2b2f09d99-65716e5762554272717679665349416d-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/40aec2cbc005433ca925a0ee3adfca7b_cmprs.webp", FASHION TV
-https://flussonic.salomtv.uz/fashiontv/video.m3u8?token=35f4886e2f4a44df59c7fbe2d36b260c0a95bc07-52795871564964537842624569657448-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/fashiontv/video.m3u8?token=4379f92e1f3e2323294034e981a182649353f7cd-664f62667859774b53486d5655704e53-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/f94e80990f2541a99341d50b7a87c027_cmprs.webp", KBS WORLD
-https://flussonic.salomtv.uz/kbs_world/video.m3u8?token=22ed42ab3e6c630aca2f481dc86f5dbe13258efd-6b555255444146464175475a6e506949-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/kbs_world/video.m3u8?token=329e7d05a7505b2c4c11f0f22b1a8c17a8e2662a-4c6158434662666774426b6a7a48636c-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/9fd818fee36b4b2e922b36f7553d200a_cmprs.webp", MMA-TV.Com
-https://flussonic.salomtv.uz/MMA-TV.comHD/video.m3u8?token=3e1d8c8d64f00b2f0f5f948c08cd9fa3d10bd760-4e784254644b4f5046505a7343614670-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/MMA-TV.comHD/video.m3u8?token=e26d89c02295031dc0275db5e84ab1839d967de8-514a54557157756161656e4d4f55717a-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/8cd9dd6f7eb24b33b06d0f7f5faad88e_cmprs.webp", Nat Geo Wild HD
-https://flussonic.salomtv.uz/NatGeoWildHD/video.m3u8?token=b19e24a19e4e9378f85b296558ee33d68bf593ad-74656659516e586d6654784a537a4e49-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/NatGeoWildHD/video.m3u8?token=b173c70bfcba6b39a5bb1147b390f2fcf3d0fa59-7549706271445a4e574d70424f437042-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/b2e3da96a9104a4a850de949050d92dc_cmprs.webp", National Geographic
-https://flussonic.salomtv.uz/NationalGeographic/video.m3u8?token=673482b6980a5ca58493e9c4cbbb67124031bd2e-514c6d47727746596e6f68546e766a5a-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/NationalGeographic/video.m3u8?token=725387bf087305f384f5e15c139e15d66c7d4c87-5453437573436d5779697248687a7868-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/4c63de5c83da495b82a0cbef9b26fa77_cmprs.webp", OKEAN TV
-https://flussonic.salomtv.uz/okean_tv/video.m3u8?token=98b7e581195c904d5a35c3f8e7b5f5662085d31b-774d794c7a6252544c707976774a6d72-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/okean_tv/video.m3u8?token=752c2cf5b2fc4c1e1c7e096e88100f7f8a00ac73-754155436e756a4c4570524561574c4b-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/0e3075f1f88a4c50a328a430e4681d5b_cmprs.webp", TRT Avaz
-https://flussonic.salomtv.uz/TRT_Avaz/video.m3u8?token=1dec6b640f365615333b677f04392f7d391a6ec8-4a764f4e646b756d4177586d51624242-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/TRT_Avaz/video.m3u8?token=a35e960e0504bae8bc93177bef76227c7d0de7df-545a5a705054767a717147564c546376-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/f90869560fde4d9296a3735775dfab12_cmprs.webp", TRT MÜSİK
-https://flussonic.salomtv.uz/trtmusik/video.m3u8?token=fe4e12ffb313429a366173b3ae640dddc46f2525-5969586d6151766e6f5a706346496352-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/trtmusik/video.m3u8?token=d77b1317f76cff84ec1eb81c91436427a77ba067-436c5366734a62426466744b57434a75-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/9c3698410fcc43e7a59f7178c12f5509_cmprs.webp", TURKMENISTAN
-https://flussonic.salomtv.uz/turkmenistan/video.m3u8?token=7fd4e069c3aa976133b96308e08798f8ed8d710e-515569637949704d73784a554d6d7a43-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/turkmenistan/video.m3u8?token=c3916d21344e56d8b09e74a0a4eb46a8e7120d45-49584b53694b527056416b454c6f5650-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/42e3c81f7ea34e31ac5fde9e94e34536_cmprs.webp", Viasat Explorer
-https://flussonic.salomtv.uz/Viasat_Explorer/video.m3u8?token=b3ae2ded1e290e28bb0f19f10b2d5cea1c6871f8-49446f524c7a41736a766f5046764b68-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Viasat_Explorer/video.m3u8?token=2da5b25fd9d0b3cdd20d9f2a042ef90884d999bc-55526d6a556e666a706e704c4b436153-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/66962f7e156d46dfb2ab95ff35cb25d9_cmprs.webp", Viasat History
-https://flussonic.salomtv.uz/Viasat_History/video.m3u8?token=ee09547c058656798e846a677d108597b71f2029-4b626148627048676e594f6d6c697749-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Viasat_History/video.m3u8?token=f2940b936c4294b744947711643fef4f12967636-6a707454797141674475784e7a727154-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/b9a5ba39b59d4592bae55ae873c0d4a5_cmprs.webp", Viasat Nature
-https://flussonic.salomtv.uz/Viasat_Nature/video.m3u8?token=9b43010a5456fb317d39d59bb1cda985184077ce-715278616e77776d6851515179414b4f-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Viasat_Nature/video.m3u8?token=95e175a3c4a8f9167233de783f7f9362002e6079-617176517178664b4f7a444a444f5967-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/503548b18a974ae6bd57fce330b574de_cmprs.webp", Zooпарк
-https://flussonic.salomtv.uz/ZooPark/video.m3u8?token=e5215332541300ff227858cf0ca2a547cec7f93d-59454863457252595843427875625078-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/ZooPark/video.m3u8?token=a6ed5729ce7a652aa1a3c36dc6dada055dfd5b4e-616b624d505852745a4f53507641784a-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/cf04fdaf768743da9a9690558795c6a0_cmprs.webp", Авто Плюс
-https://flussonic.salomtv.uz/Avto_Plus/video.m3u8?token=c554661d0a996e31b6093ffaf26b9fba35120af1-744e46445270484979636f706243574b-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Avto_Plus/video.m3u8?token=32c2b10019d55f93388d35438b934607ee08dcd6-4c674574524651427171704271686746-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/5d4283063d5f4a6687170da5cac12213_cmprs.webp", В гостях у сказки
-https://flussonic.salomtv.uz/Vgostahuskazki/video.m3u8?token=d3bb99e610ba36c8c6d31090149d4ce8453cf059-6e6e4d6e6b724d796a574c646a4a7561-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Vgostahuskazki/video.m3u8?token=2b055639c0558f56720ede1d5314fbc162d33cf2-626c5268646d51544254415472595177-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/0465d1cc70924661b2ac3687e3421463_cmprs.webp", Дикая рыбалка
-https://flussonic.salomtv.uz/DikayaRibalka_HD/video.m3u8?token=4458274e1e4dd99310e1300d413f2d7b6a840a79-7971456852674b6457516f746c716453-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/DikayaRibalka_HD/video.m3u8?token=e67689858f136e95f79c98b12dab84c50e76a7c7-6c6868614d77505043637071426c5662-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/d4dbe2bcfa794ccc8e9c486b5cc92211_cmprs.webp", ДОМ КИНО
-https://flussonic.salomtv.uz/domkino/video.m3u8?token=c3026bdd94cccf9778be48ef7ad5ffab30a2c80c-52426b6247567072784279766865776e-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/domkino/video.m3u8?token=0588beff08612e675d2dfd3fddcfb9fce728d61c-6c556a656e4c6e6a4f67436848585a75-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/a827933199654895839d318a63a02d15_cmprs.webp", Живая планета
-https://flussonic.salomtv.uz/JivayaPlaneta/video.m3u8?token=305e9875ae70767e47373b6a97ee2e9306089f4a-4e436b74564d4d61734c4a7168525475-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/JivayaPlaneta/video.m3u8?token=84cac02dc03a6f8a7c18e05a48d2a85b661258c1-6f6c70544d6a7564654771666a6b666a-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/60127926d60c4260ba1ca52f1318765c_cmprs.webp", Живая природа
-https://flussonic.salomtv.uz/JivayaPrirodaHD/video.m3u8?token=ba2b87a30c39172770dc7e13e15e24d7ddcd92d8-7a74477842494e69455961714c516446-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/JivayaPrirodaHD/video.m3u8?token=50f17be32806b6ea4db7cad9faf2b9f2c541a637-4b6e7545466861416756476669645450-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/26a50e6eab8e45338c59b983bbc87e57_cmprs.webp", Живи активно
-https://flussonic.salomtv.uz/JiviaktivnoHD/video.m3u8?token=85b34e20ac4855b4a4fe27a524be7c352d357069-574362534a677a645748436f72775343-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/JiviaktivnoHD/video.m3u8?token=e75dc7e13eff2c30ed71fb06d6f150c7276e8b40-745a6244476552774d73755855675670-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/0fb39f30d76243abaeab2413e666d82f_cmprs.webp", ЗАГОРОДНАЯ ЖИЗНЬ
-https://flussonic.salomtv.uz/zagorodnaya_jizn/video.m3u8?token=e0bd2a0354fa009737250700fddee4116604e604-6d4e76567a4b6e45736b4a4978456542-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/zagorodnaya_jizn/video.m3u8?token=b0ea3e6ab4fa1704eaf9ceaef043d84904c0829e-6a784f447a424368526652634f767a66-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/ce61811b59874dceb1c010107715bde8.png", Карусель (Ru)
-https://flussonic.salomtv.uz/Karusel/video.m3u8?token=3b8646ff411e8650b9400ed8eafe0b524d6ee9ca-676b7073486349674a65444972497164-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Karusel/video.m3u8?token=f00bd8b0949ba683eec3404734167a65cfd65dd4-7a4f516f486f6f49786b714271684278-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/88803f82cb774834935a4414623ee1f5_cmprs.webp", Кухня ТВ
-https://flussonic.salomtv.uz/KuxnyaTV/video.m3u8?token=11d91fcb418641e5d69d514eae9006be4306d8cb-63635274776e4a78727a4a4e436e4170-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/KuxnyaTV/video.m3u8?token=2cb00d9e3eb180b1c849a937655205fc8aee8f41-6d694a764556474c4f5671656b47664b-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/162d4599fb804a81873e57594e749569_cmprs.webp", Ля-Минор ТВ
-https://flussonic.salomtv.uz/lya_minor/video.m3u8?token=38226faaa60b8d8ff97143635578e0048649e32d-54677a64684877666149795266767775-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/lya_minor/video.m3u8?token=08a7afd44218855de2ee77e444c6b15e4f7a2bb2-656a6b64486356574977447352545057-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/b8e2d1a9c62d4aa798005f3e0fff9745_cmprs.webp", МУЗЫКА ПЕРВОГО
-https://flussonic.salomtv.uz/muzika_perevogo/video.m3u8?token=13c192fdf213b2edac9fa46fdf04db6afd92f0f0-58694e57594c78565362427177475146-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/muzika_perevogo/video.m3u8?token=52866c4e1907508b1021006c13c1e7d071e49382-734679546a475a6f54514e486b4a5758-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/95e6d213e0624229bebbb9a5451fbb8d_cmprs.webp", МУЛЬТИЛАНДИЯ
-https://flussonic.salomtv.uz/MULTILANDIYA/video.m3u8?token=66e11e6cd43eb42d8917336dd2af0c24cc26c940-69717070495265686b4d6b53456b7a50-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/MULTILANDIYA/video.m3u8?token=9c1529f74d0f0df16624061adc109518211fcf04-764b57505869784176744d7653526159-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/fd1c2b979c6a43bd8a57a3afe2f7b3c0_cmprs.webp", Охота и рыбалка
-https://flussonic.salomtv.uz/Ohota_Ribalka/video.m3u8?token=7c09aa6925a1da9c80e866f46834c8775ad6fde3-476f424c637576564252416b4f5a6f6f-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Ohota_Ribalka/video.m3u8?token=882ed0fa698860c70e6333b8d6fe13c42853f766-6b4375575842796950795757496b4672-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/6b20fb10363f4423b2fb702baff0345b_cmprs.webp", Ретро
-https://flussonic.salomtv.uz/Retro_ru/video.m3u8?token=4752b8632b2aef7a2c134a50298fad7dac8e2a40-45755a756376616b64566955644e6559-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Retro_ru/video.m3u8?token=5ab1883eb7647c4b2bfeba9efe02284c168b201e-7861684f6b4872715142434e75584372-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/14a6af1e52f44b8093923ecdd148054d.png", Россия 1 (Ru)
-https://flussonic.salomtv.uz/Rossiya1/video.m3u8?token=22bcf74cd75004fd8df9776c25fa69ee9f623220-564568724541477775584558675a6277-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Rossiya1/video.m3u8?token=7a3981a940d40487b03a63fa2d870a0fe100e9b8-6f624a614261705257456b7665536669-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/96a4c4566eda4cf1b86f3f6672ad13cc_cmprs.webp", РОССИЯ КУЛЬТУРА
-https://flussonic.salomtv.uz/ROSSIYA_KULTURA/video.m3u8?token=a1626ef0fc4b2aa3796f5c67dcb1ff786c13cd49-73656f5655676f795156424359485a59-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/ROSSIYA_KULTURA/video.m3u8?token=53581e4719ec3adf4b21def9ab0e463d2b1315f2-7a6c4b50566a7742534d6d624f75686e-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/7b093db3fc014fe08accd305ba3c80af_cmprs.webp", Т24
-https://flussonic.salomtv.uz/Tehno_24/video.m3u8?token=c3a77e85f612b36e78245ab030099e1eb68176c0-626b5144485979596457496950644d49-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Tehno_24/video.m3u8?token=2f93ff794990620c529a1d7da1c34c46ae38cd56-62754573747465674e57454d6f684776-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/dc312f18ce16431ca3dc855fd6c3abbf_cmprs.webp", ТАЙНЫ ГАЛАКТИКИ
-https://flussonic.salomtv.uz/tayni_galaktika/video.m3u8?token=cc957adef0f2a89bb6721025777f010cf2e7d115-6c674f636a41616f635146546c705a4f-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/tayni_galaktika/video.m3u8?token=cff8b09b9e09e9aff038e81a112791e4b2328274-7262554679526364584567724e444356-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/a3c1a802be614145ba45b386812c2f72_cmprs.webp", ТЕЛЕКАФЕ
-https://flussonic.salomtv.uz/telekafe/video.m3u8?token=56ecb4ae039176e223da8a5dc78a5a7c243da201-436b6f73717761644d676645764d7765-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/telekafe/video.m3u8?token=49df09595c8eadf812b2163cf6fb8df097166792-4a526c676b634c6a4678686d56714765-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/a49e1446651a4fc8975766085adc6740_cmprs.webp", ТОҶИКИСТОН
-https://flussonic.salomtv.uz/Tojikiston/video.m3u8?token=2b0c4d5359c165a49e9f2987f1401738bec439f9-4b70545a4e5a527378624955584d6b7a-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Tojikiston/video.m3u8?token=5d5859f98687ab7ffbd9f1bf17d69b2209649cfc-557a64756441654e5962544e6f716e4b-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/58db708b741a4cecb195107fd7736c93_cmprs.webp", Уникум
-https://flussonic.salomtv.uz/Unikum/video.m3u8?token=e68a061bc68325bd38eaddade5326c00da41974f-454743565854546e45707742536e687a-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Unikum/video.m3u8?token=155e09d7212bdb89ba6a321bd82ad034b60e34a2-777a6850564e7a636465464f5753646b-1776616649-1776605849&remote=144.124.196.38
 #EXTINF:-1 group-title="SalomTV UZ 🇺🇿" tvg-logo="https://minio-api-hdd.salomtv.uz/images/4e5f746b9b35418290acf26c01cebee7_cmprs.webp", УНИКУМ
-https://flussonic.salomtv.uz/Detskiy/video.m3u8?token=38255b33c1fe546668df2d4b7a0d18f3776ef0c2-51534165614571556a59564f78475758-1776379734-1776368934&remote=52.186.174.177
+https://flussonic.salomtv.uz/Detskiy/video.m3u8?token=dfac4b4e208e214ce04191433620dae8a1cf7e9d-59714b504967786c7468706b64505343-1776616649-1776605849&remote=144.124.196.38

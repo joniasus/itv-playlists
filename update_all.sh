@@ -24,9 +24,6 @@ run_gen "tvcom_uz"    tvcom_uz.js
 run_gen "zorplay_uz"  zorplay_uz.js
 run_gen "mediabay_uz" mediabay_uz.js
 
-echo "$(TS) --- Merging all providers ---"
-$NODE all_uzb_iptv_providers.js || echo "$(TS) WARN: merger failed"
-
 if git diff --quiet -- '*.m3u8' '*.json'; then
   echo "$(TS) No changes to push."
   exit 0

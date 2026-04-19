@@ -1,4 +1,6 @@
 const fs = require('fs');
+const https = require('https');
+const http = require('http');
 
 const FINAL_OUTPUT_FILE = 'all_uzb_iptv_providers.m3u8';
 
@@ -9,8 +11,30 @@ const SOURCES = [
   { file: 'zorplay_uz.m3u8',   group: "ZO'R PLAY UZ 🇺🇿" },
   { file: 'telecomtv_uz.m3u8', group: 'TelecomTV UZ 🇺🇿' },
   { file: 'radio_uz.m3u8',     group: 'Radio UZ 🇺🇿' },
-  { file: 'itv_uz.m3u8',       group: 'iTV UZ 🇺🇿' }
+  { file: 'itv_uz.m3u8',       group: 'iTV UZ 🇺🇿' },
+  { url:  'https://salomtv.odatly.uz/playlists.m3u8', group: 'SalomTV UZ 🇺🇿' }
 ];
+
+function fetchRemoteText(url) {
+  return new Promise((resolve, reject) => {
+    const client = url.startsWith('https:') ? https : http;
+    const req = client.get(url, {
+      headers: { Accept: 'application/vnd.apple.mpegurl, text/plain, */*' }
+    }, (res) => {
+      if (res.statusCode !== 200) {
+        res.resume();
+        reject(new Error(`HTTP ${res.statusCode}`));
+        return;
+      }
+      let data = '';
+      res.setEncoding('utf8');
+      res.on('data', (chunk) => data += chunk);
+      res.on('end', () => resolve(data));
+    });
+    req.setTimeout(20000, () => req.destroy(new Error('Request timeout')));
+    req.on('error', reject);
+  });
+}
 
 function escapeAttr(value) {
   return String(value ?? '')
@@ -109,29 +133,41 @@ async function main() {
   const skippedFiles = [];
 
   for (let i = 0; i < SOURCES.length; i++) {
-    const { file, group } = SOURCES[i];
-    console.log(`${i + 1}) ${file} текшириляпти...`);
+    const { file, url, group } = SOURCES[i];
+    const label = file || url;
+    console.log(`${i + 1}) ${label} текшириляпти...`);
 
-    const text = readLocalTextIfExists(file);
-
-    if (text === null) {
-      console.log(`   ⚠️ Topilmadi, skip qilindi: ${file}`);
-      skippedFiles.push(file);
+    let text = null;
+    try {
+      if (url) {
+        text = await fetchRemoteText(url);
+      } else if (file) {
+        text = readLocalTextIfExists(file);
+      }
+    } catch (err) {
+      console.log(`   ⚠️ Yuklab olinmadi (${err.message}), skip: ${label}`);
+      skippedFiles.push(label);
       continue;
     }
 
-    const entries = parseGenericM3U(text, file);
+    if (text === null || text === '') {
+      console.log(`   ⚠️ Topilmadi, skip qilindi: ${label}`);
+      skippedFiles.push(label);
+      continue;
+    }
+
+    const entries = parseGenericM3U(text, label);
 
     if (entries.length === 0) {
-      console.log(`   ⚠️ Kanal topilmadi, skip qilindi: ${file}`);
-      skippedFiles.push(file);
+      console.log(`   ⚠️ Kanal topilmadi, skip qilindi: ${label}`);
+      skippedFiles.push(label);
       continue;
     }
 
     applyGroupTitleCount(entries, group);
 
     parsedPlaylists.push({
-      file,
+      file: label,
       group,
       entries
     });

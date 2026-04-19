@@ -173,10 +173,11 @@ async function buildPlaylist(clientIp) {
     return a.title.localeCompare(b.title, 'uz');
   });
 
+  const groupTitle = `${GROUP_TITLE} (${valid.length})`;
   const lines = ['#EXTM3U'];
   for (const item of valid) {
     lines.push(
-      `#EXTINF:-1 group-title="${escapeAttr(GROUP_TITLE)}"` +
+      `#EXTINF:-1 group-title="${escapeAttr(groupTitle)}"` +
       (item.image ? ` tvg-logo="${escapeAttr(item.image)}"` : '') +
       `, ${item.title}`
     );

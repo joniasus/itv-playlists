@@ -1,0 +1,19 @@
+[Unit]
+Description=SalomTV per-device playlist server
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=taqqoz
+WorkingDirectory=/home/taqqoz/playlists
+Environment=PORT=3030
+Environment=HOST=0.0.0.0
+ExecStart=/home/taqqoz/.nvm/versions/node/v20.20.0/bin/node /home/taqqoz/playlists/salomtv_server.js
+Restart=on-failure
+RestartSec=5
+StandardOutput=append:/home/taqqoz/playlists/salomtv_server.log
+StandardError=append:/home/taqqoz/playlists/salomtv_server.log
+
+[Install]
+WantedBy=multi-user.target

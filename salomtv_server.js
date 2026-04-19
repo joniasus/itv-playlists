@@ -1,10 +1,23 @@
 const http = require('http');
 const https = require('https');
+const fs = require('fs');
+const path = require('path');
 
 const PORT = parseInt(process.env.PORT || '3000', 10);
 const HOST = process.env.HOST || '0.0.0.0';
+const PLAYLIST_DIR = __dirname;
 const CHANNEL_API_URL = 'https://spectator-api.salomtv.uz/v1/tv/channel';
 const GROUP_TITLE = 'SalomTV UZ 🇺🇿';
+
+const PROVIDER_SOURCES = [
+  { file: 'Cinerama_UZ.m3u8',  group: 'Cinerama UZ 🇺🇿' },
+  { file: 'Sarkor_TV.m3u8',    group: 'Sarkor TV UZ 🇺🇿' },
+  { file: 'tvcom_uz.m3u8',     group: 'TVcom UZ 🇺🇿' },
+  { file: 'zorplay_uz.m3u8',   group: "ZO'R PLAY UZ 🇺🇿" },
+  { file: 'telecomtv_uz.m3u8', group: 'TelecomTV UZ 🇺🇿' },
+  { file: 'radio_uz.m3u8',     group: 'Radio UZ 🇺🇿' },
+  { file: 'itv_uz.m3u8',       group: 'iTV UZ 🇺🇿' }
+];
 
 const SPECIAL_CHANNEL_ORDER = [
   "Zo'r TV FHD",
@@ -186,6 +199,73 @@ async function buildPlaylist(clientIp) {
   return { body: lines.join('\n') + '\n', count: valid.length };
 }
 
+function isUrlLine(line) {
+  return /^https?:\/\//i.test(String(line).trim());
+}
+
+function replaceOrInsertGroupTitle(extinfLine, newGroupTitle) {
+  const safeTitle = escapeAttr(newGroupTitle);
+  const line = String(extinfLine).trim();
+  if (/group-title="[^"]*"/i.test(line)) {
+    return line.replace(/group-title="[^"]*"/ig, `group-title="${safeTitle}"`);
+  }
+  return line.replace(/^#EXTINF:-1\b/i, `#EXTINF:-1 group-title="${safeTitle}"`);
+}
+
+function parseM3U(text) {
+  const lines = String(text).split(/\r?\n/);
+  const entries = [];
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i].trim();
+    if (!line.startsWith('#EXTINF:')) continue;
+    const block = [line];
+    let url = '';
+    let lastJ = i;
+    for (let j = i + 1; j < lines.length; j++) {
+      const next = lines[j].trim();
+      if (next.startsWith('#EXTINF:')) { lastJ = j - 1; break; }
+      if (next) block.push(next);
+      if (isUrlLine(next)) { url = next; lastJ = j; break; }
+      lastJ = j;
+    }
+    if (url) entries.push({ url, block });
+    i = lastJ;
+  }
+  return entries;
+}
+
+function stampGroupTitleWithCount(entries, baseTitle) {
+  const titleWithCount = `${baseTitle} (${entries.length} ta)`;
+  for (const entry of entries) {
+    entry.block[0] = replaceOrInsertGroupTitle(entry.block[0], titleWithCount);
+  }
+}
+
+async function buildMergedPlaylist(clientIp) {
+  const playlists = [];
+  const skipped = [];
+
+  for (const { file, group } of PROVIDER_SOURCES) {
+    const fullPath = path.join(PLAYLIST_DIR, file);
+    if (!fs.existsSync(fullPath)) { skipped.push(file); continue; }
+    const entries = parseM3U(fs.readFileSync(fullPath, 'utf8'));
+    if (!entries.length) { skipped.push(file); continue; }
+    stampGroupTitleWithCount(entries, group);
+    playlists.push({ group, entries });
+  }
+
+  const salomtv = await buildPlaylist(clientIp);
+  const salomEntries = parseM3U(salomtv.body);
+  stampGroupTitleWithCount(salomEntries, GROUP_TITLE);
+  playlists.push({ group: GROUP_TITLE, entries: salomEntries });
+
+  const out = ['#EXTM3U'];
+  for (const p of playlists) for (const e of p.entries) out.push(...e.block);
+  const body = out.join('\n').trimEnd() + '\n';
+  const total = playlists.reduce((s, p) => s + p.entries.length, 0);
+  return { body, total, playlists, skipped };
+}
+
 const server = http.createServer(async (req, res) => {
   const url = new URL(req.url, `http://${req.headers.host}`);
   const clientIp = extractClientIp(req);
@@ -197,8 +277,25 @@ const server = http.createServer(async (req, res) => {
     return;
   }
 
-  const playlistPaths = ['/', '/playlists', '/playlists.m3u8', '/salomtv.m3u8', '/playlist.m3u8'];
-  if (playlistPaths.includes(url.pathname)) {
+  if (url.pathname === '/all' || url.pathname === '/all.m3u8') {
+    try {
+      const { body, total, playlists } = await buildMergedPlaylist(clientIp);
+      const summary = playlists.map((p) => `${p.group}:${p.entries.length}`).join(', ');
+      console.log(`${ts} ${clientIp} ALL -> ${total} channels [${summary}]`);
+      res.writeHead(200, {
+        'Content-Type': 'text/plain; charset=utf-8',
+        'Cache-Control': 'no-store'
+      });
+      res.end(body);
+    } catch (err) {
+      console.error(`${ts} ${clientIp} ALL ERROR: ${err.message}`);
+      res.writeHead(502, { 'Content-Type': 'text/plain' });
+      res.end(`Error: ${err.message}\n`);
+    }
+    return;
+  }
+
+  if (url.pathname === '/salomtv' || url.pathname === '/salomtv.m3u8') {
     try {
       const { body, count } = await buildPlaylist(clientIp);
       console.log(`${ts} ${clientIp} -> ${count} channels`);
@@ -216,7 +313,7 @@ const server = http.createServer(async (req, res) => {
   }
 
   res.writeHead(404, { 'Content-Type': 'text/plain' });
-  res.end('Not found. Try /playlists.m3u8\n');
+  res.end('Not found. Endpoints: /salomtv.m3u8 and /all.m3u8\n');
 });
 
 server.listen(PORT, HOST, () => {

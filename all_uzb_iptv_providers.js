@@ -12,7 +12,8 @@ const SOURCES = [
   { file: 'telecomtv_uz.m3u8', group: 'TelecomTV UZ 🇺🇿' },
   { file: 'radio_uz.m3u8',     group: 'Radio UZ 🇺🇿' },
   { file: 'itv_uz.m3u8',       group: 'iTV UZ 🇺🇿' },
-  { url:  'https://salomtv.odatly.uz/playlists.m3u8', group: 'SalomTV UZ 🇺🇿' }
+  { file: 'mediabay_uz.m3u8',  group: 'Mediabay UZ 🇺🇿' },
+  { url:  'https://salomtv.odatly.uz/salomtv.m3u8', group: 'SalomTV UZ 🇺🇿' }
 ];
 
 function fetchRemoteText(url) {

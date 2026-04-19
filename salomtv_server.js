@@ -16,7 +16,8 @@ const PROVIDER_SOURCES = [
   { file: 'zorplay_uz.m3u8',   group: "ZO'R PLAY UZ 🇺🇿" },
   { file: 'telecomtv_uz.m3u8', group: 'TelecomTV UZ 🇺🇿' },
   { file: 'radio_uz.m3u8',     group: 'Radio UZ 🇺🇿' },
-  { file: 'itv_uz.m3u8',       group: 'iTV UZ 🇺🇿' }
+  { file: 'itv_uz.m3u8',       group: 'iTV UZ 🇺🇿' },
+  { file: 'mediabay_uz.m3u8',  group: 'Mediabay UZ 🇺🇿' }
 ];
 
 const SPECIAL_CHANNEL_ORDER = [

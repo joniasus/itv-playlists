@@ -246,6 +246,11 @@ async function buildMergedPlaylist(clientIp) {
   const playlists = [];
   const skipped = [];
 
+  const salomtv = await buildPlaylist(clientIp);
+  const salomEntries = parseM3U(salomtv.body);
+  stampGroupTitleWithCount(salomEntries, GROUP_TITLE);
+  playlists.push({ group: GROUP_TITLE, entries: salomEntries });
+
   for (const { file, group } of PROVIDER_SOURCES) {
     const fullPath = path.join(PLAYLIST_DIR, file);
     if (!fs.existsSync(fullPath)) { skipped.push(file); continue; }
@@ -254,11 +259,6 @@ async function buildMergedPlaylist(clientIp) {
     stampGroupTitleWithCount(entries, group);
     playlists.push({ group, entries });
   }
-
-  const salomtv = await buildPlaylist(clientIp);
-  const salomEntries = parseM3U(salomtv.body);
-  stampGroupTitleWithCount(salomEntries, GROUP_TITLE);
-  playlists.push({ group: GROUP_TITLE, entries: salomEntries });
 
   const out = ['#EXTM3U'];
   for (const p of playlists) for (const e of p.entries) out.push(...e.block);

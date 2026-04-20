@@ -11,15 +11,6 @@ const FREE_FLAG_VALUE = 1;
 const REMOVE_DUPLICATE_URLS = true;
 const SKIP_EMPTY_URL = true;
 
-const RESOLVE_CONCURRENCY = 4;
-const RESOLVE_TIMEOUT_MS = 10000;
-const RESOLVE_RETRIES = 2;
-const RESOLVE_RETRY_DELAY_MS = 800;
-
-function sleep(ms) {
-  return new Promise((r) => setTimeout(r, ms));
-}
-
 function cleanText(value) {
   return String(value ?? "")
     .replace(/\r?\n/g, " ")
@@ -103,11 +94,6 @@ function saveM3U(filePath, items) {
 
 function waitForEnter() {
   return new Promise((resolve) => {
-    if (!process.stdin.isTTY || process.env.GITHUB_ACTIONS === "true") {
-      resolve();
-      return;
-    }
-
     const rl = readline.createInterface({
       input: process.stdin,
       output: process.stdout,
@@ -135,123 +121,85 @@ async function fetchJson(url) {
   return await res.json();
 }
 
-async function resolveStreamUrlOnce(apiUrl) {
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), RESOLVE_TIMEOUT_MS);
-
-  try {
-    const res = await fetch(apiUrl, {
-      method: "GET",
-      redirect: "manual",
-      signal: controller.signal,
-      headers: {
-        "User-Agent": "Mozilla/5.0",
-        "Accept": "*/*",
-      },
-    });
-
-    if (res.status >= 300 && res.status < 400) {
-      const loc = res.headers.get("location");
-      if (loc && /^https?:\/\//i.test(loc)) return loc;
-    }
-
-    if (res.type === "opaqueredirect") {
-      return "__retry_with_follow__";
-    }
-
-    return null;
-  } finally {
-    clearTimeout(timer);
-  }
-}
-
-async function resolveWithFollow(apiUrl) {
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), RESOLVE_TIMEOUT_MS);
-  try {
-    const res = await fetch(apiUrl, {
-      redirect: "follow",
-      signal: controller.signal,
-      headers: { "User-Agent": "Mozilla/5.0", "Accept": "*/*" },
-    });
-    if (res.url && /\.m3u8(\?|$)/i.test(res.url)) return res.url;
-    return null;
-  } finally {
-    clearTimeout(timer);
-  }
-}
-
-async function resolveStreamUrl(apiUrl) {
-  for (let attempt = 0; attempt <= RESOLVE_RETRIES; attempt++) {
-    try {
-      const result = await resolveStreamUrlOnce(apiUrl);
-      if (result === "__retry_with_follow__") {
-        const followed = await resolveWithFollow(apiUrl);
-        if (followed) return followed;
-      } else if (result) {
-        return result;
-      }
-    } catch {
-      // fall through to retry
-    }
-    if (attempt < RESOLVE_RETRIES) await sleep(RESOLVE_RETRY_DELAY_MS * (attempt + 1));
-  }
-  return null;
-}
-
-async function resolveAll(items) {
-  const shared = { index: 0 };
-  const counters = { done: 0, resolved: 0, failed: 0 };
-
-  async function worker() {
-    while (true) {
-      const i = shared.index++;
-      if (i >= items.length) return;
-
-      const item = items[i];
-      try {
-        const stream = await resolveStreamUrl(item.url);
-        if (stream) {
-          item.url = stream;
-          counters.resolved++;
-          console.log(`[RESOLVED] ${item.name}`);
-        } else {
-          item.url = null;
-          counters.failed++;
-          console.log(`[NO_STREAM] ${item.name}`);
-        }
-      } catch (err) {
-        item.url = null;
-        counters.failed++;
-        console.log(`[ERROR] ${item.name} -> ${err.message}`);
-      }
-      counters.done++;
-    }
-  }
-
-  const workers = [];
-  for (let i = 0; i < RESOLVE_CONCURRENCY; i++) workers.push(worker());
-  await Promise.all(workers);
-  return counters;
-}
-
 async function main() {
   console.log("TVCOM kanal ro'yxati olinmoqda...\n");
 
   const json = await fetchJson(LIST_URL);
-  const channels = getChannels(json);
+  const rawChannels = getChannels(json);
 
-  if (!channels) {
+  if (!rawChannels) {
     throw new Error("channels massiv topilmadi");
   }
 
-  const selected = [];
+  const channels = rawChannels.filter(
+    (ch) => getSubscriptionFlag(ch) === FREE_FLAG_VALUE
+  );
+
+  const PRIORITY_IDS = [48, 65, 63, 59, 52, 58, 275, 294, 170, 317, 318, 319, 328, 329];
+  
+  const UZ_NAME_PATTERN = new RegExp(
+    [
+      "O'z", "Uzb", "\\bUZ\\b", "Milliy", "MTRK", "\\bTTV\\b", "\\bBiZ\\b",
+      "Toshkent", "Yoshlar", "Bolajon", "Sevimli", "Mahalla", "FUTBOL TV",
+      "NAVO", "Dunyo Boylab", "Mening Yurtim", "Uzreport", "\\bFTV\\b",
+      "LUX TV", "Kinoteatr", "TARAQQIYOT", "Dasturxon", "AQLVOY",
+      "Nurafshon", "RENESSANS", "Ruxsor", "8[- ]?TV", "MUZTV",
+      "Jizzax", "Andijon", "Buxoro", "Fargona", "Namangan", "Navoiy",
+      "Qaraqalpaqstan", "Qashqadaryo", "Samarqand", "Sirdaryo",
+      "Surxondaryo", "Xorazm", "Denov", "Nasaf", "Amudaryo", "Vodiy",
+      "Ellikqala", "Muloqot", "Istiqlol", "MYDAYTV", "\\bITV\\b",
+      "MAKON", "Qiziq", "Shifo", "mimi TV", "Star Cinema", "Madaniyat",
+      "S-Ikbol", "S-Music", "Gold UZ", "TVCOM", "Biz Cinema", "ZOR TV",
+    ].join("|"),
+    "i"
+  );
+
+  const HAS_CYRILLIC = /[\u0400-\u04FF]/;
+
+  const isUzbekChannel = (name) => {
+    const n = cleanText(name);
+    if (UZ_NAME_PATTERN.test(n)) return true;
+    return false;
+  };
+
+  const isRussianChannel = (name) => {
+    const n = cleanText(name);
+    if (isUzbekChannel(n)) return false;
+    return HAS_CYRILLIC.test(n);
+  };
+
+  const priorityIndex = (id) => {
+    const idx = PRIORITY_IDS.indexOf(id);
+    return idx === -1 ? PRIORITY_IDS.length : idx;
+  };
+
+  const groupRank = (ch, id) => {
+    if (PRIORITY_IDS.includes(id)) return 0;
+    const name = getChannelName(ch, 0);
+    if (isUzbekChannel(name)) return 1;
+    if (isRussianChannel(name)) return 2;
+    return 3;
+  };
+
+  channels.sort((a, b) => {
+    const aId = toNumber(pickFirst(a.id, a.cid, a.channel_id), Number.MAX_SAFE_INTEGER);
+    const bId = toNumber(pickFirst(b.id, b.cid, b.channel_id), Number.MAX_SAFE_INTEGER);
+
+    const aGroup = groupRank(a, aId);
+    const bGroup = groupRank(b, bId);
+    if (aGroup !== bGroup) return aGroup - bGroup;
+
+    if (aGroup === 0) return priorityIndex(aId) - priorityIndex(bId);
+    return aId - bId;
+  });
+
+  const freeItems = [];
   const seenUrls = new Set();
 
-  let paidSkipped = 0;
+  let freeCount = 0;
+  const paidSkipped = rawChannels.length - channels.length;
   let skippedNoUrl = 0;
   let skippedDup = 0;
-  let unknownFlag = 0;
 
   for (let i = 0; i < channels.length; i++) {
     const ch = channels[i];
@@ -260,7 +208,6 @@ async function main() {
     const name = getChannelName(ch, i);
     const logo = getChannelLogo(ch);
     const url = getChannelUrl(ch);
-    const flag = getSubscriptionFlag(ch);
 
     if (!url && SKIP_EMPTY_URL) {
       skippedNoUrl++;
@@ -274,65 +221,31 @@ async function main() {
       continue;
     }
 
-    if (url) seenUrls.add(url);
-
-    if (Number.isNaN(flag)) {
-      unknownFlag++;
-      console.log(`[UNKNOWN SKIP] ${name}`);
-      continue;
+    if (url) {
+      seenUrls.add(url);
     }
 
-    if (flag !== FREE_FLAG_VALUE) {
-      paidSkipped++;
-      console.log(`[PULLIK SKIP] ${name} | flag=${flag}`);
-      continue;
-    }
+    const freeItem = buildItem({
+      id,
+      name,
+      logo,
+      url,
+      groupTitle: GROUP_TITLE_FREE,
+    });
 
-    selected.push({ id, name, logo, url });
-    console.log(`[BEPUL] ${name} | flag=${flag}`);
-  }
-
-  console.log(`\nResolving ${selected.length} stream URLs...`);
-  const counters = await resolveAll(selected);
-
-  const freeItems = [];
-  const seenStreamUrls = new Set();
-  let emittedFree = 0;
-  let streamDupSkipped = 0;
-
-  for (const item of selected) {
-    if (!item.url) continue;
-
-    if (seenStreamUrls.has(item.url)) {
-      streamDupSkipped++;
-      console.log(`[SKIP:STREAM_DUP] ${item.name}`);
-      continue;
-    }
-    seenStreamUrls.add(item.url);
-
-    freeItems.push(
-      buildItem({
-        id: item.id,
-        name: item.name,
-        logo: item.logo,
-        url: item.url,
-        groupTitle: GROUP_TITLE_FREE,
-      })
-    );
-    emittedFree++;
+    freeItems.push(freeItem);
+    freeCount++;
+    console.log(`[BEPUL] ${name}`);
   }
 
   saveM3U(FREE_FILE, freeItems);
 
   console.log("\nTayyor.");
-  console.log(`BEPUL FILE    : ${emittedFree} ta -> ${FREE_FILE}`);
+  console.log(`BEPUL FILE    : ${freeCount} ta -> ${FREE_FILE}`);
   console.log(`PULLIK SKIP   : ${paidSkipped} ta`);
   console.log(`NO_URL SKIP   : ${skippedNoUrl} ta`);
   console.log(`DUP_URL SKIP  : ${skippedDup} ta`);
-  console.log(`STREAM_DUP    : ${streamDupSkipped} ta`);
-  console.log(`UNKNOWN FLAG  : ${unknownFlag} ta`);
-  console.log(`RESOLVED      : ${counters.resolved} ta`);
-  console.log(`RESOLVE FAIL  : ${counters.failed} ta`);
+  console.log(`UNIQUE URL    : ${seenUrls.size} ta`);
 }
 
 main()

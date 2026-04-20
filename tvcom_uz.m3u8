@@ -1,287 +1,213 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="4" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4896.png",Россия 1
-https://str5.tvcom.uz/2/index.m3u8?token=e8358e47a0349b9af151249024c49b2a
-#EXTINF:-1 tvg-id="8" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_2574.png",НТВ
-https://str5.tvcom.uz/5/index.m3u8?token=7a9572d330ca05046ab630d81d71e5af
-#EXTINF:-1 tvg-id="63" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_419.png",Sevimli
-https://str5.tvcom.uz/38/index.m3u8?token=e3973d8af208be4ba186d974c6fdcd84
-#EXTINF:-1 tvg-id="1" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_2563.png",Первый канал
-https://str2.tvcom.uz/111/index.m3u8?token=3291c7ea1c627dee5dd65f14aac126c7
-#EXTINF:-1 tvg-id="262" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4486.png",Первый канал HD
-https://str2.tvcom.uz/183/index.m3u8?token=997a9c79a64fb4c96ffdbda5c8b90a30
-#EXTINF:-1 tvg-id="2" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_2566.png",Россия 24
-https://str5.tvcom.uz/4/index.m3u8?token=4e5e2ac0a98e40083ec6455602ede88c
-#EXTINF:-1 tvg-id="48" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4528.png",ZOR TV
-https://str5.tvcom.uz/23/index.m3u8?token=c3d849ba5c08e9d8394249c6c05621b7
-#EXTINF:-1 tvg-id="52" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_40.png",Sport
-https://str2.tvcom.uz/27/index.m3u8?token=e89735da86ceb20ebb1cd8d9ea1c05ba
-#EXTINF:-1 tvg-id="59" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4697.png",Mening Yurtim
-https://str2.tvcom.uz/34/index.m3u8?token=88ea1c704d25c03e845b5688f3d99071
-#EXTINF:-1 tvg-id="65" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4531.png",Milliy TV
-https://str5.tvcom.uz/40/index.m3u8?token=33d0353fff723f609426bd4ae3142e9d
-#EXTINF:-1 tvg-id="256" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/image_2024-07-19_10-36-33.png",MYDAYTV
-https://str5.tvcom.uz/7/index.m3u8?token=3f261cac8246a90882359573c7948bcc
-#EXTINF:-1 tvg-id="271" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4635_1.png",ТВЦ
-https://str5.tvcom.uz/187/index.m3u8?token=23dacff6c20cc71aeb9212ea7f9deb97
-#EXTINF:-1 tvg-id="41" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_2497.png",Звезда
-https://str5.tvcom.uz/54/index.m3u8?token=1db9870b6790583eb193a7785c997500
-#EXTINF:-1 tvg-id="129" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_2513.png",МИР
-https://str5.tvcom.uz/137/index.m3u8?token=d7029868bae7254959f804a1238dd6b4
-#EXTINF:-1 tvg-id="84" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4520.png",Kinoteatr
-https://str2.tvcom.uz/32/index.m3u8?token=a82b2d8e79e7de3a1e64897262b9fea7
-#EXTINF:-1 tvg-id="275" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/tvfilm.png",TVCOM LIVE | KINO
-https://str5.tvcom.uz/999/index.m3u8?token=bc09e83c6c1ae196eb1a69977088715b
-#EXTINF:-1 tvg-id="302" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_774.png",Biz Cinema
-https://str5.tvcom.uz/212/index.m3u8?token=3539db24cfaba8aba783e50903f034ea
-#EXTINF:-1 tvg-id="32" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_2560.png",Дом кино
-https://str5.tvcom.uz/61/index.m3u8?token=ec4e2eb996f7ee6115993c891377de14
-#EXTINF:-1 tvg-id="33" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4693.png",Кинопоказ
-https://str5.tvcom.uz/64/index.m3u8?token=d733d9584aa5d74cbed6fb35a540b6a7
-#EXTINF:-1 tvg-id="229" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4534.png",Hollywood
-https://str5.tvcom.uz/133/index.m3u8?token=8964c4cfa28b97aa2b661cb9dc1632c2
-#EXTINF:-1 tvg-id="316" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_790.png",Star Cinema
-https://str5.tvcom.uz/228/index.m3u8?token=cf75340ed921dbeeabef3c14c61f17b2
-#EXTINF:-1 tvg-id="300" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_758.png",viju Comedy
-https://str5.tvcom.uz/219/index.m3u8?token=b4ac6e9c95691377602ec362544d063d
-#EXTINF:-1 tvg-id="268" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4475.png",Bollywood
-https://str5.tvcom.uz/185/index.m3u8?token=5b2e8349ff1671d5a32dcc2be1f188d5
-#EXTINF:-1 tvg-id="298" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_738_2.png",Русский бестселлер
-https://str2.tvcom.uz/210/index.m3u8?token=c2c03890f9e29a937582a009a96beeec
-#EXTINF:-1 tvg-id="297" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_739_2.png",Русский детектив
-https://str5.tvcom.uz/211/index.m3u8?token=fcfddc462834efe254598b7c27fc840a
-#EXTINF:-1 tvg-id="43" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_2845.png",Ретро ТВ
-https://str5.tvcom.uz/51/index.m3u8?token=bb1e2b6a19731c24395c84284c5c33f7
-#EXTINF:-1 tvg-id="319" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_823.png",TTV KINO
-https://str5.tvcom.uz/231/index.m3u8?token=75e0ee8097dae98e30ad54a8be6c30c4
-#EXTINF:-1 tvg-id="67" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4532.png",O'zbekiston 24
-https://str2.tvcom.uz/42/index.m3u8?token=2505e29acd131ce031f8cdb9f62caaa7
-#EXTINF:-1 tvg-id="50" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4526.png",Yoshlar
-https://str2.tvcom.uz/25/index.m3u8?token=37017073b1ea3e9a47960a816e8b4dba
-#EXTINF:-1 tvg-id="131" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_777.png",Dasturxon TV
-https://str5.tvcom.uz/143/index.m3u8?token=dff8ee6954986b2e46f7736300838d12
-#EXTINF:-1 tvg-id="274" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4710.png",BiZ TV
-https://str2.tvcom.uz/188/index.m3u8?token=680f1d380836acf230eb51af550de1c3
-#EXTINF:-1 tvg-id="328" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/ITVC.png",ITV Cinema
-https://str5.tvcom.uz/242/index.m3u8?token=afabf0ab8d00024f97f2a82efd892154
-#EXTINF:-1 tvg-id="60" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4940.png",Mahalla
-https://str2.tvcom.uz/35/index.m3u8?token=333d298f129d19a0154694ab0be411b3
-#EXTINF:-1 tvg-id="49" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4938.png",O'zbekiston
-https://str2.tvcom.uz/24/index.m3u8?token=974ac6201f9ae4505577bf1aeaa8e7f2
-#EXTINF:-1 tvg-id="134" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4581.png",Nurafshon TV
-https://str5.tvcom.uz/144/index.m3u8?token=670224f992c4d0eebb0f41c57cd33ea6
-#EXTINF:-1 tvg-id="83" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4933.png",LUX TV
-https://str5.tvcom.uz/78/index.m3u8?token=7fb566fe73889060b07a067779d6c900
-#EXTINF:-1 tvg-id="253" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4349.png",S-Ikbol
-https://str2.tvcom.uz/171/index.m3u8?token=4379e5fdb248c70924290993a343c04a
-#EXTINF:-1 tvg-id="170" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_43.png",Ruxsor TV
-https://str5.tvcom.uz/146/index.m3u8?token=68f741543491a31cbafb63827f772c2e
-#EXTINF:-1 tvg-id="51" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_423.png",Toshkent
-https://str2.tvcom.uz/26/index.m3u8?token=5ca7cedbe90490bd91597b1e03b6dca4
-#EXTINF:-1 tvg-id="85" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_425.png",TARAQQIYOT
-https://str5.tvcom.uz/119/index.m3u8?token=5bc3ed3f1d0694e7b7a6c48dd6156c13
-#EXTINF:-1 tvg-id="315" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_786.png",Vodiy TV
-https://str2.tvcom.uz/208/index.m3u8?token=c972221b14c848e75fc179209a2694d2
-#EXTINF:-1 tvg-id="137" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_49.jpg",RENESSANS TV
-https://str5.tvcom.uz/145/index.m3u8?token=fb968155797dc47dd8f21f0e61ac8cf9
-#EXTINF:-1 tvg-id="61" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_420.png",Uzreport
-https://str2.tvcom.uz/37/index.m3u8?token=138769abba4d004d76127e979b93d3ae
-#EXTINF:-1 tvg-id="295" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_737.jpg",Gold UZ TV
-https://str5.tvcom.uz/207/index.m3u8?token=b696c13e3461e610f804487d9db70b51
-#EXTINF:-1 tvg-id="321" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_827.png",MAKON TV
-https://str2.tvcom.uz/233/index.m3u8?token=9c78ac63911d77d3b505759121b7fa83
-#EXTINF:-1 tvg-id="330" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/QIZIQTV_big1.png",Qiziq tv
-https://str5.tvcom.uz/243/index.m3u8?token=60795cc588b8a31c355bb673b091c8f2
-#EXTINF:-1 tvg-id="338" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/RETRO_big1.png",Retro
-https://str2.tvcom.uz/244/index.m3u8?token=0dcc86306cea105950ae6a5ceacb1ff6
-#EXTINF:-1 tvg-id="293" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/fueltv.png",FUEL TV
-https://str2.tvcom.uz/206/index.m3u8?token=43d05bf6c58dcd8d7038059a209912e2
-#EXTINF:-1 tvg-id="307" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_767.png",Muloqot TV
-https://str5.tvcom.uz/189/index.m3u8?token=e1d65a425ff2f23ba7a0f3a55bc61882
-#EXTINF:-1 tvg-id="278" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_168.png",FARGONA MTRK
-https://str5.tvcom.uz/194/index.m3u8?token=f2c9e5f74b7d2db68e7d1280fe47ef39
-#EXTINF:-1 tvg-id="287" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_165.png",XORAZM MTRK
-https://str2.tvcom.uz/197/index.m3u8?token=348dec387f751bb02e53f69faf205fc1
-#EXTINF:-1 tvg-id="286" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_169.png",SURXONDARYO MTRK
-https://str2.tvcom.uz/196/index.m3u8?token=f02966580f42b6b3ed6d93b71298e671
-#EXTINF:-1 tvg-id="282" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_162.png",QARAQALPAQSTAN MTRK
-https://str5.tvcom.uz/200/index.m3u8?token=c622e15452ca75398cd35da233402d78
-#EXTINF:-1 tvg-id="284" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_161.png",SAMARQAND MTRK
-https://str2.tvcom.uz/201/index.m3u8?token=9926c1d10c9f0b83ef20be2d3f821485
-#EXTINF:-1 tvg-id="280" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_163.png",NAMANGAN MTRK
-https://str5.tvcom.uz/199/index.m3u8?token=b4b893137f94dcfba0f097480b53e360
-#EXTINF:-1 tvg-id="276" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_160.png",ANDIJON MTRK
-https://str5.tvcom.uz/193/index.m3u8?token=f634f05df17f4fa3c1a96085a29a0d16
-#EXTINF:-1 tvg-id="281" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_167.png",NAVOIY MTRK
-https://str5.tvcom.uz/191/index.m3u8?token=6154315f6242aec3cd7fe4c5904a17a6
-#EXTINF:-1 tvg-id="283" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_166.png",QASHQADARYO MTRK
-https://str5.tvcom.uz/195/index.m3u8?token=07cbc801818cef6fe2ee9bbf1b24021e
-#EXTINF:-1 tvg-id="285" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_159.png",SIRDARYO MTRK
-https://str5.tvcom.uz/192/index.m3u8?token=c62b280df3a33960c680d70a04fd5a5b
-#EXTINF:-1 tvg-id="279" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_164.png",JIZZAX MTRK
-https://str5.tvcom.uz/198/index.m3u8?token=9f3bc3ad41f57b259df66b6083312f8d
-#EXTINF:-1 tvg-id="277" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_158.png",BUXORO MTRK
-https://str2.tvcom.uz/190/index.m3u8?token=98e897ab9c9175c3586767dacf018142
-#EXTINF:-1 tvg-id="306" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_765.png",8-TV Xorazm
-https://str5.tvcom.uz/221/index.m3u8?token=bb0d6a80fe0a1fd3df0016b4ca175def
-#EXTINF:-1 tvg-id="320" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_826.png",Jizzax TV
-https://str5.tvcom.uz/232/index.m3u8?token=2fa305142fc2a4bf3f9ede07061f7110
-#EXTINF:-1 tvg-id="341" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/denov.png",Denov TV
-https://str2.tvcom.uz/245/index.m3u8?token=79d692dbc5e106bf41f18b9dde7aed15
-#EXTINF:-1 tvg-id="311" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_778.png",Amudaryo TV
-https://str2.tvcom.uz/223/index.m3u8?token=7ea997f2645af9b01363d5f76cb0511e
-#EXTINF:-1 tvg-id="310" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_779.png",Nasaf TV
-https://str5.tvcom.uz/224/index.m3u8?token=618d4b6fe684bd567a0abeec05e8d6e7
-#EXTINF:-1 tvg-id="309" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_777_2.png",Ellikqala TV
-https://str2.tvcom.uz/222/index.m3u8?token=61990416bb6a3ec1a96036d6ccbfa507
-#EXTINF:-1 tvg-id="308" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_776.png",Eurosport 2
-https://str5.tvcom.uz/209/index.m3u8?token=d2c0c063bcf6aa6f810602b349e331cb
-#EXTINF:-1 tvg-id="251" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4327.png",МАТЧ! Планета
-https://str5.tvcom.uz/169/index.m3u8?token=623ccf106f51a380a7506d0d41a5c3c9
-#EXTINF:-1 tvg-id="270" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4541.png",Nat Geo Wild
-https://str5.tvcom.uz/168/index.m3u8?token=e7be74488a5fcff28c6707157a701e49
-#EXTINF:-1 tvg-id="186" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4594.png",В мире животных
-https://str5.tvcom.uz/82/index.m3u8?token=a4f42447c707608292d6f25a23a8eefb
-#EXTINF:-1 tvg-id="195" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_3602.png",Арсенал
-https://str5.tvcom.uz/96/index.m3u8?token=1f6e92410c52db0a1169e415c24478c9
-#EXTINF:-1 tvg-id="242" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4587.png",История
-https://str5.tvcom.uz/161/index.m3u8?token=9e4ca7e9c13980f40ff3d9c117ce548e
-#EXTINF:-1 tvg-id="236" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4586.png",Первый Космический
-https://str2.tvcom.uz/155/index.m3u8?token=0e000a61177a718c37edf0e46bffd253
-#EXTINF:-1 tvg-id="42" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_2571.png",Культура
-https://str2.tvcom.uz/52/index.m3u8?token=8e4e1a13a1b9fbca27e79dbb83455028
-#EXTINF:-1 tvg-id="181" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4571.png",Вопросы и Ответы
-https://str5.tvcom.uz/74/index.m3u8?token=36f79532c1f1bb89cdd3e53d9e037f27
-#EXTINF:-1 tvg-id="19" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_2564.png",Техно 24
-https://str2.tvcom.uz/45/index.m3u8?token=99c44e8fad5768871776169f24bc78e0
-#EXTINF:-1 tvg-id="189" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_3237.png",ZooПарк
-https://str2.tvcom.uz/89/index.m3u8?token=69ac09d3b386b7613a245f4ea76c3c95
-#EXTINF:-1 tvg-id="179" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_3219.png",Домашние Животные
-https://str2.tvcom.uz/57/index.m3u8?token=35ab4d82a493ac51d2e1a75f8a464a06
-#EXTINF:-1 tvg-id="53" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4939.png",Madaniyat va Marifat
-https://str2.tvcom.uz/28/index.m3u8?token=15c8ed7fc1da78148de149e3dd98f92a
-#EXTINF:-1 tvg-id="54" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4937.png",Dunyo Boylab
-https://str2.tvcom.uz/29/index.m3u8?token=9419db2467d186c77a5dcc5072d8b9ce
-#EXTINF:-1 tvg-id="62" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_2549.png",O'zbekiston tarixi
-https://str2.tvcom.uz/83/index.m3u8?token=df1f66fa91a9d337ae130b1404ad52a3
-#EXTINF:-1 tvg-id="58" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Futbol_tv.png",FUTBOL TV
-https://str5.tvcom.uz/33/index.m3u8?token=5965153857c63a97bc4fa070b21d698b
-#EXTINF:-1 tvg-id="267" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4473.png",English Club TV
-https://str2.tvcom.uz/184/index.m3u8?token=032282dc029fc6e4f8856bf02befc588
-#EXTINF:-1 tvg-id="132" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4517.png",AQLVOY
-https://str5.tvcom.uz/140/index.m3u8?token=805f7147025f694824856957e2c7daeb
-#EXTINF:-1 tvg-id="55" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4529.png",Bolajon
-https://str5.tvcom.uz/30/index.m3u8?token=5eee4a606e90fdf595759a77765ebe29
-#EXTINF:-1 tvg-id="304" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_772.png",mimi TV
-https://str5.tvcom.uz/216/index.m3u8?token=49badc324d4ad5e277275537e239330d
-#EXTINF:-1 tvg-id="15" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_2523.png",Карусель
-https://str5.tvcom.uz/16/index.m3u8?token=3b0e07c3009868cd8cb294a2c8d1e3cf
-#EXTINF:-1 tvg-id="10" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_2850.png",Уник-Ум
-https://str5.tvcom.uz/15/index.m3u8?token=8bb01418d716f9ad48c4ecb1efb46b0a
-#EXTINF:-1 tvg-id="197" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/rizhiy.png",Рыжий
-https://str5.tvcom.uz/98/index.m3u8?token=fe4cb8b50c3e2b99f3773ace9edb8418
-#EXTINF:-1 tvg-id="266" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4474.png",TiJi
-https://str2.tvcom.uz/182/index.m3u8?token=ad5c3a7fbd23016cf784f974082c4535
-#EXTINF:-1 tvg-id="269" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4470.png",Gulli Girl
-https://str5.tvcom.uz/186/index.m3u8?token=4fa446a93db04bf20b2b28a5f236d019
-#EXTINF:-1 tvg-id="200" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/image_2024-06-10_16-50-51.png",Смайлик ТВ
-https://str5.tvcom.uz/100/index.m3u8?token=3423280799563ef27fcf4ee0ca0561e4
-#EXTINF:-1 tvg-id="247" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4467.png",Сарафан
-https://str5.tvcom.uz/165/index.m3u8?token=46fd5df55914c78e4f781250ef0c8331
-#EXTINF:-1 tvg-id="69" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_387.png",Телекафе
-https://str5.tvcom.uz/43/index.m3u8?token=66f757fc0d95537ffbd079e0d579c389
-#EXTINF:-1 tvg-id="252" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/doctor.png",Доктор
-https://str2.tvcom.uz/170/index.m3u8?token=9d5723ea425c7e74bf880c1e420ef08e
-#EXTINF:-1 tvg-id="174" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_2582.png",8 TV
-https://str5.tvcom.uz/151/index.m3u8?token=10dabc0a7aa95c0c3c798d55199dd5b6
-#EXTINF:-1 tvg-id="138" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_6831.png",365 Дней
-https://str5.tvcom.uz/48/index.m3u8?token=4723bfa6e6b9efe235e35a186a20cb12
-#EXTINF:-1 tvg-id="198" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_3595.png",Усадьба
-https://str5.tvcom.uz/99/index.m3u8?token=106c57a7e4583d8ee69538d8833324dd
-#EXTINF:-1 tvg-id="224" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4490.png",Бобёр
-https://str2.tvcom.uz/128/index.m3u8?token=b7131cca5a6547b7c95e8f23cb7cf83d
-#EXTINF:-1 tvg-id="196" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/00b282e4f520b6e1c3c4fac51fe88b96_1.png",Загородный
-https://str5.tvcom.uz/97/index.m3u8?token=63670651e050b2c68abf3f2859fbf338
-#EXTINF:-1 tvg-id="246" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4582.png",Наша сибирь
-https://str5.tvcom.uz/164/index.m3u8?token=34b78ecd634d3e69e7b15d5643ce559e
-#EXTINF:-1 tvg-id="178" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4593.png",Живи
-https://str2.tvcom.uz/71/index.m3u8?token=baa294b0958c57bca07bb72a182fd2ab
-#EXTINF:-1 tvg-id="185" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_3228.png",Живи Активно
-https://str5.tvcom.uz/81/index.m3u8?token=c424f21830c2abf5526cc1de3e0ff82a
-#EXTINF:-1 tvg-id="305" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_773.png",Shifo TV
-https://str5.tvcom.uz/215/index.m3u8?token=242724c4e30c010c227fc5e72969111b
-#EXTINF:-1 tvg-id="180" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_3217.png",Здоровое ТВ
-https://str5.tvcom.uz/73/index.m3u8?token=670224f992c4d0eebb0f41c57cd33ea6
-#EXTINF:-1 tvg-id="228" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4491.png",Загородная жизнь
-https://str5.tvcom.uz/132/index.m3u8?token=8b59d5300caeb89fa5793e203aef5c65
-#EXTINF:-1 tvg-id="17" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_2554.png",Охота и рыбалка
-https://str2.tvcom.uz/46/index.m3u8?token=02cefb65defde3dd74d2d1d2eb28dc49
-#EXTINF:-1 tvg-id="235" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame 30.png",Охотник и Рыболов
-https://str2.tvcom.uz/154/index.m3u8?token=7677b6d57f0951533911b36e4ec84e43
-#EXTINF:-1 tvg-id="183" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4694.png",Dрайв
-https://str2.tvcom.uz/77/index.m3u8?token=c9745555253b5230b31d1c14304da4fa
-#EXTINF:-1 tvg-id="7" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_2503.png",Авто Плюс
-https://str2.tvcom.uz/44/index.m3u8?token=6568f5f4685cd047bd6bba5885002c2a
-#EXTINF:-1 tvg-id="292" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_780.png",Дикая Охота
-https://str5.tvcom.uz/203/index.m3u8?token=37d7ab09d71d354cee39101dc8df41c0
-#EXTINF:-1 tvg-id="313" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/123.png",Дикая Рыбалка
-https://str5.tvcom.uz/226/index.m3u8?token=941ce33661d4b51030a389de083be8f7
-#EXTINF:-1 tvg-id="240" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/hollywood_1.png",Приключения
-https://str5.tvcom.uz/159/index.m3u8?token=4a37f9bf9552029ec5ea6e81605a2a68
-#EXTINF:-1 tvg-id="182" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_3231.png",Авто 24
-https://str5.tvcom.uz/76/index.m3u8?token=c81d1fc0524d1ea65b3b051846fede39
-#EXTINF:-1 tvg-id="299" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_741_2.png",Наша Тема
-https://str2.tvcom.uz/218/index.m3u8?token=d632e59de829ab1587d312329b38d745
-#EXTINF:-1 tvg-id="342" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/tochkaotriva.png",Точка Отрыва
-https://str2.tvcom.uz/248/index.m3u8?token=f65f2df2596cd466ab0f840ec9c99b18
-#EXTINF:-1 tvg-id="239" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_428.png",Insight TV
-https://str2.tvcom.uz/158/index.m3u8?token=c589c9d2ff4e8187dec19296e877cb38
-#EXTINF:-1 tvg-id="245" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4584.png",Глазами Туриста
-https://str5.tvcom.uz/163/index.m3u8?token=4ca366dd59261c1ffc1092e4128a228e
-#EXTINF:-1 tvg-id="199" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_3662.png",Живая Природа
-https://str2.tvcom.uz/101/index.m3u8?token=cb281c0be51f2b151c19c3a160084a18
-#EXTINF:-1 tvg-id="294" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/tvclip.png",TVCOM LIVE | KLIPLAR
-https://str5.tvcom.uz/998/index.m3u8?token=643526c8daf92f3ff9cbadd3364692eb
-#EXTINF:-1 tvg-id="64" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_2539.png",FTV
-https://str5.tvcom.uz/39/index.m3u8?token=87c0a4329ba341ca0ba173eda273a8be
-#EXTINF:-1 tvg-id="24" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_2589.png",RU TV
-https://str2.tvcom.uz/70/index.m3u8?token=529cfa81d5ac7e1c63203509ef9c79ff
-#EXTINF:-1 tvg-id="22" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4576.png",МУЗ-ТВ
-https://str5.tvcom.uz/68/index.m3u8?token=391652ce36bc74e620ce5b5a8faef882
-#EXTINF:-1 tvg-id="56" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4527.png",NAVO
-https://str5.tvcom.uz/31/index.m3u8?token=66a9ef600bf8927827f1cbbc005b7f36
-#EXTINF:-1 tvg-id="190" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4578.png",MUZTV UZ
-https://str2.tvcom.uz/139/index.m3u8?token=cde713a33b48dcd6cf71289783e1b40b
-#EXTINF:-1 tvg-id="303" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_775.png",BiZ Music
-https://str5.tvcom.uz/214/index.m3u8?token=83a819b9f41d01d535b613b4f2e93796
-#EXTINF:-1 tvg-id="329" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/ITVM.png",ITV Music
-https://str2.tvcom.uz/241/index.m3u8?token=65763449222a7085a276310822908154
-#EXTINF:-1 tvg-id="34" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_2561.png",Музыка Первого
-https://str5.tvcom.uz/69/index.m3u8?token=fde09810761815f3b25e15449f7648c2
-#EXTINF:-1 tvg-id="173" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_2581.png",Туган Тел
-https://str5.tvcom.uz/150/index.m3u8?token=35cb6668da7ff2537b4c1ffcc8ef3f8a
-#EXTINF:-1 tvg-id="301" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_766.png",S-Music
-https://str2.tvcom.uz/220/index.m3u8?token=786c22c70984e49603ff89762dea629a
-#EXTINF:-1 tvg-id="317" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_789.png",TTV Musiqa
-https://str2.tvcom.uz/229/index.m3u8?token=10c4dc26b0951e60f39e713738a5a762
-#EXTINF:-1 tvg-id="318" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_822.png",TTV
-https://str2.tvcom.uz/230/index.m3u8?token=0a2df7ba663659e8a0b1ef5866eacc46
-#EXTINF:-1 tvg-id="323" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_8924.png",NTV
-https://str5.tvcom.uz/235/index.m3u8?token=0c7caae718825f91a7455c2960ca130d
-#EXTINF:-1 tvg-id="324" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/istiqlol-tv2.png",Istiqlol TV
-https://str5.tvcom.uz/236/index.m3u8?token=9e0e43af284bc70480162afb72b50035
-#EXTINF:-1 tvg-id="128" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_2514.png",МИР 24
-https://str2.tvcom.uz/138/index.m3u8?token=768073053a457ce6be13ab259d60e657
-#EXTINF:-1 tvg-id="5" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_421.png",Euronews
-https://str5.tvcom.uz/6/index.m3u8?token=04ebb8b73884c599a46bae6fad073f29
-#EXTINF:-1 tvg-id="312" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/3333.png",CGTN
-https://str5.tvcom.uz/225/index.m3u8?token=966000c31f2ea78ec16c1bda46f75826
-#EXTINF:-1 tvg-id="296" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_744_2.png",AZ TV
-https://str5.tvcom.uz/213/index.m3u8?token=e12bd0e01d4c59eb37052c1ce8decb3e
-#EXTINF:-1 tvg-id="222" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_6832.png",Euronews English
-https://str2.tvcom.uz/127/index.m3u8?token=df484c7d28848b401aa4ca9f4e7f1178
-#EXTINF:-1 tvg-id="191" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_6834.png",ТНВ Планета
-https://str5.tvcom.uz/91/index.m3u8?token=affb22ff37645a919aaafd5268a63012
-#EXTINF:-1 tvg-id="226" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Group_4514.png",Turkmenistan
-https://str2.tvcom.uz/130/index.m3u8?token=7b88cfa09b239e0704d0a9e4bb41790a
-#EXTINF:-1 tvg-id="184" group-title="TVcom UZ 🇺🇿" tvg-logo="https://mw.tvcom.uz/logo/Frame_424.png",Хабар 24
-https://str2.tvcom.uz/79/index.m3u8?token=d905735c0d613590d145ca25cdeafb39
+const fs = require("fs");
+const readline = require("readline");
+
+const LIST_URL =
+  "https://mw.tvcom.uz/tvmiddleware/api/channel/list/?authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&client_id=1&api_key=56JNSqNT&compact=1&device=android";
+
+const FREE_FILE = "tvcom_uz.m3u8";
+const GROUP_TITLE_FREE = "TVcom UZ 🇺🇿";
+
+const FREE_FLAG_VALUE = 1;
+const REMOVE_DUPLICATE_URLS = true;
+const SKIP_EMPTY_URL = true;
+
+function cleanText(value) {
+  return String(value ?? "")
+    .replace(/\r?\n/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function escapeAttr(value) {
+  return String(value ?? "").replace(/"/g, "'");
+}
+
+function toNumber(value, fallback = NaN) {
+  const n = Number(value);
+  return Number.isFinite(n) ? n : fallback;
+}
+
+function pickFirst(...values) {
+  for (const v of values) {
+    const s = cleanText(v);
+    if (s) return s;
+  }
+  return "";
+}
+
+function getChannels(json) {
+  if (Array.isArray(json?.channels)) return json.channels;
+  if (Array.isArray(json)) return json;
+  return null;
+}
+
+function getChannelId(ch, index) {
+  return pickFirst(ch.id, ch.cid, ch.channel_id, `${index + 1}`);
+}
+
+function getChannelName(ch, index) {
+  return pickFirst(ch.name, ch.title, ch.channel_name, `Channel ${index + 1}`);
+}
+
+function getChannelLogo(ch) {
+  return pickFirst(ch.icon, ch.icon_image, ch.logo, ch.image, ch.poster);
+}
+
+function getChannelUrl(ch) {
+  return pickFirst(ch.url, ch.stream_url, ch.stream, ch.hls, ch.play_url);
+}
+
+function getSubscriptionFlag(ch) {
+  if (ch.has_subscription !== undefined && ch.has_subscription !== null) {
+    return toNumber(ch.has_subscription);
+  }
+  if (ch.subscription !== undefined && ch.subscription !== null) {
+    return toNumber(ch.subscription);
+  }
+  if (ch.is_free !== undefined && ch.is_free !== null) {
+    return toNumber(ch.is_free) === 1 ? FREE_FLAG_VALUE : 999;
+  }
+  return NaN;
+}
+
+function buildExtinf({ id, name, logo, groupTitle }) {
+  const attrs = [
+    `tvg-id="${escapeAttr(id)}"`,
+    `group-title="${escapeAttr(groupTitle)}"`,
+  ];
+
+  if (logo) {
+    attrs.push(`tvg-logo="${escapeAttr(logo)}"`);
+  }
+
+  return `#EXTINF:-1 ${attrs.join(" ")},${cleanText(name)}`;
+}
+
+function buildItem({ id, name, logo, url, groupTitle }) {
+  return `${buildExtinf({ id, name, logo, groupTitle })}\n${cleanText(url)}`;
+}
+
+function saveM3U(filePath, items) {
+  const lines = ["#EXTM3U", ...items];
+  fs.writeFileSync(filePath, lines.join("\n") + "\n", "utf8");
+}
+
+function waitForEnter() {
+  return new Promise((resolve) => {
+    const rl = readline.createInterface({
+      input: process.stdin,
+      output: process.stdout,
+    });
+
+    rl.question("\nChiqish uchun Enter bosing...", () => {
+      rl.close();
+      resolve();
+    });
+  });
+}
+
+async function fetchJson(url) {
+  const res = await fetch(url, {
+    headers: {
+      "User-Agent": "Mozilla/5.0",
+      "Accept": "application/json,text/plain,*/*",
+    },
+  });
+
+  if (!res.ok) {
+    throw new Error(`HTTP ${res.status}`);
+  }
+
+  return await res.json();
+}
+
+async function main() {
+  console.log("TVCOM kanal ro'yxati olinmoqda...\n");
+
+  const json = await fetchJson(LIST_URL);
+  const channels = getChannels(json);
+
+  if (!channels) {
+    throw new Error("channels massiv topilmadi");
+  }
+
+  const freeItems = [];
+  const seenUrls = new Set();
+
+  let freeCount = 0;
+  let paidSkipped = 0;
+  let skippedNoUrl = 0;
+  let skippedDup = 0;
+  let unknownFlag = 0;
+
+  for (let i = 0; i < channels.length; i++) {
+    const ch = channels[i];
+
+    const id = getChannelId(ch, i);
+    const name = getChannelName(ch, i);
+    const logo = getChannelLogo(ch);
+    const url = getChannelUrl(ch);
+    const flag = getSubscriptionFlag(ch);
+
+    if (!url && SKIP_EMPTY_URL) {
+      skippedNoUrl++;
+      console.log(`[SKIP:NO_URL] ${name}`);
+      continue;
+    }
+
+    if (url && REMOVE_DUPLICATE_URLS && seenUrls.has(url)) {
+      skippedDup++;
+      console.log(`[SKIP:DUP] ${name}`);
+      continue;
+    }
+
+    if (url) {
+      seenUrls.add(url);
+    }
+
+    if (Number.isNaN(flag)) {
+      unknownFlag++;
+      console.log(`[UNKNOWN SKIP] ${name}`);
+      continue;
+    }
+
+    if (flag !== FREE_FLAG_VALUE) {
+      paidSkipped++;
+      console.log(`[PULLIK SKIP] ${name} | flag=${flag}`);
+      continue;
+    }
+
+    const freeItem = buildItem({
+      id,
+      name,
+      logo,
+      url,
+      groupTitle: GROUP_TITLE_FREE,
+    });
+
+    freeItems.push(freeItem);
+    freeCount++;
+    console.log(`[BEPUL] ${name} | flag=${flag}`);
+  }
+
+  saveM3U(FREE_FILE, freeItems);
+
+  console.log("\nTayyor.");
+  console.log(`BEPUL FILE    : ${freeCount} ta -> ${FREE_FILE}`);
+  console.log(`PULLIK SKIP   : ${paidSkipped} ta`);
+  console.log(`NO_URL SKIP   : ${skippedNoUrl} ta`);
+  console.log(`DUP_URL SKIP  : ${skippedDup} ta`);
+  console.log(`UNKNOWN FLAG  : ${unknownFlag} ta`);
+  console.log(`UNIQUE URL    : ${seenUrls.size} ta`);
+}
+
+main()
+  .catch((err) => {
+    console.error("\nXato:", err.message);
+    process.exitCode = 1;
+  })
+  .finally(async () => {
+    if (process.env.GITHUB_ACTIONS !== "true") {
+      await waitForEnter();
+    }
+  });

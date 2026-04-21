@@ -20,14 +20,43 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
+      - name: Show branch and files
+        shell: bash
+        run: |
+          echo "REF=$GITHUB_REF"
+          echo "REF_NAME=$GITHUB_REF_NAME"
+          pwd
+          ls -la
+          node -v
+
       - name: Build telecomtv_uz.m3u8
-        run: node telecomtv_uz.js
+        shell: bash
+        run: |
+          node telecomtv_uz.js
+          echo "----- after build -----"
+          ls -la
+          if [ -f telecomtv_uz.m3u8 ]; then
+            echo "telecomtv_uz.m3u8 found"
+            wc -l telecomtv_uz.m3u8 || true
+            head -n 5 telecomtv_uz.m3u8 || true
+          else
+            echo "telecomtv_uz.m3u8 NOT FOUND"
+            exit 1
+          fi
+
+      - name: Show git status
+        shell: bash
+        run: |
+          git status --short
+          git diff -- telecomtv_uz.m3u8 || true
 
       - name: Commit and push if changed
         shell: bash
@@ -35,7 +64,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add telecomtv_uz.m3u8
+          git add -A telecomtv_uz.m3u8
+          git status --short
 
           if git diff --cached --quiet; then
             echo "No changes"
@@ -43,4 +73,4 @@ jobs:
           fi
 
           git commit -m "Update telecomtv_uz.m3u8"
-          git push
+          git push origin HEAD:${GITHUB_REF_NAME}

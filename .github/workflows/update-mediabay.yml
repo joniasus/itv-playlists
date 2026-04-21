@@ -1,9 +1,8 @@
-name: Update mediabay_uz.js and all_uzb_iptv_providers.js
+name: Update mediabay_uz.js
 
 on:
   workflow_dispatch:
   schedule:
-    # self-healing watchdog: off-top-of-hour poll
     - cron: '7,22,37,52 * * * *'
       timezone: 'Asia/Tashkent'
 
@@ -50,7 +49,6 @@ jobs:
               with open(out, "a", encoding="utf-8") as f:
                   f.write(f"{key}={value}\n")
 
-          # Manual run => always run immediately
           if event == "workflow_dispatch":
               write_output("run_build", "true")
               write_output("reason", "manual_dispatch")
@@ -63,8 +61,6 @@ jobs:
           workflow_ref = os.environ["GITHUB_WORKFLOW_REF"]
           token = os.environ["GITHUB_TOKEN"]
 
-          # Extract workflow file name from github.workflow_ref
-          # example: owner/repo/.github/workflows/update.yml@refs/heads/main
           workflow_file = workflow_ref.split("@", 1)[0].rsplit("/", 1)[-1]
 
           url = (
@@ -102,8 +98,6 @@ jobs:
           tz = ZoneInfo("Asia/Tashkent")
           now_local = datetime.datetime.now(tz)
 
-          # Original desired fixed slots:
-          # 00:37, 05:37, 10:37, 15:37, 20:37
           target_hours = [0, 5, 10, 15, 20]
 
           due_local = None
@@ -121,7 +115,6 @@ jobs:
               )
 
           due_utc = due_local.astimezone(datetime.timezone.utc)
-
           should_run = last_success is None or last_success < due_utc
 
           write_output("run_build", "true" if should_run else "false")
@@ -165,23 +158,20 @@ jobs:
       - name: Build mediabay_uz.m3u8
         run: node mediabay_uz.js
 
-      - name: Build merged all_uzb_iptv_providers.m3u8
-        run: node all_uzb_iptv_providers.js
-
       - name: Commit and push if changed
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add mediabay_uz.m3u8 all_uzb_iptv_providers.m3u8
+          git add mediabay_uz.m3u8
 
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
           fi
 
-          git commit -m "Auto-update playlists"
+          git commit -m "Auto-update mediabay_uz.m3u8"
 
           for i in 1 2 3 4 5; do
             echo "Push attempt $i/5"

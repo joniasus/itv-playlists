@@ -3,7 +3,7 @@ name: Update telecomtv playlist
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 */5 * * *'
+    - cron: '17 2,3 * * *'
       timezone: 'Asia/Tashkent'
 
 permissions:

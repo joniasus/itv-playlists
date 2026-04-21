@@ -1,116 +1,79 @@
 const fs = require("fs");
-const readline = require("readline");
+
+const AUTHKEY = "be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3";
+const CLIENT_ID = "1";
+const API_KEY = "56JNSqNT";
+const DEVICE = "android";
 
 const LIST_URL =
-  "https://mw.tvcom.uz/tvmiddleware/api/channel/list/?authkey=be63bab060b589cde497073ecd7a1766d193e308e5aa5e67c8a74abedbae987d1a19891c0608937184fdf8d42c7dece35cd923e34f6a76a4ea9c313ee7a53bc3&client_id=1&api_key=56JNSqNT&compact=1&device=android";
+  `https://mw.tvcom.uz/tvmiddleware/api/channel/list/?authkey=${encodeURIComponent(AUTHKEY)}` +
+  `&client_id=${encodeURIComponent(CLIENT_ID)}` +
+  `&api_key=${encodeURIComponent(API_KEY)}` +
+  `&compact=1&device=${encodeURIComponent(DEVICE)}`;
 
-const FREE_FILE = "tvcom_uz.m3u8";
-const GROUP_TITLE_FREE = "TVcom UZ 🇺🇿";
+const OUTPUT_FILE = "tvcom_uz.m3u8";
+const GROUP_TITLE = "TVcom UZ 🇺🇿";
 
-const FREE_FLAG_VALUE = 1;
-const REMOVE_DUPLICATE_URLS = true;
-const SKIP_EMPTY_URL = true;
+const CID_ORDER = [48,63,65,59,52,58,84,321,170,330,275,294,319,317,328,329,302,303,274,253,61,295,307,54,51,56,60,64,83,85,131,137,256,276,277,278,279,280,281,282,283,310,284,285,286,287,301,50,305,306,190,309,55,49,311,315,318,320,323,324,67,341,132,7,53,62,134,239,270,292,313,33,300,22,229,24,268,297,298,316,34,251,293,308,17,10,197,200,266,269,304,1,2,4,5,8,236,32,262,41,271,245,235,240,179,185,189,299,183,199,198,129,138,342,19,242,338,15,43,267,173,186,69,191,180,128,196,247,178,181,195,182,222,42,252,174,224,246,228,312,296,226,184];
 
-function cleanText(value) {
-  return String(value ?? "")
-    .replace(/\r?\n/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
+const CID_ORDER_MAP = new Map(
+  CID_ORDER.map((cid, index) => [String(cid), index])
+);
+
+function htmlDecode(str = "") {
+  return String(str)
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">");
 }
 
-function escapeAttr(value) {
-  return String(value ?? "").replace(/"/g, "'");
+function safeName(name = "") {
+  return String(name).replace(/[\r\n]+/g, " ").trim();
 }
 
-function toNumber(value, fallback = NaN) {
-  const n = Number(value);
-  return Number.isFinite(n) ? n : fallback;
+function getCid(ch) {
+  return ch?.id ?? ch?.cid ?? ch?.channel_id ?? "NO_CID";
 }
 
-function pickFirst(...values) {
-  for (const v of values) {
-    const s = cleanText(v);
-    if (s) return s;
-  }
-  return "";
+function getName(ch) {
+  const cid = getCid(ch);
+  return safeName(htmlDecode(ch?.name || ch?.title || `Channel ${cid}`));
 }
 
-function getChannels(json) {
-  if (Array.isArray(json?.channels)) return json.channels;
-  if (Array.isArray(json)) return json;
-  return null;
-}
+function makeLogoUrl(ch) {
+  const icon = ch.icon || ch.logo || "";
+  if (!icon) return "";
 
-function getChannelId(ch, index) {
-  return pickFirst(ch.id, ch.cid, ch.channel_id, `${index + 1}`);
-}
-
-function getChannelName(ch, index) {
-  return pickFirst(ch.name, ch.title, ch.channel_name, `Channel ${index + 1}`);
-}
-
-function getChannelLogo(ch) {
-  return pickFirst(ch.icon, ch.icon_image, ch.logo, ch.image, ch.poster);
-}
-
-function getChannelUrl(ch) {
-  return pickFirst(ch.url, ch.stream_url, ch.stream, ch.hls, ch.play_url);
-}
-
-function getSubscriptionFlag(ch) {
-  if (ch.has_subscription !== undefined && ch.has_subscription !== null) {
-    return toNumber(ch.has_subscription);
-  }
-  if (ch.subscription !== undefined && ch.subscription !== null) {
-    return toNumber(ch.subscription);
-  }
-  if (ch.is_free !== undefined && ch.is_free !== null) {
-    return toNumber(ch.is_free) === 1 ? FREE_FLAG_VALUE : 999;
-  }
-  return NaN;
-}
-
-function buildExtinf({ id, name, logo, groupTitle }) {
-  const attrs = [
-    `tvg-id="${escapeAttr(id)}"`,
-    `group-title="${escapeAttr(groupTitle)}"`,
-  ];
-
-  if (logo) {
-    attrs.push(`tvg-logo="${escapeAttr(logo)}"`);
+  if (icon.startsWith("http://") || icon.startsWith("https://")) {
+    return icon;
   }
 
-  return `#EXTINF:-1 ${attrs.join(" ")},${cleanText(name)}`;
+  if (icon.startsWith("/")) {
+    return `https://mw.tvcom.uz${icon}`;
+  }
+
+  return `https://mw.tvcom.uz/${icon}`;
 }
 
-function buildItem({ id, name, logo, url, groupTitle }) {
-  return `${buildExtinf({ id, name, logo, groupTitle })}\n${cleanText(url)}`;
-}
-
-function saveM3U(filePath, items) {
-  const lines = ["#EXTM3U", ...items];
-  fs.writeFileSync(filePath, lines.join("\n") + "\n", "utf8");
-}
-
-function waitForEnter() {
-  return new Promise((resolve) => {
-    const rl = readline.createInterface({
-      input: process.stdin,
-      output: process.stdout,
-    });
-
-    rl.question("\nChiqish uchun Enter bosing...", () => {
-      rl.close();
-      resolve();
-    });
-  });
+function makeLiveUrl(cid) {
+  return (
+    `https://mw.tvcom.uz/tvmiddleware/api/channel/url/?cid=${encodeURIComponent(String(cid))}` +
+    `&device=${encodeURIComponent(DEVICE)}` +
+    `&client_id=${encodeURIComponent(CLIENT_ID)}` +
+    `&authkey=${encodeURIComponent(AUTHKEY)}` +
+    `&timezone=0`
+  );
 }
 
 async function fetchJson(url) {
   const res = await fetch(url, {
     headers: {
-      "User-Agent": "Mozilla/5.0",
-      "Accept": "application/json,text/plain,*/*",
+      accept: "application/json, text/plain, */*",
+      "user-agent": "okhttp/4.9.2",
+      referer: "https://tvcom.uz/",
+      origin: "https://tvcom.uz",
     },
   });
 
@@ -121,140 +84,71 @@ async function fetchJson(url) {
   return await res.json();
 }
 
-async function main() {
-  console.log("TVCOM kanal ro'yxati olinmoqda...\n");
-
+async function loadChannels() {
   const json = await fetchJson(LIST_URL);
-  const rawChannels = getChannels(json);
 
-  if (!rawChannels) {
-    throw new Error("channels massiv topilmadi");
-  }
+  if (Array.isArray(json)) return json;
+  if (Array.isArray(json?.channels)) return json.channels;
+  if (Array.isArray(json?.data)) return json.data;
+  if (Array.isArray(json?.results)) return json.results;
 
-  const channels = rawChannels.filter(
-    (ch) => getSubscriptionFlag(ch) === FREE_FLAG_VALUE
-  );
-
-  const PRIORITY_IDS = [48, 65, 63, 59, 52, 58, 275, 294, 170, 317, 318, 319, 328, 329];
-  
-  const UZ_NAME_PATTERN = new RegExp(
-    [
-      "O'z", "Uzb", "\\bUZ\\b", "Milliy", "MTRK", "\\bTTV\\b", "\\bBiZ\\b",
-      "Toshkent", "Yoshlar", "Bolajon", "Sevimli", "Mahalla", "FUTBOL TV",
-      "NAVO", "Dunyo Boylab", "Mening Yurtim", "Uzreport", "\\bFTV\\b",
-      "LUX TV", "Kinoteatr", "TARAQQIYOT", "Dasturxon", "AQLVOY",
-      "Nurafshon", "RENESSANS", "Ruxsor", "8[- ]?TV", "MUZTV",
-      "Jizzax", "Andijon", "Buxoro", "Fargona", "Namangan", "Navoiy",
-      "Qaraqalpaqstan", "Qashqadaryo", "Samarqand", "Sirdaryo",
-      "Surxondaryo", "Xorazm", "Denov", "Nasaf", "Amudaryo", "Vodiy",
-      "Ellikqala", "Muloqot", "Istiqlol", "MYDAYTV", "\\bITV\\b",
-      "MAKON", "Qiziq", "Shifo", "mimi TV", "Star Cinema", "Madaniyat",
-      "S-Ikbol", "S-Music", "Gold UZ", "TVCOM", "Biz Cinema", "ZOR TV",
-    ].join("|"),
-    "i"
-  );
-
-  const HAS_CYRILLIC = /[\u0400-\u04FF]/;
-
-  const isUzbekChannel = (name) => {
-    const n = cleanText(name);
-    if (UZ_NAME_PATTERN.test(n)) return true;
-    return false;
-  };
-
-  const isRussianChannel = (name) => {
-    const n = cleanText(name);
-    if (isUzbekChannel(n)) return false;
-    return HAS_CYRILLIC.test(n);
-  };
-
-  const priorityIndex = (id) => {
-    const idx = PRIORITY_IDS.indexOf(id);
-    return idx === -1 ? PRIORITY_IDS.length : idx;
-  };
-
-  const groupRank = (ch, id) => {
-    if (PRIORITY_IDS.includes(id)) return 0;
-    const name = getChannelName(ch, 0);
-    if (isUzbekChannel(name)) return 1;
-    if (isRussianChannel(name)) return 2;
-    return 3;
-  };
-
-  channels.sort((a, b) => {
-    const aId = toNumber(pickFirst(a.id, a.cid, a.channel_id), Number.MAX_SAFE_INTEGER);
-    const bId = toNumber(pickFirst(b.id, b.cid, b.channel_id), Number.MAX_SAFE_INTEGER);
-
-    const aGroup = groupRank(a, aId);
-    const bGroup = groupRank(b, bId);
-    if (aGroup !== bGroup) return aGroup - bGroup;
-
-    if (aGroup === 0) return priorityIndex(aId) - priorityIndex(bId);
-    return aId - bId;
-  });
-
-  const freeItems = [];
-  const seenUrls = new Set();
-
-  let freeCount = 0;
-  const paidSkipped = rawChannels.length - channels.length;
-  let skippedNoUrl = 0;
-  let skippedDup = 0;
-
-  for (let i = 0; i < channels.length; i++) {
-    const ch = channels[i];
-
-    const id = getChannelId(ch, i);
-    const name = getChannelName(ch, i);
-    const logo = getChannelLogo(ch);
-    const url = getChannelUrl(ch);
-
-    if (!url && SKIP_EMPTY_URL) {
-      skippedNoUrl++;
-      console.log(`[SKIP:NO_URL] ${name}`);
-      continue;
-    }
-
-    if (url && REMOVE_DUPLICATE_URLS && seenUrls.has(url)) {
-      skippedDup++;
-      console.log(`[SKIP:DUP] ${name}`);
-      continue;
-    }
-
-    if (url) {
-      seenUrls.add(url);
-    }
-
-    const freeItem = buildItem({
-      id,
-      name,
-      logo,
-      url,
-      groupTitle: GROUP_TITLE_FREE,
-    });
-
-    freeItems.push(freeItem);
-    freeCount++;
-    console.log(`[BEPUL] ${name}`);
-  }
-
-  saveM3U(FREE_FILE, freeItems);
-
-  console.log("\nTayyor.");
-  console.log(`BEPUL FILE    : ${freeCount} ta -> ${FREE_FILE}`);
-  console.log(`PULLIK SKIP   : ${paidSkipped} ta`);
-  console.log(`NO_URL SKIP   : ${skippedNoUrl} ta`);
-  console.log(`DUP_URL SKIP  : ${skippedDup} ta`);
-  console.log(`UNIQUE URL    : ${seenUrls.size} ta`);
+  throw new Error("Каналлар рўйхати массив кўринишида топилмади");
 }
 
-main()
-  .catch((err) => {
-    console.error("\nXato:", err.message);
-    process.exitCode = 1;
-  })
-  .finally(async () => {
-    if (process.env.GITHUB_ACTIONS !== "true") {
-      await waitForEnter();
-    }
-  });
+function sortByCidArray(a, b) {
+  const aCid = String(getCid(a));
+  const bCid = String(getCid(b));
+
+  const aIn = CID_ORDER_MAP.has(aCid);
+  const bIn = CID_ORDER_MAP.has(bCid);
+
+  if (aIn && bIn) {
+    return CID_ORDER_MAP.get(aCid) - CID_ORDER_MAP.get(bCid);
+  }
+
+  if (aIn) return -1;
+  if (bIn) return 1;
+
+  return 0;
+}
+
+function buildM3UEntry(channel) {
+  const cid = getCid(channel);
+  const name = getName(channel);
+  const logo = makeLogoUrl(channel);
+  const liveUrl = makeLiveUrl(cid);
+
+  return [
+    `#EXTINF:-1 tvg-id="${cid}" tvg-logo="${logo}" group-title="${GROUP_TITLE}",${name}`,
+    liveUrl,
+  ].join("\n");
+}
+
+async function main() {
+  if (!AUTHKEY || AUTHKEY === "YOUR_AUTHKEY_HERE") {
+    throw new Error("AUTHKEY ни киритинг");
+  }
+
+  console.log("📥 Каналлар рўйхати олиняпти...");
+  const channelsAll = await loadChannels();
+
+  const rows = channelsAll
+    .filter((ch) => Number(ch.has_subscription) !== 0)
+    .filter((ch) => getCid(ch) !== "NO_CID")
+    .sort(sortByCidArray)
+    .map(buildM3UEntry);
+
+  fs.writeFileSync(
+    OUTPUT_FILE,
+    "#EXTM3U\n" + rows.join("\n") + "\n",
+    "utf8"
+  );
+
+  console.log(`💾 Сақланди: ${OUTPUT_FILE}`);
+  console.log(`✅ Каналлар: ${rows.length}`);
+}
+
+main().catch((err) => {
+  console.error("🚨 Хато:", err.message || err);
+  process.exit(1);
+});

@@ -3,7 +3,7 @@ name: Update telecomtv playlist
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 2,3 * * *'
+    - cron: '0 2,3 * * *'
       timezone: 'Asia/Tashkent'
 
 permissions:
@@ -18,6 +18,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:

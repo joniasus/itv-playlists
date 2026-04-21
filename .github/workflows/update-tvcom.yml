@@ -31,9 +31,6 @@ jobs:
       - name: Build tvcom_uz.m3u8
         run: node tvcom_uz.js
 
-      - name: Build merged all_uzb_iptv_providers.m3u8
-        run: node all_uzb_iptv_providers.js
-
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"

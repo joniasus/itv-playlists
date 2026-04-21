@@ -1,0 +1,277 @@
+#EXTM3U
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",ZO'R TV HD
+https://uz-vss1.plbl.uz.lfstrm.tv/uz_zor_tv_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&dvrlimit=live&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live2&origin=uz-dvr2&pbs_id=58209ecf-9597-4695-b3e4-1c0e5cedf9ba&provider_id=63a98003d5198db8b963feb4&token=pQ30o3X6_YbDtS2pp-I2Ig&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Sevimli TV
+https://uz-vss4.plbl.uz.lfstrm.tv/uz_sevimli/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-hl-live&origin=uz-dvr2&pbs_id=dce812a2-e8c2-4beb-b809-1a0122ffa2d9&provider_id=63a98003d5198db8b963feb4&token=Y5N2NjbdbMVraxigR1_2LA&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Milliy TV
+https://uz-vss4.plbl.uz.lfstrm.tv/uz_milliy_tv/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&dvrlimit=live&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live2&origin=uz-dvr2&pbs_id=5d158528-9834-4e00-87bd-db46558bae6a&provider_id=63a98003d5198db8b963feb4&token=-g166SalKb_dhA3PaLUvhw&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Mening Yurtim
+https://uz-vss4.plbl.uz.lfstrm.tv/uz_mening_yurtim/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live2&origin=uz-dvr2&pbs_id=a84a38b3-c592-443a-8e80-f0b67848f510&provider_id=63a98003d5198db8b963feb4&token=VlYfgn2hx-s3Yj74Xhn_Pw&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Sport UZ
+https://uz-vss3.plbl.uz.lfstrm.tv/uz_sport_uz/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&dvrlimit=live&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-50fps&origin=uz-dvr2&pbs_id=1dee34a8-6aa7-4e21-9513-ef46e65cab51&provider_id=63a98003d5198db8b963feb4&token=qFhyJvEo6VAzT3HtPdzRSw&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Futbol TV HD
+https://uz-vss2.plbl.uz.lfstrm.tv/uz_futbol_tv_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live2&origin=uz-dvr2&pbs_id=cce342d4-9beb-40a4-a25c-6aac50081cea&provider_id=63a98003d5198db8b963feb4&token=puc-4CdRBFVv8wkcxg7xbQ&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",QIZIQTV
+https://uz-vss4.plbl.uz.lfstrm.tv/uz_qiziqtv_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live2&origin=uz-dvr2&pbs_id=d921a4bf-77d2-48c8-88d8-f59eb2feaae5&provider_id=63a98003d5198db8b963feb4&token=d9jN-Zp8Pg4sTkD48YOReA&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Kinoteatr
+https://uz-vss1.plbl.uz.lfstrm.tv/uz_kinoteatr/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&dvrlimit=live&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live2&origin=uz-dvr2&pbs_id=a6a6d07b-c759-428b-8f7e-db73cc996551&provider_id=63a98003d5198db8b963feb4&token=1DmNX9wpceN04qovhUDJsg&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",UzReport HD
+https://uz-vss1.plbl.uz.lfstrm.tv/uz_uzreport_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=u&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live1&origin=uz-dvr1&pbs_id=306965ff-53a5-4d76-bf89-ade540471d24&provider_id=63a98003d5198db8b963feb4&token=9RUmrjKJze6L32P61kUU9A&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Navo
+https://uz-vss3.plbl.uz.lfstrm.tv/uz_navo/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&dvrlimit=live&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live1&origin=uz-dvr1&pbs_id=95f3525e-c282-4f6c-b724-54e19a1302f0&provider_id=63a98003d5198db8b963feb4&token=_d_SZbmwj-z-Q-QEiMC4PQ&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Biz Cinema
+https://uz-vss1.plbl.uz.lfstrm.tv/mg_biz_cinema_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&origin=kg-dvr1&pbs_id=aad3123c-fc0c-4c6d-a74d-4d272e030215&provider_id=63a98003d5198db8b963feb4&token=ph7mMCXhyNesBeCC3t9hmw&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Makon TV
+https://uz-vss2.plbl.uz.lfstrm.tv/uz_makontv_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live2&origin=uz-dvr2&pbs_id=536fd8a7-9100-47b9-88d4-556140b8a874&provider_id=63a98003d5198db8b963feb4&token=dxI1gRN2405aogmxemk4hw&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Dunyo bo`ylab HD
+https://uz-vss3.plbl.uz.lfstrm.tv/uz_dunyo_boylab_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&dvrlimit=live&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live2&origin=uz-dvr2&pbs_id=427af348-5733-4432-baa2-cd884a0e145b&provider_id=63a98003d5198db8b963feb4&token=fVpGJLvYHUi5DIH8bhgwHA&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Taraqqiyot TV
+https://uz-vss4.plbl.uz.lfstrm.tv/uz_taraqqiyot_tv/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live1&origin=uz-dvr1&pbs_id=c6ceb340-e8fa-4892-8204-87f2ac60f6bc&provider_id=63a98003d5198db8b963feb4&token=zj23T2RJIBI0Gb4S6gIqUQ&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",O'zbekiston24 HD
+https://uz-vss2.plbl.uz.lfstrm.tv/uz_ozbekiston_24_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live1&origin=uz-dvr1&pbs_id=87a0ec94-d3bd-48a4-8ba9-f0fac1c1562b&provider_id=63a98003d5198db8b963feb4&token=Pl-jze1f7W4-_LRCQoHFyA&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",O'zbekiston
+https://uz-vss4.plbl.uz.lfstrm.tv/uz_uzbekiston/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&dvrlimit=live&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live2&origin=uz-dvr2&pbs_id=3bba82a2-e69d-449f-8fbd-8fd59725dcf6&provider_id=63a98003d5198db8b963feb4&token=yCRfhl39EW09Fd8tfkMP4w&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",O'zbekiston 24
+https://uz-vss1.plbl.uz.lfstrm.tv/uz_uzb_24/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&dvrlimit=live&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live2&origin=uz-dvr2&pbs_id=0b582441-db7f-405b-9f24-f8b24a6b5ad8&provider_id=63a98003d5198db8b963feb4&token=_xYvacOJ-6yCCoGcZivs_w&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Toshkent
+https://uz-vss4.plbl.uz.lfstrm.tv/uz_toshkent/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=t&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live1&origin=uz-dvr1&pbs_id=5e5cd248-1dea-47e1-b33b-ebf64f2aa20d&provider_id=63a98003d5198db8b963feb4&token=dGV3eHDQ8K81g1oeAkp8OQ&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Yoshlar HD
+https://uz-vss1.plbl.uz.lfstrm.tv/uz_yoshlar_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&dvrlimit=live&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live2&origin=uz-dvr2&pbs_id=ca516d03-3402-4df1-83e9-460cedc1655b&provider_id=63a98003d5198db8b963feb4&token=z5E90DEM5ch4cwAcCmcXgQ&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Madaniyat va Marifat
+https://uz-vss3.plbl.uz.lfstrm.tv/uz_madaniyat_va_marifat/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&dvrlimit=live&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live2&origin=uz-dvr2&pbs_id=d4658b7a-4501-4790-b26b-0d94e3e12706&provider_id=63a98003d5198db8b963feb4&token=gJYscUSjGt5FKBv9UNmkyQ&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Mahalla
+https://uz-vss2.plbl.uz.lfstrm.tv/uz_mahalla/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&dvrlimit=live&env=u&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live2&origin=uz-dvr2&pbs_id=fddcb997-3b61-4412-8fc1-ab0fd6e74703&provider_id=63a98003d5198db8b963feb4&token=zxIixYz_pKsPafc5lyMqAg&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",O'zbekiston Tarixi HD
+https://uz-vss4.plbl.uz.lfstrm.tv/uz_ozbekiston_tarixi_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&dvrlimit=live&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live2&origin=uz-dvr2&pbs_id=5fc3a8b0-4ea8-456e-b86d-309b6b120b37&provider_id=63a98003d5198db8b963feb4&token=53hq_2Wgtua3yGbBGTnNMw&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Dasturxon-TV
+https://uz-vss3.plbl.uz.lfstrm.tv/uz_dasturxon/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live1&origin=uz-dvr1&pbs_id=f12df11c-9d41-46b0-b46d-26f5f9896cd1&provider_id=63a98003d5198db8b963feb4&token=5-xAv6duaOMpU7sm3kOdtA&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",LUX TV HD
+https://uz-vss2.plbl.uz.lfstrm.tv/uz_lux_tv_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live1&origin=uz-dvr1&pbs_id=e91d7dbf-7cdd-4851-85a2-dfe208c70b8c&provider_id=63a98003d5198db8b963feb4&token=Xp2S8azpqkUhqEH4Qx-N5g&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",MYDAYTV
+https://uz-vss4.plbl.uz.lfstrm.tv/uz_myday_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=t&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live1&origin=uz-dvr1&pbs_id=b014b2c4-6d07-4f44-bf64-b08e50c0d66d&provider_id=63a98003d5198db8b963feb4&token=G1dPNScXlbrBqE-vNKLy7w&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Renessans TV
+https://uz-vss4.plbl.uz.lfstrm.tv/uz_renessans_tv/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live2&origin=uz-dvr2&pbs_id=03773eb0-b4bb-4e20-8a9c-e2c3cd0d1dfc&provider_id=63a98003d5198db8b963feb4&token=17u1Zz2MqHN6skxtuP1mBQ&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",RETROTV
+https://uz-vss3.plbl.uz.lfstrm.tv/uz_retrotv_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live2&origin=uz-dvr2&pbs_id=b280fad3-4537-460d-a1a7-378ea9055032&provider_id=63a98003d5198db8b963feb4&token=1Ykqahx0z5uVVck-zOeARg&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Nurafshon TV
+https://uz-vss2.plbl.uz.lfstrm.tv/uz_nurafshon_tv/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live1&origin=uz-dvr1&pbs_id=26da7009-3bdf-4e0e-8d20-f1d8e24cbfab&provider_id=63a98003d5198db8b963feb4&token=8ox9S7AA4jbDghmD4p1qnQ&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Farg'ona MTRK HD
+https://uz-vss3.plbl.uz.lfstrm.tv/uz_fargona_mtrk/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live2&origin=uz-dvr2&pbs_id=d3821051-2ed2-4268-8c67-6c8f2dfe553a&provider_id=63a98003d5198db8b963feb4&token=5F0ACf7wc1lXvwGS-hsYrQ&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Surxandaryo MTRK HD
+https://uz-vss4.plbl.uz.lfstrm.tv/uz_surxandaryo_mtrk_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live2&origin=uz-dvr2&pbs_id=194da0f9-f169-433d-98c5-56dbc8951766&provider_id=63a98003d5198db8b963feb4&token=X00Z6PkwZFq39yh2nAmsvQ&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Xorazm MTRK HD
+https://uz-vss4.plbl.uz.lfstrm.tv/uz_xorazm_mtrk_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live2&origin=uz-dvr2&pbs_id=33038372-94dc-4d16-9c58-d0753cea5fda&provider_id=63a98003d5198db8b963feb4&token=9L7JR0ImF2JdCemQVuO2vA&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Qaraqalpaqstan MTRK
+https://uz-vss1.plbl.uz.lfstrm.tv/uz_nukus_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&dvrlimit=live&env=s&expires=1776758400&ip=100-118-255-29&origin=uz-tproxy&pbs_id=726999b6-0d36-4a67-a0e3-a4313912929f&provider_id=63a98003d5198db8b963feb4&token=XMRZbpovMbYKVLnUZbGBFg&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Aqlvoy
+https://uz-vss3.plbl.uz.lfstrm.tv/uz_aqlvoy/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live2&origin=uz-dvr2&pbs_id=4db5ee4e-ec72-4585-bc76-07a95114a9e8&provider_id=63a98003d5198db8b963feb4&token=oRMWzlugg6B7nz94N1TN3g&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Bolajon
+https://uz-vss3.plbl.uz.lfstrm.tv/uz_bolajon/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&dvrlimit=live&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live2&origin=uz-dvr2&pbs_id=734c64b5-d9ec-4b5d-a557-bf114c15efef&provider_id=63a98003d5198db8b963feb4&token=jlcYYswg4DdMO9Mw4bQ2Zg&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",English Class
+https://uz-vss3.plbl.uz.lfstrm.tv/english_club/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live2&origin=m9-dvr2&pbs_id=3e62b92e-de1c-4455-8af9-475e61a81ee3&provider_id=63a98003d5198db8b963feb4&token=z5uAlZNMvCiR4r_eCFqQ9w&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",TelecomTV
+https://uz-vss2.plbl.uz.lfstrm.tv/uz_telecomtv/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&dvrlimit=live&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live1&origin=uz-dvr1&pbs_id=9db078ca-e2d6-4eac-964a-8da0954509bb&provider_id=63a98003d5198db8b963feb4&token=tR4AA11IZVbotl38vx43fw&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Futbol TV
+https://uz-vss4.plbl.uz.lfstrm.tv/uz_oilaviy/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live2&origin=uz-dvr2&pbs_id=52d6a093-1f79-40c1-9da8-f7a03f224b80&provider_id=63a98003d5198db8b963feb4&token=UuRMGdgGVm116ly5m-6E_g&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",ZO'R TV
+https://uz-vss2.plbl.uz.lfstrm.tv/uz_zor_tv/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&dvrlimit=live&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live2&origin=uz-dvr2&pbs_id=b1ccd615-9160-402d-9315-e56dbe95352c&provider_id=63a98003d5198db8b963feb4&token=JWbeo63lLGi1L4_NNGTdSg&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",FTV HD
+https://uz-vss4.plbl.uz.lfstrm.tv/uz_ftv_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=t&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live2&origin=uz-dvr2&pbs_id=47260c41-ed04-4d19-99c5-6c39cbd4651e&provider_id=63a98003d5198db8b963feb4&token=kZsOOZa6s9H8nLUetdWehw&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Nickelodeon HD
+https://uz-vss3.plbl.uz.lfstrm.tv/uz_nickelodeon_global_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live1&origin=uz-dvr1&pbs_id=6c2b98b0-d068-4176-be68-579903bcb8e2&provider_id=63a98003d5198db8b963feb4&token=KcTkdi08SCfcG0sjEpExjA&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",История
+https://uz-vss3.plbl.uz.lfstrm.tv/istoria/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live1&origin=m9-dvr1&pbs_id=de6f7f35-183c-458c-bc24-807c18f00c8b&provider_id=63a98003d5198db8b963feb4&token=nx8uBbopLJxDVoqKDTeyxA&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Живая планета
+https://uz-vss1.plbl.uz.lfstrm.tv/jivaya_planeta/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live1&origin=m9-dvr1&pbs_id=fcacbc2b-c96b-4e02-8722-7a103579eb9e&provider_id=63a98003d5198db8b963feb4&token=X29VzOdfO3wv3ypbe4va2w&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Т24
+https://uz-vss2.plbl.uz.lfstrm.tv/uz_techno_24/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live1&origin=uz-dvr1&pbs_id=e84ff5e5-c2fd-469a-a70d-1a1e6dc371c6&provider_id=63a98003d5198db8b963feb4&token=RhFuvod_Y-mL9ACzX_LEVg&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Cinema
+https://uz-vss4.plbl.uz.lfstrm.tv/park_razvlecheniy/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live8&origin=m9-dvr8&pbs_id=ad040bc3-6cdd-4e1b-afd4-ac5f41918b9f&provider_id=63a98003d5198db8b963feb4&token=h7xOZhD1GO--hLVRkLnobw&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Сарафан
+https://uz-vss1.plbl.uz.lfstrm.tv/sarafan/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live1&origin=m9-dvr1&pbs_id=d764a606-0e78-4b28-b068-3a84f4744d6f&provider_id=63a98003d5198db8b963feb4&token=DrEyXc_37PDxtezoE1_XFw&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",ТОҶИКИСТОН
+https://uz-vss3.plbl.uz.lfstrm.tv/uz_tojikiston_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&dvrlimit=live&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live2&origin=uz-dvr2&pbs_id=9f43f188-0eb8-46e8-9fdb-1e6d528dc2f8&provider_id=63a98003d5198db8b963feb4&token=bQ90vvjgvUwf2_22Fg1aPg&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Nickelodeon SD
+https://uz-vss1.plbl.uz.lfstrm.tv/uz_nickelodeon_global/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live1&origin=uz-dvr1&pbs_id=26e745e3-d8df-48e4-be98-6af18676ab9e&provider_id=63a98003d5198db8b963feb4&token=Yw0TsqZ8GpZ5q2qXFTAs2g&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Дикий
+https://uz-vss2.plbl.uz.lfstrm.tv/dikiy/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live2&origin=m9-dvr2&pbs_id=a9f51cc6-dfb9-4e33-9b2d-b378f611c398&provider_id=63a98003d5198db8b963feb4&token=f29ShSQ5AYfnpwivi5Oung&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Bridge Classic
+https://uz-vss2.plbl.uz.lfstrm.tv/bridge_tv_classic/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live2&origin=m9-dvr2&pbs_id=693024da-d47f-4e5e-ab02-971f6febacf3&provider_id=63a98003d5198db8b963feb4&token=axYYtKjSf_EnHJQ3xUz7hQ&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Дикая рыбалка
+https://uz-vss3.plbl.uz.lfstrm.tv/dikaja_ribalka_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live6&origin=m9-dvr6&pbs_id=e056089b-5ebf-40a3-8671-a67abcee27d6&provider_id=63a98003d5198db8b963feb4&token=Pw8iMY0JJP7TMKbkqLyQfw&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",France 24 HD
+https://uz-vss4.plbl.uz.lfstrm.tv/france_24_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=kt-live2&origin=kt-dvr2&pbs_id=1ff8f0f0-e05a-44a1-bc43-f41359f3b2ec&provider_id=63a98003d5198db8b963feb4&token=q0xl8MOggPu9YE1wlEPhiQ&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Первый канал. Всемирная Сеть
+https://uz-vss1.plbl.uz.lfstrm.tv/perviy_vsemirnaya/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=kt-live1&origin=kt-dvr1&pbs_id=5155da88-b8d6-4fe4-a12e-0f3216f315e3&provider_id=63a98003d5198db8b963feb4&token=XyUxiMDvPqgeYnIgwbqilg&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Дикая Охота
+https://uz-vss1.plbl.uz.lfstrm.tv/dikaja_ohota_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live6&origin=m9-dvr6&pbs_id=b90d2e3c-f94d-4a91-a85f-54f08b122ab6&provider_id=63a98003d5198db8b963feb4&token=XZKvHaoEx171aYZTF7h4zA&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Авто Плюс HD
+https://uz-vss4.plbl.uz.lfstrm.tv/auto_plus_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live1&origin=m9-dvr1&pbs_id=8b97bf9e-7185-4845-a7b8-c4739aca7b59&provider_id=63a98003d5198db8b963feb4&token=NuU3ZmNafCkGQ8S9pIQl3g&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Точка Отрыва
+https://uz-vss1.plbl.uz.lfstrm.tv/tochka_otryva/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live4&origin=m9-dvr4&pbs_id=0509916f-02d2-484e-b83e-d8fc90e889a7&provider_id=63a98003d5198db8b963feb4&token=f_9QyDzGvLfwK64W7v4a0w&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Индийское кино
+https://uz-vss3.plbl.uz.lfstrm.tv/uzads_indiya/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live2&origin=uz-dvr2&pbs_id=77ffa778-6948-4225-b24a-18ac8785d553&provider_id=63a98003d5198db8b963feb4&token=vvF9S7T4cBmsDOkJt_hU9A&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Кинопремьера HD
+https://uz-vss4.plbl.uz.lfstrm.tv/uz_kinopremiere/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&dvrlimit=live&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live1&origin=uz-dvr1&pbs_id=635268fd-ba2d-49c9-bad0-8d445de08c8a&provider_id=63a98003d5198db8b963feb4&token=GAka4riJSqhubanKJMTtAw&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Киносвидание HD
+https://uz-vss2.plbl.uz.lfstrm.tv/uzads_ntv_plus_kinoklub_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live2&origin=uz-dvr2&pbs_id=8c78f062-0ff4-4037-83ee-ddf34e9029a1&provider_id=63a98003d5198db8b963feb4&token=Njh18YXiJcU5VKxL3hsilA&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Кинохит HD
+https://uz-vss3.plbl.uz.lfstrm.tv/ntv_plus_kinohit_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live7&origin=m9-dvr7&pbs_id=7e4d2b34-23d2-4338-b085-513b3b8aef1e&provider_id=63a98003d5198db8b963feb4&token=8sylwl3jSnq9dwzwEbqr7w&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Наука
+https://uz-vss3.plbl.uz.lfstrm.tv/nauka_20/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live6&origin=m9-dvr6&pbs_id=f46e8789-b846-410b-a1af-2b8ffb917486&provider_id=63a98003d5198db8b963feb4&token=O4PGJ_dTIn8NO5qeHJfWzQ&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Моя планета
+https://uz-vss2.plbl.uz.lfstrm.tv/moya_planeta/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live1&origin=m9-dvr1&pbs_id=00e37ebe-a076-435a-941d-8d92c5ee307b&provider_id=63a98003d5198db8b963feb4&token=ZEPesHY-iu6I-D2U2cW5Bg&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Мир
+https://uz-vss2.plbl.uz.lfstrm.tv/mir/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&dvrlimit=live&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live1&origin=m9-dvr1&pbs_id=17fac3dc-1e9d-459a-a97e-dea89d6740dc&provider_id=63a98003d5198db8b963feb4&token=YsDkl_cJkcPp2bX3KPer1Q&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Мир 24
+https://uz-vss2.plbl.uz.lfstrm.tv/mir_24/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&dvrlimit=live&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live1&origin=m9-dvr1&pbs_id=4fbd4e6c-b2f9-4853-ac4d-6cc9fdee5388&provider_id=63a98003d5198db8b963feb4&token=BKjAOSves5UOx13R--AAEg&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Мама
+https://uz-vss2.plbl.uz.lfstrm.tv/mat_i_ditya/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live1&origin=m9-dvr1&pbs_id=4b5d4a80-40db-4c85-be3e-394f68272ca3&provider_id=63a98003d5198db8b963feb4&token=auhB7j60KInmgs-_JD9rvw&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",НТВ
+https://uz-vss4.plbl.uz.lfstrm.tv/uz_ntv/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live1&origin=uz-dvr1&pbs_id=9d30ece6-a843-40df-8103-4a2b2fad8c86&provider_id=63a98003d5198db8b963feb4&token=8rkafnerAcHwWrOPtUt6rQ&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Охота и рыбалка
+https://uz-vss3.plbl.uz.lfstrm.tv/uz_ohota_i_rubalka/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live1&origin=uz-dvr1&pbs_id=7ac0abfa-5558-42de-ac29-f12445ac0bab&provider_id=63a98003d5198db8b963feb4&token=r_kRGtfWgjBpgR8OTumjHg&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Hollywood HD
+https://uz-vss3.plbl.uz.lfstrm.tv/hollywood_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live8&origin=m9-dvr8&pbs_id=afbaad15-243a-4432-b2e4-c376ac06ccba&provider_id=63a98003d5198db8b963feb4&token=bEp-5BAd8sZAKzBKPIFysQ&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Калейдоскоп
+https://uz-vss4.plbl.uz.lfstrm.tv/kaledoskop/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live2&origin=m9-dvr2&pbs_id=26a7b1b0-c56b-4704-9ab5-7a7cc6b25a6c&provider_id=63a98003d5198db8b963feb4&token=b0t4npm1WgFVXVkhRAcrHw&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Ретро
+https://uz-vss2.plbl.uz.lfstrm.tv/uz_retro/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live1&origin=uz-dvr1&pbs_id=1cc464c1-e8b5-4355-92a2-466335db3542&provider_id=63a98003d5198db8b963feb4&token=-vDbFsbXj-fBz41dpUNzHA&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Родное кино
+https://uz-vss4.plbl.uz.lfstrm.tv/uzads_ntv_plus_nashe_kino/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live2&origin=uz-dvr2&pbs_id=8dd53d5a-4f35-4001-ac6a-4f794801dc15&provider_id=63a98003d5198db8b963feb4&token=qkrmlG6Y507YfDG--9TYPQ&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Россия 1
+https://uz-vss1.plbl.uz.lfstrm.tv/uz_rossia1/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live1&origin=uz-dvr1&pbs_id=4d48c943-5f1e-4701-afa8-aba90843568c&provider_id=63a98003d5198db8b963feb4&token=NybqC1_9zwPj7fRHQimZog&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Россия 24
+https://uz-vss2.plbl.uz.lfstrm.tv/uz_rossia24/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live1&origin=uz-dvr1&pbs_id=cbfb9325-b283-41e9-816c-fc84043cff18&provider_id=63a98003d5198db8b963feb4&token=JvKdfTtYOfxbY_6eFSR2fQ&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Россия К
+https://uz-vss1.plbl.uz.lfstrm.tv/uz_rossia_k/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live1&origin=uz-dvr1&pbs_id=2a49aa9d-52b5-493b-9832-c6cdcd7bf3f4&provider_id=63a98003d5198db8b963feb4&token=_AYXhuayX6wgzj9ziGKEvA&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Мульт
+https://uz-vss3.plbl.uz.lfstrm.tv/mult/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live8&origin=m9-dvr8&pbs_id=419b6b5c-087b-4513-9d28-ce56c31ebef1&provider_id=63a98003d5198db8b963feb4&token=ZYPw7EGj0tEl2LcGi8rvMQ&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Мультиландия
+https://uz-vss4.plbl.uz.lfstrm.tv/multilandiya_bel/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live5&origin=m9-dvr5&pbs_id=f8472648-1a8e-4ff8-a513-c652f12c3bda&provider_id=63a98003d5198db8b963feb4&token=fEgsW-IZFHO7-t8QF1wodA&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Ru.TV
+https://uz-vss4.plbl.uz.lfstrm.tv/ru_tv/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live1&origin=m9-dvr1&pbs_id=22a02646-39ac-4cf5-9a64-07b742236bbf&provider_id=63a98003d5198db8b963feb4&token=kI-jos_En9IOnQ5X5YUvZg&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Авто 24
+https://uz-vss3.plbl.uz.lfstrm.tv/auto_24/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live1&origin=m9-dvr1&pbs_id=bba8aaad-f557-4c5c-a6d0-917b2a65dad3&provider_id=63a98003d5198db8b963feb4&token=FIPXu-wF_9kRkxV-_RZgcQ&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Живи HD
+https://uz-vss2.plbl.uz.lfstrm.tv/jivi_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live2&origin=m9-dvr2&pbs_id=6f04f181-e099-4865-b8e9-d3625cbb3825&provider_id=63a98003d5198db8b963feb4&token=Cb8DZKPCHsCe_HetPQOX1Q&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Моя стихия
+https://uz-vss2.plbl.uz.lfstrm.tv/nautical/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live2&origin=m9-dvr2&pbs_id=5b5843a6-4ad9-4d2f-8b4b-afe08dae676b&provider_id=63a98003d5198db8b963feb4&token=p6JgTyUzymQ4mD36yFXYeA&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",KHL HD
+https://uz-vss4.plbl.uz.lfstrm.tv/khl_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=u&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live10&origin=m9-dvr10&pbs_id=1f72a215-e02f-4bd8-bf4a-7d058defce7d&provider_id=63a98003d5198db8b963feb4&token=q-7AKPVbOwiiAG4G0Xp9QQ&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",МУЗЫКА LIVE
+https://uz-vss3.plbl.uz.lfstrm.tv/lyaminor_bel/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live5&origin=m9-dvr5&pbs_id=7c97f4ca-3a41-437c-9fcc-0d4cca0cb3d5&provider_id=63a98003d5198db8b963feb4&token=RlXyoG7J5jCiHneJcLvkVQ&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Тайны галактики
+https://uz-vss3.plbl.uz.lfstrm.tv/galaxy/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live1&origin=m9-dvr1&pbs_id=73347cca-11b3-4608-9ea3-e741b64f5c76&provider_id=63a98003d5198db8b963feb4&token=IDj5oBGP9wAXynqnMh8i-w&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",365 Дней ТВ HD
+https://uz-vss4.plbl.uz.lfstrm.tv/365_dney_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live1&origin=m9-dvr1&pbs_id=dc3ba80c-cfd4-4993-95b8-6a860c9a12a0&provider_id=63a98003d5198db8b963feb4&token=W10_XDauwUvu9WlxK4IO7g&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",В гостях у сказки
+https://uz-vss4.plbl.uz.lfstrm.tv/u_skazki/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live2&origin=m9-dvr2&pbs_id=16d18218-9f14-4ae9-9a33-1b7a4d289f6d&provider_id=63a98003d5198db8b963feb4&token=Pm8HGwBJvmJuo_g0etEs-g&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Дорама HD
+https://uz-vss2.plbl.uz.lfstrm.tv/dorama_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live8&origin=m9-dvr8&pbs_id=3c4249a9-5e83-495f-ad65-3495569404ac&provider_id=63a98003d5198db8b963feb4&token=BSy2faotv_Cxc8NBRSgulw&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Кинокомедия HD
+https://uz-vss4.plbl.uz.lfstrm.tv/uzads_kinokomedia_hd/normal/0/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live2&origin=uz-dvr2&pbs_id=0b56754e-68a9-496e-a24f-431f483e414b&provider_id=63a98003d5198db8b963feb4&token=cfLg-wWbupVeUmAjn0Xheg&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Киномикс HD
+https://uz-vss2.plbl.uz.lfstrm.tv/uzads_ntv_plus_kino_plus_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live2&origin=uz-dvr2&pbs_id=ce94a77f-beaa-494a-a8f4-94b682330ab0&provider_id=63a98003d5198db8b963feb4&token=UiN4GGvgM7iSSxS-0wbFcQ&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Киносерия HD
+https://uz-vss3.plbl.uz.lfstrm.tv/mnogotv_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live7&origin=m9-dvr7&pbs_id=5bcaaf4a-38f2-4ebe-99f6-54b6e5fd90d0&provider_id=63a98003d5198db8b963feb4&token=PvxOAIC47iK6qCceeHl8Qg&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Кухня HD
+https://uz-vss1.plbl.uz.lfstrm.tv/kuhnya_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live2&origin=m9-dvr2&pbs_id=cbf33a98-b405-4459-9b0b-705c171df27c&provider_id=63a98003d5198db8b963feb4&token=OVNK48fYMxMqeHYuNQ_16w&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Мужское кино HD
+https://uz-vss1.plbl.uz.lfstrm.tv/uzads_interesnoetv_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live2&origin=uz-dvr2&pbs_id=fee0840a-7795-4e66-a11e-a33353157130&provider_id=63a98003d5198db8b963feb4&token=woITilPKhqQGRi41KXryAA&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Наше новое кино HD
+https://uz-vss1.plbl.uz.lfstrm.tv/uzads_nashe_novoe_kino_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=u&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live2&origin=uz-dvr2&pbs_id=e8f5d49b-cbf2-44d7-907d-6e0a6797fa6d&provider_id=63a98003d5198db8b963feb4&token=I1BULvrnIMmuvZ-hntxw6g&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Bollywood HD
+https://uz-vss2.plbl.uz.lfstrm.tv/bollywood_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live2&origin=m9-dvr2&pbs_id=0542f891-eba0-42a2-b10d-1c6b53baea40&provider_id=63a98003d5198db8b963feb4&token=yt7BwAV-IFqFZWZiMyQLFA&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Duck TV HD
+https://uz-vss2.plbl.uz.lfstrm.tv/duck_tv_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live5&origin=m9-dvr5&pbs_id=0836b659-346d-4a86-b87c-b42e60979638&provider_id=63a98003d5198db8b963feb4&token=NqvLxoaOY7rApHFVxve4pg&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Gulli Girl
+https://uz-vss4.plbl.uz.lfstrm.tv/gulli/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live2&origin=m9-dvr2&pbs_id=6297baa1-0ac4-4aa1-af41-965dfb096f54&provider_id=63a98003d5198db8b963feb4&token=DB-arKEvUvX67wAyI_qrWA&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",ТОЧКА.РФ HD
+https://uz-vss2.plbl.uz.lfstrm.tv/hdlife_bel/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live5&origin=m9-dvr5&pbs_id=3c716271-fec7-4a05-aad3-696592b5cae7&provider_id=63a98003d5198db8b963feb4&token=AZTtAWxBrfcCms8BZb3i0A&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",MMA-TV.COM HD
+https://uz-vss2.plbl.uz.lfstrm.tv/m1_global_bel/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live5&origin=m9-dvr5&pbs_id=6d62897f-860f-4658-ab83-84552226489a&provider_id=63a98003d5198db8b963feb4&token=T36JuDPFH3dWYHv3u9ihFQ&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",TiJi
+https://uz-vss2.plbl.uz.lfstrm.tv/tiji/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live1&origin=m9-dvr1&pbs_id=26c66345-ff8c-4cd9-8d1d-5b1441275a24&provider_id=63a98003d5198db8b963feb4&token=LWKryeatErBfiYFMFw-LZA&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Trace Sports Stars HD
+https://uz-vss4.plbl.uz.lfstrm.tv/trace_sports_stars_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live2&origin=m9-dvr2&pbs_id=a4b95532-eda3-4557-b80e-476454f15319&provider_id=63a98003d5198db8b963feb4&token=tVJTAQRg9PmOQvtXuX-GoQ&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",viju Nature
+https://uz-vss1.plbl.uz.lfstrm.tv/uz_viju_nature/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=u&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live1&origin=uz-dvr1&pbs_id=13d86951-0b4d-4fec-9299-63769bbecbb6&provider_id=63a98003d5198db8b963feb4&token=xNo0AaEncmOzYHIMicESeQ&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Вопросы и ответы
+https://uz-vss2.plbl.uz.lfstrm.tv/voprosy_i_otveti/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live2&origin=m9-dvr2&pbs_id=ab6ca684-8b22-4101-8937-1cef617b0fef&provider_id=63a98003d5198db8b963feb4&token=nSmcawZBjklPXL7NIWfAig&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Домашние животные
+https://uz-vss1.plbl.uz.lfstrm.tv/domashnie_zhivotnie/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live1&origin=m9-dvr1&pbs_id=615220f5-39f2-472c-af69-53f126f48388&provider_id=63a98003d5198db8b963feb4&token=wGIG1-FYcrX99iFOYvkzxw&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Драйв
+https://uz-vss1.plbl.uz.lfstrm.tv/drive/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live10&origin=m9-dvr10&pbs_id=80d85aab-b75d-410b-92e8-88d932355ee4&provider_id=63a98003d5198db8b963feb4&token=2KZYNzduoZv8MXRLNJwetA&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Здоровое ТВ
+https://uz-vss1.plbl.uz.lfstrm.tv/zdorovoe_tv/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live1&origin=m9-dvr1&pbs_id=67c8449c-da03-460f-862a-2a41a3984679&provider_id=63a98003d5198db8b963feb4&token=I3PYFBAx4Ug8yDOhGqNP1A&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Уникум
+https://uz-vss3.plbl.uz.lfstrm.tv/detskij/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live2&origin=m9-dvr2&pbs_id=14980e67-1ce3-4743-8a97-4b8ca305db60&provider_id=63a98003d5198db8b963feb4&token=5di1vVQMDVBtMnGUXqtkSw&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Усадьба
+https://uz-vss3.plbl.uz.lfstrm.tv/usadba/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live1&origin=m9-dvr1&pbs_id=3fd7b48e-7dcd-4a4e-8a5f-cd1119c0b4b4&provider_id=63a98003d5198db8b963feb4&token=h5VEtJONPQPvTj4rIhAmtg&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Зоопарк
+https://uz-vss1.plbl.uz.lfstrm.tv/zoopark/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live2&origin=m9-dvr2&pbs_id=8cd2fdaa-7f53-4ef9-a985-cb7be2b8d8cd&provider_id=63a98003d5198db8b963feb4&token=AAK8UZjmslbD-6GRzPYmuQ&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Матч! Планета
+https://uz-vss3.plbl.uz.lfstrm.tv/matchplaneta/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=kt-live2&origin=kt-dvr2&pbs_id=fa5ae9f0-4888-4ed5-aa17-ee53ae543a5e&provider_id=63a98003d5198db8b963feb4&token=iludnIWWEfqvulZbD-B-dQ&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",BBC World News
+https://uz-vss3.plbl.uz.lfstrm.tv/bbc/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=kt-live2&origin=kt-dvr2&pbs_id=1e6582a8-a7ba-460b-88c4-03b183814ed4&provider_id=63a98003d5198db8b963feb4&token=tAOKAtxcqMaf0WevpJToaQ&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Deutsche Welle
+https://uz-vss2.plbl.uz.lfstrm.tv/mg_deutsche_welle_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&origin=kg-tproxy&pbs_id=02a91da3-4bbc-4858-bc0f-27f7d8ce3fd5&provider_id=63a98003d5198db8b963feb4&token=AOG7BZQoW9gWQdkrQdxspA&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Смайлик
+https://uz-vss2.plbl.uz.lfstrm.tv/smilik/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live1&origin=uz-dvr1&pbs_id=8a91aa9b-3ae0-48d9-99a8-f9397969091d&provider_id=63a98003d5198db8b963feb4&token=O1rH4iHVC9Ycj7F53OBSEA&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",В гостях у сказки HD
+https://uz-vss2.plbl.uz.lfstrm.tv/u_skazki_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live6&origin=m9-dvr6&pbs_id=44f68b88-b5fc-4a7b-832d-6dabc320f48e&provider_id=63a98003d5198db8b963feb4&token=j_LBZHPjJCN4e4RZngU3IA&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Загородная жизнь
+https://uz-vss4.plbl.uz.lfstrm.tv/zagorodnaja_zhizn/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live2&origin=m9-dvr2&pbs_id=1cea0b45-44a5-4eb2-9481-cc9f83227704&provider_id=63a98003d5198db8b963feb4&token=1Kym7h_B_ZgzT8_658a6Rg&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Киномикс
+https://uz-vss1.plbl.uz.lfstrm.tv/kinomiks_bel/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live5&origin=m9-dvr5&pbs_id=bab7a287-4074-44c4-bd6f-bcf96547a4a5&provider_id=63a98003d5198db8b963feb4&token=tCPTwD49Y_fwuo9bPogN0Q&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Киносвидание
+https://uz-vss3.plbl.uz.lfstrm.tv/kinosvidanie_bel/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live5&origin=m9-dvr5&pbs_id=8ddd22ee-0e78-4873-b08b-814e2b4347c3&provider_id=63a98003d5198db8b963feb4&token=X2IgBRQ9wbw_8cvOld0YoQ&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Киносемья
+https://uz-vss2.plbl.uz.lfstrm.tv/kinosemya_bel/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&dvrlimit=live&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live5&origin=m9-dvr5&pbs_id=4724842e-5d3f-43d9-9f8f-15eb98842af6&provider_id=63a98003d5198db8b963feb4&token=aFZ7J8wI5QY5Cr83GZRTcw&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Киносерия
+https://uz-vss2.plbl.uz.lfstrm.tv/kinoseria_bel/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&dvrlimit=live&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live5&origin=m9-dvr5&pbs_id=fd09acb8-b72f-46f1-a67b-b67f4135a26e&provider_id=63a98003d5198db8b963feb4&token=xPXGoertkKybyN1YGEWm1w&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Кинохит
+https://uz-vss2.plbl.uz.lfstrm.tv/kinohit_bel/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live5&origin=m9-dvr5&pbs_id=8143cbc7-a2ab-42bb-b2b6-0558a66b38bb&provider_id=63a98003d5198db8b963feb4&token=sm6jHGoGtyw6JB32wNIgPA&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Кухня ТВ
+https://uz-vss4.plbl.uz.lfstrm.tv/kuhnya_bel/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live5&origin=m9-dvr5&pbs_id=fa8ed1b4-5b9e-4a4e-83fa-571552c79990&provider_id=63a98003d5198db8b963feb4&token=1uARZr75OcpHjfR4wkvuVw&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Моя Планета HD
+https://uz-vss3.plbl.uz.lfstrm.tv/iq_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live10&origin=m9-dvr10&pbs_id=215f6b6f-24c8-42a5-839f-f7090ce59937&provider_id=63a98003d5198db8b963feb4&token=P6ONYTDZLtT2KLEpDSyu7g&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Мужское кино
+https://uz-vss4.plbl.uz.lfstrm.tv/muzskoe_kino_bel/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live5&origin=m9-dvr5&pbs_id=7a9c7463-3b4e-447c-96e2-8e7a916c6555&provider_id=63a98003d5198db8b963feb4&token=LV1C4irs8tcoZy6mKEkX6A&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Мульт HD
+https://uz-vss3.plbl.uz.lfstrm.tv/tlum_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live2&origin=m9-dvr2&pbs_id=faf95471-0a8d-4dec-bbf9-c73e48d5c7f9&provider_id=63a98003d5198db8b963feb4&token=xyvMLs0t8wLqDVYjVGG0UQ&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Наука HD
+https://uz-vss3.plbl.uz.lfstrm.tv/nauka_20_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live1&origin=m9-dvr1&pbs_id=de577126-9f22-4366-9aaa-9c1935f528f3&provider_id=63a98003d5198db8b963feb4&token=0HG-W-OoWapxr-0Se3wLvA&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Наше новое кино
+https://uz-vss2.plbl.uz.lfstrm.tv/nashe_novoe_kino_bel/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live5&origin=m9-dvr5&pbs_id=ec4e060c-8750-4ed0-8768-1934cd206af8&provider_id=63a98003d5198db8b963feb4&token=XdhWPtuZTbw-SnztVQInJg&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",ТНВ Планета
+https://uz-vss3.plbl.uz.lfstrm.tv/tnv_planeta/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live2&origin=m9-dvr2&pbs_id=0a7f03cc-08d1-4662-bd67-a0441f53437e&provider_id=63a98003d5198db8b963feb4&token=Y4QkAkAWovvzH_UuXrim5Q&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",24KZ HD
+https://uz-vss1.plbl.uz.lfstrm.tv/habar24_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&dvrlimit=live&env=s&expires=1776758400&ip=100-118-255-29&origin=m9-tproxy&pbs_id=d9682bf6-c914-49dd-b86b-297d941f7b59&provider_id=63a98003d5198db8b963feb4&token=3LpuKXbUzKX5rwCgAM4NLw&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",KBS World
+https://uz-vss1.plbl.uz.lfstrm.tv/kbs_world/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&dvrlimit=live&env=s&expires=1776758400&ip=100-118-255-29&origin=m9-tproxy&pbs_id=9ec0924e-ddb7-44a9-9636-c6b5f172a3a3&provider_id=63a98003d5198db8b963feb4&token=gqOVnGBvjUizvo0PJ_0A0A&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",KHL
+https://uz-vss1.plbl.uz.lfstrm.tv/khl_bel/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live5&origin=m9-dvr5&pbs_id=04c2516b-8300-4cd7-b227-d6fe46983b0c&provider_id=63a98003d5198db8b963feb4&token=ND04S-NWJjWCi_0J0CKetQ&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Ocean TV
+https://uz-vss3.plbl.uz.lfstrm.tv/ocean/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&dvrlimit=live&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live1&origin=m9-dvr1&pbs_id=4061238a-403c-4706-8453-0ed885e6ef2f&provider_id=63a98003d5198db8b963feb4&token=q-r0b9RkEOxZPyFFIjGeOg&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",365 Дней ТВ
+https://uz-vss3.plbl.uz.lfstrm.tv/365dney_bel/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live5&origin=m9-dvr5&pbs_id=0b020b27-8fa1-4857-a79d-931111a33ad1&provider_id=63a98003d5198db8b963feb4&token=bOCul9448YBp3-V1Pyu2bA&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Живи
+https://uz-vss2.plbl.uz.lfstrm.tv/jivi/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live1&origin=m9-dvr1&pbs_id=dbda9fe4-f3e0-4058-835a-bfc00a86f130&provider_id=63a98003d5198db8b963feb4&token=xh17MRVEnKKalftS07OxfQ&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Авто Плюс
+https://uz-vss1.plbl.uz.lfstrm.tv/avto_plus_bel/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live5&origin=m9-dvr5&pbs_id=269b3c72-4410-4b25-b8b9-2c958aba1a3c&provider_id=63a98003d5198db8b963feb4&token=wPd-5K1YuWkp_dxoveXoOQ&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Кинокомедия
+https://uz-vss2.plbl.uz.lfstrm.tv/kinokomedia_bel/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live5&origin=m9-dvr5&pbs_id=feca34e2-efd9-46ee-826a-31a1633c3692&provider_id=63a98003d5198db8b963feb4&token=gp0jh6G2C179slWaE0PMTw&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Глазами туриста HD
+https://uz-vss2.plbl.uz.lfstrm.tv/glazami_turista_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live6&origin=m9-dvr6&pbs_id=9ccefca5-e466-4c46-ac04-d543146d4f9e&provider_id=63a98003d5198db8b963feb4&token=3veL0Il1C9OHrpbtfRARnA&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Живая природа HD
+https://uz-vss4.plbl.uz.lfstrm.tv/jivaya_priroda_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live6&origin=m9-dvr6&pbs_id=e133d703-4152-4e1f-ade7-17a2f371e467&provider_id=63a98003d5198db8b963feb4&token=00pZZGLjGB4LI9nkbKTDfQ&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Живи активно HD
+https://uz-vss2.plbl.uz.lfstrm.tv/jivi_aktivno_hd/normal/3/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live6&origin=m9-dvr6&pbs_id=fd2a90d4-9c0b-43d4-8d5d-9855b6cc10dd&provider_id=63a98003d5198db8b963feb4&token=kgSGTdfJWbCYb-SXLZV6kQ&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Муз ТВ
+https://uz-vss3.plbl.uz.lfstrm.tv/mus_tv/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=m9-live1&origin=m9-dvr1&pbs_id=fa227faf-a5bd-4943-bad6-cd80faaec9a4&provider_id=63a98003d5198db8b963feb4&token=N4tfekOhy_EdrbkL-W7VBw&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",8 канал
+https://uz-vss3.plbl.uz.lfstrm.tv/uz_8_channel/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live2&origin=uz-dvr2&pbs_id=821a9245-d298-41bc-bcf0-af7f35b818de&provider_id=63a98003d5198db8b963feb4&token=hbu9z9Jhdj5XCE_TS709HA&wlid=uztel
+#EXTINF:-1 group-title="TelecomTV 🇺🇿",Euronews
+https://uz-vss1.plbl.uz.lfstrm.tv/uz_euronews/normal/1/index.m3u8?account=ef0b37b2b9f57b39&client=92c39dfed92883e2&dvrlimit=live&env=s&expires=1776758400&ip=100-118-255-29&liveorigin=uz-live1&origin=uz-dvr1&pbs_id=0d02c068-b7f8-4bc1-9730-78d0e62e9de2&provider_id=63a98003d5198db8b963feb4&token=eQrnRGdgpuRPs1P4NTurag&wlid=uztel

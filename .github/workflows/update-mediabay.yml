@@ -1,0 +1,46 @@
+name: Update mediabay playlist
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 */5 * * *'
+      timezone: 'Asia/Tashkent'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-mediabay-playlist-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build mediabay_uz.m3u8
+        run: node mediabay_uz.js
+
+      - name: Commit and push if changed
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add mediabay_uz.m3u8
+
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+
+          git commit -m "Update mediabay_uz.m3u8"
+          git push

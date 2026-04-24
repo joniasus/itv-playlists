@@ -3,7 +3,7 @@ name: Update uzbeeline tv Playlist
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 21 * * *'
+    - cron: '35 */5 * * *'
 
 permissions:
   contents: write

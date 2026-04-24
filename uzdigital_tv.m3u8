@@ -1,0 +1,229 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/0b27ce2a-090c-425d-b2e3-3e0e53318005.png" group-title="UzDigital TV 🇺🇿",Zor TV HD
+https://st1.uzdigital.tv/Zor_TVHD/video.m3u8?token=e4dbe5bac27df144088662665389b6d311375886-4f73534261767168465772754a54664e-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/9d1fbac2-7105-48f2-98d4-9b7d6459dad7.jpg" group-title="UzDigital TV 🇺🇿",Sevimli
+https://st1.uzdigital.tv/SevimliTVHD/video.m3u8?token=567a9662b7126e73c4cb9328188bb0e8cf6255b1-50646655585845426c764d597a4f6375-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/47a6b4a3-ddd0-41d7-aa8e-4b15ea456107.png" group-title="UzDigital TV 🇺🇿",Milliy
+https://st1.uzdigital.tv/Milly_TVHD/video.m3u8?token=4bddfdb6152301399a361aac17144d48794d34b4-697a4e764f4c526a4e4c754e6c6f4a57-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/d249c9ce-cc04-40bb-8eff-58c23ee8a37d.png" group-title="UzDigital TV 🇺🇿",MY 5
+https://st1.uzdigital.tv/Mening_YurtimHD/video.m3u8?token=bfd433f9b76c72c80e37bbd1eeb0e8f32bf5b92c-67456c4b6d5761627870685858464d55-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/bdd69ce9-8186-45a6-914a-4c992c5ea201.png" group-title="UzDigital TV 🇺🇿",Sport UZ
+https://st1.uzdigital.tv/Sport-UZ/video.m3u8?token=692ec52aa95041243ff636d839af6ee71870c3cf-55485841615374736f764e5754644343-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/20903912-4e2a-4793-a0ab-b1fe90671bba.jpg" group-title="UzDigital TV 🇺🇿",FutbolTV
+https://st1.uzdigital.tv/FutbolTV/video.m3u8?token=41972637dcc0913cc152caef258b7509356e563d-467379696d5774446f6c7570464e5678-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/1738fe23-f629-4a69-ae16-617cf61fcf9d.png" group-title="UzDigital TV 🇺🇿",Setanta Sports 1
+https://st1.uzdigital.tv/Setanta1HD/video.m3u8?token=1f59ec078dca42027671492eee35ecda34984fc2-4f4e655570646751424153636d414d66-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/af462c3d-7a33-4355-b0a5-838dcd77aa8e.png" group-title="UzDigital TV 🇺🇿",Setanta Sports 2
+https://st1.uzdigital.tv/Setanta2HD/video.m3u8?token=69b157cf2c76927956e69317043be70abd23007f-654c4a5771426e6b76697078495a4b58-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/ae66387d-a877-40fb-b430-1708fc349006.jpg" group-title="UzDigital TV 🇺🇿",Makon TV
+https://st1.uzdigital.tv/Makon_TV/video.m3u8?token=1db219e9699b8dd0025f7561f014c3c09caf6dac-5969784541684d726c584f5a52545843-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/5f1dea36-77c5-4f61-93ff-c0ab1fe2e7cc.jpg" group-title="UzDigital TV 🇺🇿",QIZIQ TV
+https://st1.uzdigital.tv/QiziqTV/video.m3u8?token=a57410dae5789857ec334da18dc91320995aa784-525a71766c5a47466d676b7257627757-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/182f41ce-8efb-4719-a1a1-242d6492e63e.png" group-title="UzDigital TV 🇺🇿",KINOTEATR HD
+https://st1.uzdigital.tv/Kinoteatr_HD/video.m3u8?token=adc4568ea88715ea35a143e6b08a02ef3401b20f-41717a6b6c72484341506d53446c6342-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/cfaaf69d-862b-4cf7-aa99-95c0887b99d2.jpg" group-title="UzDigital TV 🇺🇿",ITV Cinema
+https://st1.uzdigital.tv/ITV_Cinema/video.m3u8?token=a81a55c2d616665878c7d20b5fbf3c3c5e7f5811-56447a636371716a4457485663534b57-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/04e28700-13a7-49d4-bba8-8f1cb813f1ba.png" group-title="UzDigital TV 🇺🇿",Dunyo Boylab
+https://st1.uzdigital.tv/Dunyoboylab_HD/video.m3u8?token=b165333853f193f1e65c67bcf386183128d1680f-4d576c68566f6f77417a674e576e7164-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/e378ba6f-2400-4a4e-83e2-22899c90a82b.jpg" group-title="UzDigital TV 🇺🇿",FTV F
+https://st1.uzdigital.tv/FTVHD/video.m3u8?token=4ea624125ed89691476b151066c4912e2b8f8b6f-6a4b4757767163524c655274485a4f52-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/02c25308-1ddb-49da-931a-ce853b199b83.jpg" group-title="UzDigital TV 🇺🇿",Biz TV
+https://st1.uzdigital.tv/Biz_TV/video.m3u8?token=e35f608f0c029c40fbec77a53811d418dde3ad24-777a634c746e45516e73577a6d736773-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/6fb04c61-0dfe-41d9-9f56-15e3c7a9f898.jpg" group-title="UzDigital TV 🇺🇿",Biz Music
+https://st1.uzdigital.tv/BizMusic/video.m3u8?token=f476a8449376d491235d9ab77ee57397c589c06a-6d794356766a6b5078466f716475454c-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/a6bd8e61-84e3-440e-b2d1-d34b3c7a90ab.jpg" group-title="UzDigital TV 🇺🇿",TTV Musiqa
+https://st1.uzdigital.tv/TTV_Musiqa/video.m3u8?token=cb813dd198ab4c6059041ee04ac3e04d36cb1f59-6f5378764166545a59654c766568445a-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/1e4ee1ad-c3d4-4131-bc43-74b7a1e29ea2.png" group-title="UzDigital TV 🇺🇿",NAVO
+https://st1.uzdigital.tv/Navo/video.m3u8?token=a93f641ed2164b1ca92e8373b5a9db518c55ca1d-5a6e5343664956494d48787469646c58-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/0fe75735-1f53-4018-88ea-e8a569018b2b.png" group-title="UzDigital TV 🇺🇿",Uzreport
+https://st1.uzdigital.tv/UzreportTV-HD/video.m3u8?token=8d954e1219e63943d9a3b35cd9d5baacb0b3910a-59687a74587142696567647266417151-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/172581ae-d11e-43d2-acd5-b17c3de0360d.png" group-title="UzDigital TV 🇺🇿",Animal Planet
+https://st1.uzdigital.tv/Animal_Planet/video.m3u8?token=e76000e20b2920cf9a23ebe288d87aa842d45be2-42554f794d6349417a6162585677466f-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/35dde556-8cb5-49ec-8f4a-b89c498292f8.jpg" group-title="UzDigital TV 🇺🇿",Aqilvoy
+https://st1.uzdigital.tv/Aqilvoy/video.m3u8?token=cafaf90136d8bd1e6b4f087781be77a625860059-76494f62464b4b51664d70494f524d63-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/c4e4bcc5-6edd-41be-8d49-aa88518eabb0.png" group-title="UzDigital TV 🇺🇿",BOLAJON
+https://st1.uzdigital.tv/Bolajon/video.m3u8?token=1018d02bbb7c960ddc364f32aee586bdd9aade96-516c59774b47457973534844466f5446-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/2af84baa-2912-4971-a114-f5a66ec35541.jpg" group-title="UzDigital TV 🇺🇿",BRIDGE TV CLASSIC
+https://st1.uzdigital.tv/BRIDGE_TV_CLASSIC/video.m3u8?token=285a5edf85b9ff81531fdad27a8e4f165f6f9063-556b775574554676676d537472475050-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/8e212676-6f03-4925-b957-ec5a9870c0e5.png" group-title="UzDigital TV 🇺🇿",CGTN
+https://st1.uzdigital.tv/CGTN_Russian/video.m3u8?token=e9bcf054b8ea12a71f4d7b2f10b8bb693ae2f6eb-755155565665726544667a41446b504e-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/b6e94d97-75c5-4bc1-9398-748b95dcac92.png" group-title="UzDigital TV 🇺🇿",CINEMA HD
+https://st1.uzdigital.tv/CinemaHD/video.m3u8?token=91316edd065c0666c3f15089b3a33f2bf6a8f5f3-64467473635549687146746f6f494e65-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/49a693c3-2c6b-4d20-ae2d-48e2e063fb9f.png" group-title="UzDigital TV 🇺🇿",CNN International
+https://st1.uzdigital.tv/CNN/video.m3u8?token=c8eaaa796e1a57971bfea9665b3d8c1017fd3401-494c746472487654466a725068675a6e-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/0b223230-9a8d-46dd-b40f-762620efec10.png" group-title="UzDigital TV 🇺🇿",Da Vinci
+https://st1.uzdigital.tv/Davinci/video.m3u8?token=e30e87ad20f955dc6e0ee18608783829e01b4244-6a6f6749576353667a704e47426c5359-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/35f05b8d-cd6d-4d13-b544-9dca1877050a.png" group-title="UzDigital TV 🇺🇿",Dasturxon TV
+https://st1.uzdigital.tv/DasturxonTV/video.m3u8?token=c286a965034b799ad8ab09172f1a0ad161a9d472-4d727073475451784e69734469466369-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/e73437f7-9a80-4a30-bc79-0095001499b9.png" group-title="UzDigital TV 🇺🇿",Discovery Channel
+https://st1.uzdigital.tv/Discovery_Channel/video.m3u8?token=723f39b875a8961f273afed0dbb26f5e8b35972a-5a5a677348475469566c564e5a614f68-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/3a5e0f7a-30ab-4556-becd-362d73bbaa38.png" group-title="UzDigital TV 🇺🇿",Euronews
+https://st1.uzdigital.tv/Euronews/video.m3u8?token=34bbbdb0e9c87d9895a5358cfb85cb60d62d07eb-63764f695941654f75556c7057696777-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/48dd9cb8-f840-4b31-9847-74d49cd25feb.png" group-title="UzDigital TV 🇺🇿",Eurosport
+https://st1.uzdigital.tv/Eurosport/video.m3u8?token=62a3e87e2b5132a3bc2890324d70ce45fe6f5134-7956575863756f436263544b6f4c6b73-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/32cd39d5-767c-4bc7-a11e-98381131b306.jpg" group-title="UzDigital TV 🇺🇿",Eurosport 2 HD
+https://st1.uzdigital.tv/Eurosport2_HD/video.m3u8?token=0ad45ef0b29744185398b104341f3c647a59c03c-425066524f7a42775a7a506c4f6d504a-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/2a869603-1743-49c0-b457-aea25724d121.png" group-title="UzDigital TV 🇺🇿",History
+https://st1.uzdigital.tv/History/video.m3u8?token=c5b825fab13dfe54c6ce4d77f72ca6f90b0153ba-616d534173766d4d63634175726c6a47-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/5f2891cf-ae57-42e7-8878-cdf7b7259181.png" group-title="UzDigital TV 🇺🇿",LUX TV
+https://st1.uzdigital.tv/LuxTV/video.m3u8?token=48f175c02fa57dbcfd92f165fb2f6c3504155bd0-6a4367626f596d72536a615565535a55-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/08736714-e384-4c87-a747-5abb82914ab4.png" group-title="UzDigital TV 🇺🇿",Madaniyat va Ma'rifat
+https://st1.uzdigital.tv/Madaniyat_va_Marifat/video.m3u8?token=3e6c96191fd71af7e1cdc1225a128609b8230410-766a6c726b62767676497a757154694a-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/b50558dd-51e1-4407-977e-1290a6a5a3f7.png" group-title="UzDigital TV 🇺🇿",Mahalla
+https://st1.uzdigital.tv/Mahalla/video.m3u8?token=39b2255883867a18a18cae91bd0aa89aac97c236-4e567441785366706d6f47717847564d-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/8d032d31-d8e1-47f8-9455-a8829903e74f.jpg" group-title="UzDigital TV 🇺🇿",MMA-TV
+https://st1.uzdigital.tv/MMATV/video.m3u8?token=a3833c6ef5b081cbac356c10b2008419891aa8d3-6d475654515071795555597868756648-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/a958f39e-d79e-4c1b-a730-06e81dbb4f9f.png" group-title="UzDigital TV 🇺🇿",MYDAY TV
+https://st1.uzdigital.tv/Myday/video.m3u8?token=52c8f527da11efecf399507dd120142385f047e8-4d637a4f717652414675665971767347-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/8fd00011-65c2-48db-b93f-d3b9c44fc83c.jpg" group-title="UzDigital TV 🇺🇿",Nat Geo Wild HD
+https://st1.uzdigital.tv/Nat_Geo_Wild_HD/video.m3u8?token=bcc6c96dfdaa8a953ea0800702bc786ff426940e-4e485550786a5149746b7a7869644b42-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/771d1d1c-874e-41e1-9105-54928fd58179.jpg" group-title="UzDigital TV 🇺🇿",National Geographic HD
+https://st1.uzdigital.tv/National_Geographic/video.m3u8?token=4af25918c43687436e956379d612649a611f6724-4e554c5277506d705a4f535066704350-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/7ea5b335-2fb2-4961-a12b-591b29645048.jpg" group-title="UzDigital TV 🇺🇿",Nickelodeon
+https://st1.uzdigital.tv/Nickelodeon/video.m3u8?token=12e7f4177e0ea8ca798353cb7a08e256ac3904f7-58417a617875724f78595a55454b6d4b-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/188a30a3-6084-48fd-8d21-27812a31c42b.jpg" group-title="UzDigital TV 🇺🇿",Nurafshon
+https://st1.uzdigital.tv/Nurafshon_TV/video.m3u8?token=ce059020eab58bb113d8229b36640416648d0428-5965526f4b6d6c467350686758794476-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/bd2f9e5a-bb9f-4c93-8937-cff4ff7153b1.png" group-title="UzDigital TV 🇺🇿",Ocean
+https://st1.uzdigital.tv/Ocean/video.m3u8?token=92be06e14b27f682d8cfa10023a7a13598fa345c-76466174564976725749576961594974-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/b54e3c7d-d2f3-44f5-907b-9ab7e7f3850c.png" group-title="UzDigital TV 🇺🇿",Oʻzbekiston
+https://st1.uzdigital.tv/Uzbekiston/video.m3u8?token=fb52aaac880bb722cc7d9afc93c376be7c7cb670-6d4552696a56787364767072774d5155-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/cf8e5a00-23f6-4176-a0d7-ff67a2107b7c.jpg" group-title="UzDigital TV 🇺🇿",RETRO
+https://st1.uzdigital.tv/RETRO/video.m3u8?token=12495e4bd0869ed86b96053a28b07727d647678a-6e726f4e44575461784f6f4442796d47-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/c33a1a56-4746-4ccf-8345-b137b0608f3f.jpg" group-title="UzDigital TV 🇺🇿",Shifo TV
+https://st1.uzdigital.tv/shifo_tv/video.m3u8?token=67e0b6f9643e1e5478cc94ae916e11f53c813f90-6f56516e707757716d787a43504a4269-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/affe3064-5991-478a-8ca4-54f1d2231e32.jpg" group-title="UzDigital TV 🇺🇿",Star Cinema
+https://st1.uzdigital.tv/Star_Cinema/video.m3u8?token=9e66fdd635d8f3e5b6b93992d2a9d7b89c33c73a-4d716d41676c6b774446655676764848-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/77b6dc21-659d-4ea7-9f29-c501b11de93c.png" group-title="UzDigital TV 🇺🇿",TOSHKENT
+https://st1.uzdigital.tv/Toshkent/video.m3u8?token=6e5bbfe0e116e95a386ed70d70bc9fe179646dc1-4c7457584272797466656c62476f6471-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/ad33e76a-9c3c-4597-b7a0-afc45822006a.png" group-title="UzDigital TV 🇺🇿",TRT AVAZ
+https://st1.uzdigital.tv/TRT_Avaz/video.m3u8?token=73d5bbff53ec5e67a56dbce816acab8999bcd517-617a656f6a516d6e794661496e564571-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/131a4813-f906-4cff-bf8e-0281f1f24528.png" group-title="UzDigital TV 🇺🇿",TRT MUSIC
+https://st1.uzdigital.tv/TRT_Muzik/video.m3u8?token=2ea5e133bb9924db229883ccab4adedf734fd414-6b4a66676a72645477496e70514e4442-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/a29be9f3-b375-49ba-b809-545188e9f4d6.png" group-title="UzDigital TV 🇺🇿",TV 1000 Action
+https://st1.uzdigital.tv/vijuTV1000action/video.m3u8?token=b449063e704236d1abbd849a526af04497b46f96-514765777478524f7463425043546741-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/12fc7581-1e7a-4571-b9fa-6f1d54c5f798.png" group-title="UzDigital TV 🇺🇿",Uzb 24 HD
+https://st1.uzdigital.tv/Uzb24/video.m3u8?token=dcfeb0ec3a71f523f56c9dc25e1e20035cca109b-596e426e716f706965504e677774496a-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/32572181-2134-4cd5-b278-945bf674982d.png" group-title="UzDigital TV 🇺🇿",Uzbekiston Tarixi HD
+https://st1.uzdigital.tv/Uzbekiston-TarixiHD/video.m3u8?token=2947d74933c037a6c578bd8ec63b21120cc6dce0-7457694a6a626e4b796277676e736b45-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/8f0894e4-c5ca-4aef-a1fd-86d4cf445d79.png" group-title="UzDigital TV 🇺🇿",Viasat  nature
+https://st1.uzdigital.tv/Viasat_Nature/video.m3u8?token=824f53524c06ab18748589fb4c4d23968252ee55-50564e5a646363514f516d44486a515a-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/6fdf73f9-cbab-45c9-8ec9-9a804a4471c3.png" group-title="UzDigital TV 🇺🇿",Viasat explorer
+https://st1.uzdigital.tv/Viasat_Explorer/video.m3u8?token=3c40655ac4ed37eeb7261e67bd8ca7c3630246b0-4d616d777674577546715a4e7659657a-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/80cd3a89-3b39-4127-a92d-2afbf72e3a9c.png" group-title="UzDigital TV 🇺🇿",Viasat history
+https://st1.uzdigital.tv/Viasat_History/video.m3u8?token=f3bafc609f1ecda2c2b6f611ea666618bb52fde7-6242736e71667a6c7778575050456b53-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/25209892-3115-4efc-8800-e01a6c4fbac3.png" group-title="UzDigital TV 🇺🇿",Viasat Sport
+https://st1.uzdigital.tv/Viasat_Sport/video.m3u8?token=18afe1f9971843dde91c41a46f87bb44c4817752-50724957577173716e64786c78457a6a-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/fac6a6e5-6701-4444-86b5-ffc3d5ac9995.jpg" group-title="UzDigital TV 🇺🇿",viju+Comedy
+https://st1.uzdigital.tv/vijuComedy/video.m3u8?token=58bef9fd348759608e26988f44bec9ac113f0911-4f504a4246485043445279546176526a-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/8414ee92-d6ab-4979-b8f3-7dbd66813b74.png" group-title="UzDigital TV 🇺🇿",Yoshlar
+https://st1.uzdigital.tv/YoshlarHD/video.m3u8?token=5482e6d75fee004615f5aa75669ed9babe1d0ee8-7673787a625242577667417164514752-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/ccf0c699-bfc5-40a2-ad4b-a42699543ee5.png" group-title="UzDigital TV 🇺🇿",365 дней ТВ
+https://st1.uzdigital.tv/365Dney/video.m3u8?token=0c9b884f2ec04e85975563e6d036a7c2eca8333f-4a576d784c6858487243486c74596659-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/b9cc1156-b2bb-4019-a2ab-d332dae137ac.jpg" group-title="UzDigital TV 🇺🇿",Авто 24
+https://st1.uzdigital.tv/Avto24/video.m3u8?token=f64b75aef6266e4704afde3b3aab49cdae4b528a-4458477164785664774f4e554f737974-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/de6bf6cd-151f-465c-b49e-34ecfe511771.png" group-title="UzDigital TV 🇺🇿",Авто плюс
+https://st1.uzdigital.tv/Avto_Plus/video.m3u8?token=229723f5643eb59eed9ca7fbab53101c69b566ae-57574d5a4d4f7350764e456b536b644a-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/dedfe1ad-593b-4bdf-b6ba-4f1131a47a9d.png" group-title="UzDigital TV 🇺🇿",В гостях у сказки
+https://st1.uzdigital.tv/Vgostahuskazki/video.m3u8?token=40cb343cf66f0dff47fe26031e0862f6660faf45-48667651705957787874787a704b6468-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/b68cde9e-3aeb-4a9f-bc3b-4374c03dd733.png" group-title="UzDigital TV 🇺🇿",Детский
+https://st1.uzdigital.tv/Detskiy/video.m3u8?token=263032fd7178ee613b422ac5bda1b59211460618-70464a416e78504f71596d4f664c7061-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/6de473e9-ecd9-4872-858c-a52f788a17fb.png" group-title="UzDigital TV 🇺🇿",Детский мир
+https://st1.uzdigital.tv/DetskiyMir/video.m3u8?token=dbb0030b101fd401f396f3b2ef7173ac3dc4ea7c-5a53596275784a4569734a45644f6c65-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/032a2a8f-0933-4e87-b379-82cd8e6c1906.jpg" group-title="UzDigital TV 🇺🇿",Дикая охота HD
+https://st1.uzdigital.tv/DikayaOhota_HD/video.m3u8?token=cdb0768652a5f65c981895f244649d8a13c9eda7-72416c645741694a705a6f4a54487243-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/32cc20f7-c7aa-4eef-9106-4b9861751151.jpg" group-title="UzDigital TV 🇺🇿",Дикая рыбалка HD
+https://st1.uzdigital.tv/DikayaRibalka_HD/video.m3u8?token=9eb60d7b4f996636fc2762a82a014d797004ae45-4c4b776b4370654f7673497a5a475672-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/" group-title="UzDigital TV 🇺🇿",Дикий
+https://st1.uzdigital.tv/Dikiy/video.m3u8?token=97dc0779321451de550e2b060a86efdcb963ee42-75424d68714471794c73596f514d5557-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/8c00b401-0755-41f1-a902-139c6b48c423.png" group-title="UzDigital TV 🇺🇿",Дом Кино
+https://st1.uzdigital.tv/Dom_Kino/video.m3u8?token=04a3d5e962339ac291683eed2aca568c9a2b2db6-5948667a72464678476b4b6650576563-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/6fa140c4-3a7c-4538-95f5-8be6fef389c2.png" group-title="UzDigital TV 🇺🇿",Домашний
+https://st1.uzdigital.tv/Domashniy/video.m3u8?token=2dfbb19acc1ba6366da52919e342c33e1ea2d16d-794775506d50724247664f546c6a6e51-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/46b22bfd-a077-4c0c-9441-70625dbb793a.png" group-title="UzDigital TV 🇺🇿",Дорама
+https://st1.uzdigital.tv/Dorama/video.m3u8?token=390e70a53bdcb22044501123f48b83529b066257-594263796575494f71654744754d784c-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/2724ec42-fc74-4b82-8302-810a8dd5ccd0.jpg" group-title="UzDigital TV 🇺🇿",Живая Планета
+https://st1.uzdigital.tv/JivayaPlaneta/video.m3u8?token=60115b9dc030597fe22d1ce60b3a084237c80aa8-684c4642677a59674e69615246535142-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/38c7b07c-e1c2-4add-9942-2e48783d1f9c.jpg" group-title="UzDigital TV 🇺🇿",Живая Природа HD
+https://st1.uzdigital.tv/JivayaPrirodaHD/video.m3u8?token=7c1c6500e4a9d555e15465adc1872c2500959659-656f634e4574756747476f6769474b74-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/0e2746e2-0885-48d6-b480-12814d636349.jpg" group-title="UzDigital TV 🇺🇿",Живи активно HD
+https://st1.uzdigital.tv/JiviaktivnoHD/video.m3u8?token=443b53abdee5ec905a9f3dcc5fbb4b2f6a5cd968-555957575562564f4e456a6a704c7058-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/be8ffdf1-12d1-4c4a-a95a-a50cf0b7245f.png" group-title="UzDigital TV 🇺🇿",Звезда
+https://st1.uzdigital.tv/Zvezda/video.m3u8?token=3f2c1e5fff1d5facc5a4508f17c1c02838d17d66-78526b54544f5943426c414655754b5a-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/8cb002e5-a7f6-4284-8a73-4508d0381f60.png" group-title="UzDigital TV 🇺🇿",Зоопарк
+https://st1.uzdigital.tv/ZooPark/video.m3u8?token=4b881a41256f3a2daf6dcc39d31f63a31d2eac25-6e666a6242716678755a4559494e464d-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/87a3398c-dfa1-4154-9ce1-de6c2c4f4985.png" group-title="UzDigital TV 🇺🇿",Индийское кино
+https://st1.uzdigital.tv/Indiyskoe_Kino/video.m3u8?token=d9b5b03a86d22c7ed4e2945c880d46d063be80d0-5a426b6c7175757a4c6d4d564e466345-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/d43063ce-82a3-41c1-9503-736f375a1309.png" group-title="UzDigital TV 🇺🇿",Карусель
+https://st1.uzdigital.tv/Karusel/video.m3u8?token=c26c7f46bddc0f9754dfd8d4956d4c70b74bc904-4b426a4d695165696e66424d4e554e68-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/e6587af0-1b67-4b7c-8c0c-b0f220591527.png" group-title="UzDigital TV 🇺🇿",Кинокомедия
+https://st1.uzdigital.tv/Kinokomediya/video.m3u8?token=58620e9b36c8ac54db3a761410cb2d4876d3509e-7362615447426361775a4449724b587a-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/994215ce-673f-4141-86bc-36cc465bb173.png" group-title="UzDigital TV 🇺🇿",Киномикс HD
+https://st1.uzdigital.tv/KinomiksHD/video.m3u8?token=37b3209da768f31a7ad46ca25a39b8310f018132-796f4176584374464676466766757341-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/51ab8e5b-7ad0-4d15-9626-2893124f91cc.png" group-title="UzDigital TV 🇺🇿",Кинопремьера
+https://st1.uzdigital.tv/Kinopremera/video.m3u8?token=333a5e92bf4bfb6df28f71c4d98a2060c068bf6d-5757584b6d70596f6459534a4a6c5651-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/1fe3d77b-517b-4016-b1d0-3532555b8c73.png" group-title="UzDigital TV 🇺🇿",Киносвидание
+https://st1.uzdigital.tv/Kinosvidanie/video.m3u8?token=c3151906fd16d8979261066ee644597258082372-514d536e51435a4c5746436558516964-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/d5c3e4c9-503a-408c-8f18-cf396530ff85.png" group-title="UzDigital TV 🇺🇿",Киносемья
+https://st1.uzdigital.tv/Kinosemya/video.m3u8?token=b5e2579deaec13df6a8fc0365564f168b09b0ba9-66784f664c535675787667427175596d-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/272e77f4-d996-4342-9010-48933802052f.png" group-title="UzDigital TV 🇺🇿",Киносерия
+https://st1.uzdigital.tv/Kinoseriya/video.m3u8?token=8fec5ab808fd0240da9c52523c4e16bf4e0cf761-4e4d4264577047424c444c574e6b6e73-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/2f8aa15c-516a-4be4-9fb7-a82461f41354.png" group-title="UzDigital TV 🇺🇿",Кинохит
+https://st1.uzdigital.tv/Kinoxit/video.m3u8?token=9ee37e0e5c284aea540c4df4fe2bc86548287230-554f706c7468434776554678694b6b65-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/b813bac7-ee7c-4141-92be-88dc03ffcd7a.png" group-title="UzDigital TV 🇺🇿",Кухня ТВ
+https://st1.uzdigital.tv/KuxnyaTV/video.m3u8?token=dba10eb772e29f8401f7714d8a06ef3022a316c8-556a6c4b4648505769466746635a5056-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/29f09812-674a-4c64-b41b-c93e1f72792b.png" group-title="UzDigital TV 🇺🇿",Ля-минор ТВ
+https://st1.uzdigital.tv/lya_minor/video.m3u8?token=fca34211a57324b095f5c453dfa313d5a6c2d091-6d5563785749587671446c4247446454-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/05ba2c3c-6ba1-4339-835b-e8df97ca68c0.png" group-title="UzDigital TV 🇺🇿",МИР
+https://st1.uzdigital.tv/Mir/video.m3u8?token=2377bbb78850df74d6e5a7b320bcd792d5b2c142-5046596c4f4c4947674446556a747363-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/73397147-f523-4a89-84c3-ac7f12a2a110.png" group-title="UzDigital TV 🇺🇿",МИР 24
+https://st1.uzdigital.tv/Mir24/video.m3u8?token=41aab12f8b93aa40ed0619c7f5287c29ea80e57f-785a7747486855456c55597741614768-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/8e35a199-b88f-456c-895e-d15a8614ff73.jpg" group-title="UzDigital TV 🇺🇿",Моя Планета HD
+https://st1.uzdigital.tv/MoyaPlanetaHD/video.m3u8?token=395d3f3a53888e8591291e172e8586e76382ca44-6c7a4654434f7046516847456c625173-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/38f08157-bd3c-49cf-bf58-fd056ff6f37e.png" group-title="UzDigital TV 🇺🇿",Мужское кино HD
+https://st1.uzdigital.tv/Mujskoe-KinoHD/video.m3u8?token=5c3fbdd2ca712f3c8862772aaaff4b45b73e0c90-47624d626a7a4f747a4c414373757670-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/7d5109b9-825f-4968-9cf9-ebedf08b1233.jpg" group-title="UzDigital TV 🇺🇿",МУЗ-ТВ O'ZBEKISTON F
+https://st1.uzdigital.tv/Muz_TV/video.m3u8?token=02d86e0cd66424da35ae363bd0fdc95f784bc534-6e79616c735574474e4f524148637970-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/2ebd2b69-0ebe-4d67-aa58-dcffb36e988e.jpg" group-title="UzDigital TV 🇺🇿",Мульт
+https://st1.uzdigital.tv/MultHD/video.m3u8?token=8f5d828ec1f19d40947d3bb71a7a0048c2ba9b2e-51796a724c4762444759784a5361724f-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/65a1b9bf-6111-484e-a2f1-320f0261d0bd.jpg" group-title="UzDigital TV 🇺🇿",Мультиландия
+https://st1.uzdigital.tv/Multilandiya/video.m3u8?token=0e94089d7a2b8695559470b292273b7e78fab565-7169464e6f6e587155484a4264766c49-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/" group-title="UzDigital TV 🇺🇿",Наука
+https://st1.uzdigital.tv/NaukaHD/video.m3u8?token=e76c44c289362991bee6f98df65e528653686d14-6e496147534f5864646b6741656b466e-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/16bbcf0f-bb8a-4d68-ae6c-4f3c118d656f.png" group-title="UzDigital TV 🇺🇿",Наше новое кино
+https://st1.uzdigital.tv/Nashe_novoe_kino/video.m3u8?token=ddc804874aa1bf4268d88d850a78b21bd89b9d94-42795677664c5a7045516f455a646f66-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/e14d6851-3de2-4f1a-b98c-4f899303d476.png" group-title="UzDigital TV 🇺🇿",НТВ
+https://st1.uzdigital.tv/NTV/video.m3u8?token=a40677d0808640278b1cad913fc0306a0006f794-6e704d774357755575716e586d6d5554-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/0346784a-26d5-4b2e-9848-8f90fbced24a.png" group-title="UzDigital TV 🇺🇿",Охота и Рыбалка
+https://st1.uzdigital.tv/Ohota_Ribalka/video.m3u8?token=ce059d8ed93ba6474a57c7c415e60133b31f1983-797a78657573636e4f4d7575566c5649-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/c081f296-5b49-4ec6-bdfa-21920011a4c9.png" group-title="UzDigital TV 🇺🇿",Первый канал
+https://st1.uzdigital.tv/Perviy_Kanal/video.m3u8?token=22fe89a8a04ffb288be8da7958e50cb235f42560-43776f4b595161696d4f64594b4f4d73-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/fb639a19-6ba2-46b0-9e58-20cdc1d82803.jpg" group-title="UzDigital TV 🇺🇿",Первый канал HD
+https://st1.uzdigital.tv/Perviy_KanalHD/video.m3u8?token=598e21ab2a9a9f6c8fe302bfe72716322c1fbba8-6a4c4a5658526141696977554e52744e-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/a74ef020-a73c-4bf7-83da-1aef16e0b7cb.png" group-title="UzDigital TV 🇺🇿",Ретро
+https://st1.uzdigital.tv/Retro/video.m3u8?token=2f081dfabaf21751539b745cb7fe69e495e53980-50647978684b4872414d4e5449737368-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/e197355e-7342-4d78-b279-9014913e7d03.png" group-title="UzDigital TV 🇺🇿",Родное кино
+https://st1.uzdigital.tv/Rodnoe_Kino/video.m3u8?token=5b7327bc73c7bbebc976ea700dfe3ca60b90e407-627968707148644c744c4f5068636e48-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/366ac503-3f56-49e3-bec6-2a7f5436305a.jpeg" group-title="UzDigital TV 🇺🇿",Россия 1
+https://st1.uzdigital.tv/Rosiya1/video.m3u8?token=ff7a4ab6cb4d73d04d01314dffd47a6fca3ca6ff-6f486455464d537266447355534a544b-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/21a8e0a8-81f1-43ff-9882-4223dfb1b047.png" group-title="UzDigital TV 🇺🇿",Россия 24
+https://st1.uzdigital.tv/Rossiya24/video.m3u8?token=1ae17bf0487c7337d4f1cfe5bc4b75a01ab7b21f-6e5566554c4d6774674c646875754a47-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/c19d0c74-244e-4b83-b565-bc4e1bf30b61.jpg" group-title="UzDigital TV 🇺🇿",Русский Бестселлер
+https://st1.uzdigital.tv/RusskiyBesteler/video.m3u8?token=e02d2e0e3f39cfe92b0e4cfee323eceb7bbf4fd7-4f424143725366425a786a4c55634a4c-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/437aaabb-0c08-414f-b79d-549ae53fc355.jpg" group-title="UzDigital TV 🇺🇿",Русский Детектив
+https://st1.uzdigital.tv/RusskiyDetektiv/video.m3u8?token=545552eb876af63f0c2e8de7fb6247b5c6098eaa-7a774f52555450597552705542424e6e-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/9c8f65b1-6d7a-4614-a50b-c3b980b4e17c.png" group-title="UzDigital TV 🇺🇿",Тайны Галактики
+https://st1.uzdigital.tv/TayniGalaktiki/video.m3u8?token=85bb342fb4856005aba3888432a958b2bdcc3bb6-457858734c6374554b4e4e7757514868-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/b58ea404-fa21-4f11-ab73-b3c73ef93319.png" group-title="UzDigital TV 🇺🇿",ТВ1000
+https://st1.uzdigital.tv/TV1000/video.m3u8?token=6e5df7c7f3bd7989c762323637f7db562eb74371-79525758517346454b4b68616c707a6d-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/87209c6e-d1ef-48bc-b046-4c398f93327d.png" group-title="UzDigital TV 🇺🇿",Телекафе
+https://st1.uzdigital.tv/Telekafe/video.m3u8?token=0145919b1848f85c2f6d37c77bfa1a5ffd46cbb9-786b63505175496b445777477a634259-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/" group-title="UzDigital TV 🇺🇿",Техно 24
+https://st1.uzdigital.tv/Tehno_24/video.m3u8?token=2cadebe7d3d9bb2452118243cea6b311ded003e3-4962465a44787865424d64664c547948-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/93023023-a64d-4d08-af85-01744d59646d.png" group-title="UzDigital TV 🇺🇿",ТНВ Планета
+https://st1.uzdigital.tv/TNB_Planeta/video.m3u8?token=850dd3808ed4d60c9b3a88d497a3e4d6a17e4a7b-6350684258444f57707165506962597a-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/c42ef5ca-e934-4639-9811-036ff06868e6.jpg" group-title="UzDigital TV 🇺🇿",Точка отрыва
+https://st1.uzdigital.tv/Tochka_Otriva/video.m3u8?token=27080d74491fecfaa58e17491f5948dbb6da1650-77714c4e735151546d4a624c484f5a79-1777054309-1777043509&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/0a95e91d-97f0-4252-a048-6b2d94687b34.jpg" group-title="UzDigital TV 🇺🇿",Усадьба ТВ
+https://st1.uzdigital.tv/Usadba/video.m3u8?token=384dc685ce8102dc6bef8465b11e4865659af34f-4a6e5a435a6c7256594c4364796d704b-1777054310-1777043510&remote=84.54.70.101
+#EXTINF:-1 tvg-logo="https://cdn.uzd.udevs.io/uzdigital-images-compressed/images/f9dbd777-d72b-4ae0-930b-1d713730d482.png" group-title="UzDigital TV 🇺🇿",TV 1000 Русское кино
+https://st1.uzdigital.tv/TV1000rus/video.m3u8?token=ae0c6fb1a5fcbea85b604e0bbc8d7b234f691070-4e444450464d646b445449484859486f-1777054309-1777043509&remote=84.54.70.101
